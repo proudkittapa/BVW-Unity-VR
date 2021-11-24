@@ -1,0 +1,1546 @@
+Using pre-set license
+Built from '2020.3/staging' branch; Version is '2020.3.17f1 (a4537701e4ab) revision 10769271'; Using compiler version '192528614'; Build Type 'Release'
+OS: 'Windows 10 Home Single Language; OS build 19043.1348; Version 2009; 64bit' Language: 'en' Physical Memory: 16169 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2020.3.17f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+C:/Users/fluke/Documents/GitHub/BVW-Unity-VR/Create-with-VR_2020LTS/VR Room Project
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+51128
+Successfully changed project path to: C:/Users/fluke/Documents/GitHub/BVW-Unity-VR/Create-with-VR_2020LTS/VR Room Project
+C:/Users/fluke/Documents/GitHub/BVW-Unity-VR/Create-with-VR_2020LTS/VR Room Project
+Using Asset Import Pipeline V2.
+Assets/GymAssests/uploads-files-669576-aeq3vjprnoqo-Bleachers-1/bleachers.c4d: Unity no longer supports importing Cinema 4D files directly, but we're working with Maxon to make the experience better. To import Cinema 4D files, install Maxon's external importer. You can find more information on the Unity Forum: https://on.unity.com/c4d.
+
+Please note that FBX files exported from Cinema4D are still supported.
+
+Refreshing native plugins compatible for Editor in 84.94 ms, found 10 plugins.
+Preloading 1 native plugins for Editor in 0.89 ms.
+Initialize engine version: 2020.3.17f1 (a4537701e4ab)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.17f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/fluke/Documents/GitHub/BVW-Unity-VR/Create-with-VR_2020LTS/VR Room Project/Assets
+GfxDevice: creating device client; threaded=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce GTX 1660 Ti (ID=0x2191)
+    Vendor:   
+    VRAM:     5991 MB
+    Driver:   30.0.14.9649
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.17f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.17f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.17f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56300
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.17f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.17f1/Editor/Data/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.17f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.003272 seconds.
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Assets/GymAssests/uploads-files-669576-aeq3vjprnoqo-Bleachers-1/bleachers.c4d: Unity no longer supports importing Cinema 4D files directly, but we're working with Maxon to make the experience better. To import Cinema 4D files, install Maxon's external importer. You can find more information on the Unity Forum: https://on.unity.com/c4d.
+
+Please note that FBX files exported from Cinema4D are still supported.
+
+Refreshing native plugins compatible for Editor in 72.92 ms, found 10 plugins.
+Preloading 1 native plugins for Editor in 0.08 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.168 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1168ms)
+		BeginReloadAssembly (49ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (438ms)
+			LoadAssemblies (48ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (130ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (25ms)
+			SetupLoadedEditorAssemblies (188ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (5ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (73ms)
+				BeforeProcessingInitializeOnLoad (15ms)
+				ProcessInitializeOnLoadAttributes (70ms)
+				ProcessInitializeOnLoadMethodAttributes (24ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.011292 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Assets/GymAssests/uploads-files-669576-aeq3vjprnoqo-Bleachers-1/bleachers.c4d: Unity no longer supports importing Cinema 4D files directly, but we're working with Maxon to make the experience better. To import Cinema 4D files, install Maxon's external importer. You can find more information on the Unity Forum: https://on.unity.com/c4d.
+
+Please note that FBX files exported from Cinema4D are still supported.
+
+Refreshing native plugins compatible for Editor in 69.63 ms, found 10 plugins.
+Preloading 1 native plugins for Editor in 0.07 ms.
+[XR] OculusXRPlugin: registering subsystems
+[XR] Unable to register display lifecyle provider: [1]
+[XR] Oculus Input lifecycle provider registered.
+[XR] Unable to register input lifecyle provider: [1]
+System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation. ---> System.NullReferenceException: Object reference not set to an instance of an object
+  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x00048] in C:\Users\fluke\Documents\GitHub\BVW-Unity-VR\Create-with-VR_2020LTS\VR Room Project\Library\PackageCache\com.unity.xr.oculus@1.10.0\Runtime\OculusLoader.cs:250 
+  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0007b] in C:\Users\fluke\Documents\GitHub\BVW-Unity-VR\Create-with-VR_2020LTS\VR Room Project\Library\PackageCache\com.unity.xr.oculus@1.10.0\Runtime\OculusLoader.cs:235 
+  at (wrapper managed-to-native) System.Reflection.MonoMethod.InternalInvoke(System.Reflection.MonoMethod,object,object[],System.Exception&)
+  at System.Reflection.MonoMethod.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00032] in <695d1cc93cca45069c528c15c9fdd749>:0 
+   --- End of inner exception stack trace ---
+  at System.Reflection.MonoMethod.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00048] in <695d1cc93cca45069c528c15c9fdd749>:0 
+  at System.Reflection.MethodBase.Invoke (System.Object obj, System.Object[] parameters) [0x00000] in <695d1cc93cca45069c528c15c9fdd749>:0 
+  at UnityEditor.EditorAssemblies.ProcessInitializeOnLoadMethodAttributes () [0x00047] in <d0e4b8c1204147f3935b6e9c8b8565ad>:0 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
+
+Mono: successfully reloaded assembly
+- Completed reload, in  1.310 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1310ms)
+		BeginReloadAssembly (126ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (15ms)
+		EndReloadAssembly (1126ms)
+			LoadAssemblies (95ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (301ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (53ms)
+			SetupLoadedEditorAssemblies (516ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (5ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (70ms)
+				BeforeProcessingInitializeOnLoad (105ms)
+				ProcessInitializeOnLoadAttributes (317ms)
+				ProcessInitializeOnLoadMethodAttributes (12ms)
+				AfterProcessingInitializeOnLoad (7ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (5ms)
+Platform modules already initialized, skipping
+Assets/GymAssests/uploads-files-669576-aeq3vjprnoqo-Bleachers-1/bleachers.c4d: Unity no longer supports importing Cinema 4D files directly, but we're working with Maxon to make the experience better. To import Cinema 4D files, install Maxon's external importer. You can find more information on the Unity Forum: https://on.unity.com/c4d.
+
+Please note that FBX files exported from Cinema4D are still supported.
+
+========================================================================
+Worker process is ready to serve import requests
+Assets/GymAssests/uploads-files-669576-aeq3vjprnoqo-Bleachers-1/bleachers.c4d: Unity no longer supports importing Cinema 4D files directly, but we're working with Maxon to make the experience better. To import Cinema 4D files, install Maxon's external importer. You can find more information on the Unity Forum: https://on.unity.com/c4d.
+
+Please note that FBX files exported from Cinema4D are still supported.
+
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.06 seconds
+Refreshing native plugins compatible for Editor in 0.99 ms, found 10 plugins.
+Preloading 1 native plugins for Editor in 0.08 ms.
+Unloading 3822 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 172.7 MB.
+System memory in use after: 111.6 MB.
+
+Unloading 41 unused Assets to reduce memory usage. Loaded Objects now: 4303.
+Total: 5.645200 ms (FindLiveObjects: 0.305000 ms CreateObjectMapping: 0.182700 ms MarkObjects: 5.045600 ms  DeleteObjects: 0.111000 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  path: Assets/StarterAssets 1
+  artifactKey: Guid(2c4ee56865522bc43b4b7c9d919623c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StarterAssets 1 using Guid(2c4ee56865522bc43b4b7c9d919623c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9feadf81d197d0be285eb0b18bafda05') in 0.007914 seconds 
+  Import took 0.012936 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.467359 seconds.
+  path: Assets/StarterAssets 1/Readme.asset
+  artifactKey: Guid(5fdee728dfe286f44a103f5c6cd98067) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StarterAssets 1/Readme.asset using Guid(5fdee728dfe286f44a103f5c6cd98067) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '43594501240ede683268cb0776003550') in 0.023305 seconds 
+  Import took 0.029402 seconds .
+
+========================================================================
+Received Prepare
+Assets/GymAssests/uploads-files-669576-aeq3vjprnoqo-Bleachers-1/bleachers.c4d: Unity no longer supports importing Cinema 4D files directly, but we're working with Maxon to make the experience better. To import Cinema 4D files, install Maxon's external importer. You can find more information on the Unity Forum: https://on.unity.com/c4d.
+
+Please note that FBX files exported from Cinema4D are still supported.
+
+Registering precompiled user dll's ...
+Registered in 0.010388 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 1.03 ms, found 10 plugins.
+Preloading 1 native plugins for Editor in 0.11 ms.
+System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation. ---> System.NullReferenceException: Object reference not set to an instance of an object
+  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x00048] in C:\Users\fluke\Documents\GitHub\BVW-Unity-VR\Create-with-VR_2020LTS\VR Room Project\Library\PackageCache\com.unity.xr.oculus@1.10.0\Runtime\OculusLoader.cs:250 
+  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0007b] in C:\Users\fluke\Documents\GitHub\BVW-Unity-VR\Create-with-VR_2020LTS\VR Room Project\Library\PackageCache\com.unity.xr.oculus@1.10.0\Runtime\OculusLoader.cs:235 
+  at (wrapper managed-to-native) System.Reflection.MonoMethod.InternalInvoke(System.Reflection.MonoMethod,object,object[],System.Exception&)
+  at System.Reflection.MonoMethod.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00032] in <695d1cc93cca45069c528c15c9fdd749>:0 
+   --- End of inner exception stack trace ---
+  at System.Reflection.MonoMethod.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00048] in <695d1cc93cca45069c528c15c9fdd749>:0 
+  at System.Reflection.MethodBase.Invoke (System.Object obj, System.Object[] parameters) [0x00000] in <695d1cc93cca45069c528c15c9fdd749>:0 
+  at UnityEditor.EditorAssemblies.ProcessInitializeOnLoadMethodAttributes () [0x00047] in <d0e4b8c1204147f3935b6e9c8b8565ad>:0 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
+
+[Auto Package] : Couldn't find the packages list. Be sure there is a file called PackageImportList in your project
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+StarterAssets.PackageChecker:CheckPackage () (at Assets/StarterAssets/Editor/PackageChecker/PackageChecker.cs:42)
+System.Reflection.MonoMethod:Invoke (object,System.Reflection.BindingFlags,System.Reflection.Binder,object[],System.Globalization.CultureInfo)
+System.Reflection.MethodBase:Invoke (object,object[])
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
+
+(Filename: Assets/StarterAssets/Editor/PackageChecker/PackageChecker.cs Line: 42)
+
+Mono: successfully reloaded assembly
+- Completed reload, in  1.241 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1242ms)
+		BeginReloadAssembly (135ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (6ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (38ms)
+		EndReloadAssembly (1046ms)
+			LoadAssemblies (100ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (306ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (40ms)
+			SetupLoadedEditorAssemblies (444ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (6ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (97ms)
+				ProcessInitializeOnLoadAttributes (294ms)
+				ProcessInitializeOnLoadMethodAttributes (38ms)
+				AfterProcessingInitializeOnLoad (7ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (11ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.93 ms, found 10 plugins.
+Preloading 1 native plugins for Editor in 0.09 ms.
+Unloading 3643 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 160.8 MB.
+System memory in use after: 161.0 MB.
+
+Unloading 43 unused Assets to reduce memory usage. Loaded Objects now: 4297.
+Total: 3.636900 ms (FindLiveObjects: 0.315200 ms CreateObjectMapping: 0.182100 ms MarkObjects: 3.064500 ms  DeleteObjects: 0.074000 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 131.462254 seconds.
+  path: Assets/StarterAssets/Readme 1.asset
+  artifactKey: Guid(d6872a7871e66a149bb52681fd1a9ea0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StarterAssets/Readme 1.asset using Guid(d6872a7871e66a149bb52681fd1a9ea0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e63c9f05b5e21243f480692ee66a7811') in 0.033021 seconds 
+  Import took 0.040173 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.602700 seconds.
+  path: Assets/StarterAssets/Editor 1
+  artifactKey: Guid(577651ee23b1b8342a827136803910fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StarterAssets/Editor 1 using Guid(577651ee23b1b8342a827136803910fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bf65632d70a1fd4e635fd2546a470dde') in 0.007954 seconds 
+  Import took 0.013716 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.859840 seconds.
+  path: Assets/StarterAssets/Editor
+  artifactKey: Guid(4bc335335fe444545b14f40b6172b606) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StarterAssets/Editor using Guid(4bc335335fe444545b14f40b6172b606) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '27a4fbbb87ca08568e75695a65b2d392') in 0.007746 seconds 
+  Import took 0.013580 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 11.338860 seconds.
+  path: Assets/StarterAssets/Environment
+  artifactKey: Guid(8d8da06649314d7498296c53b4a0a77a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StarterAssets/Environment using Guid(8d8da06649314d7498296c53b4a0a77a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e73bbea624668358bff75d8c20b59bbd') in 0.007883 seconds 
+  Import took 0.013066 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.623681 seconds.
+  path: Assets/StarterAssets/FirstPersonController
+  artifactKey: Guid(52937e4210bb4f040942f4009b58220d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StarterAssets/FirstPersonController using Guid(52937e4210bb4f040942f4009b58220d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dcde3614d8075aa75d3bc4fa115e0353') in 0.007741 seconds 
+  Import took 0.013707 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.026491 seconds.
+  path: Assets/StarterAssets/FirstPersonController 1
+  artifactKey: Guid(24b6cfc1f7567ec448cc19d73d593576) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StarterAssets/FirstPersonController 1 using Guid(24b6cfc1f7567ec448cc19d73d593576) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b6e9b0ec4c75af5d9b179fcd2217702e') in 0.006481 seconds 
+  Import took 0.011984 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.364766 seconds.
+  path: Assets/StarterAssets/FirstPersonController/Scripts
+  artifactKey: Guid(a5b880f21db5ff94f950273c88a22563) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StarterAssets/FirstPersonController/Scripts using Guid(a5b880f21db5ff94f950273c88a22563) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '262d0b88bd304e82d6a32d0b49862256') in 0.007396 seconds 
+  Import took 0.013380 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.874678 seconds.
+  path: Assets/StarterAssets/FirstPersonController 1/Scenes
+  artifactKey: Guid(560d37d8517c937418f56f4db8462f7f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StarterAssets/FirstPersonController 1/Scenes using Guid(560d37d8517c937418f56f4db8462f7f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c96e27b640172e1454e271a624704129') in 0.006738 seconds 
+  Import took 0.012790 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.762013 seconds.
+  path: Assets/StarterAssets/FirstPersonController 1/Scenes/Playground.unity
+  artifactKey: Guid(707acc8dffb72b144bb1ffbe1c965f3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StarterAssets/FirstPersonController 1/Scenes/Playground.unity using Guid(707acc8dffb72b144bb1ffbe1c965f3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fadbf422542e4d9413de6e8db30b3484') in 0.007728 seconds 
+  Import took 0.013884 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 13.311319 seconds.
+  path: Assets/Scenes/Gym_Scene_With_Furniture.unity
+  artifactKey: Guid(d46de0c8cba20a94aa8cdb2c421ef744) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Gym_Scene_With_Furniture.unity using Guid(d46de0c8cba20a94aa8cdb2c421ef744) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '42e30e57795be5903dff5679181859d1') in 0.003641 seconds 
+  Import took 0.009516 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.418248 seconds.
+  path: Assets/StarterAssets/Readme 1.asset
+  artifactKey: Guid(d6872a7871e66a149bb52681fd1a9ea0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StarterAssets/Readme 1.asset using Guid(d6872a7871e66a149bb52681fd1a9ea0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7482defef61d54765d2159fcbff03faa') in 0.003407 seconds 
+  Import took 0.008854 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.793068 seconds.
+  path: Assets/StarterAssets/InputSystem
+  artifactKey: Guid(85e7603202c05884c880fadb6e31b6e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StarterAssets/InputSystem using Guid(85e7603202c05884c880fadb6e31b6e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3509b36c09d024c2042ea70b73854f58') in 0.006267 seconds 
+  Import took 0.011712 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.623758 seconds.
+  path: Assets/StarterAssets/InputSystem 1
+  artifactKey: Guid(48c9acd554a28814b922162e3fa889b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StarterAssets/InputSystem 1 using Guid(48c9acd554a28814b922162e3fa889b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '337fd010fc79c6dc80f63f97be2c29b7') in 0.006922 seconds 
+  Import took 0.013021 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.467892 seconds.
+  path: Assets/StarterAssets/InputSystem 1/StarterAssets.inputactions
+  artifactKey: Guid(4419d82f33d36e848b3ed5af4c8da37e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StarterAssets/InputSystem 1/StarterAssets.inputactions using Guid(4419d82f33d36e848b3ed5af4c8da37e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '608162e979b97e11aa546eca8e6da7f4') in 0.010762 seconds 
+  Import took 0.016711 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000172 seconds.
+  path: Assets/StarterAssets/InputSystem 1/StarterAssets.inputsettings.asset
+  artifactKey: Guid(9e7be553448fa2546aea5752021cbcf7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StarterAssets/InputSystem 1/StarterAssets.inputsettings.asset using Guid(9e7be553448fa2546aea5752021cbcf7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e22fe5880b24f0241afe6bae1216af50') in 0.005655 seconds 
+  Import took 0.010670 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 18.077105 seconds.
+  path: Assets/StarterAssets/Mobile 1
+  artifactKey: Guid(1d9a48e14080daf4794b86b4911eef32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StarterAssets/Mobile 1 using Guid(1d9a48e14080daf4794b86b4911eef32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7c7c9987747ba450c994f636c18596c2') in 0.006634 seconds 
+  Import took 0.012541 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.770659 seconds.
+  path: Assets/StarterAssets/Mobile
+  artifactKey: Guid(741d748c4acacde489079760ec831079) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StarterAssets/Mobile using Guid(741d748c4acacde489079760ec831079) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a95a8c22fc013408940a34c92b0048b2') in 0.006064 seconds 
+  Import took 0.011349 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.610831 seconds.
+  path: Assets/StarterAssets/Mobile/Scripts
+  artifactKey: Guid(2a46494d6d19ea04aac2260c4ff52c70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StarterAssets/Mobile/Scripts using Guid(2a46494d6d19ea04aac2260c4ff52c70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2052396152a588a050fde478029e276e') in 0.002451 seconds 
+  Import took 0.009268 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.330797 seconds.
+  path: Assets/StarterAssets/Mobile/Scripts/VirtualInputs
+  artifactKey: Guid(51754744c2358e64babe29b021a0d9b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StarterAssets/Mobile/Scripts/VirtualInputs using Guid(51754744c2358e64babe29b021a0d9b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9e843e91d3d6a83d6a57190d63a47a7c') in 0.006274 seconds 
+  Import took 0.012462 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.358454 seconds.
+  path: Assets/StarterAssets/Mobile 1/Scripts
+  artifactKey: Guid(7b0e507958fc3a940b3afabb02fdb2cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StarterAssets/Mobile 1/Scripts using Guid(7b0e507958fc3a940b3afabb02fdb2cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7d32ec31e4910f6cc9f8a6a12c3128f4') in 0.003039 seconds 
+  Import took 0.008996 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.412572 seconds.
+  path: Assets/StarterAssets/Mobile 1/Scripts/VirtualInputs
+  artifactKey: Guid(bcc364c89270bab40a69cac58f5ae926) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StarterAssets/Mobile 1/Scripts/VirtualInputs using Guid(bcc364c89270bab40a69cac58f5ae926) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2fd891110ec13e978b6e42c35000b602') in 0.002423 seconds 
+  Import took 0.008659 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 8.024960 seconds.
+  path: Assets/StarterAssets/Mobile 1/Prefabs
+  artifactKey: Guid(49852dd85b2de7b4997a61317937f2e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StarterAssets/Mobile 1/Prefabs using Guid(49852dd85b2de7b4997a61317937f2e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '03a0b7a2897902d16dbb64df0f95c73e') in 0.007478 seconds 
+  Import took 0.013749 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.270389 seconds.
+  path: Assets/StarterAssets/Mobile 1/Prefabs/CanvasInputs
+  artifactKey: Guid(6ac91ba6d254abc4c98c1a8868673b28) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StarterAssets/Mobile 1/Prefabs/CanvasInputs using Guid(6ac91ba6d254abc4c98c1a8868673b28) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '94e351a601d7cf0eea71415c2dacf3ca') in 0.007130 seconds 
+  Import took 0.012539 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.317346 seconds.
+  path: Assets/StarterAssets/Mobile 1/Prefabs/CanvasInputs/UI_Canvas_StarterAssetsInputs_Joysticks.prefab
+  artifactKey: Guid(2f7f3dde7ae722a4aafffe20691ad702) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StarterAssets/Mobile 1/Prefabs/CanvasInputs/UI_Canvas_StarterAssetsInputs_Joysticks.prefab using Guid(2f7f3dde7ae722a4aafffe20691ad702) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5f935f1e2efb2e8875890166d8fd8504') in 0.049402 seconds 
+  Import took 0.055853 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000277 seconds.
+  path: Assets/StarterAssets/Mobile 1/Prefabs/CanvasInputs/UI_Canvas_StarterAssetsInputs_TouchZones.prefab
+  artifactKey: Guid(7484ce6f8ca3d81408c606b5ae8b9ff3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StarterAssets/Mobile 1/Prefabs/CanvasInputs/UI_Canvas_StarterAssetsInputs_TouchZones.prefab using Guid(7484ce6f8ca3d81408c606b5ae8b9ff3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd1f1f9f46b9187eb13164b5c22a3ffe4') in 0.019668 seconds 
+  Import took 0.026329 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.003527 seconds.
+  path: Assets/StarterAssets/Mobile 1/Prefabs/CanvasInputs/UI_Canvas_StarterAssetsInputs_TouchZones.prefab
+  artifactKey: Guid(7484ce6f8ca3d81408c606b5ae8b9ff3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StarterAssets/Mobile 1/Prefabs/CanvasInputs/UI_Canvas_StarterAssetsInputs_TouchZones.prefab using Guid(7484ce6f8ca3d81408c606b5ae8b9ff3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd1f1f9f46b9187eb13164b5c22a3ffe4') in 0.009685 seconds 
+  Import took 0.017113 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.458119 seconds.
+  path: Assets/StarterAssets/Mobile/Scripts/CanvasInputs
+  artifactKey: Guid(053e491c7fa2511428e539bec907a1e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StarterAssets/Mobile/Scripts/CanvasInputs using Guid(053e491c7fa2511428e539bec907a1e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4d74f09f1590c9728508269445dc7c20') in 0.002705 seconds 
+  Import took 0.008692 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 11.937990 seconds.
+  path: Assets/StarterAssets/TutorialInfo
+  artifactKey: Guid(270e9a018b794e942bcd44f650eafa89) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StarterAssets/TutorialInfo using Guid(270e9a018b794e942bcd44f650eafa89) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c0e16961c6d5790f02f1403fe5e0e04a') in 0.007224 seconds 
+  Import took 0.013293 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.705054 seconds.
+  path: Assets/StarterAssets/TutorialInfo 1
+  artifactKey: Guid(45eb5850dfaea0a4f962fbbf3e54daf9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StarterAssets/TutorialInfo 1 using Guid(45eb5850dfaea0a4f962fbbf3e54daf9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '21966d944e10ee51d8d45a05f2ddaf0f') in 0.005958 seconds 
+  Import took 0.011546 seconds .
+
+========================================================================
+Received Prepare
+Assets/GymAssests/uploads-files-669576-aeq3vjprnoqo-Bleachers-1/bleachers.c4d: Unity no longer supports importing Cinema 4D files directly, but we're working with Maxon to make the experience better. To import Cinema 4D files, install Maxon's external importer. You can find more information on the Unity Forum: https://on.unity.com/c4d.
+
+Please note that FBX files exported from Cinema4D are still supported.
+
+Registering precompiled user dll's ...
+Registered in 0.010608 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.98 ms, found 10 plugins.
+Preloading 1 native plugins for Editor in 0.11 ms.
+System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation. ---> System.NullReferenceException: Object reference not set to an instance of an object
+  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x00048] in C:\Users\fluke\Documents\GitHub\BVW-Unity-VR\Create-with-VR_2020LTS\VR Room Project\Library\PackageCache\com.unity.xr.oculus@1.10.0\Runtime\OculusLoader.cs:250 
+  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0007b] in C:\Users\fluke\Documents\GitHub\BVW-Unity-VR\Create-with-VR_2020LTS\VR Room Project\Library\PackageCache\com.unity.xr.oculus@1.10.0\Runtime\OculusLoader.cs:235 
+  at (wrapper managed-to-native) System.Reflection.MonoMethod.InternalInvoke(System.Reflection.MonoMethod,object,object[],System.Exception&)
+  at System.Reflection.MonoMethod.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00032] in <695d1cc93cca45069c528c15c9fdd749>:0 
+   --- End of inner exception stack trace ---
+  at System.Reflection.MonoMethod.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00048] in <695d1cc93cca45069c528c15c9fdd749>:0 
+  at System.Reflection.MethodBase.Invoke (System.Object obj, System.Object[] parameters) [0x00000] in <695d1cc93cca45069c528c15c9fdd749>:0 
+  at UnityEditor.EditorAssemblies.ProcessInitializeOnLoadMethodAttributes () [0x00047] in <d0e4b8c1204147f3935b6e9c8b8565ad>:0 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
+
+[ScriptCompilation] NOT recompiling all scripts because this is an import worker process. Reason to compile was: Define symbols changed
+System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation. ---> System.NullReferenceException: Object reference not set to an instance of an object
+  at StarterAssets.PackageChecker.CheckPackage () [0x001c2] in C:\Users\fluke\Documents\GitHub\BVW-Unity-VR\Create-with-VR_2020LTS\VR Room Project\Assets\StarterAssets\Editor 1\PackageChecker\PackageChecker.cs:105 
+  at (wrapper managed-to-native) System.Reflection.MonoMethod.InternalInvoke(System.Reflection.MonoMethod,object,object[],System.Exception&)
+  at System.Reflection.MonoMethod.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00032] in <695d1cc93cca45069c528c15c9fdd749>:0 
+   --- End of inner exception stack trace ---
+  at System.Reflection.MonoMethod.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00048] in <695d1cc93cca45069c528c15c9fdd749>:0 
+  at System.Reflection.MethodBase.Invoke (System.Object obj, System.Object[] parameters) [0x00000] in <695d1cc93cca45069c528c15c9fdd749>:0 
+  at UnityEditor.EditorAssemblies.ProcessInitializeOnLoadMethodAttributes () [0x00047] in <d0e4b8c1204147f3935b6e9c8b8565ad>:0 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
+
+Mono: successfully reloaded assembly
+- Completed reload, in  1.423 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1423ms)
+		BeginReloadAssembly (120ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (38ms)
+		EndReloadAssembly (1246ms)
+			LoadAssemblies (102ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (379ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (48ms)
+			SetupLoadedEditorAssemblies (532ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (6ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (121ms)
+				ProcessInitializeOnLoadAttributes (345ms)
+				ProcessInitializeOnLoadMethodAttributes (49ms)
+				AfterProcessingInitializeOnLoad (7ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (11ms)
+Platform modules already initialized, skipping
+Script is not up to date after domain reload: guid(d4a408a1b506d0046875061c677944d8) path("Packages/com.unity.cinemachine/Editor/Editors/CinemachineTrackedDollyEditor.cs") state(2)
+Script is not up to date after domain reload: guid(10e6f8c815d3c4d45b1d98b951d53912) path("Packages/com.unity.cinemachine/Runtime/Core/CinemachineDebug.cs") state(2)
+Script is not up to date after domain reload: guid(6a0472cd31396f741969b8c1af8dd5a0) path("Packages/com.unity.cinemachine/Runtime/Core/UnityVectorExtensions.cs") state(2)
+Script is not up to date after domain reload: guid(c5d95ccadebafc84b8226853d987217d) path("Packages/com.unity.cinemachine/Editor/Helpers/CinemachineTriggerActionEditor.cs") state(2)
+Script is not up to date after domain reload: guid(57744762d9079934292f57896d8193e0) path("Packages/com.unity.cinemachine/Runtime/Behaviours/CinemachineExternalCamera.cs") state(2)
+Script is not up to date after domain reload: guid(b1a97a2b5515f5d49977e7e8add5b7a9) path("Packages/com.unity.cinemachine/Editor/Impulse/CinemachineImpulseDefinitionPropertyDrawer.cs") state(2)
+Script is not up to date after domain reload: guid(7d0d800d47186f0468d962ccf338ab97) path("Packages/com.unity.cinemachine/Editor/PropertyDrawers/NoiseSettingsPropertyDrawer.cs") state(2)
+Script is not up to date after domain reload: guid(319d2fe34a804e245819465c9505ea59) path("Packages/com.unity.cinemachine/Runtime/Behaviours/CinemachineFreeLook.cs") state(2)
+Script is not up to date after domain reload: guid(e46ac8d61dc065848bd5a1aa7cd8c006) path("Packages/com.unity.cinemachine/Runtime/Helpers/CinemachineTriggerAction.cs") state(2)
+Script is not up to date after domain reload: guid(9cd1a769fbb1d1c47b4c22a04a64fa5f) path("Packages/com.unity.cinemachine/Editor/Impulse/CinemachineCollisionImpulseSourceEditor.cs") state(2)
+Script is not up to date after domain reload: guid(c63cb4cb8e3e82c4f8bfa7516da4f2b5) path("Packages/com.unity.cinemachine/Editor/Impulse/CinemachineImpulseListenerEditor.cs") state(2)
+Script is not up to date after domain reload: guid(44d70cc20219cd84593f67d248eafe36) path("Packages/com.unity.cinemachine/Runtime/Behaviours/CinemachineCameraOffset.cs") state(2)
+Script is not up to date after domain reload: guid(e501d18bb52cf8c40b1853ca4904654f) path("Packages/com.unity.cinemachine/Runtime/Behaviours/CinemachineCollider.cs") state(2)
+Script is not up to date after domain reload: guid(bf34fbe7a6e71634493d770ed0031f9d) path("Packages/com.unity.cinemachine/Editor/Editors/CinemachineColliderEditor.cs") state(2)
+Script is not up to date after domain reload: guid(57baee20e53f7b54782519af44a9468f) path("Packages/com.unity.cinemachine/Editor/PropertyDrawers/EmbeddedAssetPropertyDrawer.cs") state(2)
+Script is not up to date after domain reload: guid(aceb1a3f85f55c249bba6eaade29f2aa) path("Packages/com.unity.cinemachine/Editor/Windows/CinemachineColliderPrefs.cs") state(2)
+Script is not up to date after domain reload: guid(36baaa8bdcb9d8b49b9199833965d2c3) path("Packages/com.unity.cinemachine/Runtime/Core/CinemachineBlenderSettings.cs") state(2)
+Script is not up to date after domain reload: guid(9a53087ba28aaf145a184ea363108831) path("Packages/com.unity.cinemachine/Runtime/Core/ICinemachineComponent.cs") state(2)
+Script is not up to date after domain reload: guid(1186b8795dc3fc84e8ec53bd314d8e91) path("Packages/com.unity.cinemachine/Editor/Editors/CinemachinePOVEditor.cs") state(2)
+Script is not up to date after domain reload: guid(f34e35dc1dc67c54c841b728548d69cc) path("Packages/com.unity.cinemachine/Editor/Editors/CinemachineTransposerEditor.cs") state(2)
+Script is not up to date after domain reload: guid(45e653bab7fb20e499bda25e1b646fea) path("Packages/com.unity.cinemachine/Runtime/Behaviours/CinemachineVirtualCamera.cs") state(2)
+Script is not up to date after domain reload: guid(74d8c4d6e5d0338469ae46c13725f3ce) path("Packages/com.unity.cinemachine/Editor/Windows/CinemachineSettings.cs") state(2)
+Script is not up to date after domain reload: guid(3f7c779802a73d5448e38af7c39fbaa5) path("Packages/com.unity.cinemachine/Editor/Editors/CinemachineConfinerEditor.cs") state(2)
+Script is not up to date after domain reload: guid(ac0b09e7857660247b1477e93731de29) path("Packages/com.unity.cinemachine/Runtime/Behaviours/CinemachinePipeline.cs") state(2)
+Script is not up to date after domain reload: guid(8986fa27e90db314d8a3359520e7fd1a) path("Packages/com.unity.cinemachine/Editor/Utility/ReflectionHelpers.cs") state(2)
+Script is not up to date after domain reload: guid(1e8b78ac948f05a46a6d8339a503172b) path("Packages/com.unity.cinemachine/Runtime/Components/CinemachineHardLookAt.cs") state(2)
+Script is not up to date after domain reload: guid(fb7194dc27b9df64c8beca7482ee8e0d) path("Packages/com.unity.cinemachine/Runtime/Helpers/CinemachineInputProvider.cs") state(2)
+Script is not up to date after domain reload: guid(eb8e037cb3f873743a725427c8c22342) path("Packages/com.unity.cinemachine/Editor/Editors/CinemachineTargetGroupEditor.cs") state(2)
+Script is not up to date after domain reload: guid(05acc715f855ced458d76ee6f8ac6c61) path("Packages/com.unity.cinemachine/Runtime/Timeline/CinemachineTrack.cs") state(2)
+Script is not up to date after domain reload: guid(bd6043bde05a7fc4cba197d06915c1e3) path("Packages/com.unity.cinemachine/Runtime/Components/Cinemachine3rdPersonFollow.cs") state(2)
+Script is not up to date after domain reload: guid(cebc3fe47a919524eb4a977f726a484e) path("Packages/com.unity.cinemachine/Runtime/Core/SignalSourceAsset.cs") state(2)
+Script is not up to date after domain reload: guid(e44b92e217bfdf24d99acb4344918eeb) path("Packages/com.unity.cinemachine/Editor/Editors/CinemachineHardLockToTargetEditor.cs") state(2)
+Script is not up to date after domain reload: guid(6c26251a3e1f5ac41afa5ffb404c5f71) path("Packages/com.unity.cinemachine/Runtime/Behaviours/CinemachineMixingCamera.cs") state(2)
+Script is not up to date after domain reload: guid(557c6f70a7173744abaa3967b6da6f5d) path("Packages/com.unity.cinemachine/Runtime/Core/AxisState.cs") state(2)
+Script is not up to date after domain reload: guid(a60d9407e2bb20e4ea00281b1e33eae7) path("Packages/com.unity.cinemachine/Editor/Utility/SerializedPropertyHelper.cs") state(2)
+Script is not up to date after domain reload: guid(b567991935cb6844d9bb65eda22b628f) path("Packages/com.unity.cinemachine/Runtime/Core/RuntimeUtility.cs") state(2)
+Script is not up to date after domain reload: guid(a200b19ca1a9685429ed7e043c28e904) path("Packages/com.unity.cinemachine/Runtime/Behaviours/CinemachineSmoothPath.cs") state(2)
+Script is not up to date after domain reload: guid(04e6f1d86089cda409e925cd975436d9) path("Packages/com.unity.cinemachine/Editor/Editors/CinemachineFreeLookEditor.cs") state(2)
+Script is not up to date after domain reload: guid(1a8a05de0ac134f4f9d01bef6b9da077) path("Packages/com.unity.cinemachine/Runtime/Behaviours/CinemachinePixelPerfect.cs") state(2)
+Script is not up to date after domain reload: guid(247be52eadac5044e9f8b7b4d8d0ada9) path("Packages/com.unity.cinemachine/Editor/Editors/CinemachineOrbitalTransposerEditor.cs") state(2)
+Script is not up to date after domain reload: guid(c64ec1fa74cb7174da4b9f561a7dffe1) path("Packages/com.unity.cinemachine/Runtime/AssemblyInfo.cs") state(2)
+Script is not up to date after domain reload: guid(dec69862942cc9744ade63216979cafd) path("Packages/com.unity.cinemachine/Editor/PostProcessing/CinemachinePostProcessingEditor.cs") state(2)
+Script is not up to date after domain reload: guid(6ad980451443d70438faac0bc6c235a0) path("Packages/com.unity.cinemachine/Runtime/Components/CinemachineFramingTransposer.cs") state(2)
+Script is not up to date after domain reload: guid(5f3c3863a56212143af61f92a3644bb0) path("Packages/com.unity.cinemachine/Tests/Editor/DampingTests.cs") state(2)
+Script is not up to date after domain reload: guid(961772e8b1d75dd4a915fb8a236d5a8a) path("Packages/com.unity.cinemachine/Runtime/Timeline/CinemachineMixer.cs") state(2)
+Script is not up to date after domain reload: guid(4a9c464b0191f7d4da1d129d97d8240b) path("Packages/com.unity.cinemachine/Editor/PropertyDrawers/CinemachineBlendDefinitionPropertyDrawer.cs") state(2)
+Script is not up to date after domain reload: guid(6cef82e891a45884fb2b70604b0f8c29) path("Packages/com.unity.cinemachine/Runtime/Core/Predictor.cs") state(2)
+Script is not up to date after domain reload: guid(f3984bf8b42bf0040b49d95de1a2990f) path("Packages/com.unity.cinemachine/Runtime/Core/TargetPositionCache.cs") state(2)
+Script is not up to date after domain reload: guid(0c11265b855408d42af33d62691f5194) path("Packages/com.unity.cinemachine/Runtime/Impulse/CinemachineIndependentImpulseListener.cs") state(2)
+Script is not up to date after domain reload: guid(fdb859783dabdca44be0ea05d1203b30) path("Packages/com.unity.cinemachine/Editor/Impulse/CinemachineImpulseEnvelopePropertyDrawer.cs") state(2)
+Script is not up to date after domain reload: guid(70f1be76e10cd9f44ad1a86b9e05745e) path("Packages/com.unity.cinemachine/Editor/PropertyDrawers/AxisStatePropertyDrawer.cs") state(2)
+Script is not up to date after domain reload: guid(0181db608628b494d8ae50728e507ce1) path("Packages/com.unity.cinemachine/Editor/Editors/CinemachineBlendListCameraEditor.cs") state(2)
+Script is not up to date after domain reload: guid(0f7633c93f0364a418841eeb8b058634) path("Packages/com.unity.cinemachine/Runtime/Components/CinemachineGroupComposer.cs") state(2)
+Script is not up to date after domain reload: guid(54b24e51e2a9fa242b38d80ee11f3b2d) path("Packages/com.unity.cinemachine/Editor/Menus/CinemachineMenu.cs") state(2)
+Script is not up to date after domain reload: guid(2449eb616c871d044adce04ac98030a6) path("Packages/com.unity.cinemachine/Editor/PropertyDrawers/LensSettingsPropertyDrawer.cs") state(2)
+Script is not up to date after domain reload: guid(9ce16cd7e31794b48b2843381cd87d31) path("Packages/com.unity.cinemachine/Editor/Editors/CinemachineHardLookAtEditor.cs") state(2)
+Script is not up to date after domain reload: guid(2adf148a19499274795e418631d7db45) path("Packages/com.unity.cinemachine/Runtime/Helpers/CinemachineTouchInputMapper.cs") state(2)
+Script is not up to date after domain reload: guid(2588cc5dedbb75e49a44aada63f7b939) path("Packages/com.unity.cinemachine/Runtime/Behaviours/Cinemachine3rdPersonAim.cs") state(2)
+Script is not up to date after domain reload: guid(1ff9d8296ed1f02419bf4f417ff2265e) path("Packages/com.unity.cinemachine/Editor/Editors/CinemachineBlenderSettingsEditor.cs") state(2)
+Script is not up to date after domain reload: guid(1123a444101eb774ba7490990b50736a) path("Packages/com.unity.cinemachine/Editor/Editors/CinemachineSmoothPathEditor.cs") state(2)
+Script is not up to date after domain reload: guid(36d1163fa822e8b418a0a603ec078d5c) path("Packages/com.unity.cinemachine/Runtime/Components/CinemachineHardLockToTarget.cs") state(2)
+Script is not up to date after domain reload: guid(711aad28b4057bd4783120e26ff2ee25) path("Packages/com.unity.cinemachine/Editor/Editors/CinemachineBrainEditor.cs") state(2)
+Script is not up to date after domain reload: guid(2bb09c3bc24a82648a2e4fc008a28d8b) path("Packages/com.unity.cinemachine/Editor/Editors/CinemachineComposerEditor.cs") state(2)
+Script is not up to date after domain reload: guid(ebb13519e7af50b4dbc59d78b3bb6a32) path("Packages/com.unity.cinemachine/Editor/Utility/InspectorUtility.cs") state(2)
+Script is not up to date after domain reload: guid(65eebf71eb882124fa7f75085f367e5f) path("Packages/com.unity.cinemachine/Runtime/Helpers/GroupWeightManipulator.cs") state(2)
+Script is not up to date after domain reload: guid(e5eb80d8e62d9d145bb50fb783c0f731) path("Packages/com.unity.cinemachine/Runtime/Behaviours/CinemachineTargetGroup.cs") state(2)
+Script is not up to date after domain reload: guid(6036af5730313e54699c5a693891fe90) path("Packages/com.unity.cinemachine/Editor/Editors/CinemachineClearShotEditor.cs") state(2)
+Script is not up to date after domain reload: guid(cd438dd108a0f284aa931a2da434f1d3) path("Packages/com.unity.cinemachine/Runtime/Impulse/CinemachineCollisionImpulseSource.cs") state(2)
+Script is not up to date after domain reload: guid(41a7beeb0ec57584382c8170981d8ac1) path("Packages/com.unity.cinemachine/Runtime/Core/UpdateTracker.cs") state(2)
+Script is not up to date after domain reload: guid(3c9beda531928fc40968802117a5d256) path("Packages/com.unity.cinemachine/Runtime/Components/CinemachinePOV.cs") state(2)
+Script is not up to date after domain reload: guid(3226d9f88577be74197693bd17cff8c3) path("Packages/com.unity.cinemachine/Editor/Editors/CinemachineExternalCameraEditor.cs") state(2)
+Script is not up to date after domain reload: guid(68839a4bf8790cd449d4043f5efb5aec) path("Packages/com.unity.cinemachine/Runtime/Core/GaussianFilter.cs") state(2)
+Script is not up to date after domain reload: guid(5356d1db487a5284fb27af2798adad33) path("Packages/com.unity.cinemachine/Runtime/Timeline/CinemachineShotPlayable.cs") state(2)
+Script is not up to date after domain reload: guid(f4044717213e31446939f7bd49c896ea) path("Packages/com.unity.cinemachine/Runtime/Components/CinemachineComposer.cs") state(2)
+Script is not up to date after domain reload: guid(53258ad9ad6e71e48bb8643c9522112e) path("Packages/com.unity.cinemachine/Runtime/Behaviours/CinemachineBlendListCamera.cs") state(2)
+Script is not up to date after domain reload: guid(ee42f1964a0e8224c90be81905946699) path("Packages/com.unity.cinemachine/Editor/Editors/CinemachineBasicMultiChannelPerlinEditor.cs") state(2)
+Script is not up to date after domain reload: guid(c2a918f460a69394eb9726b31e1d404c) path("Packages/com.unity.cinemachine/Runtime/Core/CameraState.cs") state(2)
+Script is not up to date after domain reload: guid(933e2b6843fbbbc4c8cabeead6fc1fae) path("Packages/com.unity.cinemachine/Editor/Experimental/CinemachineNewFreeLookEditor.cs") state(2)
+Script is not up to date after domain reload: guid(3fed8968b96eb924891cf86f5c51f661) path("Packages/com.unity.cinemachine/Runtime/Core/CinemachineBlend.cs") state(2)
+Script is not up to date after domain reload: guid(2d37e5385efd7064cb1d54c94960acae) path("Packages/com.unity.cinemachine/Runtime/Behaviours/CinemachinePath.cs") state(2)
+Script is not up to date after domain reload: guid(449ef5ebbe24720439ec31d15f7b6f3d) path("Packages/com.unity.cinemachine/Runtime/PostProcessing/CinemachineVolumeSettings.cs") state(2)
+Script is not up to date after domain reload: guid(2643ac9881a89594a80c242b565b34ec) path("Packages/com.unity.cinemachine/Runtime/Core/ICinemachineCamera.cs") state(2)
+Script is not up to date after domain reload: guid(b56f2475416eeea4c916add2d7268ad1) path("Packages/com.unity.cinemachine/Editor/Impulse/CinemachineImpulseSourceEditor.cs") state(2)
+Script is not up to date after domain reload: guid(c5da6ce9225f948438f7d6a072499ecd) path("Packages/com.unity.cinemachine/Editor/Editors/CinemachineGroupComposerEditor.cs") state(2)
+Script is not up to date after domain reload: guid(a73149a4b6c41d741bc5e4e3b7711c0d) path("Packages/com.unity.cinemachine/Runtime/Core/CinemachinePathBase.cs") state(2)
+Script is not up to date after domain reload: guid(99a9c787e5d1bbf48a389834c4a9641c) path("Packages/com.unity.cinemachine/Runtime/Behaviours/CinemachineDollyCart.cs") state(2)
+Script is not up to date after domain reload: guid(87edaa385191f4e43ac1e2831a02159f) path("Packages/com.unity.cinemachine/Editor/Utility/CinemachineLensPresets.cs") state(2)
+Script is not up to date after domain reload: guid(eb25eb9c85a88c94aa253071e03aca6e) path("Packages/com.unity.cinemachine/Runtime/Impulse/CinemachineImpulseManager.cs") state(2)
+Script is not up to date after domain reload: guid(d30409ab90458e5409807c8b0274ac9c) path("Packages/com.unity.cinemachine/Editor/Utility/EmbeddedAssetHelpers.cs") state(2)
+Script is not up to date after domain reload: guid(137fce2acc78adb45b30ac59c3b89b11) path("Packages/com.unity.cinemachine/Editor/Editors/Cinemachine3rdPersonFollowEditor.cs") state(2)
+Script is not up to date after domain reload: guid(729aad4491e915a41bda2b8325cf757a) path("Packages/com.unity.cinemachine/Runtime/PostProcessing/CinemachinePostProcessing.cs") state(2)
+Script is not up to date after domain reload: guid(a9e63e62da42ce141b35602019323584) path("Packages/com.unity.cinemachine/Editor/Editors/CinemachineStoryboardEditor.cs") state(2)
+Script is not up to date after domain reload: guid(9384ab8608cdc3d479fe89cd51eed48f) path("Packages/com.unity.cinemachine/Runtime/Components/CinemachineOrbitalTransposer.cs") state(2)
+Script is not up to date after domain reload: guid(8db8d3ba38ef23344baee4d941ad534f) path("Packages/com.unity.cinemachine/Tests/Runtime/RuntimeExampleTest.cs") state(2)
+Script is not up to date after domain reload: guid(b2f73bdc979030e419f33c10913639cc) path("Packages/com.unity.cinemachine/Runtime/Core/CinemachineComponentBase.cs") state(2)
+Script is not up to date after domain reload: guid(72ece51f2901e7445ab60da3685d6b5f) path("Packages/com.unity.cinemachine/Runtime/Behaviours/CinemachineBrain.cs") state(2)
+Script is not up to date after domain reload: guid(5778d22ca832d9f47b5e73a8c5fe78a2) path("Packages/com.unity.cinemachine/Runtime/Core/LensSettings.cs") state(2)
+Script is not up to date after domain reload: guid(a2fba25a5cd15594e8f050a11e386c80) path("Packages/com.unity.cinemachine/Runtime/Behaviours/CinemachineConfiner.cs") state(2)
+Script is not up to date after domain reload: guid(a4c41ac9245b87c4192012080077d830) path("Packages/com.unity.cinemachine/Runtime/Components/CinemachineSameAsFollowTarget.cs") state(2)
+Script is not up to date after domain reload: guid(2a15a1e455bcc7543872f50762449739) path("Packages/com.unity.cinemachine/Editor/Editors/CinemachineScreenComposerGuides.cs") state(2)
+Script is not up to date after domain reload: guid(be817a1286f201845b5c36ae9afe9e35) path("Packages/com.unity.cinemachine/Runtime/Experimental/CinemachineNewVirtualCamera.cs") state(2)
+Script is not up to date after domain reload: guid(211d719bb25901043833928f50e9d0ea) path("Packages/com.unity.cinemachine/Editor/Editors/CinemachineVirtualCameraBaseEditor.cs") state(2)
+Script is not up to date after domain reload: guid(d62f748f5292bb343be9e6b0c84416d9) path("Packages/com.unity.cinemachine/Runtime/Behaviours/CinemachineClearShot.cs") state(2)
+Script is not up to date after domain reload: guid(a63f9f2267c36684e855add13ad5499f) path("Packages/com.unity.cinemachine/Editor/Editors/CinemachineVirtualCameraEditor.cs") state(2)
+Script is not up to date after domain reload: guid(6868af9e141204bb492578e43ffb69f1) path("Packages/com.unity.cinemachine/Tests/Runtime/CamerasBlendingTests.cs") state(2)
+Script is not up to date after domain reload: guid(12a60b3365a7d424cbc3f935bd1ed799) path("Packages/com.unity.cinemachine/Editor/PostProcessing/CinemachineVolumeSettingsEditor.cs") state(2)
+Script is not up to date after domain reload: guid(a1728508674789b4e8539a2ad08ebc3f) path("Packages/com.unity.cinemachine/Editor/Impulse/CinemachineImpulseChannels.cs") state(2)
+Script is not up to date after domain reload: guid(2c760cb7073c57e44959f36cbed8ed39) path("Packages/com.unity.cinemachine/Runtime/Core/CinemachinePropertyAttribute.cs") state(2)
+Script is not up to date after domain reload: guid(180ecf9b41d478f468eb3e9083753217) path("Packages/com.unity.cinemachine/Runtime/Impulse/CinemachineImpulseSource.cs") state(2)
+Script is not up to date after domain reload: guid(cd1b3b6848c215f4cba3ace2c38f9bce) path("Packages/com.unity.cinemachine/Editor/PropertyDrawers/OrbitalTransposerHeadingPropertyDrawer.cs") state(2)
+Script is not up to date after domain reload: guid(00b2d199b96b516448144ab30fb26aed) path("Packages/com.unity.cinemachine/Runtime/Impulse/CinemachineImpulseListener.cs") state(2)
+Script is not up to date after domain reload: guid(24ec24775a1b45e4ea81ac13002dee32) path("Packages/com.unity.cinemachine/Editor/Utility/SaveDuringPlay.cs") state(2)
+Script is not up to date after domain reload: guid(4fa53a91a43ae1a4bbf6b29961b45c38) path("Packages/com.unity.cinemachine/Runtime/Core/CinemachineExtension.cs") state(2)
+Script is not up to date after domain reload: guid(15ebf04de67923d41a36c21e1fc63718) path("Packages/com.unity.cinemachine/Runtime/Core/CinemachineVirtualCameraBase.cs") state(2)
+Script is not up to date after domain reload: guid(620aee1bd928b2a4981896c6b4e1bf0d) path("Packages/com.unity.cinemachine/Editor/Editors/CinemachineFramingTransposerEditor.cs") state(2)
+Script is not up to date after domain reload: guid(a5969901aa40942499363f92e3787110) path("Packages/com.unity.cinemachine/Runtime/Impulse/CinemachineFixedSignal.cs") state(2)
+Script is not up to date after domain reload: guid(b7f59e54f2bfd184b9dd451a678d089b) path("Packages/com.unity.cinemachine/Runtime/Core/NoiseSettings.cs") state(2)
+Script is not up to date after domain reload: guid(fa7155796051b734daa718462081dc5f) path("Packages/com.unity.cinemachine/Runtime/Components/CinemachineTransposer.cs") state(2)
+Script is not up to date after domain reload: guid(90fb794a295e73545af71bcdb7375791) path("Packages/com.unity.cinemachine/Runtime/Timeline/CinemachineShot.cs") state(2)
+Script is not up to date after domain reload: guid(c88d2a04cc828c044b0fcc133fd481e6) path("Packages/com.unity.cinemachine/Editor/Editors/CinemachinePathEditor.cs") state(2)
+Script is not up to date after domain reload: guid(418e42c7d0405cc48a7b83f63ea53bb3) path("Packages/com.unity.cinemachine/Runtime/Components/CinemachineTrackedDolly.cs") state(2)
+Script is not up to date after domain reload: guid(8000e8170b5e1374c9503b5255ccc7e8) path("Packages/com.unity.cinemachine/Editor/Editors/CinemachineNoiseSettingsEditor.cs") state(2)
+Script is not up to date after domain reload: guid(bd920fe83f1086148a2b401f3e66528f) path("Packages/com.unity.cinemachine/Runtime/Experimental/CinemachineNewFreeLook.cs") state(2)
+Script is not up to date after domain reload: guid(82e62c82b3be64042ac529dee964cc2f) path("Packages/com.unity.cinemachine/Runtime/Behaviours/CinemachineStoryboard.cs") state(2)
+Script is not up to date after domain reload: guid(ba59c38a116ff2f4fb69f825ba0da3bc) path("Packages/com.unity.cinemachine/Editor/Utility/ScriptableObjectUtility.cs") state(2)
+Script is not up to date after domain reload: guid(325a6a3050a061e4b8aa51386c30e8e1) path("Packages/com.unity.cinemachine/Runtime/Behaviours/CinemachineStateDrivenCamera.cs") state(2)
+Script is not up to date after domain reload: guid(68194b7bb9ff1c6489c9c3c87c68c2a4) path("Packages/com.unity.cinemachine/Editor/Experimental/VcamStageEditor.cs") state(2)
+Script is not up to date after domain reload: guid(8ad60cb17f7694c43a8190c617281753) path("Packages/com.unity.cinemachine/Editor/Editors/CinemachineMixingCameraEditor.cs") state(2)
+Script is not up to date after domain reload: guid(fca2bf25139920d4f9bf86711457992e) path("Packages/com.unity.cinemachine/Runtime/Core/SplineHelpers.cs") state(2)
+Script is not up to date after domain reload: guid(829b8a241d4653446a2cb2436c262305) path("Packages/com.unity.cinemachine/Runtime/Impulse/CinemachineImpulseDefinition.cs") state(2)
+Script is not up to date after domain reload: guid(4b0a256055e11cf4999a9ee9e8b0db2a) path("Packages/com.unity.cinemachine/Editor/PropertyDrawers/VcamTargetPropertyDrawer.cs") state(2)
+Script is not up to date after domain reload: guid(a8725b08dfa3851468b1f029bb53c966) path("Packages/com.unity.cinemachine/Editor/Windows/WaveformWindow.cs") state(2)
+Script is not up to date after domain reload: guid(15ef94834d9e4aa44ac8fe619843346b) path("Packages/com.unity.cinemachine/Editor/Utility/BaseEditor.cs") state(2)
+Script is not up to date after domain reload: guid(0544e7b14d134a1449e61175446cfb95) path("Packages/com.unity.cinemachine/Runtime/Behaviours/CinemachineRecomposer.cs") state(2)
+Script is not up to date after domain reload: guid(0803634542916d8498caef53ed5604db) path("Packages/com.unity.cinemachine/Editor/Impulse/CinemachineImpulseChannelPropertyDrawer.cs") state(2)
+Script is not up to date after domain reload: guid(68bb026fafb42b14791938953eaace77) path("Packages/com.unity.cinemachine/Runtime/Components/CinemachineBasicMultiChannelPerlin.cs") state(2)
+Script is not up to date after domain reload: guid(829e606f890b35c47aa29643517add2e) path("Packages/com.unity.cinemachine/Editor/Windows/AboutWindow.cs") state(2)
+Script is not up to date after domain reload: guid(6d862fce0b0707949bb86058d777b116) path("Packages/com.unity.cinemachine/Runtime/Core/CinemachineInputAxisDriver.cs") state(2)
+Script is not up to date after domain reload: guid(ed3efd28525441947b55ec9b5d68ba31) path("Packages/com.unity.cinemachine/Editor/PropertyDrawers/CinemachineTagFieldPropertyDrawer.cs") state(2)
+Script is not up to date after domain reload: guid(4692eb7a7fa5c53458eb32a04df6c6a0) path("Packages/com.unity.cinemachine/Editor/Experimental/CinemachineNewVirtualCameraEditor.cs") state(2)
+Script is not up to date after domain reload: guid(0eb9f23cde3a1734da334cfa0831dd25) path("Packages/com.unity.cinemachine/Editor/Editors/CinemachineStateDrivenCameraEditor.cs") state(2)
+Script is not up to date after domain reload: guid(fc54afb14b6b01a4dabc4c8831cb7bf7) path("Packages/com.unity.cinemachine/Editor/Editors/CinemachineSameAsFollowTargetEditor.cs") state(2)
+Script is not up to date after domain reload: guid(4700f9f03ad19f94baf0367cb7a9c988) path("Packages/com.unity.cinemachine/Runtime/Behaviours/CinemachineFollowZoom.cs") state(2)
+Script is not up to date after domain reload: guid(f23d52331ea559841a7b7c27ca58037c) path("Packages/com.unity.cinemachine/Editor/Timeline/CinemachineShotClipEditor.cs") state(2)
+Script is not up to date after domain reload: guid(c7d73314dfe49f8458398c6dc8edcda8) path("Packages/com.unity.cinemachine/Runtime/Core/CinemachineCore.cs") state(2)
+Script is not up to date after domain reload: guid(f24a4388d07ef494e8516cb859803e09) path("Packages/com.unity.cinemachine/Editor/Timeline/CinemachineShotEditor.cs") state(2)
+Refreshing native plugins compatible for Editor in 0.93 ms, found 10 plugins.
+Preloading 1 native plugins for Editor in 0.08 ms.
+Unloading 3643 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 161.0 MB.
+System memory in use after: 161.2 MB.
+
+Unloading 43 unused Assets to reduce memory usage. Loaded Objects now: 4305.
+Total: 4.291400 ms (FindLiveObjects: 0.377000 ms CreateObjectMapping: 0.228000 ms MarkObjects: 3.550500 ms  DeleteObjects: 0.134600 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Assets/GymAssests/uploads-files-669576-aeq3vjprnoqo-Bleachers-1/bleachers.c4d: Unity no longer supports importing Cinema 4D files directly, but we're working with Maxon to make the experience better. To import Cinema 4D files, install Maxon's external importer. You can find more information on the Unity Forum: https://on.unity.com/c4d.
+
+Please note that FBX files exported from Cinema4D are still supported.
+
+Registering precompiled user dll's ...
+Registered in 0.010365 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.92 ms, found 10 plugins.
+Preloading 1 native plugins for Editor in 0.10 ms.
+Invalid AssetDatabase path: /Editor/EditorResources/cm_logo_sm.png. Use path relative to the project folder.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.AssetDatabase:LoadAssetAtPath<UnityEngine.Texture2D> (string)
+Cinemachine.Editor.CinemachineSettings:get_CinemachineLogoTexture () (at Library/PackageCache/com.unity.cinemachine@2.6.11/Editor/Windows/CinemachineSettings.cs:205)
+Cinemachine.Editor.CinemachineSettings:.cctor () (at Library/PackageCache/com.unity.cinemachine@2.6.11/Editor/Windows/CinemachineSettings.cs:237)
+Cinemachine.CinemachineColliderPrefs:.cctor () (at Library/PackageCache/com.unity.cinemachine@2.6.11/Editor/Windows/CinemachineColliderPrefs.cs:61)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+[Library/PackageCache/com.unity.cinemachine@2.6.11/Editor/Windows/CinemachineSettings.cs line 205]
+
+System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation. ---> System.NullReferenceException: Object reference not set to an instance of an object
+  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x00048] in C:\Users\fluke\Documents\GitHub\BVW-Unity-VR\Create-with-VR_2020LTS\VR Room Project\Library\PackageCache\com.unity.xr.oculus@1.10.0\Runtime\OculusLoader.cs:250 
+  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0007b] in C:\Users\fluke\Documents\GitHub\BVW-Unity-VR\Create-with-VR_2020LTS\VR Room Project\Library\PackageCache\com.unity.xr.oculus@1.10.0\Runtime\OculusLoader.cs:235 
+  at (wrapper managed-to-native) System.Reflection.MonoMethod.InternalInvoke(System.Reflection.MonoMethod,object,object[],System.Exception&)
+  at System.Reflection.MonoMethod.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00032] in <695d1cc93cca45069c528c15c9fdd749>:0 
+   --- End of inner exception stack trace ---
+  at System.Reflection.MonoMethod.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00048] in <695d1cc93cca45069c528c15c9fdd749>:0 
+  at System.Reflection.MethodBase.Invoke (System.Object obj, System.Object[] parameters) [0x00000] in <695d1cc93cca45069c528c15c9fdd749>:0 
+  at UnityEditor.EditorAssemblies.ProcessInitializeOnLoadMethodAttributes () [0x00047] in <d0e4b8c1204147f3935b6e9c8b8565ad>:0 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
+
+[ScriptCompilation] NOT recompiling all scripts because this is an import worker process. Reason to compile was: Define symbols changed
+System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation. ---> System.NullReferenceException: Object reference not set to an instance of an object
+  at StarterAssets.PackageChecker.CheckPackage () [0x001c2] in C:\Users\fluke\Documents\GitHub\BVW-Unity-VR\Create-with-VR_2020LTS\VR Room Project\Assets\StarterAssets\Editor 1\PackageChecker\PackageChecker.cs:105 
+  at (wrapper managed-to-native) System.Reflection.MonoMethod.InternalInvoke(System.Reflection.MonoMethod,object,object[],System.Exception&)
+  at System.Reflection.MonoMethod.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00032] in <695d1cc93cca45069c528c15c9fdd749>:0 
+   --- End of inner exception stack trace ---
+  at System.Reflection.MonoMethod.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00048] in <695d1cc93cca45069c528c15c9fdd749>:0 
+  at System.Reflection.MethodBase.Invoke (System.Object obj, System.Object[] parameters) [0x00000] in <695d1cc93cca45069c528c15c9fdd749>:0 
+  at UnityEditor.EditorAssemblies.ProcessInitializeOnLoadMethodAttributes () [0x00047] in <d0e4b8c1204147f3935b6e9c8b8565ad>:0 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
+
+Mono: successfully reloaded assembly
+- Completed reload, in  1.250 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1250ms)
+		BeginReloadAssembly (119ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (36ms)
+		EndReloadAssembly (1071ms)
+			LoadAssemblies (99ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (304ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (41ms)
+			SetupLoadedEditorAssemblies (472ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (5ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (102ms)
+				ProcessInitializeOnLoadAttributes (312ms)
+				ProcessInitializeOnLoadMethodAttributes (43ms)
+				AfterProcessingInitializeOnLoad (7ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (10ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.92 ms, found 10 plugins.
+Preloading 1 native plugins for Editor in 0.08 ms.
+Unloading 3790 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 166.2 MB.
+System memory in use after: 166.4 MB.
+
+Unloading 35 unused Assets to reduce memory usage. Loaded Objects now: 4454.
+Total: 4.791000 ms (FindLiveObjects: 0.561800 ms CreateObjectMapping: 0.209500 ms MarkObjects: 3.896700 ms  DeleteObjects: 0.122200 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 131.609795 seconds.
+  path: Assets/GymAssests/lowpoly-people-waldo/source/untitled.fbx
+  artifactKey: Guid(98c144171e1dc49679953861c534629f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GymAssests/lowpoly-people-waldo/source/untitled.fbx using Guid(98c144171e1dc49679953861c534629f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a95eef85cbd4546f8704335274b27b41') in 2.424432 seconds 
+  Import took 2.433330 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000146 seconds.
+  path: Assets/GymAssests/BodyBuilder Asset Pack/Prefabs/5Plate.prefab
+  artifactKey: Guid(06b21a62184f84f25b219aabb1af212c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GymAssests/BodyBuilder Asset Pack/Prefabs/5Plate.prefab using Guid(06b21a62184f84f25b219aabb1af212c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0bc0e40801a375635b1ca2a9eebd05da') in 0.331747 seconds 
+  Import took 0.337142 seconds .
+
+========================================================================
+Received Prepare
+Assets/GymAssests/uploads-files-669576-aeq3vjprnoqo-Bleachers-1/bleachers.c4d: Unity no longer supports importing Cinema 4D files directly, but we're working with Maxon to make the experience better. To import Cinema 4D files, install Maxon's external importer. You can find more information on the Unity Forum: https://on.unity.com/c4d.
+
+Please note that FBX files exported from Cinema4D are still supported.
+
+Registering precompiled user dll's ...
+Registered in 0.011426 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.99 ms, found 10 plugins.
+Preloading 1 native plugins for Editor in 0.08 ms.
+System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation. ---> System.NullReferenceException: Object reference not set to an instance of an object
+  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x00048] in C:\Users\fluke\Documents\GitHub\BVW-Unity-VR\Create-with-VR_2020LTS\VR Room Project\Library\PackageCache\com.unity.xr.oculus@1.10.0\Runtime\OculusLoader.cs:250 
+  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0007b] in C:\Users\fluke\Documents\GitHub\BVW-Unity-VR\Create-with-VR_2020LTS\VR Room Project\Library\PackageCache\com.unity.xr.oculus@1.10.0\Runtime\OculusLoader.cs:235 
+  at (wrapper managed-to-native) System.Reflection.MonoMethod.InternalInvoke(System.Reflection.MonoMethod,object,object[],System.Exception&)
+  at System.Reflection.MonoMethod.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00032] in <695d1cc93cca45069c528c15c9fdd749>:0 
+   --- End of inner exception stack trace ---
+  at System.Reflection.MonoMethod.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00048] in <695d1cc93cca45069c528c15c9fdd749>:0 
+  at System.Reflection.MethodBase.Invoke (System.Object obj, System.Object[] parameters) [0x00000] in <695d1cc93cca45069c528c15c9fdd749>:0 
+  at UnityEditor.EditorAssemblies.ProcessInitializeOnLoadMethodAttributes () [0x00047] in <d0e4b8c1204147f3935b6e9c8b8565ad>:0 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
+
+Mono: successfully reloaded assembly
+- Completed reload, in  1.246 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1247ms)
+		BeginReloadAssembly (137ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (40ms)
+		EndReloadAssembly (1051ms)
+			LoadAssemblies (97ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (306ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (43ms)
+			SetupLoadedEditorAssemblies (434ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (5ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (98ms)
+				ProcessInitializeOnLoadAttributes (309ms)
+				ProcessInitializeOnLoadMethodAttributes (12ms)
+				AfterProcessingInitializeOnLoad (7ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (15ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.98 ms, found 10 plugins.
+Preloading 1 native plugins for Editor in 0.09 ms.
+Unloading 3791 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 170.2 MB.
+System memory in use after: 170.4 MB.
+
+Unloading 36 unused Assets to reduce memory usage. Loaded Objects now: 4538.
+Total: 3.775000 ms (FindLiveObjects: 0.384400 ms CreateObjectMapping: 0.203600 ms MarkObjects: 3.056000 ms  DeleteObjects: 0.130400 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 92.816996 seconds.
+  path: Assets/StarterAssets/Editor
+  artifactKey: Guid(577651ee23b1b8342a827136803910fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StarterAssets/Editor using Guid(577651ee23b1b8342a827136803910fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1245bcf9462f11a4fc687ce2648cd2ff') in 0.012883 seconds 
+  Import took 0.019325 seconds .
+
+========================================================================
+Received Prepare
+Assets/GymAssests/uploads-files-669576-aeq3vjprnoqo-Bleachers-1/bleachers.c4d: Unity no longer supports importing Cinema 4D files directly, but we're working with Maxon to make the experience better. To import Cinema 4D files, install Maxon's external importer. You can find more information on the Unity Forum: https://on.unity.com/c4d.
+
+Please note that FBX files exported from Cinema4D are still supported.
+
+Registering precompiled user dll's ...
+Registered in 0.010171 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.95 ms, found 10 plugins.
+Preloading 1 native plugins for Editor in 0.09 ms.
+System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation. ---> System.NullReferenceException: Object reference not set to an instance of an object
+  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x00048] in C:\Users\fluke\Documents\GitHub\BVW-Unity-VR\Create-with-VR_2020LTS\VR Room Project\Library\PackageCache\com.unity.xr.oculus@1.10.0\Runtime\OculusLoader.cs:250 
+  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0007b] in C:\Users\fluke\Documents\GitHub\BVW-Unity-VR\Create-with-VR_2020LTS\VR Room Project\Library\PackageCache\com.unity.xr.oculus@1.10.0\Runtime\OculusLoader.cs:235 
+  at (wrapper managed-to-native) System.Reflection.MonoMethod.InternalInvoke(System.Reflection.MonoMethod,object,object[],System.Exception&)
+  at System.Reflection.MonoMethod.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00032] in <695d1cc93cca45069c528c15c9fdd749>:0 
+   --- End of inner exception stack trace ---
+  at System.Reflection.MonoMethod.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00048] in <695d1cc93cca45069c528c15c9fdd749>:0 
+  at System.Reflection.MethodBase.Invoke (System.Object obj, System.Object[] parameters) [0x00000] in <695d1cc93cca45069c528c15c9fdd749>:0 
+  at UnityEditor.EditorAssemblies.ProcessInitializeOnLoadMethodAttributes () [0x00047] in <d0e4b8c1204147f3935b6e9c8b8565ad>:0 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
+
+Mono: successfully reloaded assembly
+- Completed reload, in  1.300 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1301ms)
+		BeginReloadAssembly (119ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (36ms)
+		EndReloadAssembly (1106ms)
+			LoadAssemblies (109ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (322ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (44ms)
+			SetupLoadedEditorAssemblies (453ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (6ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (104ms)
+				ProcessInitializeOnLoadAttributes (322ms)
+				ProcessInitializeOnLoadMethodAttributes (13ms)
+				AfterProcessingInitializeOnLoad (7ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (14ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.92 ms, found 10 plugins.
+Preloading 1 native plugins for Editor in 0.08 ms.
+Unloading 3790 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 170.2 MB.
+System memory in use after: 170.4 MB.
+
+Unloading 36 unused Assets to reduce memory usage. Loaded Objects now: 4541.
+Total: 4.514500 ms (FindLiveObjects: 0.427300 ms CreateObjectMapping: 0.284500 ms MarkObjects: 3.707600 ms  DeleteObjects: 0.094000 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 8.743439 seconds.
+  path: Assets/StarterAssets/FirstPersonController
+  artifactKey: Guid(24b6cfc1f7567ec448cc19d73d593576) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StarterAssets/FirstPersonController using Guid(24b6cfc1f7567ec448cc19d73d593576) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9619a6e620cf33ae6691a03654b17bd8') in 0.010734 seconds 
+  Import took 0.017049 seconds .
+
+========================================================================
+Received Prepare
+Assets/GymAssests/uploads-files-669576-aeq3vjprnoqo-Bleachers-1/bleachers.c4d: Unity no longer supports importing Cinema 4D files directly, but we're working with Maxon to make the experience better. To import Cinema 4D files, install Maxon's external importer. You can find more information on the Unity Forum: https://on.unity.com/c4d.
+
+Please note that FBX files exported from Cinema4D are still supported.
+
+Registering precompiled user dll's ...
+Registered in 0.010148 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.98 ms, found 10 plugins.
+Preloading 1 native plugins for Editor in 0.11 ms.
+System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation. ---> System.NullReferenceException: Object reference not set to an instance of an object
+  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x00048] in C:\Users\fluke\Documents\GitHub\BVW-Unity-VR\Create-with-VR_2020LTS\VR Room Project\Library\PackageCache\com.unity.xr.oculus@1.10.0\Runtime\OculusLoader.cs:250 
+  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0007b] in C:\Users\fluke\Documents\GitHub\BVW-Unity-VR\Create-with-VR_2020LTS\VR Room Project\Library\PackageCache\com.unity.xr.oculus@1.10.0\Runtime\OculusLoader.cs:235 
+  at (wrapper managed-to-native) System.Reflection.MonoMethod.InternalInvoke(System.Reflection.MonoMethod,object,object[],System.Exception&)
+  at System.Reflection.MonoMethod.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00032] in <695d1cc93cca45069c528c15c9fdd749>:0 
+   --- End of inner exception stack trace ---
+  at System.Reflection.MonoMethod.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00048] in <695d1cc93cca45069c528c15c9fdd749>:0 
+  at System.Reflection.MethodBase.Invoke (System.Object obj, System.Object[] parameters) [0x00000] in <695d1cc93cca45069c528c15c9fdd749>:0 
+  at UnityEditor.EditorAssemblies.ProcessInitializeOnLoadMethodAttributes () [0x00047] in <d0e4b8c1204147f3935b6e9c8b8565ad>:0 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
+
+Mono: successfully reloaded assembly
+- Completed reload, in  1.348 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1349ms)
+		BeginReloadAssembly (133ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (38ms)
+		EndReloadAssembly (1140ms)
+			LoadAssemblies (119ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (355ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (50ms)
+			SetupLoadedEditorAssemblies (434ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (6ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (108ms)
+				ProcessInitializeOnLoadAttributes (300ms)
+				ProcessInitializeOnLoadMethodAttributes (12ms)
+				AfterProcessingInitializeOnLoad (7ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (16ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.91 ms, found 10 plugins.
+Preloading 1 native plugins for Editor in 0.08 ms.
+Unloading 3790 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 170.2 MB.
+System memory in use after: 170.4 MB.
+
+Unloading 36 unused Assets to reduce memory usage. Loaded Objects now: 4544.
+Total: 4.170800 ms (FindLiveObjects: 0.403700 ms CreateObjectMapping: 0.210400 ms MarkObjects: 3.415400 ms  DeleteObjects: 0.140400 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 7.950911 seconds.
+  path: Assets/StarterAssets/InputSystem
+  artifactKey: Guid(48c9acd554a28814b922162e3fa889b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StarterAssets/InputSystem using Guid(48c9acd554a28814b922162e3fa889b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2b6dcab0e7d03fb55e3c0c78b961cba4') in 0.006732 seconds 
+  Import took 0.013404 seconds .
+
+========================================================================
+Received Prepare
+Assets/GymAssests/uploads-files-669576-aeq3vjprnoqo-Bleachers-1/bleachers.c4d: Unity no longer supports importing Cinema 4D files directly, but we're working with Maxon to make the experience better. To import Cinema 4D files, install Maxon's external importer. You can find more information on the Unity Forum: https://on.unity.com/c4d.
+
+Please note that FBX files exported from Cinema4D are still supported.
+
+Registering precompiled user dll's ...
+Registered in 0.010530 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.98 ms, found 10 plugins.
+Preloading 1 native plugins for Editor in 0.13 ms.
+System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation. ---> System.NullReferenceException: Object reference not set to an instance of an object
+  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x00048] in C:\Users\fluke\Documents\GitHub\BVW-Unity-VR\Create-with-VR_2020LTS\VR Room Project\Library\PackageCache\com.unity.xr.oculus@1.10.0\Runtime\OculusLoader.cs:250 
+  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0007b] in C:\Users\fluke\Documents\GitHub\BVW-Unity-VR\Create-with-VR_2020LTS\VR Room Project\Library\PackageCache\com.unity.xr.oculus@1.10.0\Runtime\OculusLoader.cs:235 
+  at (wrapper managed-to-native) System.Reflection.MonoMethod.InternalInvoke(System.Reflection.MonoMethod,object,object[],System.Exception&)
+  at System.Reflection.MonoMethod.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00032] in <695d1cc93cca45069c528c15c9fdd749>:0 
+   --- End of inner exception stack trace ---
+  at System.Reflection.MonoMethod.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00048] in <695d1cc93cca45069c528c15c9fdd749>:0 
+  at System.Reflection.MethodBase.Invoke (System.Object obj, System.Object[] parameters) [0x00000] in <695d1cc93cca45069c528c15c9fdd749>:0 
+  at UnityEditor.EditorAssemblies.ProcessInitializeOnLoadMethodAttributes () [0x00047] in <d0e4b8c1204147f3935b6e9c8b8565ad>:0 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
+
+Mono: successfully reloaded assembly
+- Completed reload, in  1.266 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1267ms)
+		BeginReloadAssembly (123ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (34ms)
+		EndReloadAssembly (1086ms)
+			LoadAssemblies (101ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (307ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (44ms)
+			SetupLoadedEditorAssemblies (456ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (5ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (106ms)
+				ProcessInitializeOnLoadAttributes (320ms)
+				ProcessInitializeOnLoadMethodAttributes (14ms)
+				AfterProcessingInitializeOnLoad (7ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (16ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.97 ms, found 10 plugins.
+Preloading 1 native plugins for Editor in 0.08 ms.
+Unloading 3790 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 170.2 MB.
+System memory in use after: 170.4 MB.
+
+Unloading 36 unused Assets to reduce memory usage. Loaded Objects now: 4547.
+Total: 3.900700 ms (FindLiveObjects: 0.447700 ms CreateObjectMapping: 0.226500 ms MarkObjects: 3.098900 ms  DeleteObjects: 0.126900 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 7.000856 seconds.
+  path: Assets/StarterAssets/Mobile
+  artifactKey: Guid(1d9a48e14080daf4794b86b4911eef32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StarterAssets/Mobile using Guid(1d9a48e14080daf4794b86b4911eef32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ff91fb7104fead9cc6addf8423c99bb7') in 0.010464 seconds 
+  Import took 0.017677 seconds .
+
+========================================================================
+Received Prepare
+Assets/GymAssests/uploads-files-669576-aeq3vjprnoqo-Bleachers-1/bleachers.c4d: Unity no longer supports importing Cinema 4D files directly, but we're working with Maxon to make the experience better. To import Cinema 4D files, install Maxon's external importer. You can find more information on the Unity Forum: https://on.unity.com/c4d.
+
+Please note that FBX files exported from Cinema4D are still supported.
+
+Registering precompiled user dll's ...
+Registered in 0.010806 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 1.20 ms, found 10 plugins.
+Preloading 1 native plugins for Editor in 0.16 ms.
+System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation. ---> System.NullReferenceException: Object reference not set to an instance of an object
+  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x00048] in C:\Users\fluke\Documents\GitHub\BVW-Unity-VR\Create-with-VR_2020LTS\VR Room Project\Library\PackageCache\com.unity.xr.oculus@1.10.0\Runtime\OculusLoader.cs:250 
+  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0007b] in C:\Users\fluke\Documents\GitHub\BVW-Unity-VR\Create-with-VR_2020LTS\VR Room Project\Library\PackageCache\com.unity.xr.oculus@1.10.0\Runtime\OculusLoader.cs:235 
+  at (wrapper managed-to-native) System.Reflection.MonoMethod.InternalInvoke(System.Reflection.MonoMethod,object,object[],System.Exception&)
+  at System.Reflection.MonoMethod.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00032] in <695d1cc93cca45069c528c15c9fdd749>:0 
+   --- End of inner exception stack trace ---
+  at System.Reflection.MonoMethod.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00048] in <695d1cc93cca45069c528c15c9fdd749>:0 
+  at System.Reflection.MethodBase.Invoke (System.Object obj, System.Object[] parameters) [0x00000] in <695d1cc93cca45069c528c15c9fdd749>:0 
+  at UnityEditor.EditorAssemblies.ProcessInitializeOnLoadMethodAttributes () [0x00047] in <d0e4b8c1204147f3935b6e9c8b8565ad>:0 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
+
+Mono: successfully reloaded assembly
+- Completed reload, in  1.262 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1263ms)
+		BeginReloadAssembly (131ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (35ms)
+		EndReloadAssembly (1068ms)
+			LoadAssemblies (105ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (305ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (44ms)
+			SetupLoadedEditorAssemblies (440ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (6ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (102ms)
+				ProcessInitializeOnLoadAttributes (311ms)
+				ProcessInitializeOnLoadMethodAttributes (12ms)
+				AfterProcessingInitializeOnLoad (7ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (14ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.93 ms, found 10 plugins.
+Preloading 1 native plugins for Editor in 0.09 ms.
+Unloading 3790 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 170.2 MB.
+System memory in use after: 170.4 MB.
+
+Unloading 36 unused Assets to reduce memory usage. Loaded Objects now: 4550.
+Total: 4.372300 ms (FindLiveObjects: 0.479000 ms CreateObjectMapping: 0.218200 ms MarkObjects: 3.581100 ms  DeleteObjects: 0.093000 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 7.541953 seconds.
+  path: Assets/StarterAssets/TutorialInfo
+  artifactKey: Guid(45eb5850dfaea0a4f962fbbf3e54daf9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StarterAssets/TutorialInfo using Guid(45eb5850dfaea0a4f962fbbf3e54daf9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5fc1cd638ae06027131002f43e08aca7') in 0.009162 seconds 
+  Import took 0.018757 seconds .
+
+========================================================================
+Received Prepare
+Assets/GymAssests/uploads-files-669576-aeq3vjprnoqo-Bleachers-1/bleachers.c4d: Unity no longer supports importing Cinema 4D files directly, but we're working with Maxon to make the experience better. To import Cinema 4D files, install Maxon's external importer. You can find more information on the Unity Forum: https://on.unity.com/c4d.
+
+Please note that FBX files exported from Cinema4D are still supported.
+
+Registering precompiled user dll's ...
+Registered in 0.010626 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.97 ms, found 10 plugins.
+Preloading 1 native plugins for Editor in 0.09 ms.
+System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation. ---> System.NullReferenceException: Object reference not set to an instance of an object
+  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x00048] in C:\Users\fluke\Documents\GitHub\BVW-Unity-VR\Create-with-VR_2020LTS\VR Room Project\Library\PackageCache\com.unity.xr.oculus@1.10.0\Runtime\OculusLoader.cs:250 
+  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0007b] in C:\Users\fluke\Documents\GitHub\BVW-Unity-VR\Create-with-VR_2020LTS\VR Room Project\Library\PackageCache\com.unity.xr.oculus@1.10.0\Runtime\OculusLoader.cs:235 
+  at (wrapper managed-to-native) System.Reflection.MonoMethod.InternalInvoke(System.Reflection.MonoMethod,object,object[],System.Exception&)
+  at System.Reflection.MonoMethod.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00032] in <695d1cc93cca45069c528c15c9fdd749>:0 
+   --- End of inner exception stack trace ---
+  at System.Reflection.MonoMethod.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00048] in <695d1cc93cca45069c528c15c9fdd749>:0 
+  at System.Reflection.MethodBase.Invoke (System.Object obj, System.Object[] parameters) [0x00000] in <695d1cc93cca45069c528c15c9fdd749>:0 
+  at UnityEditor.EditorAssemblies.ProcessInitializeOnLoadMethodAttributes () [0x00047] in <d0e4b8c1204147f3935b6e9c8b8565ad>:0 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
+
+Mono: successfully reloaded assembly
+- Completed reload, in  1.271 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1271ms)
+		BeginReloadAssembly (129ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (7ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (34ms)
+		EndReloadAssembly (1083ms)
+			LoadAssemblies (96ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (314ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (46ms)
+			SetupLoadedEditorAssemblies (448ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (6ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (106ms)
+				ProcessInitializeOnLoadAttributes (315ms)
+				ProcessInitializeOnLoadMethodAttributes (13ms)
+				AfterProcessingInitializeOnLoad (8ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (16ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.91 ms, found 10 plugins.
+Preloading 1 native plugins for Editor in 0.08 ms.
+Unloading 3790 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 170.2 MB.
+System memory in use after: 170.4 MB.
+
+Unloading 36 unused Assets to reduce memory usage. Loaded Objects now: 4553.
+Total: 4.099500 ms (FindLiveObjects: 0.461000 ms CreateObjectMapping: 0.258300 ms MarkObjects: 3.292900 ms  DeleteObjects: 0.086100 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 9.669574 seconds.
+  path: Assets/StarterAssets/Readme.asset
+  artifactKey: Guid(d6872a7871e66a149bb52681fd1a9ea0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StarterAssets/Readme.asset using Guid(d6872a7871e66a149bb52681fd1a9ea0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a452e97d0fbc9410593c830fdcf15782') in 0.060873 seconds 
+  Import took 0.067682 seconds .
+
+========================================================================
+Received Prepare
+Assets/GymAssests/uploads-files-669576-aeq3vjprnoqo-Bleachers-1/bleachers.c4d: Unity no longer supports importing Cinema 4D files directly, but we're working with Maxon to make the experience better. To import Cinema 4D files, install Maxon's external importer. You can find more information on the Unity Forum: https://on.unity.com/c4d.
+
+Please note that FBX files exported from Cinema4D are still supported.
+
+Registering precompiled user dll's ...
+Registered in 0.012949 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 1.07 ms, found 10 plugins.
+Preloading 1 native plugins for Editor in 0.13 ms.
+System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation. ---> System.NullReferenceException: Object reference not set to an instance of an object
+  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x00048] in C:\Users\fluke\Documents\GitHub\BVW-Unity-VR\Create-with-VR_2020LTS\VR Room Project\Library\PackageCache\com.unity.xr.oculus@1.10.0\Runtime\OculusLoader.cs:250 
+  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0007b] in C:\Users\fluke\Documents\GitHub\BVW-Unity-VR\Create-with-VR_2020LTS\VR Room Project\Library\PackageCache\com.unity.xr.oculus@1.10.0\Runtime\OculusLoader.cs:235 
+  at (wrapper managed-to-native) System.Reflection.MonoMethod.InternalInvoke(System.Reflection.MonoMethod,object,object[],System.Exception&)
+  at System.Reflection.MonoMethod.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00032] in <695d1cc93cca45069c528c15c9fdd749>:0 
+   --- End of inner exception stack trace ---
+  at System.Reflection.MonoMethod.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00048] in <695d1cc93cca45069c528c15c9fdd749>:0 
+  at System.Reflection.MethodBase.Invoke (System.Object obj, System.Object[] parameters) [0x00000] in <695d1cc93cca45069c528c15c9fdd749>:0 
+  at UnityEditor.EditorAssemblies.ProcessInitializeOnLoadMethodAttributes () [0x00047] in <d0e4b8c1204147f3935b6e9c8b8565ad>:0 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
+
+Mono: successfully reloaded assembly
+- Completed reload, in  1.236 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1236ms)
+		BeginReloadAssembly (112ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (36ms)
+		EndReloadAssembly (1064ms)
+			LoadAssemblies (100ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (305ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (43ms)
+			SetupLoadedEditorAssemblies (439ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (5ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (103ms)
+				ProcessInitializeOnLoadAttributes (309ms)
+				ProcessInitializeOnLoadMethodAttributes (13ms)
+				AfterProcessingInitializeOnLoad (7ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (15ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.92 ms, found 10 plugins.
+Preloading 1 native plugins for Editor in 0.08 ms.
+Unloading 3790 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 170.3 MB.
+System memory in use after: 170.4 MB.
+
+Unloading 36 unused Assets to reduce memory usage. Loaded Objects now: 4556.
+Total: 4.535600 ms (FindLiveObjects: 0.535700 ms CreateObjectMapping: 0.249600 ms MarkObjects: 3.639100 ms  DeleteObjects: 0.110500 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Assets/GymAssests/uploads-files-669576-aeq3vjprnoqo-Bleachers-1/bleachers.c4d: Unity no longer supports importing Cinema 4D files directly, but we're working with Maxon to make the experience better. To import Cinema 4D files, install Maxon's external importer. You can find more information on the Unity Forum: https://on.unity.com/c4d.
+
+Please note that FBX files exported from Cinema4D are still supported.
+
+Registering precompiled user dll's ...
+Registered in 0.010721 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 1.04 ms, found 10 plugins.
+Preloading 1 native plugins for Editor in 0.11 ms.
+System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation. ---> System.NullReferenceException: Object reference not set to an instance of an object
+  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x00048] in C:\Users\fluke\Documents\GitHub\BVW-Unity-VR\Create-with-VR_2020LTS\VR Room Project\Library\PackageCache\com.unity.xr.oculus@1.10.0\Runtime\OculusLoader.cs:250 
+  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0007b] in C:\Users\fluke\Documents\GitHub\BVW-Unity-VR\Create-with-VR_2020LTS\VR Room Project\Library\PackageCache\com.unity.xr.oculus@1.10.0\Runtime\OculusLoader.cs:235 
+  at (wrapper managed-to-native) System.Reflection.MonoMethod.InternalInvoke(System.Reflection.MonoMethod,object,object[],System.Exception&)
+  at System.Reflection.MonoMethod.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00032] in <695d1cc93cca45069c528c15c9fdd749>:0 
+   --- End of inner exception stack trace ---
+  at System.Reflection.MonoMethod.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00048] in <695d1cc93cca45069c528c15c9fdd749>:0 
+  at System.Reflection.MethodBase.Invoke (System.Object obj, System.Object[] parameters) [0x00000] in <695d1cc93cca45069c528c15c9fdd749>:0 
+  at UnityEditor.EditorAssemblies.ProcessInitializeOnLoadMethodAttributes () [0x00047] in <d0e4b8c1204147f3935b6e9c8b8565ad>:0 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
+
+Mono: successfully reloaded assembly
+- Completed reload, in  1.251 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1252ms)
+		BeginReloadAssembly (124ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (35ms)
+		EndReloadAssembly (1064ms)
+			LoadAssemblies (99ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (305ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (42ms)
+			SetupLoadedEditorAssemblies (437ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (6ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (98ms)
+				ProcessInitializeOnLoadAttributes (311ms)
+				ProcessInitializeOnLoadMethodAttributes (12ms)
+				AfterProcessingInitializeOnLoad (7ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (17ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.91 ms, found 10 plugins.
+Preloading 1 native plugins for Editor in 0.08 ms.
+Unloading 3790 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 170.3 MB.
+System memory in use after: 170.5 MB.
+
+Unloading 36 unused Assets to reduce memory usage. Loaded Objects now: 4559.
+Total: 4.753800 ms (FindLiveObjects: 0.369700 ms CreateObjectMapping: 0.223100 ms MarkObjects: 4.052000 ms  DeleteObjects: 0.107900 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
