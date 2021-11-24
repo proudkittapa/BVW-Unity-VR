@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.44404015, g: 0.4934435, b: 0.57288986, a: 1}
+  m_IndirectSpecularColor: {r: 0.44307697, g: 0.49228066, b: 0.57199246, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -2238,7 +2238,7 @@ GameObject:
   - component: {fileID: 442378957}
   - component: {fileID: 442378956}
   m_Layer: 0
-  m_Name: Directional Light (1)
+  m_Name: Directional Light
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2313,13 +2313,13 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 442378955}
-  m_LocalRotation: {x: 0.19286464, y: -0.8037009, z: 0.4372825, w: 0.35447448}
+  m_LocalRotation: {x: -0.4852276, y: 0.1986195, z: -0.11421128, w: -0.8438366}
   m_LocalPosition: {x: 0, y: 0, z: 199}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 1
-  m_LocalEulerAnglesHint: {x: 57.1, y: -132.4, z: 0}
+  m_LocalEulerAnglesHint: {x: 59.8, y: 333.51, z: 0}
 --- !u!43 &496474608
 Mesh:
   m_ObjectHideFlags: 0
@@ -3459,17 +3459,9 @@ MonoBehaviour:
   assetGuid: 
   m_Mesh: {fileID: 1840823150}
   m_IsSelectable: 1
-  m_SelectedFaces: 03000000
-  m_SelectedEdges:
-  - a: 12
-    b: 13
-  - a: 14
-    b: 12
-  - a: 13
-    b: 15
-  - a: 15
-    b: 14
-  m_SelectedVertices: 0c0000000d0000000e0000000f000000
+  m_SelectedFaces: 
+  m_SelectedEdges: []
+  m_SelectedVertices: 
 --- !u!4 &784919956
 Transform:
   m_ObjectHideFlags: 0
