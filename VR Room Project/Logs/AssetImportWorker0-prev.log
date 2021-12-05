@@ -1,114 +1,102 @@
 Using pre-set license
 Built from '2020.3/staging' branch; Version is '2020.3.17f1 (a4537701e4ab) revision 10769271'; Using compiler version '192528614'; Build Type 'Release'
-OS: 'Windows 10 Pro; OS build 19043.1348; Version 2009; 64bit' Language: 'en' Physical Memory: 12079 MB
+OS: 'Windows 10 Home Single Language; OS build 19042.1348; Version 2009; 64bit' Language: 'en' Physical Memory: 16298 MB
 BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
 
 COMMAND LINE ARGUMENTS:
-C:\Program Files\Unity\Hub\Editor\2020.3.17f1\Editor\Unity.exe
+C:\Program Files\Unity\Editor\Unity.exe
 -adb2
 -batchMode
 -noUpm
 -name
 AssetImportWorker0
 -projectPath
-C:/Users/Adminstrator/Documents/GitHub/BVW-Unity-VR/VR Room Project
+C:/Users/Tairo Kageyama/Documents/GitHub/BVW-Unity-VR/VR Room Project
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-58925
-Successfully changed project path to: C:/Users/Adminstrator/Documents/GitHub/BVW-Unity-VR/VR Room Project
-C:/Users/Adminstrator/Documents/GitHub/BVW-Unity-VR/VR Room Project
+54580
+Successfully changed project path to: C:/Users/Tairo Kageyama/Documents/GitHub/BVW-Unity-VR/VR Room Project
+C:/Users/Tairo Kageyama/Documents/GitHub/BVW-Unity-VR/VR Room Project
 Using Asset Import Pipeline V2.
 Assets/GymAssests/uploads-files-669576-aeq3vjprnoqo-Bleachers-1/bleachers.c4d: Unity no longer supports importing Cinema 4D files directly, but we're working with Maxon to make the experience better. To import Cinema 4D files, install Maxon's external importer. You can find more information on the Unity Forum: https://on.unity.com/c4d.
 
 Please note that FBX files exported from Cinema4D are still supported.
 
-Refreshing native plugins compatible for Editor in 180.57 ms, found 10 plugins.
-Preloading 1 native plugins for Editor in 1.26 ms.
+Refreshing native plugins compatible for Editor in 77.69 ms, found 10 plugins.
+Preloading 1 native plugins for Editor in 7.17 ms.
 Initialize engine version: 2020.3.17f1 (a4537701e4ab)
-[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.17f1/Editor/Data/Resources/UnitySubsystems
-[Subsystems] Discovering subsystems at path C:/Users/Adminstrator/Documents/GitHub/BVW-Unity-VR/VR Room Project/Assets
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/Tairo Kageyama/Documents/GitHub/BVW-Unity-VR/VR Room Project/Assets
 GfxDevice: creating device client; threaded=0
 Direct3D:
-    Version:  Direct3D 11.0 [level 11.0]
-    Renderer: NVIDIA GeForce GTX 950M (ID=0x139a)
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 3060 (ID=0x2504)
     Vendor:   
-    VRAM:     2019 MB
-    Driver:   22.21.13.8554
+    VRAM:     12143 MB
+    Driver:   30.0.14.9649
 Initialize mono
-Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.17f1/Editor/Data/Managed'
-Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.17f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
-Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.17f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56724
+Mono path[0] = 'C:/Program Files/Unity/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'C:/Program Files/Unity/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56856
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
-Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.17f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
-Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.17f1/Editor/Data/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
-Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.17f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.17f1/Editor/Data/PlaybackEngines/LinuxStandaloneSupport/UnityEditor.LinuxStandalone.Extensions.dll
-Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.17f1/Editor/Data/PlaybackEngines/LuminSupport/UnityEditor.Lumin.Extensions.dll
-Registered in 0.007460 seconds.
-Native extension for Lumin target not found
-Native extension for LinuxStandalone target not found
+Register platform support module: C:/Program Files/Unity/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.003608 seconds.
 Native extension for WindowsStandalone target not found
-Native extension for OSXStandalone target not found
-Native extension for WebGL target not found
 Assets/GymAssests/uploads-files-669576-aeq3vjprnoqo-Bleachers-1/bleachers.c4d: Unity no longer supports importing Cinema 4D files directly, but we're working with Maxon to make the experience better. To import Cinema 4D files, install Maxon's external importer. You can find more information on the Unity Forum: https://on.unity.com/c4d.
 
 Please note that FBX files exported from Cinema4D are still supported.
 
-Refreshing native plugins compatible for Editor in 186.03 ms, found 10 plugins.
-Preloading 1 native plugins for Editor in 0.09 ms.
+Refreshing native plugins compatible for Editor in 59.22 ms, found 10 plugins.
+Preloading 1 native plugins for Editor in 0.10 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  4.406 seconds
+- Completed reload, in  0.950 seconds
 Domain Reload Profiling:
-	ReloadAssembly (4407ms)
-		BeginReloadAssembly (107ms)
+	ReloadAssembly (950ms)
+		BeginReloadAssembly (50ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (2ms)
-		EndReloadAssembly (1204ms)
-			LoadAssemblies (101ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (310ms)
+			LoadAssemblies (46ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (461ms)
+			SetupTypeCache (92ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (58ms)
-			SetupLoadedEditorAssemblies (501ms)
+			RebuildScriptCaches (19ms)
+			SetupLoadedEditorAssemblies (142ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (14ms)
+				InitializePlatformSupportModulesInManaged (4ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (186ms)
-				BeforeProcessingInitializeOnLoad (41ms)
-				ProcessInitializeOnLoadAttributes (193ms)
-				ProcessInitializeOnLoadMethodAttributes (66ms)
+				RefreshPlugins (60ms)
+				BeforeProcessingInitializeOnLoad (6ms)
+				ProcessInitializeOnLoadAttributes (52ms)
+				ProcessInitializeOnLoadMethodAttributes (19ms)
 				AfterProcessingInitializeOnLoad (0ms)
-				EditorAssembliesLoaded (1ms)
+				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.014744 seconds.
+Registered in 0.014198 seconds.
 Begin MonoManager ReloadAssembly
-Native extension for Lumin target not found
-Native extension for LinuxStandalone target not found
 Native extension for WindowsStandalone target not found
-Native extension for OSXStandalone target not found
-Native extension for WebGL target not found
 Assets/GymAssests/uploads-files-669576-aeq3vjprnoqo-Bleachers-1/bleachers.c4d: Unity no longer supports importing Cinema 4D files directly, but we're working with Maxon to make the experience better. To import Cinema 4D files, install Maxon's external importer. You can find more information on the Unity Forum: https://on.unity.com/c4d.
 
 Please note that FBX files exported from Cinema4D are still supported.
 
-Refreshing native plugins compatible for Editor in 175.72 ms, found 10 plugins.
-Preloading 1 native plugins for Editor in 0.14 ms.
+Refreshing native plugins compatible for Editor in 60.50 ms, found 10 plugins.
+Preloading 1 native plugins for Editor in 0.10 ms.
 [XR] OculusXRPlugin: registering subsystems
 [XR] Unable to register display lifecyle provider: [1]
 [XR] Oculus Input lifecycle provider registered.
 [XR] Unable to register input lifecyle provider: [1]
 System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation. ---> System.NullReferenceException: Object reference not set to an instance of an object
-  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x0004e] in <961b7ccb4aff4ab0bed8fd3ae24b5856>:0 
-  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0007b] in <961b7ccb4aff4ab0bed8fd3ae24b5856>:0 
+  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x00048] in C:\Users\Tairo Kageyama\Documents\GitHub\BVW-Unity-VR\VR Room Project\Library\PackageCache\com.unity.xr.oculus@1.10.0\Runtime\OculusLoader.cs:250 
+  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0007b] in C:\Users\Tairo Kageyama\Documents\GitHub\BVW-Unity-VR\VR Room Project\Library\PackageCache\com.unity.xr.oculus@1.10.0\Runtime\OculusLoader.cs:235 
   at (wrapper managed-to-native) System.Reflection.MonoMethod.InternalInvoke(System.Reflection.MonoMethod,object,object[],System.Exception&)
   at System.Reflection.MonoMethod.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00032] in <695d1cc93cca45069c528c15c9fdd749>:0 
    --- End of inner exception stack trace ---
@@ -122,33 +110,33 @@ UnityEngine.Debug:LogError (object)
 UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
 
 Mono: successfully reloaded assembly
-- Completed reload, in  3.740 seconds
+- Completed reload, in  1.050 seconds
 Domain Reload Profiling:
-	ReloadAssembly (3744ms)
-		BeginReloadAssembly (318ms)
+	ReloadAssembly (1051ms)
+		BeginReloadAssembly (102ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (11ms)
+			DisableScriptedObjects (3ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (36ms)
-		EndReloadAssembly (3233ms)
-			LoadAssemblies (289ms)
+			CreateAndSetChildDomain (14ms)
+		EndReloadAssembly (899ms)
+			LoadAssemblies (91ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (895ms)
+			SetupTypeCache (217ms)
 			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (126ms)
-			SetupLoadedEditorAssemblies (1392ms)
+			RebuildScriptCaches (42ms)
+			SetupLoadedEditorAssemblies (434ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (13ms)
+				InitializePlatformSupportModulesInManaged (3ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (176ms)
-				BeforeProcessingInitializeOnLoad (239ms)
-				ProcessInitializeOnLoadAttributes (873ms)
-				ProcessInitializeOnLoadMethodAttributes (70ms)
-				AfterProcessingInitializeOnLoad (20ms)
+				RefreshPlugins (61ms)
+				BeforeProcessingInitializeOnLoad (80ms)
+				ProcessInitializeOnLoadAttributes (264ms)
+				ProcessInitializeOnLoadMethodAttributes (16ms)
+				AfterProcessingInitializeOnLoad (8ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (27ms)
+			AwakeInstancesAfterBackupRestoration (4ms)
 Platform modules already initialized, skipping
 Assets/GymAssests/uploads-files-669576-aeq3vjprnoqo-Bleachers-1/bleachers.c4d: Unity no longer supports importing Cinema 4D files directly, but we're working with Maxon to make the experience better. To import Cinema 4D files, install Maxon's external importer. You can find more information on the Unity Forum: https://on.unity.com/c4d.
 
@@ -160,15 +148,15 @@ Assets/GymAssests/uploads-files-669576-aeq3vjprnoqo-Bleachers-1/bleachers.c4d: U
 
 Please note that FBX files exported from Cinema4D are still supported.
 
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.16 seconds
-Refreshing native plugins compatible for Editor in 3.85 ms, found 10 plugins.
-Preloading 1 native plugins for Editor in 0.38 ms.
-Unloading 3956 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 177.3 MB.
-System memory in use after: 177.4 MB.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
+Refreshing native plugins compatible for Editor in 1.37 ms, found 10 plugins.
+Preloading 1 native plugins for Editor in 0.13 ms.
+Unloading 3964 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 184.9 MB.
+System memory in use after: 184.9 MB.
 
-Unloading 41 unused Assets to reduce memory usage. Loaded Objects now: 4441.
-Total: 6.104000 ms (FindLiveObjects: 0.566900 ms CreateObjectMapping: 0.232500 ms MarkObjects: 5.161600 ms  DeleteObjects: 0.141300 ms)
+Unloading 42 unused Assets to reduce memory usage. Loaded Objects now: 4452.
+Total: 3.513200 ms (FindLiveObjects: 0.357500 ms CreateObjectMapping: 0.135100 ms MarkObjects: 2.924200 ms  DeleteObjects: 0.095600 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
@@ -177,2030 +165,107 @@ AssetImportParameters requested are different than current active one (requested
   custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
   custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
   custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  path: Assets/!Materials Collection/4 Snow Materials/Materials/snow_3_tga.mat
-  artifactKey: Guid(1a37d212766c4e444bd183225d3816c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/!Materials Collection/4 Snow Materials/Materials/snow_3_tga.mat using Guid(1a37d212766c4e444bd183225d3816c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0534874ac13ab109d7397384cff41fb0') in 0.529667 seconds 
-  Import took 0.539294 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000727 seconds.
-  path: Assets/!Materials Collection/4 Snow Materials/NewLayer.terrainlayer
-  artifactKey: Guid(bd2e562f2affdbe45a216ba75f6e03a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/!Materials Collection/4 Snow Materials/NewLayer.terrainlayer using Guid(bd2e562f2affdbe45a216ba75f6e03a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '669fb1023116387432685ba39c5f1f38') in 0.050434 seconds 
-  Import took 0.062974 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000753 seconds.
-  path: Assets/!Materials Collection/4 Snow Materials/Materials
-  artifactKey: Guid(6408c8719169e4e458e33b2096c89553) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/!Materials Collection/4 Snow Materials/Materials using Guid(6408c8719169e4e458e33b2096c89553) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '36365731217aaea6b3db50da9a8ed6ba') in 0.019282 seconds 
-  Import took 0.028780 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000305 seconds.
-  path: Assets/!Materials Collection/4 Snow Materials/snow_3_tga.tga
-  artifactKey: Guid(27cfa95353763794dafd1452e4c6b6a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/!Materials Collection/4 Snow Materials/snow_3_tga.tga using Guid(27cfa95353763794dafd1452e4c6b6a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'af20db5ed8f55d3382b98069eaa5c1e3') in 0.075018 seconds 
-  Import took 0.093636 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000283 seconds.
-  path: Assets/!Materials Collection/4 Snow Materials
-  artifactKey: Guid(1126ea60ba7d0fd45848b6f31a5abe0c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/!Materials Collection/4 Snow Materials using Guid(1126ea60ba7d0fd45848b6f31a5abe0c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a59975ff5c64251ab3ad5b09afea9d4b') in 0.020428 seconds 
-  Import took 0.033043 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 468.012610 seconds.
-  path: Assets/StarterAssets/Readme.asset
-  artifactKey: Guid(d6872a7871e66a149bb52681fd1a9ea0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/StarterAssets/Readme.asset using Guid(d6872a7871e66a149bb52681fd1a9ea0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '22e2ed3b16fbe9d16267d782ca819181') in 0.013173 seconds 
-  Import took 0.023130 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.004335 seconds.
-  path: Assets/StarterAssets/Readme.asset
-  artifactKey: Guid(d6872a7871e66a149bb52681fd1a9ea0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/StarterAssets/Readme.asset using Guid(d6872a7871e66a149bb52681fd1a9ea0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '22e2ed3b16fbe9d16267d782ca819181') in 0.004460 seconds 
-  Import took 0.014884 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 8.103338 seconds.
-  path: Assets/Settings/UniversalRenderPipelineAsset.asset
-  artifactKey: Guid(ca51ab8269d7945dd9bbb86c7c9a4ac6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Settings/UniversalRenderPipelineAsset.asset using Guid(ca51ab8269d7945dd9bbb86c7c9a4ac6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2c56e7d9017e1d089ebf25fa1c9f6ba2') in 0.010227 seconds 
-  Import took 0.019770 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000432 seconds.
-  path: Assets/Settings/UniversalRenderPipelineAsset_Renderer.asset
-  artifactKey: Guid(d9e88bdd0f5f0462ebf470d8ea4b285e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Settings/UniversalRenderPipelineAsset_Renderer.asset using Guid(d9e88bdd0f5f0462ebf470d8ea4b285e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '219ffe3ce85fa45acbbbec506c5e65dc') in 0.012871 seconds 
-  Import took 0.022035 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 2.842772 seconds.
-  path: Assets/Scenes/Create_with_VR_Starter_Scene.unity
-  artifactKey: Guid(afdcb113ffd5a4353ad88f0dd03743af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Create_with_VR_Starter_Scene.unity using Guid(afdcb113ffd5a4353ad88f0dd03743af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8f05386034b14506bbee5412d5dfc2b0') in 0.010522 seconds 
-  Import took 0.019379 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.461269 seconds.
-  path: Assets/Scenes/Gym_Scene_With_Furniture.unity
-  artifactKey: Guid(d46de0c8cba20a94aa8cdb2c421ef744) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Gym_Scene_With_Furniture.unity using Guid(d46de0c8cba20a94aa8cdb2c421ef744) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bebe983df85bd8dca19fa71475e5c018') in 0.015492 seconds 
-  Import took 0.025482 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.353212 seconds.
-  path: Assets/Scenes/SampleScene.unity
-  artifactKey: Guid(1e840d93b1c92473f83d910b16b2f458) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/SampleScene.unity using Guid(1e840d93b1c92473f83d910b16b2f458) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '988b355ca4c462264dd0fc2da159521a') in 0.008856 seconds 
-  Import took 0.021296 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 5.471147 seconds.
-  path: Assets/Samples/XR Interaction Toolkit
-  artifactKey: Guid(883928fc95ced4a13a405c0523474128) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Samples/XR Interaction Toolkit using Guid(883928fc95ced4a13a405c0523474128) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '672121970a4ae2bd97cb57113dc259c9') in 0.011761 seconds 
-  Import took 0.022077 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 1.268302 seconds.
-  path: Assets/Samples/XR Interaction Toolkit/1.0.0-pre.3
-  artifactKey: Guid(b5bafc385e6684cfbba5e08a83e2198d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Samples/XR Interaction Toolkit/1.0.0-pre.3 using Guid(b5bafc385e6684cfbba5e08a83e2198d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7079c7c52704da0e0cad3868e234d80b') in 0.009474 seconds 
-  Import took 0.019992 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 1.425744 seconds.
-  path: Assets/Samples/XR Interaction Toolkit/1.0.0-pre.3/Default Input Actions
-  artifactKey: Guid(0c6f181f3999c4336b342d7ce934491a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Samples/XR Interaction Toolkit/1.0.0-pre.3/Default Input Actions using Guid(0c6f181f3999c4336b342d7ce934491a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '97454587a230f127475b2fcaf5228dc2') in 0.008847 seconds 
-  Import took 0.020370 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 9.382518 seconds.
-  path: Assets/GymAssests/Door
-  artifactKey: Guid(52aa7a4696df94b9ca91e8a6f9974f3f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GymAssests/Door using Guid(52aa7a4696df94b9ca91e8a6f9974f3f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c9ca21d2b7604d453996a417445bc7a4') in 0.011421 seconds 
-  Import took 0.023941 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.482794 seconds.
-  path: Assets/GymAssests/Dumbell
-  artifactKey: Guid(32af62984f178496989721181fe66ccc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GymAssests/Dumbell using Guid(32af62984f178496989721181fe66ccc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '51ac0e59b61242841198be69334145f9') in 0.008515 seconds 
-  Import took 0.020649 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.917845 seconds.
-  path: Assets/GymAssests/Locker_room_props
-  artifactKey: Guid(42b0fc209ac3f44f990e200bd1515915) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GymAssests/Locker_room_props using Guid(42b0fc209ac3f44f990e200bd1515915) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7c818f7950a1b0382ff7febf3c72a8ef') in 0.011878 seconds 
-  Import took 0.024986 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.551527 seconds.
-  path: Assets/GymAssests/Stadium lights
-  artifactKey: Guid(1a9e0fcd5daf042929b602434339ef97) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GymAssests/Stadium lights using Guid(1a9e0fcd5daf042929b602434339ef97) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '95dadcc03dfee33a9c2f4dcb6c4ef269') in 0.011352 seconds 
-  Import took 0.023762 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.579826 seconds.
-  path: Assets/GymAssests/uploads-files-669576-aeq3vjprnoqo-Bleachers-1
-  artifactKey: Guid(14a771f143bde4f5e80f4f36eb3e5b99) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GymAssests/uploads-files-669576-aeq3vjprnoqo-Bleachers-1 using Guid(14a771f143bde4f5e80f4f36eb3e5b99) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd22ff2141f22975fec276792c45c3b8f') in 0.011485 seconds 
-  Import took 0.025322 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.515602 seconds.
-  path: Assets/GymAssests/squid-game-pinksoldier-triangle
-  artifactKey: Guid(d8709759e662e4ecf88d706c4fec4ce2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GymAssests/squid-game-pinksoldier-triangle using Guid(d8709759e662e4ecf88d706c4fec4ce2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '16a1fb85868cb1abacb3eaf0a4fcaea0') in 0.011184 seconds 
-  Import took 0.020557 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.534192 seconds.
-  path: Assets/GymAssests/lowpoly-people-waldo
-  artifactKey: Guid(f7cd4efb78a2a4368b79ba43e14ac9a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GymAssests/lowpoly-people-waldo using Guid(f7cd4efb78a2a4368b79ba43e14ac9a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9bf2dd5e6488bd16d0dd56c3bf14a662') in 0.011476 seconds 
-  Import took 0.025886 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 2.994520 seconds.
-  path: Assets/GymAssests/squid-game-pinksoldier-triangle/source
-  artifactKey: Guid(56784a365c27e4eeda963f5f79d27c82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GymAssests/squid-game-pinksoldier-triangle/source using Guid(56784a365c27e4eeda963f5f79d27c82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3cb4a1923d4958249a772c536a02916d') in 0.010313 seconds 
-  Import took 0.019412 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 3.574536 seconds.
-  path: Assets/GymAssests/squid-game-pinksoldier-triangle/source/PinkSoldier_T
-  artifactKey: Guid(e74575a4b9b3d4ed8bc1befd118d1d1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GymAssests/squid-game-pinksoldier-triangle/source/PinkSoldier_T using Guid(e74575a4b9b3d4ed8bc1befd118d1d1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bd1e0f8b375a6084a35c54312864a1bb') in 0.008656 seconds 
-  Import took 0.021843 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 1.482358 seconds.
-  path: Assets/GymAssests/squid-game-pinksoldier-triangle/source/PinkSoldier_T/lambert4sg.mat
-  artifactKey: Guid(96e4557d479e54e85b7391d7556c207f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GymAssests/squid-game-pinksoldier-triangle/source/PinkSoldier_T/lambert4sg.mat using Guid(96e4557d479e54e85b7391d7556c207f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b3586d3b0b9d6e783468054d2a9fb081') in 0.034501 seconds 
-  Import took 0.043372 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000426 seconds.
-  path: Assets/GymAssests/squid-game-pinksoldier-triangle/source/PinkSoldier_T/lambert5sg.mat
-  artifactKey: Guid(c2adf43ba96a04ebea6e093ac847b255) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GymAssests/squid-game-pinksoldier-triangle/source/PinkSoldier_T/lambert5sg.mat using Guid(c2adf43ba96a04ebea6e093ac847b255) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c2bead17b83dbec56ec64fc3d83bc0b0') in 0.020411 seconds 
-  Import took 0.029049 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 181.162795 seconds.
-  path: Assets/GymAssests/Christmas Tree - POLYCRAFT Series
-  artifactKey: Guid(9a0229a36bfa45f429c2036c3d8a4da2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GymAssests/Christmas Tree - POLYCRAFT Series using Guid(9a0229a36bfa45f429c2036c3d8a4da2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd79163580aeaeed2d095221509ad5ff1') in 0.010869 seconds 
-  Import took 0.021506 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 1.303990 seconds.
-  path: Assets/GymAssests/Cartoony Spruces
-  artifactKey: Guid(70ea333275e831040bc6fd07d2c5cd41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GymAssests/Cartoony Spruces using Guid(70ea333275e831040bc6fd07d2c5cd41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ac8be2ce6ce4fb87661ce59985c0d718') in 0.008762 seconds 
-  Import took 0.020626 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 2.272280 seconds.
-  path: Assets/GymAssests/LowPolyChristmasAddOn
-  artifactKey: Guid(0524ecb8ce9744a4ea9f053f2b2395dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GymAssests/LowPolyChristmasAddOn using Guid(0524ecb8ce9744a4ea9f053f2b2395dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e7972c42fad2b30290cda942cf08a79f') in 0.011247 seconds 
-  Import took 0.021188 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 3.997993 seconds.
-  path: Assets/GymAssests/LowPolyChristmasAddOn/Prefabs
-  artifactKey: Guid(d9ed2157311db4fd48ddc8f4af253cec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GymAssests/LowPolyChristmasAddOn/Prefabs using Guid(d9ed2157311db4fd48ddc8f4af253cec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '050d252fa0a8df99c86199c716e3b72f') in 0.009801 seconds 
-  Import took 0.021179 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.026909 seconds.
-  path: Assets/GymAssests/LowPolyChristmasAddOn/Prefabs/Baulble_1.prefab
-  artifactKey: Guid(3c429b8c6ce084d4b89ea219f042085f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GymAssests/LowPolyChristmasAddOn/Prefabs/Baulble_1.prefab using Guid(3c429b8c6ce084d4b89ea219f042085f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '85eec5b8ddb271b02cc7626b988675b8') in 0.045538 seconds 
-  Import took 0.056819 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000389 seconds.
-  path: Assets/GymAssests/LowPolyChristmasAddOn/Prefabs/Present_2.prefab
-  artifactKey: Guid(4d093b2e1263b4a99b3e73dd96f09900) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GymAssests/LowPolyChristmasAddOn/Prefabs/Present_2.prefab using Guid(4d093b2e1263b4a99b3e73dd96f09900) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7e2bb31b473817e2ab2f656942a06d40') in 0.020625 seconds 
-  Import took 0.028616 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000271 seconds.
-  path: Assets/GymAssests/LowPolyChristmasAddOn/Prefabs/Reindeer_2.prefab
-  artifactKey: Guid(11c53011158264e7aa97bf5a5b0d9431) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GymAssests/LowPolyChristmasAddOn/Prefabs/Reindeer_2.prefab using Guid(11c53011158264e7aa97bf5a5b0d9431) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '65e4a5a46feeaa65d6f432b4cd0cc637') in 0.055898 seconds 
-  Import took 0.067290 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000309 seconds.
-  path: Assets/GymAssests/LowPolyChristmasAddOn/Prefabs/Baulble_3.prefab
-  artifactKey: Guid(1660eeb32976e454d809627f2119fc3b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GymAssests/LowPolyChristmasAddOn/Prefabs/Baulble_3.prefab using Guid(1660eeb32976e454d809627f2119fc3b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '490599b80ce564afed63f23b484318f3') in 0.023810 seconds 
-  Import took 0.035028 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000370 seconds.
-  path: Assets/GymAssests/LowPolyChristmasAddOn/Prefabs/Santa_1.prefab
-  artifactKey: Guid(1ff6d88bf1fb14eb8b213452c058b8b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GymAssests/LowPolyChristmasAddOn/Prefabs/Santa_1.prefab using Guid(1ff6d88bf1fb14eb8b213452c058b8b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6ea95a5945578b3451df332b548ffea6') in 0.033024 seconds 
-  Import took 0.044514 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000344 seconds.
-  path: Assets/GymAssests/LowPolyChristmasAddOn/Prefabs/ChristmasTree_2.prefab
-  artifactKey: Guid(cf7d02eaa168e42128a29c552044b43b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GymAssests/LowPolyChristmasAddOn/Prefabs/ChristmasTree_2.prefab using Guid(cf7d02eaa168e42128a29c552044b43b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f925c5f4865a56474341864762b77894') in 0.028558 seconds 
-  Import took 0.041271 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000402 seconds.
-  path: Assets/GymAssests/LowPolyChristmasAddOn/Prefabs/Baulble_2.prefab
-  artifactKey: Guid(eb23cd6ebaff54eb6973b0625061c17a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GymAssests/LowPolyChristmasAddOn/Prefabs/Baulble_2.prefab using Guid(eb23cd6ebaff54eb6973b0625061c17a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '51ee5274db1de39b874f0331ef6c6fe3') in 0.028849 seconds 
-  Import took 0.038548 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000380 seconds.
-  path: Assets/GymAssests/LowPolyChristmasAddOn/Prefabs/Reindeer_1.prefab
-  artifactKey: Guid(9ea59d4af0ba3453db9381fe65c198eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GymAssests/LowPolyChristmasAddOn/Prefabs/Reindeer_1.prefab using Guid(9ea59d4af0ba3453db9381fe65c198eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ef103e90f141551ae79416abd45caccd') in 0.038515 seconds 
-  Import took 0.050932 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000451 seconds.
-  path: Assets/GymAssests/LowPolyChristmasAddOn/Prefabs/Sled_1.prefab
-  artifactKey: Guid(df9d49d8481a84e2f838d4596a6c067d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GymAssests/LowPolyChristmasAddOn/Prefabs/Sled_1.prefab using Guid(df9d49d8481a84e2f838d4596a6c067d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'af44cd5d012a1de0bd78c9510a8352b2') in 0.026819 seconds 
-  Import took 0.038641 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000459 seconds.
-  path: Assets/GymAssests/LowPolyChristmasAddOn/Prefabs/SnowFort.prefab
-  artifactKey: Guid(81cc26717873bcb44838859507b63b29) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GymAssests/LowPolyChristmasAddOn/Prefabs/SnowFort.prefab using Guid(81cc26717873bcb44838859507b63b29) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '344d95d2f4d51e817772cee6d75a15b6') in 0.025237 seconds 
-  Import took 0.037322 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000356 seconds.
-  path: Assets/GymAssests/LowPolyChristmasAddOn/Prefabs/Present_1.prefab
-  artifactKey: Guid(02f6cae68c1ba40c69523ff2fe4ead57) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GymAssests/LowPolyChristmasAddOn/Prefabs/Present_1.prefab using Guid(02f6cae68c1ba40c69523ff2fe4ead57) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ca33a89fcda99fbcc32eed528d73f51d') in 0.032143 seconds 
-  Import took 0.042109 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000305 seconds.
-  path: Assets/GymAssests/LowPolyChristmasAddOn/Prefabs/ChristmasTree_1.prefab
-  artifactKey: Guid(b25211b045fb34182b8a55cc50a51c78) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GymAssests/LowPolyChristmasAddOn/Prefabs/ChristmasTree_1.prefab using Guid(b25211b045fb34182b8a55cc50a51c78) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6165c5b8f19c61998d9c98c9ddc58334') in 0.023963 seconds 
-  Import took 0.036540 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000800 seconds.
-  path: Assets/GymAssests/LowPolyChristmasAddOn/Prefabs/Snowman.prefab
-  artifactKey: Guid(e7ff701baaebe4928b99c0f48f5346a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GymAssests/LowPolyChristmasAddOn/Prefabs/Snowman.prefab using Guid(e7ff701baaebe4928b99c0f48f5346a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b770d0409d86e49d884cc9e581336080') in 0.029703 seconds 
-  Import took 0.041455 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000312 seconds.
-  path: Assets/GymAssests/LowPolyChristmasAddOn/Prefabs/Sock_1.prefab
-  artifactKey: Guid(b06c189a397e9443e8f17ed75630cec5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GymAssests/LowPolyChristmasAddOn/Prefabs/Sock_1.prefab using Guid(b06c189a397e9443e8f17ed75630cec5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1bf08fe7efacc3f68d0a9de5ca6c5808') in 0.023734 seconds 
-  Import took 0.034787 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 86.070199 seconds.
-  path: Assets/GymAssests/dodgeball_v1_L3.123c8c280b2b-fcd4-4a87-a19a-2ce7b74dddb1
-  artifactKey: Guid(20e51bab9ac6c45649662a0ff7a54e80) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GymAssests/dodgeball_v1_L3.123c8c280b2b-fcd4-4a87-a19a-2ce7b74dddb1 using Guid(20e51bab9ac6c45649662a0ff7a54e80) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9bbd60ceb3ccbf8ba20feecb4a6da412') in 0.013345 seconds 
-  Import took 0.023484 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.367457 seconds.
-  path: Assets/GymAssests/cone
-  artifactKey: Guid(e340b753feb7440ea8ae8b9694e56782) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GymAssests/cone using Guid(e340b753feb7440ea8ae8b9694e56782) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e72aa3478aebcf4346b9099bdf145f45') in 0.008659 seconds 
-  Import took 0.022786 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 3.501088 seconds.
-  path: Assets/GymAssests/Christmas Tree - POLYCRAFT Series/Prefab
-  artifactKey: Guid(cf69ef778cd69ba4ea4a73e2a85d024f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GymAssests/Christmas Tree - POLYCRAFT Series/Prefab using Guid(cf69ef778cd69ba4ea4a73e2a85d024f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd37b97d0b49b071fb0487d275351b7b6') in 0.011500 seconds 
-  Import took 0.020375 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.004651 seconds.
-  path: Assets/GymAssests/Christmas Tree - POLYCRAFT Series/Prefab/Christmas_Ball_00.prefab
-  artifactKey: Guid(346f449c586a86f4e8f51c9bfc6f8ac0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GymAssests/Christmas Tree - POLYCRAFT Series/Prefab/Christmas_Ball_00.prefab using Guid(346f449c586a86f4e8f51c9bfc6f8ac0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4f6402f3a6f3eaff76ad8fbe2b5d8d53') in 0.384160 seconds 
-  Import took 0.394186 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000318 seconds.
-  path: Assets/GymAssests/Christmas Tree - POLYCRAFT Series/Prefab/Present_Box_Color_07.prefab
-  artifactKey: Guid(3a5b959c62c28874f8f62743998675f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GymAssests/Christmas Tree - POLYCRAFT Series/Prefab/Present_Box_Color_07.prefab using Guid(3a5b959c62c28874f8f62743998675f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7a2db56d8deb3625149af5adfebfd855') in 0.043081 seconds 
-  Import took 0.055663 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000693 seconds.
-  path: Assets/GymAssests/Christmas Tree - POLYCRAFT Series/Prefab/Present_Box_Color_20.prefab
-  artifactKey: Guid(70c5432535f63da449237048e8a3ba7d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GymAssests/Christmas Tree - POLYCRAFT Series/Prefab/Present_Box_Color_20.prefab using Guid(70c5432535f63da449237048e8a3ba7d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9a2f4ad5513d8448c8a5dcc86bb79b6a') in 0.041260 seconds 
-  Import took 0.057429 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000337 seconds.
-  path: Assets/GymAssests/Christmas Tree - POLYCRAFT Series/Prefab/Christmas_Candy_03.prefab
-  artifactKey: Guid(a6803f38f5492a846a254a30a359f917) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GymAssests/Christmas Tree - POLYCRAFT Series/Prefab/Christmas_Candy_03.prefab using Guid(a6803f38f5492a846a254a30a359f917) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dac2906561f0853f91bd186aa6d170cd') in 0.045469 seconds 
-  Import took 0.056792 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000294 seconds.
-  path: Assets/GymAssests/Christmas Tree - POLYCRAFT Series/Prefab/Present_Box_Color_08.prefab
-  artifactKey: Guid(fb34890fd8bd962449d2a7899f98994a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GymAssests/Christmas Tree - POLYCRAFT Series/Prefab/Present_Box_Color_08.prefab using Guid(fb34890fd8bd962449d2a7899f98994a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dfd24ed445740ba5ae90b82d2285b7af') in 0.024595 seconds 
-  Import took 0.038794 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000280 seconds.
-  path: Assets/GymAssests/Christmas Tree - POLYCRAFT Series/Prefab/Christmas_Ball_01.prefab
-  artifactKey: Guid(2b77c0dac663d2f41b92953df12127da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GymAssests/Christmas Tree - POLYCRAFT Series/Prefab/Christmas_Ball_01.prefab using Guid(2b77c0dac663d2f41b92953df12127da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0e25ce72399b40983546b8162e32407f') in 0.025121 seconds 
-  Import took 0.035517 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000282 seconds.
-  path: Assets/GymAssests/Christmas Tree - POLYCRAFT Series/Prefab/Christmas_Ball_05.prefab
-  artifactKey: Guid(7ad324a9f0845a248a5ee8baff2855a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GymAssests/Christmas Tree - POLYCRAFT Series/Prefab/Christmas_Ball_05.prefab using Guid(7ad324a9f0845a248a5ee8baff2855a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dd599e8e00bd5895a06fa0d881f442d3') in 0.049134 seconds 
-  Import took 0.057296 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000250 seconds.
-  path: Assets/GymAssests/Christmas Tree - POLYCRAFT Series/Prefab/Christmas_Ball_08.prefab
-  artifactKey: Guid(9524b77da7900e2448a2bbf6302deb30) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GymAssests/Christmas Tree - POLYCRAFT Series/Prefab/Christmas_Ball_08.prefab using Guid(9524b77da7900e2448a2bbf6302deb30) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1c09b8342e528aef43b821e9df280072') in 0.024148 seconds 
-  Import took 0.034784 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000350 seconds.
-  path: Assets/GymAssests/Christmas Tree - POLYCRAFT Series/Prefab/Present_Box_Color_19.prefab
-  artifactKey: Guid(e9b16bb6557cb23408c80012a5c723c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GymAssests/Christmas Tree - POLYCRAFT Series/Prefab/Present_Box_Color_19.prefab using Guid(e9b16bb6557cb23408c80012a5c723c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '55bbf5315b8b274300d7d2fdd2cb9f81') in 0.026852 seconds 
-  Import took 0.038071 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000311 seconds.
-  path: Assets/GymAssests/Christmas Tree - POLYCRAFT Series/Prefab/Christmas_Candy_01.prefab
-  artifactKey: Guid(e7b730946c7cdbb41bc1d7911633430b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GymAssests/Christmas Tree - POLYCRAFT Series/Prefab/Christmas_Candy_01.prefab using Guid(e7b730946c7cdbb41bc1d7911633430b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '93d0302688d49b01e9b3005b416f8bd7') in 0.028903 seconds 
-  Import took 0.038784 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000322 seconds.
-  path: Assets/GymAssests/Christmas Tree - POLYCRAFT Series/Prefab/Present_Box_Color_13.prefab
-  artifactKey: Guid(6869916e3b1b09e46bfc0ed02ccb919f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GymAssests/Christmas Tree - POLYCRAFT Series/Prefab/Present_Box_Color_13.prefab using Guid(6869916e3b1b09e46bfc0ed02ccb919f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fa98383fc58b960353ed6f840b930e82') in 0.030216 seconds 
-  Import took 0.044570 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000297 seconds.
-  path: Assets/GymAssests/Christmas Tree - POLYCRAFT Series/Prefab/Present_Box_Color_24.prefab
-  artifactKey: Guid(f255d0a692f8d2c40b224e172fd3ac25) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GymAssests/Christmas Tree - POLYCRAFT Series/Prefab/Present_Box_Color_24.prefab using Guid(f255d0a692f8d2c40b224e172fd3ac25) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6548ae66b275e553d2050cbad1278888') in 0.032630 seconds 
-  Import took 0.043526 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000462 seconds.
-  path: Assets/GymAssests/Christmas Tree - POLYCRAFT Series/Prefab/Present_Box_Color_14.prefab
-  artifactKey: Guid(fe25c0d88cbc9dd43a08fe5027ab4e45) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GymAssests/Christmas Tree - POLYCRAFT Series/Prefab/Present_Box_Color_14.prefab using Guid(fe25c0d88cbc9dd43a08fe5027ab4e45) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '11e723315f1ec55cfb6e639babd357f4') in 0.030573 seconds 
-  Import took 0.042676 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000339 seconds.
-  path: Assets/GymAssests/Christmas Tree - POLYCRAFT Series/Prefab/Present_Box_Color_18.prefab
-  artifactKey: Guid(b2ba9e6c551e7aa439651a3173a37d51) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GymAssests/Christmas Tree - POLYCRAFT Series/Prefab/Present_Box_Color_18.prefab using Guid(b2ba9e6c551e7aa439651a3173a37d51) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4167d3461b30cd00d1bd430ed21d0de7') in 0.040535 seconds 
-  Import took 0.049285 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000314 seconds.
-  path: Assets/GymAssests/Christmas Tree - POLYCRAFT Series/Prefab/Christmas_Ball_03.prefab
-  artifactKey: Guid(d24a2ef07343af2459b251fc9b9e1db8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GymAssests/Christmas Tree - POLYCRAFT Series/Prefab/Christmas_Ball_03.prefab using Guid(d24a2ef07343af2459b251fc9b9e1db8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3043bc5a9af32e95d8ecf066b98e4c2c') in 0.026683 seconds 
-  Import took 0.037572 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000318 seconds.
-  path: Assets/GymAssests/Christmas Tree - POLYCRAFT Series/Prefab/Present_Box_Color_02.prefab
-  artifactKey: Guid(fe19fd958f2734f4790174a5fdd95766) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GymAssests/Christmas Tree - POLYCRAFT Series/Prefab/Present_Box_Color_02.prefab using Guid(fe19fd958f2734f4790174a5fdd95766) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3e07a1b762fdc1075bc85ca6f329c89a') in 0.028660 seconds 
-  Import took 0.039462 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000232 seconds.
-  path: Assets/GymAssests/Christmas Tree - POLYCRAFT Series/Prefab/Present_Box_Color_12.prefab
-  artifactKey: Guid(1e4b3bd06e444e54f9a6c16f68a246ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GymAssests/Christmas Tree - POLYCRAFT Series/Prefab/Present_Box_Color_12.prefab using Guid(1e4b3bd06e444e54f9a6c16f68a246ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '77b8307cd75074bd4d736f28d8d824fa') in 0.032205 seconds 
-  Import took 0.042374 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000236 seconds.
-  path: Assets/GymAssests/Christmas Tree - POLYCRAFT Series/Prefab/Christmas_Ball_10.prefab
-  artifactKey: Guid(5424cda683fac0e4ea61e5245094a7e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GymAssests/Christmas Tree - POLYCRAFT Series/Prefab/Christmas_Ball_10.prefab using Guid(5424cda683fac0e4ea61e5245094a7e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '99e7f41abca53cd3fbf67b8c9e87c96c') in 0.026723 seconds 
-  Import took 0.041397 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000268 seconds.
-  path: Assets/GymAssests/Christmas Tree - POLYCRAFT Series/Prefab/Christmas_Tree_V1_02.prefab
-  artifactKey: Guid(efa4e11be813d88499e5168a198b52ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GymAssests/Christmas Tree - POLYCRAFT Series/Prefab/Christmas_Tree_V1_02.prefab using Guid(efa4e11be813d88499e5168a198b52ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '336bd2e92a19dfc4aec66323948135e5') in 0.031827 seconds 
-  Import took 0.042368 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000650 seconds.
-  path: Assets/GymAssests/Christmas Tree - POLYCRAFT Series/Prefab/Christmas_Tree_V1_01.prefab
-  artifactKey: Guid(a149a3c00d359414489dc7172643c85c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GymAssests/Christmas Tree - POLYCRAFT Series/Prefab/Christmas_Tree_V1_01.prefab using Guid(a149a3c00d359414489dc7172643c85c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '810d8630b2625e6079f17a05b60e7e12') in 0.037167 seconds 
-  Import took 0.048196 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000274 seconds.
-  path: Assets/GymAssests/Christmas Tree - POLYCRAFT Series/Prefab/Present_Box_Color_06.prefab
-  artifactKey: Guid(762715794c4733f4b9a55580ca38cdae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GymAssests/Christmas Tree - POLYCRAFT Series/Prefab/Present_Box_Color_06.prefab using Guid(762715794c4733f4b9a55580ca38cdae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ea9f3e4641b83e6b2cf6a1ba3e791478') in 0.025134 seconds 
-  Import took 0.042001 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000326 seconds.
-  path: Assets/GymAssests/Christmas Tree - POLYCRAFT Series/Prefab/Christmas_Tree_V1_00.prefab
-  artifactKey: Guid(8044f7fc9e0fa3247bf5b7e686882aab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GymAssests/Christmas Tree - POLYCRAFT Series/Prefab/Christmas_Tree_V1_00.prefab using Guid(8044f7fc9e0fa3247bf5b7e686882aab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '189109a8c0218f081e15b4deff0f18b0') in 0.033298 seconds 
-  Import took 0.044593 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000351 seconds.
-  path: Assets/GymAssests/Christmas Tree - POLYCRAFT Series/Prefab/Present_Box_Color_27.prefab
-  artifactKey: Guid(ed42f75bf676ab6459f98e96249d78eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GymAssests/Christmas Tree - POLYCRAFT Series/Prefab/Present_Box_Color_27.prefab using Guid(ed42f75bf676ab6459f98e96249d78eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fbbbe7b432dd0f0a68d965266d1960b8') in 0.029522 seconds 
-  Import took 0.040390 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000260 seconds.
-  path: Assets/GymAssests/Christmas Tree - POLYCRAFT Series/Prefab/Present_Box_Color_16.prefab
-  artifactKey: Guid(307a3c2cd859c074dad96a275a69cbe0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GymAssests/Christmas Tree - POLYCRAFT Series/Prefab/Present_Box_Color_16.prefab using Guid(307a3c2cd859c074dad96a275a69cbe0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b5aa68d3d0cf462ec3d521c0bd8107d0') in 0.029237 seconds 
-  Import took 0.038886 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000676 seconds.
-  path: Assets/GymAssests/Christmas Tree - POLYCRAFT Series/Prefab/Present_Box_Color_21.prefab
-  artifactKey: Guid(532e45e2b1451f54b83cdd129a719fac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GymAssests/Christmas Tree - POLYCRAFT Series/Prefab/Present_Box_Color_21.prefab using Guid(532e45e2b1451f54b83cdd129a719fac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '852551a834302c5397bedc9a1929d33e') in 0.033149 seconds 
-  Import took 0.047207 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000276 seconds.
-  path: Assets/GymAssests/Christmas Tree - POLYCRAFT Series/Prefab/Christmas_Tree_V1_03.prefab
-  artifactKey: Guid(305a3bd1e0115c34ca3c0d0d4089a556) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GymAssests/Christmas Tree - POLYCRAFT Series/Prefab/Christmas_Tree_V1_03.prefab using Guid(305a3bd1e0115c34ca3c0d0d4089a556) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd2bb6fc65970efa945033902341f0a50') in 0.025427 seconds 
-  Import took 0.038069 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000345 seconds.
-  path: Assets/GymAssests/Christmas Tree - POLYCRAFT Series/Prefab/Present_Box_Color_26.prefab
-  artifactKey: Guid(7b7ae72c181ad9f4ba646ba6e1127f46) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GymAssests/Christmas Tree - POLYCRAFT Series/Prefab/Present_Box_Color_26.prefab using Guid(7b7ae72c181ad9f4ba646ba6e1127f46) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b74ad8325073a3b2c02c4fa1ae97f7e5') in 0.031642 seconds 
-  Import took 0.042601 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000404 seconds.
-  path: Assets/GymAssests/Christmas Tree - POLYCRAFT Series/Prefab/Christmas_Candy_00.prefab
-  artifactKey: Guid(9d21682eb45dd044a9a0d26d5352f4e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GymAssests/Christmas Tree - POLYCRAFT Series/Prefab/Christmas_Candy_00.prefab using Guid(9d21682eb45dd044a9a0d26d5352f4e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '77c310e31f7e493b84370d6b15a911e5') in 0.027366 seconds 
-  Import took 0.044787 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000359 seconds.
-  path: Assets/GymAssests/Christmas Tree - POLYCRAFT Series/Prefab/Present_Box_Color_04.prefab
-  artifactKey: Guid(555a450a413ce924ea367d43a02f44b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GymAssests/Christmas Tree - POLYCRAFT Series/Prefab/Present_Box_Color_04.prefab using Guid(555a450a413ce924ea367d43a02f44b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5b9392fdf434f9881689e0394885ffd5') in 0.033261 seconds 
-  Import took 0.043790 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000410 seconds.
-  path: Assets/GymAssests/Christmas Tree - POLYCRAFT Series/Prefab/Christmas_Tree_V2_02.prefab
-  artifactKey: Guid(4cacccd5d9dccc34c8c6b23b442b88de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GymAssests/Christmas Tree - POLYCRAFT Series/Prefab/Christmas_Tree_V2_02.prefab using Guid(4cacccd5d9dccc34c8c6b23b442b88de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4ea4ec79b609a2549e593b87fb70de59') in 0.027257 seconds 
-  Import took 0.038074 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000285 seconds.
-  path: Assets/GymAssests/Christmas Tree - POLYCRAFT Series/Prefab/Christmas_Ball_02.prefab
-  artifactKey: Guid(2f08d5b8aacce504d887fa1fbbe63524) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GymAssests/Christmas Tree - POLYCRAFT Series/Prefab/Christmas_Ball_02.prefab using Guid(2f08d5b8aacce504d887fa1fbbe63524) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c7c02f18219fb8301541251ad74cea72') in 0.028587 seconds 
-  Import took 0.038103 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000321 seconds.
-  path: Assets/GymAssests/Christmas Tree - POLYCRAFT Series/Prefab/Present_Box_Color_01.prefab
-  artifactKey: Guid(d5ee025fccaa3e0449da6f09552d2d88) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GymAssests/Christmas Tree - POLYCRAFT Series/Prefab/Present_Box_Color_01.prefab using Guid(d5ee025fccaa3e0449da6f09552d2d88) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3a3fbc57a702cb968c658a253fe94ec2') in 0.025192 seconds 
-  Import took 0.039832 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000358 seconds.
-  path: Assets/GymAssests/Christmas Tree - POLYCRAFT Series/Prefab/Present_Box_Color_22.prefab
-  artifactKey: Guid(6d28f1735c7a56b4c9f7f52f843aa404) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GymAssests/Christmas Tree - POLYCRAFT Series/Prefab/Present_Box_Color_22.prefab using Guid(6d28f1735c7a56b4c9f7f52f843aa404) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5f0ce575a81eb4d8b9ba890cef84238f') in 0.030452 seconds 
-  Import took 0.039917 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000296 seconds.
-  path: Assets/GymAssests/Christmas Tree - POLYCRAFT Series/Prefab/Present_Box_Color_09.prefab
-  artifactKey: Guid(361cec857fb1c5f46a6d37b48a69f54a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GymAssests/Christmas Tree - POLYCRAFT Series/Prefab/Present_Box_Color_09.prefab using Guid(361cec857fb1c5f46a6d37b48a69f54a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '32cf2563d08481dbbe0ee27cf7240754') in 0.030436 seconds 
-  Import took 0.040960 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000355 seconds.
-  path: Assets/GymAssests/Christmas Tree - POLYCRAFT Series/Prefab/Christmas_Ball_09.prefab
-  artifactKey: Guid(998fb6df537612b4b93fd1efbbb9c4a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GymAssests/Christmas Tree - POLYCRAFT Series/Prefab/Christmas_Ball_09.prefab using Guid(998fb6df537612b4b93fd1efbbb9c4a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cca4dce16951099b6eb04b60124a572b') in 0.027773 seconds 
-  Import took 0.038730 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000484 seconds.
-  path: Assets/GymAssests/Christmas Tree - POLYCRAFT Series/Prefab/Christmas_Candy_02.prefab
-  artifactKey: Guid(5cfbdf185452a6c46bb39eec1b9f4a2e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GymAssests/Christmas Tree - POLYCRAFT Series/Prefab/Christmas_Candy_02.prefab using Guid(5cfbdf185452a6c46bb39eec1b9f4a2e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a27b9e6e74aaeb58a43fffcdef1ef409') in 0.029017 seconds 
-  Import took 0.037825 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000191 seconds.
-  path: Assets/GymAssests/Christmas Tree - POLYCRAFT Series/Prefab/Present_Box_Color_04 1.prefab
-  artifactKey: Guid(ab896dfd109dd3145b17e20231e4cb44) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GymAssests/Christmas Tree - POLYCRAFT Series/Prefab/Present_Box_Color_04 1.prefab using Guid(ab896dfd109dd3145b17e20231e4cb44) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3bebd5944941344e76853638cb424691') in 0.028713 seconds 
-  Import took 0.040355 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000378 seconds.
-  path: Assets/GymAssests/Christmas Tree - POLYCRAFT Series/Prefab/Christmas_Ball_11.prefab
-  artifactKey: Guid(f11f4656aaf62da41838106c00951a0c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GymAssests/Christmas Tree - POLYCRAFT Series/Prefab/Christmas_Ball_11.prefab using Guid(f11f4656aaf62da41838106c00951a0c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '84a64e44d0b6dfd3cc8bbd4023472ab9') in 0.029169 seconds 
-  Import took 0.039384 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000368 seconds.
-  path: Assets/GymAssests/Christmas Tree - POLYCRAFT Series/Prefab/Christmas_Tree_V2_01.prefab
-  artifactKey: Guid(5edc51b46fc40044e8bba94ecb7a8a59) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GymAssests/Christmas Tree - POLYCRAFT Series/Prefab/Christmas_Tree_V2_01.prefab using Guid(5edc51b46fc40044e8bba94ecb7a8a59) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd971213f1cadafbbfff0082354aef8fb') in 0.030947 seconds 
-  Import took 0.043655 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000348 seconds.
-  path: Assets/GymAssests/Christmas Tree - POLYCRAFT Series/Prefab/Christmas_Candy_04.prefab
-  artifactKey: Guid(1ed533a8c248eac4299454be839f4bd2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GymAssests/Christmas Tree - POLYCRAFT Series/Prefab/Christmas_Candy_04.prefab using Guid(1ed533a8c248eac4299454be839f4bd2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cea0f8ef9553248c418e8d9c496fa757') in 0.028453 seconds 
-  Import took 0.036227 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000281 seconds.
-  path: Assets/GymAssests/Christmas Tree - POLYCRAFT Series/Prefab/Present_Box_Color_25.prefab
-  artifactKey: Guid(e60e2532315275146ba186b0e3797c9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GymAssests/Christmas Tree - POLYCRAFT Series/Prefab/Present_Box_Color_25.prefab using Guid(e60e2532315275146ba186b0e3797c9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '50b67d8e104dd6a1e5fc96b2a101c4d6') in 0.026757 seconds 
-  Import took 0.036805 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000291 seconds.
-  path: Assets/GymAssests/Christmas Tree - POLYCRAFT Series/Prefab/Present_Box_Color_37.prefab
-  artifactKey: Guid(cc25c1885b05e9b48b0b5fbc56fca8e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GymAssests/Christmas Tree - POLYCRAFT Series/Prefab/Present_Box_Color_37.prefab using Guid(cc25c1885b05e9b48b0b5fbc56fca8e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b5255d7a1e18ec355b7e7148b58bc70e') in 0.029479 seconds 
-  Import took 0.045435 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000302 seconds.
-  path: Assets/GymAssests/Christmas Tree - POLYCRAFT Series/Prefab/Present_Box_Pattern_14.prefab
-  artifactKey: Guid(716743d40d1cca548b2533dd7a08f2c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GymAssests/Christmas Tree - POLYCRAFT Series/Prefab/Present_Box_Pattern_14.prefab using Guid(716743d40d1cca548b2533dd7a08f2c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '61e360f4bbb0c0fd837536b4ade81c64') in 0.034687 seconds 
-  Import took 0.046372 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000264 seconds.
-  path: Assets/GymAssests/Christmas Tree - POLYCRAFT Series/Prefab/Present_Box_Pattern_02.prefab
-  artifactKey: Guid(ad7c75d83e40ee741a8618b123700c88) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GymAssests/Christmas Tree - POLYCRAFT Series/Prefab/Present_Box_Pattern_02.prefab using Guid(ad7c75d83e40ee741a8618b123700c88) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '093db058d4f11919146c209d6d724420') in 0.032709 seconds 
-  Import took 0.041424 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000448 seconds.
-  path: Assets/GymAssests/Christmas Tree - POLYCRAFT Series/Prefab/Present_Box_Pattern_17.prefab
-  artifactKey: Guid(261868f3859344243b0d74ff1baa5702) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GymAssests/Christmas Tree - POLYCRAFT Series/Prefab/Present_Box_Pattern_17.prefab using Guid(261868f3859344243b0d74ff1baa5702) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'df3f5120f0b5dea7408340788217ebdb') in 0.022784 seconds 
-  Import took 0.039188 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000355 seconds.
-  path: Assets/GymAssests/Christmas Tree - POLYCRAFT Series/Prefab/Present_Box_Pattern_19.prefab
-  artifactKey: Guid(9efa6b44b0aa11040ab7a1f7d121d4d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GymAssests/Christmas Tree - POLYCRAFT Series/Prefab/Present_Box_Pattern_19.prefab using Guid(9efa6b44b0aa11040ab7a1f7d121d4d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '109c1d444b109857986497b02a60a444') in 0.029587 seconds 
-  Import took 0.039921 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000393 seconds.
-  path: Assets/GymAssests/Christmas Tree - POLYCRAFT Series/Prefab/Present_Box_Pattern_07.prefab
-  artifactKey: Guid(63c37c4093edcd847a5b4a1c23fe7581) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GymAssests/Christmas Tree - POLYCRAFT Series/Prefab/Present_Box_Pattern_07.prefab using Guid(63c37c4093edcd847a5b4a1c23fe7581) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '62d4a0f4eda280c97e3202f581743cef') in 0.030634 seconds 
-  Import took 0.042216 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000359 seconds.
-  path: Assets/GymAssests/Christmas Tree - POLYCRAFT Series/Prefab/Present_Box_Pattern_04.prefab
-  artifactKey: Guid(513d64f078b524d4f858b5628fd4faf4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GymAssests/Christmas Tree - POLYCRAFT Series/Prefab/Present_Box_Pattern_04.prefab using Guid(513d64f078b524d4f858b5628fd4faf4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '39757dab950c32f1d87b8e76f08af08e') in 0.035112 seconds 
-  Import took 0.044013 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000339 seconds.
-  path: Assets/GymAssests/Christmas Tree - POLYCRAFT Series/Prefab/Present_Box_Pattern_15.prefab
-  artifactKey: Guid(cc3c33d818d87a744a79f9b51f32cc39) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GymAssests/Christmas Tree - POLYCRAFT Series/Prefab/Present_Box_Pattern_15.prefab using Guid(cc3c33d818d87a744a79f9b51f32cc39) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd8239c737827f8835cf3f96225bff3df') in 0.028017 seconds 
-  Import took 0.043887 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000336 seconds.
-  path: Assets/GymAssests/Christmas Tree - POLYCRAFT Series/Prefab/Present_Box_Color_30.prefab
-  artifactKey: Guid(e5b7c36b701cce94c9c8a11137907de1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GymAssests/Christmas Tree - POLYCRAFT Series/Prefab/Present_Box_Color_30.prefab using Guid(e5b7c36b701cce94c9c8a11137907de1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e106812068173fb40f66453da63c41ef') in 0.034917 seconds 
-  Import took 0.045838 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000302 seconds.
-  path: Assets/GymAssests/Christmas Tree - POLYCRAFT Series/Prefab/Present_Box_Pattern_13.prefab
-  artifactKey: Guid(5617dddda1a105142993ff1d528361cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GymAssests/Christmas Tree - POLYCRAFT Series/Prefab/Present_Box_Pattern_13.prefab using Guid(5617dddda1a105142993ff1d528361cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '789d3645c815426a196dfc24eae1ab8c') in 0.029443 seconds 
-  Import took 0.039999 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000368 seconds.
-  path: Assets/GymAssests/Christmas Tree - POLYCRAFT Series/Prefab/Present_Box_Pattern_16.prefab
-  artifactKey: Guid(9a87783eafdf17849bbb9e412b93d7e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GymAssests/Christmas Tree - POLYCRAFT Series/Prefab/Present_Box_Pattern_16.prefab using Guid(9a87783eafdf17849bbb9e412b93d7e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2efde9b533edc24d1771c7464ac1cb6b') in 0.026358 seconds 
-  Import took 0.040877 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000350 seconds.
-  path: Assets/GymAssests/Christmas Tree - POLYCRAFT Series/Prefab/Present_Box_Pattern_09.prefab
-  artifactKey: Guid(bbc0b525f1af03149958fc57163108a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GymAssests/Christmas Tree - POLYCRAFT Series/Prefab/Present_Box_Pattern_09.prefab using Guid(bbc0b525f1af03149958fc57163108a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd1e1e8247dc90d5395f7fd043213a9fc') in 0.028117 seconds 
-  Import took 0.040015 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000253 seconds.
-  path: Assets/GymAssests/Christmas Tree - POLYCRAFT Series/Prefab/Present_Box_Color_39.prefab
-  artifactKey: Guid(ac8c492e4962b5d4e84242b9d94b820e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GymAssests/Christmas Tree - POLYCRAFT Series/Prefab/Present_Box_Color_39.prefab using Guid(ac8c492e4962b5d4e84242b9d94b820e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '338c38481dcf8d8302316420f147d2fc') in 0.031011 seconds 
-  Import took 0.045038 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000275 seconds.
-  path: Assets/GymAssests/Christmas Tree - POLYCRAFT Series/Prefab/Present_Box_Pattern_01.prefab
-  artifactKey: Guid(f23119363d685014b95bf265d8d77bd9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GymAssests/Christmas Tree - POLYCRAFT Series/Prefab/Present_Box_Pattern_01.prefab using Guid(f23119363d685014b95bf265d8d77bd9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c5f77660ec2a583752e43ad658524bb3') in 0.029278 seconds 
-  Import took 0.041463 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000320 seconds.
-  path: Assets/GymAssests/Christmas Tree - POLYCRAFT Series/Prefab/Present_Box_Color_36.prefab
-  artifactKey: Guid(d39d5d8e3ac3376488b9ea6780ef8078) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GymAssests/Christmas Tree - POLYCRAFT Series/Prefab/Present_Box_Color_36.prefab using Guid(d39d5d8e3ac3376488b9ea6780ef8078) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4cfee8394365a5fe3b8a63b799adc907') in 0.036272 seconds 
-  Import took 0.048613 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000306 seconds.
-  path: Assets/GymAssests/Christmas Tree - POLYCRAFT Series/Prefab/Present_Box_Pattern_11.prefab
-  artifactKey: Guid(ff8425c20040d494cb13f372bf50908a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GymAssests/Christmas Tree - POLYCRAFT Series/Prefab/Present_Box_Pattern_11.prefab using Guid(ff8425c20040d494cb13f372bf50908a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0cab6dd059f6e7dfef3d9098ab7ad3eb') in 0.039409 seconds 
-  Import took 0.050926 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000341 seconds.
-  path: Assets/GymAssests/Christmas Tree - POLYCRAFT Series/Prefab/Present_Box_Pattern_10.prefab
-  artifactKey: Guid(28d886e6797252541ab4e4f45a09ff87) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GymAssests/Christmas Tree - POLYCRAFT Series/Prefab/Present_Box_Pattern_10.prefab using Guid(28d886e6797252541ab4e4f45a09ff87) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f0c1d1733a98f76cace5ea22e1dd68c3') in 0.045385 seconds 
-  Import took 0.057466 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000299 seconds.
-  path: Assets/GymAssests/Christmas Tree - POLYCRAFT Series/Prefab/Present_Box_Color_34.prefab
-  artifactKey: Guid(74757dd22bf15bb4280170057dc716d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GymAssests/Christmas Tree - POLYCRAFT Series/Prefab/Present_Box_Color_34.prefab using Guid(74757dd22bf15bb4280170057dc716d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f60e15fb188b8c2b337857559671e39d') in 0.025385 seconds 
-  Import took 0.035753 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000320 seconds.
-  path: Assets/GymAssests/Christmas Tree - POLYCRAFT Series/Prefab/Present_Box_Color_38.prefab
-  artifactKey: Guid(c98fbdb086d60a24b834c934ac6f2840) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GymAssests/Christmas Tree - POLYCRAFT Series/Prefab/Present_Box_Color_38.prefab using Guid(c98fbdb086d60a24b834c934ac6f2840) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dd37f91872db8a1c0f1f10e5a0c572fb') in 0.029427 seconds 
-  Import took 0.038685 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000365 seconds.
-  path: Assets/GymAssests/Christmas Tree - POLYCRAFT Series/Prefab/Present_Box_Color_28.prefab
-  artifactKey: Guid(4fe10d487d0dd3445abd97c1b1934c49) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GymAssests/Christmas Tree - POLYCRAFT Series/Prefab/Present_Box_Color_28.prefab using Guid(4fe10d487d0dd3445abd97c1b1934c49) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '10db02ec17dbafb7461fdff072936040') in 0.037679 seconds 
-  Import took 0.051196 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000349 seconds.
-  path: Assets/GymAssests/Christmas Tree - POLYCRAFT Series/Prefab/Present_Box_Pattern_00.prefab
-  artifactKey: Guid(a79c1eeb0046f3840bb1bc75ea29b793) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GymAssests/Christmas Tree - POLYCRAFT Series/Prefab/Present_Box_Pattern_00.prefab using Guid(a79c1eeb0046f3840bb1bc75ea29b793) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '28b5a17824e9fa980fccf2daa6f5e60a') in 0.031282 seconds 
-  Import took 0.041464 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000284 seconds.
-  path: Assets/GymAssests/Christmas Tree - POLYCRAFT Series/Prefab/Present_Box_Color_29.prefab
-  artifactKey: Guid(1b805f1f22c0b1c42b29feff2b2c1279) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GymAssests/Christmas Tree - POLYCRAFT Series/Prefab/Present_Box_Color_29.prefab using Guid(1b805f1f22c0b1c42b29feff2b2c1279) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bb5a78cf3d043420926fe267f7268658') in 0.032063 seconds 
-  Import took 0.047082 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000365 seconds.
-  path: Assets/GymAssests/Christmas Tree - POLYCRAFT Series/Prefab/Present_Box_Pattern_23.prefab
-  artifactKey: Guid(02b4b3b9e66c3af47ae20318ddd2da8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GymAssests/Christmas Tree - POLYCRAFT Series/Prefab/Present_Box_Pattern_23.prefab using Guid(02b4b3b9e66c3af47ae20318ddd2da8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cc93c1792f3f78fe748ab79d11ac1ab7') in 0.027598 seconds 
-  Import took 0.037759 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000278 seconds.
-  path: Assets/GymAssests/Christmas Tree - POLYCRAFT Series/Prefab/Present_Box_Color_31.prefab
-  artifactKey: Guid(0acddce154df22642b239afa8983fc91) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GymAssests/Christmas Tree - POLYCRAFT Series/Prefab/Present_Box_Color_31.prefab using Guid(0acddce154df22642b239afa8983fc91) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9c2c38f5419b22ba988a9e3a47921909') in 0.023700 seconds 
-  Import took 0.037135 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000298 seconds.
-  path: Assets/GymAssests/Christmas Tree - POLYCRAFT Series/Prefab/Present_Box_Pattern_06.prefab
-  artifactKey: Guid(7aa590554913aca418e77f31a3d07ee5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GymAssests/Christmas Tree - POLYCRAFT Series/Prefab/Present_Box_Pattern_06.prefab using Guid(7aa590554913aca418e77f31a3d07ee5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b4247cbe5a584724fc8222b907923625') in 0.031460 seconds 
-  Import took 0.041296 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000489 seconds.
-  path: Assets/GymAssests/Christmas Tree - POLYCRAFT Series/Prefab/Present_Box_Pattern_21.prefab
-  artifactKey: Guid(566ed4692e7e6dc4abe9abf350080db1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GymAssests/Christmas Tree - POLYCRAFT Series/Prefab/Present_Box_Pattern_21.prefab using Guid(566ed4692e7e6dc4abe9abf350080db1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ce6108de38c33fa296f4d3a2f4ce5fab') in 0.032107 seconds 
-  Import took 0.047238 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000370 seconds.
-  path: Assets/GymAssests/Christmas Tree - POLYCRAFT Series/Prefab/Present_Box_Pattern_03.prefab
-  artifactKey: Guid(772424e3b416bb440aac4f7c88325ff5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GymAssests/Christmas Tree - POLYCRAFT Series/Prefab/Present_Box_Pattern_03.prefab using Guid(772424e3b416bb440aac4f7c88325ff5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'df4d16d66236685f8ddc83c07b8b4e16') in 0.033478 seconds 
-  Import took 0.044431 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000374 seconds.
-  path: Assets/GymAssests/Christmas Tree - POLYCRAFT Series/Prefab/Present_Box_Pattern_12.prefab
-  artifactKey: Guid(76dd6c7f8239fd64f92db1a70ef12313) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GymAssests/Christmas Tree - POLYCRAFT Series/Prefab/Present_Box_Pattern_12.prefab using Guid(76dd6c7f8239fd64f92db1a70ef12313) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4b52edee726df2b3aab7038355350fac') in 0.034630 seconds 
-  Import took 0.045119 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000386 seconds.
-  path: Assets/GymAssests/Christmas Tree - POLYCRAFT Series/Prefab/Present_Box_Pattern_22.prefab
-  artifactKey: Guid(59a0670901564e54782671926b83347c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GymAssests/Christmas Tree - POLYCRAFT Series/Prefab/Present_Box_Pattern_22.prefab using Guid(59a0670901564e54782671926b83347c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e021c63a702a1fbb65bd4d7008bb3c48') in 0.029609 seconds 
-  Import took 0.043832 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000302 seconds.
-  path: Assets/GymAssests/Christmas Tree - POLYCRAFT Series/Prefab/Present_Box_Pattern_05.prefab
-  artifactKey: Guid(0cc994154bc1be74c831fbc76cbf222f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GymAssests/Christmas Tree - POLYCRAFT Series/Prefab/Present_Box_Pattern_05.prefab using Guid(0cc994154bc1be74c831fbc76cbf222f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '125888432ce55d01a248b6de5fbb9007') in 0.032538 seconds 
-  Import took 0.043681 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000203 seconds.
-  path: Assets/GymAssests/Christmas Tree - POLYCRAFT Series/Prefab/Present_Box_Pattern_18.prefab
-  artifactKey: Guid(e1aebb0d52474084fb407ec31a0bed21) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GymAssests/Christmas Tree - POLYCRAFT Series/Prefab/Present_Box_Pattern_18.prefab using Guid(e1aebb0d52474084fb407ec31a0bed21) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5edfb07c9f955f47429ff47795e7ca26') in 0.029105 seconds 
-  Import took 0.040241 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000268 seconds.
-  path: Assets/GymAssests/Christmas Tree - POLYCRAFT Series/Prefab/Present_Box_Pattern_08.prefab
-  artifactKey: Guid(4bd5180eda6aaeb4995d7a532b916a15) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GymAssests/Christmas Tree - POLYCRAFT Series/Prefab/Present_Box_Pattern_08.prefab using Guid(4bd5180eda6aaeb4995d7a532b916a15) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fc3a092037f03120106932e96cf3a09c') in 0.041249 seconds 
-  Import took 0.051109 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000328 seconds.
-  path: Assets/GymAssests/Christmas Tree - POLYCRAFT Series/Prefab/Present_Box_Color_40.prefab
-  artifactKey: Guid(2df63d60245f3d5448916136b34a40c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GymAssests/Christmas Tree - POLYCRAFT Series/Prefab/Present_Box_Color_40.prefab using Guid(2df63d60245f3d5448916136b34a40c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3cc5195722ebcd300cb0ae07edcbcd45') in 0.028861 seconds 
-  Import took 0.041522 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000336 seconds.
-  path: Assets/GymAssests/Christmas Tree - POLYCRAFT Series/Prefab/Present_Box_Color_33.prefab
-  artifactKey: Guid(9b4f7c48a6d12844fab6c27a026fa295) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GymAssests/Christmas Tree - POLYCRAFT Series/Prefab/Present_Box_Color_33.prefab using Guid(9b4f7c48a6d12844fab6c27a026fa295) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '60a9faaedc17920258322d434dd0d50e') in 0.030044 seconds 
-  Import took 0.039072 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000301 seconds.
-  path: Assets/GymAssests/Christmas Tree - POLYCRAFT Series/Prefab/Present_Box_Color_04 2.prefab
-  artifactKey: Guid(a694f484b39bd524faecfe7ad3eea7a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GymAssests/Christmas Tree - POLYCRAFT Series/Prefab/Present_Box_Color_04 2.prefab using Guid(a694f484b39bd524faecfe7ad3eea7a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b3c32779b1e7a5cd9609f0d153c4be63') in 0.044875 seconds 
-  Import took 0.054377 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000352 seconds.
-  path: Assets/GymAssests/Christmas Tree - POLYCRAFT Series/Prefab/Christmas_Ball_06.prefab
-  artifactKey: Guid(842467ccc4ad3264d8b43bcea1454771) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GymAssests/Christmas Tree - POLYCRAFT Series/Prefab/Christmas_Ball_06.prefab using Guid(842467ccc4ad3264d8b43bcea1454771) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6564d36ed0d80ac0634f5864914a92ad') in 0.028818 seconds 
-  Import took 0.040689 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000259 seconds.
-  path: Assets/GymAssests/Christmas Tree - POLYCRAFT Series/Prefab/Christmas_Tree_V2_00.prefab
-  artifactKey: Guid(72358273482fc7942a32f83cb45d7832) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GymAssests/Christmas Tree - POLYCRAFT Series/Prefab/Christmas_Tree_V2_00.prefab using Guid(72358273482fc7942a32f83cb45d7832) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '94be39adfd05c07a95d8beaa791a148b') in 0.033281 seconds 
-  Import took 0.043258 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000909 seconds.
-  path: Assets/GymAssests/Christmas Tree - POLYCRAFT Series/Prefab/Present_Box_Color_11.prefab
-  artifactKey: Guid(aa48dc4ca40a6ec469f5fc74afada3fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GymAssests/Christmas Tree - POLYCRAFT Series/Prefab/Present_Box_Color_11.prefab using Guid(aa48dc4ca40a6ec469f5fc74afada3fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1c2238707f9915da7d74fc865fb4d98e') in 0.030650 seconds 
-  Import took 0.043007 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000386 seconds.
-  path: Assets/GymAssests/Christmas Tree - POLYCRAFT Series/Prefab/Christmas_Tree_V2_03.prefab
-  artifactKey: Guid(41cf233c969e18546866273fc9605485) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GymAssests/Christmas Tree - POLYCRAFT Series/Prefab/Christmas_Tree_V2_03.prefab using Guid(41cf233c969e18546866273fc9605485) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5a3063ef818b032ef35254d3de04b719') in 0.043789 seconds 
-  Import took 0.056715 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000835 seconds.
-  path: Assets/GymAssests/Christmas Tree - POLYCRAFT Series/Prefab/Present_Box_Color_10.prefab
-  artifactKey: Guid(e2167d802c2e59744b95bb9abe897919) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GymAssests/Christmas Tree - POLYCRAFT Series/Prefab/Present_Box_Color_10.prefab using Guid(e2167d802c2e59744b95bb9abe897919) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '983edefe337a9359976867d9206f6116') in 0.031332 seconds 
-  Import took 0.041858 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000320 seconds.
-  path: Assets/GymAssests/Christmas Tree - POLYCRAFT Series/Prefab/Present_Box_Color_41.prefab
-  artifactKey: Guid(65088a9146894db4bb010e41cf6b5fc8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GymAssests/Christmas Tree - POLYCRAFT Series/Prefab/Present_Box_Color_41.prefab using Guid(65088a9146894db4bb010e41cf6b5fc8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7c7f699b3d12f255f29fdc06199b2bc8') in 0.032924 seconds 
-  Import took 0.045213 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000343 seconds.
-  path: Assets/GymAssests/Christmas Tree - POLYCRAFT Series/Prefab/Present_Box_Color_15.prefab
-  artifactKey: Guid(53981ad3738d4aa42aa6df455316ca68) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GymAssests/Christmas Tree - POLYCRAFT Series/Prefab/Present_Box_Color_15.prefab using Guid(53981ad3738d4aa42aa6df455316ca68) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '231fd711e5c5c218821054170a38bdc9') in 0.033026 seconds 
-  Import took 0.047887 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000296 seconds.
-  path: Assets/GymAssests/Christmas Tree - POLYCRAFT Series/Prefab/Present_Box_Color_23.prefab
-  artifactKey: Guid(757b8bbebf28235479ad9b3d09adcf98) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GymAssests/Christmas Tree - POLYCRAFT Series/Prefab/Present_Box_Color_23.prefab using Guid(757b8bbebf28235479ad9b3d09adcf98) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a1fb16e1cc71a7d064fc1c81a47939f3') in 0.030255 seconds 
-  Import took 0.039241 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000316 seconds.
-  path: Assets/GymAssests/Christmas Tree - POLYCRAFT Series/Prefab/Christmas_Ball_04.prefab
-  artifactKey: Guid(86cca0d98031dba4883c01dbd59f8e2f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GymAssests/Christmas Tree - POLYCRAFT Series/Prefab/Christmas_Ball_04.prefab using Guid(86cca0d98031dba4883c01dbd59f8e2f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c280daa5e6d59f98f8b5a1974c99bc01') in 0.028996 seconds 
-  Import took 0.040530 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000250 seconds.
-  path: Assets/GymAssests/Christmas Tree - POLYCRAFT Series/Prefab/Present_Box_Pattern_20.prefab
-  artifactKey: Guid(761b8aea96620e744be4536882e5ac59) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GymAssests/Christmas Tree - POLYCRAFT Series/Prefab/Present_Box_Pattern_20.prefab using Guid(761b8aea96620e744be4536882e5ac59) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0cc9e0a76426e507023beeb60e2b8281') in 0.030504 seconds 
-  Import took 0.038990 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000320 seconds.
-  path: Assets/GymAssests/Christmas Tree - POLYCRAFT Series/Prefab/Present_Box_Color_00.prefab
-  artifactKey: Guid(f544b8bc4e6a6b648ac6597f7f20a862) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GymAssests/Christmas Tree - POLYCRAFT Series/Prefab/Present_Box_Color_00.prefab using Guid(f544b8bc4e6a6b648ac6597f7f20a862) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '14bc42ea0fc86541491295e60852f552') in 0.040323 seconds 
-  Import took 0.050838 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000253 seconds.
-  path: Assets/GymAssests/Christmas Tree - POLYCRAFT Series/Prefab/Present_Box_Color_17.prefab
-  artifactKey: Guid(b354ea2d6b513d645a88782b72bc7785) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GymAssests/Christmas Tree - POLYCRAFT Series/Prefab/Present_Box_Color_17.prefab using Guid(b354ea2d6b513d645a88782b72bc7785) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd139221d02f7c8fc15b267324d966327') in 0.029358 seconds 
-  Import took 0.040774 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000418 seconds.
-  path: Assets/GymAssests/Christmas Tree - POLYCRAFT Series/Prefab/Present_Box_Color_32.prefab
-  artifactKey: Guid(5a46ee9ac643ebe4fada17013f63ce21) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GymAssests/Christmas Tree - POLYCRAFT Series/Prefab/Present_Box_Color_32.prefab using Guid(5a46ee9ac643ebe4fada17013f63ce21) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '761bb40971a21334d5deb4a234ead328') in 0.027234 seconds 
-  Import took 0.038614 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000292 seconds.
-  path: Assets/GymAssests/Christmas Tree - POLYCRAFT Series/Prefab/Christmas_Ball_07.prefab
-  artifactKey: Guid(7abb5fa6bbe4acd47bdcd63e0ad8fa4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GymAssests/Christmas Tree - POLYCRAFT Series/Prefab/Christmas_Ball_07.prefab using Guid(7abb5fa6bbe4acd47bdcd63e0ad8fa4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '02a90bb3fc53edd79b46d7d7e7bc8dde') in 0.029592 seconds 
-  Import took 0.039181 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000370 seconds.
-  path: Assets/GymAssests/Christmas Tree - POLYCRAFT Series/Prefab/Present_Box_Color_35.prefab
-  artifactKey: Guid(ac4c9c604de72aa4c8edd05d68e6007b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GymAssests/Christmas Tree - POLYCRAFT Series/Prefab/Present_Box_Color_35.prefab using Guid(ac4c9c604de72aa4c8edd05d68e6007b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0aee9da0fc0f3a997f83dce7875dec1c') in 0.039207 seconds 
-  Import took 0.053083 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 179.225007 seconds.
-  path: Assets/GymAssests/Cartoony Spruces/Prefabs/spruce1.prefab
-  artifactKey: Guid(62109cb65e4cd6942a52e4c360a89f50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GymAssests/Cartoony Spruces/Prefabs/spruce1.prefab using Guid(62109cb65e4cd6942a52e4c360a89f50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8ee665e7f5494ddba6a222eaabe6b740') in 0.039297 seconds 
-  Import took 0.047944 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000369 seconds.
-  path: Assets/GymAssests/Cartoony Spruces/Prefabs/spruce2.prefab
-  artifactKey: Guid(25b8c5dd0aa48414290ef3451c255ec9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GymAssests/Cartoony Spruces/Prefabs/spruce2.prefab using Guid(25b8c5dd0aa48414290ef3451c255ec9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd85e6d46a60b33b215c77a5f7d36a4e0') in 0.052703 seconds 
-  Import took 0.064580 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.008065 seconds.
-  path: Assets/GymAssests/Cartoony Spruces/Prefabs/spruce2.prefab
-  artifactKey: Guid(25b8c5dd0aa48414290ef3451c255ec9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GymAssests/Cartoony Spruces/Prefabs/spruce2.prefab using Guid(25b8c5dd0aa48414290ef3451c255ec9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd85e6d46a60b33b215c77a5f7d36a4e0') in 0.038052 seconds 
-  Import took 0.050904 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 4.517109 seconds.
-  path: Assets/GymAssests/Cartoony Spruces/FBX/spruce1_LOD0.fbx
-  artifactKey: Guid(68ccd9d93127f8340b60d7573aa1e24f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GymAssests/Cartoony Spruces/FBX/spruce1_LOD0.fbx using Guid(68ccd9d93127f8340b60d7573aa1e24f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0c2900a27625b915689e4954101c646a') in 0.106777 seconds 
-  Import took 0.116897 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000342 seconds.
-  path: Assets/GymAssests/Cartoony Spruces/FBX/spruce1_LOD1.fbx
-  artifactKey: Guid(5afd757c9728ed54fb32966e50703b11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GymAssests/Cartoony Spruces/FBX/spruce1_LOD1.fbx using Guid(5afd757c9728ed54fb32966e50703b11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cccedb224740e2b8d09a23327d845a75') in 0.043613 seconds 
-  Import took 0.057046 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000394 seconds.
-  path: Assets/GymAssests/Cartoony Spruces/FBX/spruce2_LOD0.fbx
-  artifactKey: Guid(9908b3b945620c345acf19c34e7e74b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GymAssests/Cartoony Spruces/FBX/spruce2_LOD0.fbx using Guid(9908b3b945620c345acf19c34e7e74b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b000f881a35ba9d0b49c57cd9b41788d') in 0.041584 seconds 
-  Import took 0.050407 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000352 seconds.
-  path: Assets/GymAssests/Cartoony Spruces/FBX/spruce2_LOD1.fbx
-  artifactKey: Guid(468e44205c7566743b39e636baba9fd1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GymAssests/Cartoony Spruces/FBX/spruce2_LOD1.fbx using Guid(468e44205c7566743b39e636baba9fd1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0c74f001fd2f34b9fe2f1397cf924428') in 0.046929 seconds 
-  Import took 0.060942 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000300 seconds.
-  path: Assets/GymAssests/Cartoony Spruces/FBX/spruce2_LOD0.fbx
-  artifactKey: Guid(9908b3b945620c345acf19c34e7e74b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GymAssests/Cartoony Spruces/FBX/spruce2_LOD0.fbx using Guid(9908b3b945620c345acf19c34e7e74b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b000f881a35ba9d0b49c57cd9b41788d') in 0.051072 seconds 
-  Import took 0.061485 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 4.224193 seconds.
-  path: Assets/GymAssests/Cartoony Spruces/Materials/spruce_M.mat
-  artifactKey: Guid(53557fab08c9bcc46bbf36a95bfba3de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GymAssests/Cartoony Spruces/Materials/spruce_M.mat using Guid(53557fab08c9bcc46bbf36a95bfba3de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '96047429a3f41aeba5f8a5992838ba6e') in 0.023136 seconds 
-  Import took 0.033463 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 7.864957 seconds.
-  path: Assets/GymAssests/BodyBuilder Asset Pack/Prefabs
-  artifactKey: Guid(2c1407986dfd746e4b8047697e564281) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GymAssests/BodyBuilder Asset Pack/Prefabs using Guid(2c1407986dfd746e4b8047697e564281) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f7c7e83f51a65770130707bf33e370f3') in 0.005249 seconds 
-  Import took 0.015102 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 6.761915 seconds.
-  path: Assets/GymAssests/dodgeball_v1_L3.123c8c280b2b-fcd4-4a87-a19a-2ce7b74dddb1/10498_dodgeball_diffuse_v1.jpg
-  artifactKey: Guid(d8670cd71b17f4f5588d732ed03bd1b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GymAssests/dodgeball_v1_L3.123c8c280b2b-fcd4-4a87-a19a-2ce7b74dddb1/10498_dodgeball_diffuse_v1.jpg using Guid(d8670cd71b17f4f5588d732ed03bd1b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '980145923e0e1632746f9663c0806a83') in 0.042448 seconds 
-  Import took 0.051162 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 2.075433 seconds.
-  path: Assets/GymAssests/Dumbell/metal.mat
-  artifactKey: Guid(7ce5eda3d35684e24ba8e5255eb8cc71) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GymAssests/Dumbell/metal.mat using Guid(7ce5eda3d35684e24ba8e5255eb8cc71) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3d56bde2381d2566831f28643abfff6a') in 0.023134 seconds 
-  Import took 0.034618 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000395 seconds.
-  path: Assets/GymAssests/Dumbell/plastic_black.mat
-  artifactKey: Guid(c10cfbb890ef144b88d64186efa2cfa2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GymAssests/Dumbell/plastic_black.mat using Guid(c10cfbb890ef144b88d64186efa2cfa2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5751d2ea4906dfc49502af9ab13e964a') in 0.024044 seconds 
-  Import took 0.033252 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 41.153367 seconds.
-  path: Assets/GymAssests/squid-game-pinksoldier-triangle/textures/PinkSoldier_C_BaseColor_1001.png
-  artifactKey: Guid(7962cfb6361384264bd68deb48928966) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GymAssests/squid-game-pinksoldier-triangle/textures/PinkSoldier_C_BaseColor_1001.png using Guid(7962cfb6361384264bd68deb48928966) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f0eac31695389ca2f7a6ddb9b059db5d') in 0.045230 seconds 
-  Import took 0.054934 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000442 seconds.
-  path: Assets/GymAssests/squid-game-pinksoldier-triangle/textures/PinkSoldier_C_Metalness_1002.png
-  artifactKey: Guid(b4dcc325bd3914b9f9108d715e6138bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GymAssests/squid-game-pinksoldier-triangle/textures/PinkSoldier_C_Metalness_1002.png using Guid(b4dcc325bd3914b9f9108d715e6138bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8d58f4af88b8af93ba55f5e66b63e803') in 0.044800 seconds 
-  Import took 0.057005 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000396 seconds.
-  path: Assets/GymAssests/squid-game-pinksoldier-triangle/textures/PinkSoldier_C_Roughness_1002.png
-  artifactKey: Guid(c1073540d8931433db49ca0265d9befc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GymAssests/squid-game-pinksoldier-triangle/textures/PinkSoldier_C_Roughness_1002.png using Guid(c1073540d8931433db49ca0265d9befc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a8ffb9b920c428a652a93ec216f52d1a') in 0.043387 seconds 
-  Import took 0.053726 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000322 seconds.
-  path: Assets/GymAssests/squid-game-pinksoldier-triangle/textures/PinkSoldier_C_Metalness_1002.png
-  artifactKey: Guid(b4dcc325bd3914b9f9108d715e6138bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GymAssests/squid-game-pinksoldier-triangle/textures/PinkSoldier_C_Metalness_1002.png using Guid(b4dcc325bd3914b9f9108d715e6138bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8d58f4af88b8af93ba55f5e66b63e803') in 0.055769 seconds 
-  Import took 0.070426 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000633 seconds.
-  path: Assets/GymAssests/squid-game-pinksoldier-triangle/textures/PinkSoldier_C_BaseColor_1002.png
-  artifactKey: Guid(379cdb23dd10a43b59d49dc8dbe551b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GymAssests/squid-game-pinksoldier-triangle/textures/PinkSoldier_C_BaseColor_1002.png using Guid(379cdb23dd10a43b59d49dc8dbe551b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '98faf97fcf9bf67f6eb2bb4336011c70') in 0.043241 seconds 
-  Import took 0.057233 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000363 seconds.
-  path: Assets/GymAssests/squid-game-pinksoldier-triangle/textures/PinkSoldier_C_Roughness_1001.png
-  artifactKey: Guid(a4efc189819ed435998baac3c53e17d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GymAssests/squid-game-pinksoldier-triangle/textures/PinkSoldier_C_Roughness_1001.png using Guid(a4efc189819ed435998baac3c53e17d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '822945317a198f9f402a8bab014347b4') in 0.046111 seconds 
-  Import took 0.054663 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000336 seconds.
-  path: Assets/GymAssests/squid-game-pinksoldier-triangle/textures/PinkSoldier_C_Normal_1001.png
-  artifactKey: Guid(a7daee8c5446749b4a28b8a126e14f9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GymAssests/squid-game-pinksoldier-triangle/textures/PinkSoldier_C_Normal_1001.png using Guid(a7daee8c5446749b4a28b8a126e14f9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '83930f65a438dbf456f57e44aa63ae22') in 0.053815 seconds 
-  Import took 0.065241 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000309 seconds.
-  path: Assets/GymAssests/squid-game-pinksoldier-triangle/textures/PinkSoldier_C_Metalness_1001.png
-  artifactKey: Guid(c9c373cdc2b1849978541cdc3a6d03c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GymAssests/squid-game-pinksoldier-triangle/textures/PinkSoldier_C_Metalness_1001.png using Guid(c9c373cdc2b1849978541cdc3a6d03c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e78153358d6e975ff5fe095c3ab4e753') in 0.042768 seconds 
-  Import took 0.051728 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000415 seconds.
-  path: Assets/GymAssests/squid-game-pinksoldier-triangle/textures/PinkSoldier_C_Normal_1002.png
-  artifactKey: Guid(6a8fc75f17a8843678a3d31b13f52d7b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GymAssests/squid-game-pinksoldier-triangle/textures/PinkSoldier_C_Normal_1002.png using Guid(6a8fc75f17a8843678a3d31b13f52d7b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd9bf604ed1ef4a26f506e6ad06610f50') in 0.043365 seconds 
-  Import took 0.058192 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.006950 seconds.
-  path: Assets/GymAssests/squid-game-pinksoldier-triangle/textures/PinkSoldier_C_Normal_1002.png
-  artifactKey: Guid(6a8fc75f17a8843678a3d31b13f52d7b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GymAssests/squid-game-pinksoldier-triangle/textures/PinkSoldier_C_Normal_1002.png using Guid(6a8fc75f17a8843678a3d31b13f52d7b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd9bf604ed1ef4a26f506e6ad06610f50') in 0.043270 seconds 
-  Import took 0.058006 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 113.972982 seconds.
-  path: Assets/GymAssests/squid-game-pinksoldier-triangle/source/PinkSoldier_T/PinkSoldier_T.mtl
-  artifactKey: Guid(6f422f90f1d01451887fc52bf073d9de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GymAssests/squid-game-pinksoldier-triangle/source/PinkSoldier_T/PinkSoldier_T.mtl using Guid(6f422f90f1d01451887fc52bf073d9de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a6cf5484fd62281c07865bec47b0b36e') in 0.017973 seconds 
-  Import took 0.032413 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 39.686407 seconds.
-  path: Assets/GymAssests/TrophyCups/Prefabs
-  artifactKey: Guid(23de8d637745cb842bfe64a64e4376e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GymAssests/TrophyCups/Prefabs using Guid(23de8d637745cb842bfe64a64e4376e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a747996a38e8e99298f7acc5a424f025') in 0.003660 seconds 
-  Import took 0.014808 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 1.825849 seconds.
-  path: Assets/GymAssests/TrophyCups/Prefabs/Gold
-  artifactKey: Guid(da01c070af9c2e74b927ff209cb7bd1e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GymAssests/TrophyCups/Prefabs/Gold using Guid(da01c070af9c2e74b927ff209cb7bd1e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6b66bd629c28967ef4e6cb9dd89d6861') in 0.014280 seconds 
-  Import took 0.024476 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 97.420445 seconds.
-  path: Assets/GymAssests/LowPolyChristmasAddOn/Materials/Snow.mat
-  artifactKey: Guid(40e6a70023e614b09a6357b994974e01) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GymAssests/LowPolyChristmasAddOn/Materials/Snow.mat using Guid(40e6a70023e614b09a6357b994974e01) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '864bc76448608156c680eaff37cf696b') in 0.020114 seconds 
-  Import took 0.029355 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000437 seconds.
-  path: Assets/GymAssests/LowPolyChristmasAddOn/Materials/Snow_particle.mat
-  artifactKey: Guid(3a406636caedd40caac23ca4e9e4d011) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GymAssests/LowPolyChristmasAddOn/Materials/Snow_particle.mat using Guid(3a406636caedd40caac23ca4e9e4d011) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd5f749db9a4d17b7830b42e69d8d66c8') in 0.021245 seconds 
-  Import took 0.031824 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 3095.125869 seconds.
-  path: Assets/GymAssests/LowPolyChristmasAddOn/Particles/Snow_particle.png
-  artifactKey: Guid(571958c187b6a45ed8f4c8fa7733a433) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GymAssests/LowPolyChristmasAddOn/Particles/Snow_particle.png using Guid(571958c187b6a45ed8f4c8fa7733a433) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4585b038d11c500040cefe6d91eeec28') in 0.063503 seconds 
-  Import took 0.133368 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 1218.739240 seconds.
-  path: Assets/skybox
-  artifactKey: Guid(59fa35fc0fa2aef47abcb448c1210403) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/skybox using Guid(59fa35fc0fa2aef47abcb448c1210403) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bb6c5fa2985f05a868229563bf4f3779') in 0.011191 seconds 
-  Import took 0.021918 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.008759 seconds.
-  path: Assets/skybox
-  artifactKey: Guid(59fa35fc0fa2aef47abcb448c1210403) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/skybox using Guid(59fa35fc0fa2aef47abcb448c1210403) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bb6c5fa2985f05a868229563bf4f3779') in 0.002654 seconds 
-  Import took 0.014229 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 5.289373 seconds.
-  path: Assets/skybox/mat_skybox.mat
-  artifactKey: Guid(2f4daf7366107bd45ac689d4dca86913) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/skybox/mat_skybox.mat using Guid(2f4daf7366107bd45ac689d4dca86913) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6f23f170fdb583e0cae8186b4e4117c9') in 0.047116 seconds 
-  Import took 0.057668 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 150.008756 seconds.
-  path: Packages/com.unity.render-pipelines.universal/Runtime/Materials/ParticlesUnlit.mat
-  artifactKey: Guid(e823cd5b5d27c0f4b8256e7c12ee3e6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.render-pipelines.universal/Runtime/Materials/ParticlesUnlit.mat using Guid(e823cd5b5d27c0f4b8256e7c12ee3e6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '92a855a8cf7f7f44436ed5619e2fc009') in 0.037599 seconds 
-  Import took 0.050357 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.036624 seconds.
-  path: Packages/com.unity.render-pipelines.universal/Runtime/Materials/ParticlesUnlit.mat
-  artifactKey: Guid(e823cd5b5d27c0f4b8256e7c12ee3e6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.render-pipelines.universal/Runtime/Materials/ParticlesUnlit.mat using Guid(e823cd5b5d27c0f4b8256e7c12ee3e6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '92a855a8cf7f7f44436ed5619e2fc009') in 0.017342 seconds 
-  Import took 0.029100 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 221.353546 seconds.
-  path: Assets/GymAssests/uploads-files-669576-aeq3vjprnoqo-Bleachers-1/Bleachers.png
-  artifactKey: Guid(03808f91becd14ffc83db7e60f9b7326) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GymAssests/uploads-files-669576-aeq3vjprnoqo-Bleachers-1/Bleachers.png using Guid(03808f91becd14ffc83db7e60f9b7326) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ecf3729d0054982a1bf0abd122785915') in 0.039072 seconds 
-  Import took 0.051609 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000478 seconds.
-  path: Assets/GymAssests/uploads-files-669576-aeq3vjprnoqo-Bleachers-1/side.png
-  artifactKey: Guid(d76e09c2367f745ac9c6926c2c9be3dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GymAssests/uploads-files-669576-aeq3vjprnoqo-Bleachers-1/side.png using Guid(d76e09c2367f745ac9c6926c2c9be3dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f349a15a6b17480c0f59c8b27235ec70') in 0.041025 seconds 
-  Import took 0.053472 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 274.110777 seconds.
-  path: Assets/GymAssests/streetlightmodel
-  artifactKey: Guid(2ebb2e0315b145f4783fb19bdc167824) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GymAssests/streetlightmodel using Guid(2ebb2e0315b145f4783fb19bdc167824) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b28f2ebe347e894c37f16d7e5413150c') in 0.013172 seconds 
-  Import took 0.027111 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 11.033144 seconds.
-  path: Assets/GymAssests/streetlightmodel/source
-  artifactKey: Guid(7fa98c907fb98ce4cb9f72a4f4b0beac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GymAssests/streetlightmodel/source using Guid(7fa98c907fb98ce4cb9f72a4f4b0beac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'becf7b2f635d10a2ad4cc24f7366f1f7') in 0.012120 seconds 
-  Import took 0.022931 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.065941 seconds.
-  path: Assets/GymAssests/streetlightmodel/source/lamps.fbx
-  artifactKey: Guid(30c35b433244f5f4e8ee3d2cd0280ff6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GymAssests/streetlightmodel/source/lamps.fbx using Guid(30c35b433244f5f4e8ee3d2cd0280ff6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f2d79ad6d12faebb34ba1c273a987570') in 2.123110 seconds 
-  Import took 2.140091 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 42.632199 seconds.
-  path: Assets/GymAssests/streetlightmodel/textures
-  artifactKey: Guid(c1b24e207f92c90438bf96fcdbaf095e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GymAssests/streetlightmodel/textures using Guid(c1b24e207f92c90438bf96fcdbaf095e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '515678799867aa2e8c163c564f4144c7') in 0.013030 seconds 
-  Import took 0.023426 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.508483 seconds.
-  path: Assets/GymAssests/streetlightmodel/textures/internal_ground_ao_texture.jpeg
-  artifactKey: Guid(8738ff95e07779a4cb8483304047dd65) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GymAssests/streetlightmodel/textures/internal_ground_ao_texture.jpeg using Guid(8738ff95e07779a4cb8483304047dd65) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8786a6b161ee1c275650fe1df18e601d') in 0.033024 seconds 
-  Import took 0.042252 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000561 seconds.
-  path: Assets/GymAssests/streetlightmodel/textures/lamps_lamp_04_Metalness.png
-  artifactKey: Guid(fcce8aab8fc649f47aa67da32c1d2c2c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GymAssests/streetlightmodel/textures/lamps_lamp_04_Metalness.png using Guid(fcce8aab8fc649f47aa67da32c1d2c2c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'df3f6801f0bb75d8da68ec4afc6e23c4') in 0.046493 seconds 
-  Import took 0.062485 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000572 seconds.
-  path: Assets/GymAssests/streetlightmodel/textures/lamps_pole_2side_1_BaseColor.png
-  artifactKey: Guid(f4d862911069c2f43bc57987f61b95ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GymAssests/streetlightmodel/textures/lamps_pole_2side_1_BaseColor.png using Guid(f4d862911069c2f43bc57987f61b95ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c41a07d471ea109c392f630face602f0') in 0.027943 seconds 
-  Import took 0.041370 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000353 seconds.
-  path: Assets/GymAssests/streetlightmodel/textures/lamps_lamp_04_BaseColor.png
-  artifactKey: Guid(29aa076499fc1fc40a8d3cb6bccd35db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GymAssests/streetlightmodel/textures/lamps_lamp_04_BaseColor.png using Guid(29aa076499fc1fc40a8d3cb6bccd35db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '03524130d46a52209334c456bb930637') in 0.028322 seconds 
-  Import took 0.039474 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000351 seconds.
-  path: Assets/GymAssests/streetlightmodel/textures/lamps_lamp02_Opacity.png
-  artifactKey: Guid(c1ffc8a973cefe74ab586a507f7abbed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GymAssests/streetlightmodel/textures/lamps_lamp02_Opacity.png using Guid(c1ffc8a973cefe74ab586a507f7abbed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e6345a76f366c19dbb97556d0087182f') in 0.043191 seconds 
-  Import took 0.053665 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000359 seconds.
-  path: Assets/GymAssests/streetlightmodel/textures/lamps_lamp_04_Normal.png
-  artifactKey: Guid(a1e0f3117963c594f86189e4bfd2b839) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GymAssests/streetlightmodel/textures/lamps_lamp_04_Normal.png using Guid(a1e0f3117963c594f86189e4bfd2b839) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'db105b0959529835d3e2fe5c57a745bf') in 0.030727 seconds 
-  Import took 0.044956 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000335 seconds.
-  path: Assets/GymAssests/streetlightmodel/textures/lamps_pole_small_1_BaseColor.png
-  artifactKey: Guid(aa213f93346f9bb4fa721afdfb655081) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GymAssests/streetlightmodel/textures/lamps_pole_small_1_BaseColor.png using Guid(aa213f93346f9bb4fa721afdfb655081) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '564e38cd8215b4e417c8108918db4d97') in 0.030441 seconds 
-  Import took 0.047464 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000577 seconds.
-  path: Assets/GymAssests/streetlightmodel/textures/lamps_lambert1_BaseColor.png
-  artifactKey: Guid(8c67b0cb9930521449a8890a7c2ee86b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GymAssests/streetlightmodel/textures/lamps_lambert1_BaseColor.png using Guid(8c67b0cb9930521449a8890a7c2ee86b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ddf31ccb69d57766148563cbea305a6e') in 0.027224 seconds 
-  Import took 0.036499 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000258 seconds.
-  path: Assets/GymAssests/streetlightmodel/textures/lamps_pole_4side_1_Normal.png
-  artifactKey: Guid(bfa919825d10fff4990f1356847b5a0c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GymAssests/streetlightmodel/textures/lamps_pole_4side_1_Normal.png using Guid(bfa919825d10fff4990f1356847b5a0c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0b125ee41e0d076e25c80462c38d0f8f') in 0.041072 seconds 
-  Import took 0.054339 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000440 seconds.
-  path: Assets/GymAssests/streetlightmodel/textures/lamps_pole_single_1_Roughness.png
-  artifactKey: Guid(103b3ee92ac91d646867da57100c4de2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GymAssests/streetlightmodel/textures/lamps_pole_single_1_Roughness.png using Guid(103b3ee92ac91d646867da57100c4de2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '33651ddb027d3dca78332ea5d77ffb14') in 0.029974 seconds 
-  Import took 0.043888 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000234 seconds.
-  path: Assets/GymAssests/streetlightmodel/textures/lamps_pole_4side_1_BaseColor.png
-  artifactKey: Guid(03353c13148047e4aafa5db8dbde4317) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GymAssests/streetlightmodel/textures/lamps_pole_4side_1_BaseColor.png using Guid(03353c13148047e4aafa5db8dbde4317) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '87bf441433a5f6a153417de477c4ef43') in 0.030649 seconds 
-  Import took 0.044153 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000266 seconds.
-  path: Assets/GymAssests/streetlightmodel/textures/lamps_lamp_04_Emissive.png
-  artifactKey: Guid(e647612e2e2aad841a010e53c28931ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GymAssests/streetlightmodel/textures/lamps_lamp_04_Emissive.png using Guid(e647612e2e2aad841a010e53c28931ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4ac37b4437faa90f0c25142030727c93') in 0.031861 seconds 
-  Import took 0.040029 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000305 seconds.
-  path: Assets/GymAssests/streetlightmodel/textures/lamps_pole_single_2_Height.png
-  artifactKey: Guid(f46f61955d5e2b24da2141174a40a1a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GymAssests/streetlightmodel/textures/lamps_pole_single_2_Height.png using Guid(f46f61955d5e2b24da2141174a40a1a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '24aebc04cf1a0771f01ba51fb3886b18') in 0.023709 seconds 
-  Import took 0.045079 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000268 seconds.
-  path: Assets/GymAssests/streetlightmodel/textures/lamps_pole_2side_1_Metalness.png
-  artifactKey: Guid(130bd8b4cf67e3641b229715fb672271) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GymAssests/streetlightmodel/textures/lamps_pole_2side_1_Metalness.png using Guid(130bd8b4cf67e3641b229715fb672271) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3be282a1492f56ba36a4fc1871acb05d') in 0.028533 seconds 
-  Import took 0.038901 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000374 seconds.
-  path: Assets/GymAssests/streetlightmodel/textures/lamps_lamp03_Metalness.png
-  artifactKey: Guid(5a7727cbd1c415e49a777fc67215bd20) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GymAssests/streetlightmodel/textures/lamps_lamp03_Metalness.png using Guid(5a7727cbd1c415e49a777fc67215bd20) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e4ad6734ae275f4dbd63fc3c0c063f96') in 0.029572 seconds 
-  Import took 0.041954 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000213 seconds.
-  path: Assets/GymAssests/streetlightmodel/textures/lamps_lamp_04_Height.png
-  artifactKey: Guid(cbe09019f78a02e4ebce4457f13ea0d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GymAssests/streetlightmodel/textures/lamps_lamp_04_Height.png using Guid(cbe09019f78a02e4ebce4457f13ea0d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a095c66389323cc96d35a8f97de1d248') in 0.028233 seconds 
-  Import took 0.039226 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000243 seconds.
-  path: Assets/GymAssests/streetlightmodel/textures/lamps_lamp03_Normal.png
-  artifactKey: Guid(72542cd0602a3234dacc92462ed61b9e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GymAssests/streetlightmodel/textures/lamps_lamp03_Normal.png using Guid(72542cd0602a3234dacc92462ed61b9e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cc63f96dc4fedc2a016596d49d08d3df') in 0.036419 seconds 
-  Import took 0.049536 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000308 seconds.
-  path: Assets/GymAssests/streetlightmodel/textures/lamps_pole_single_2_Roughness.png
-  artifactKey: Guid(1aa8b735d22fa7d4db1be75028baeb10) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GymAssests/streetlightmodel/textures/lamps_pole_single_2_Roughness.png using Guid(1aa8b735d22fa7d4db1be75028baeb10) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '662e010e662fb135939462eec2e540a3') in 0.026321 seconds 
-  Import took 0.039959 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000258 seconds.
-  path: Assets/GymAssests/streetlightmodel/textures/lamps_lamp02_BaseColor.png
-  artifactKey: Guid(c3b98667b8f4dd8418e300e9ed744c9f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GymAssests/streetlightmodel/textures/lamps_lamp02_BaseColor.png using Guid(c3b98667b8f4dd8418e300e9ed744c9f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '399cfe113132d2a46b4b35b528b3f083') in 0.026348 seconds 
-  Import took 0.037482 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000327 seconds.
-  path: Assets/GymAssests/streetlightmodel/textures/lamps_pole_4side_1_Roughness.png
-  artifactKey: Guid(d7c5d89f7a1b5954f8b7fcdb45066647) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GymAssests/streetlightmodel/textures/lamps_pole_4side_1_Roughness.png using Guid(d7c5d89f7a1b5954f8b7fcdb45066647) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5ce14f038d65c1467a4e9bd94c7c46f1') in 0.028804 seconds 
-  Import took 0.038675 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000253 seconds.
-  path: Assets/GymAssests/streetlightmodel/textures/lamps_lambert1_Metalness.png
-  artifactKey: Guid(55fc9572832459c4dbea01d5610d3871) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GymAssests/streetlightmodel/textures/lamps_lambert1_Metalness.png using Guid(55fc9572832459c4dbea01d5610d3871) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8ca5f3cbd9f952f9d77f6a6373f9c6d4') in 0.021669 seconds 
-  Import took 0.039919 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000501 seconds.
-  path: Assets/GymAssests/streetlightmodel/textures/lamps_lamp03_Roughness.png
-  artifactKey: Guid(b9960eee61a05964f89d0f5dbc39fdae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GymAssests/streetlightmodel/textures/lamps_lamp03_Roughness.png using Guid(b9960eee61a05964f89d0f5dbc39fdae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c2d53528cd774c8d8ac1f15a6d345e50') in 0.029308 seconds 
-  Import took 0.039595 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000282 seconds.
-  path: Assets/GymAssests/streetlightmodel/textures/lamps_lamp_04_Roughness.png
-  artifactKey: Guid(6294f3f17e74c53479cdc99e8717f7f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GymAssests/streetlightmodel/textures/lamps_lamp_04_Roughness.png using Guid(6294f3f17e74c53479cdc99e8717f7f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '94bdcc0aaae83f683c45e54821788303') in 0.028216 seconds 
-  Import took 0.040944 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000365 seconds.
-  path: Assets/GymAssests/streetlightmodel/textures/lamps_lamp03_Emissive.png
-  artifactKey: Guid(e95ad4963ba97c24d831eb0d866d03dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GymAssests/streetlightmodel/textures/lamps_lamp03_Emissive.png using Guid(e95ad4963ba97c24d831eb0d866d03dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '72c3b1e1df48c61a1597eea77615bc15') in 0.031902 seconds 
-  Import took 0.041802 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000239 seconds.
-  path: Assets/GymAssests/streetlightmodel/textures/lamps_pole_small_2_BaseColor.png
-  artifactKey: Guid(3976ff151265c3546a7498d548fdd4ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GymAssests/streetlightmodel/textures/lamps_pole_small_2_BaseColor.png using Guid(3976ff151265c3546a7498d548fdd4ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd5bff415665f9feeb79211953597b3e1') in 0.037396 seconds 
-  Import took 0.051832 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000500 seconds.
-  path: Assets/GymAssests/streetlightmodel/textures/lamps_pole_small_1_Normal.png
-  artifactKey: Guid(6a548416e54d6364a8bd79910a096e32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GymAssests/streetlightmodel/textures/lamps_pole_small_1_Normal.png using Guid(6a548416e54d6364a8bd79910a096e32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '63a23e9d542bbc5bd4dc12f875e955d5') in 0.027200 seconds 
-  Import took 0.039937 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000336 seconds.
-  path: Assets/GymAssests/streetlightmodel/textures/lamps_pole_small_2_Normal.png
-  artifactKey: Guid(c354a51e6f9b14547be209d5050133bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GymAssests/streetlightmodel/textures/lamps_pole_small_2_Normal.png using Guid(c354a51e6f9b14547be209d5050133bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fdbc9ea6045dd76daa8b0689d4e5b2d7') in 0.029005 seconds 
-  Import took 0.038548 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000292 seconds.
-  path: Assets/GymAssests/streetlightmodel/textures/lamps_lamp02_Emissive.png
-  artifactKey: Guid(a315074339d2f134db9148d1da42368c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GymAssests/streetlightmodel/textures/lamps_lamp02_Emissive.png using Guid(a315074339d2f134db9148d1da42368c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b17919d55525ea571c487b18e0169dc5') in 0.029074 seconds 
-  Import took 0.039667 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000491 seconds.
-  path: Assets/GymAssests/streetlightmodel/textures/lamps_pole_wall_2_BaseColor.png
-  artifactKey: Guid(9920f4328db19994ea853b45a9f2a32e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GymAssests/streetlightmodel/textures/lamps_pole_wall_2_BaseColor.png using Guid(9920f4328db19994ea853b45a9f2a32e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6849a0710d9bcb841a00bf42c15ce374') in 0.022600 seconds 
-  Import took 0.036824 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000784 seconds.
-  path: Assets/GymAssests/streetlightmodel/textures/lamps_pole_single_1_Normal.png
-  artifactKey: Guid(568f080278af1d6408fbc874b98aca84) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GymAssests/streetlightmodel/textures/lamps_pole_single_1_Normal.png using Guid(568f080278af1d6408fbc874b98aca84) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e7f9023aa2a94260147ba8daf0631f31') in 0.034467 seconds 
-  Import took 0.048467 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000636 seconds.
-  path: Assets/GymAssests/streetlightmodel/textures/lamps_pole_small_2_Roughness.png
-  artifactKey: Guid(b9c6b9395e90b514ea6777f170f6566b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GymAssests/streetlightmodel/textures/lamps_pole_small_2_Roughness.png using Guid(b9c6b9395e90b514ea6777f170f6566b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9a397c6bf13457e5d3ba01cf6f170a53') in 0.020759 seconds 
-  Import took 0.034761 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000218 seconds.
-  path: Assets/GymAssests/streetlightmodel/textures/lamps_pole_single_1_BaseColor.png
-  artifactKey: Guid(494487c8afef13543897f8cc267ffa5c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GymAssests/streetlightmodel/textures/lamps_pole_single_1_BaseColor.png using Guid(494487c8afef13543897f8cc267ffa5c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '55b7cb26d76060d82f581265b282c531') in 0.037546 seconds 
-  Import took 0.051221 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000316 seconds.
-  path: Assets/GymAssests/streetlightmodel/textures/lamps_lamp03_Opacity.png
-  artifactKey: Guid(7d29d8f69b80b0c49a350af248bb0796) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GymAssests/streetlightmodel/textures/lamps_lamp03_Opacity.png using Guid(7d29d8f69b80b0c49a350af248bb0796) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1a4cdb055add7e4f07cd1630730da118') in 0.042799 seconds 
-  Import took 0.051854 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000300 seconds.
-  path: Assets/GymAssests/streetlightmodel/textures/lamps_pole_4side_1_Height.png
-  artifactKey: Guid(a8fdcad8e1abc324da50fb9b2c9041ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GymAssests/streetlightmodel/textures/lamps_pole_4side_1_Height.png using Guid(a8fdcad8e1abc324da50fb9b2c9041ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c74c5f6d79183591f21de9f1b25d4d81') in 0.025603 seconds 
-  Import took 0.036866 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000467 seconds.
-  path: Assets/GymAssests/streetlightmodel/textures/lamps_lamp01_Roughness.png
-  artifactKey: Guid(2a039b33f099cf2468d6db8ee525b006) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GymAssests/streetlightmodel/textures/lamps_lamp01_Roughness.png using Guid(2a039b33f099cf2468d6db8ee525b006) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ff391b527ecdfad1f85a3de540493e29') in 0.022294 seconds 
-  Import took 0.038235 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000684 seconds.
-  path: Assets/GymAssests/streetlightmodel/textures/lamps_pole_small_1_Metalness.png
-  artifactKey: Guid(16e7a60b58ac4c8419f64cf94c172aa8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GymAssests/streetlightmodel/textures/lamps_pole_small_1_Metalness.png using Guid(16e7a60b58ac4c8419f64cf94c172aa8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '60e16b987f019ff0290755ea29683f67') in 0.020259 seconds 
-  Import took 0.037256 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000308 seconds.
-  path: Assets/GymAssests/streetlightmodel/textures/lamps_pole_wall_3_Normal.png
-  artifactKey: Guid(7f8adfdf892e179489ca29dfab58e3cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GymAssests/streetlightmodel/textures/lamps_pole_wall_3_Normal.png using Guid(7f8adfdf892e179489ca29dfab58e3cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f07d708e7deef2dbb5937f0eeab24673') in 0.033338 seconds 
-  Import took 0.050300 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000226 seconds.
-  path: Assets/GymAssests/streetlightmodel/textures/lamps_pole_wall_2_Normal.png
-  artifactKey: Guid(ed047c43c1c3ab744b6453c995f530f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GymAssests/streetlightmodel/textures/lamps_pole_wall_2_Normal.png using Guid(ed047c43c1c3ab744b6453c995f530f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b97333252e8e4d0ecebdf642b4a747a6') in 0.026471 seconds 
-  Import took 0.034610 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000229 seconds.
-  path: Assets/GymAssests/streetlightmodel/textures/lamps_lamp02_Roughness.png
-  artifactKey: Guid(dcf3e6e2002f0e5469ffe5b40e11936b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GymAssests/streetlightmodel/textures/lamps_lamp02_Roughness.png using Guid(dcf3e6e2002f0e5469ffe5b40e11936b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2a74c54d33a25ec01439e2726e34b132') in 0.029249 seconds 
-  Import took 0.044070 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000284 seconds.
-  path: Assets/GymAssests/streetlightmodel/textures/lamps_pole_single_2_BaseColor.png
-  artifactKey: Guid(c460a509bd7c40245b9e09c8cc7c49ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GymAssests/streetlightmodel/textures/lamps_pole_single_2_BaseColor.png using Guid(c460a509bd7c40245b9e09c8cc7c49ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b4052ab093054cb4b503572cd204d6c8') in 0.028345 seconds 
-  Import took 0.039398 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000217 seconds.
-  path: Assets/GymAssests/streetlightmodel/textures/lamps_lambert1_Normal.png
-  artifactKey: Guid(172750b95eb69a042a18f71dcae7d5e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GymAssests/streetlightmodel/textures/lamps_lambert1_Normal.png using Guid(172750b95eb69a042a18f71dcae7d5e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'db704c3d6884b267c08ed79e4de06958') in 0.027187 seconds 
-  Import took 0.042844 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000253 seconds.
-  path: Assets/GymAssests/streetlightmodel/textures/lamps_lamp01_BaseColor.png
-  artifactKey: Guid(a60209cbd93734f4bbba1174392c4f53) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GymAssests/streetlightmodel/textures/lamps_lamp01_BaseColor.png using Guid(a60209cbd93734f4bbba1174392c4f53) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6f2b53874158be47b9bf2dd2b9379e46') in 0.026831 seconds 
-  Import took 0.036754 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000241 seconds.
-  path: Assets/GymAssests/streetlightmodel/textures/lamps_pole_2side_1_Normal.png
-  artifactKey: Guid(44175b89bd5e4e645b7de1e9b8c868da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GymAssests/streetlightmodel/textures/lamps_pole_2side_1_Normal.png using Guid(44175b89bd5e4e645b7de1e9b8c868da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e916487fc2a46b0118c8ffe9c467bc8f') in 0.027823 seconds 
-  Import took 0.036667 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000238 seconds.
-  path: Assets/GymAssests/streetlightmodel/textures/lamps_lamp01_Metalness.png
-  artifactKey: Guid(b92babb0b6a36154ab481122d4470d01) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GymAssests/streetlightmodel/textures/lamps_lamp01_Metalness.png using Guid(b92babb0b6a36154ab481122d4470d01) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ee4a6afa81e203b292052a2297ef5599') in 0.025257 seconds 
-  Import took 0.043972 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000335 seconds.
-  path: Assets/GymAssests/streetlightmodel/textures/lamps_pole_wall_2_Metalness.png
-  artifactKey: Guid(61e641c0fbbc8c64c90ee6eb920fa306) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GymAssests/streetlightmodel/textures/lamps_pole_wall_2_Metalness.png using Guid(61e641c0fbbc8c64c90ee6eb920fa306) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '300456cb8da9555866e5e95fd0cd581e') in 0.030592 seconds 
-  Import took 0.041845 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000345 seconds.
-  path: Assets/GymAssests/streetlightmodel/textures/lamps_lamp02_Metalness.png
-  artifactKey: Guid(54af2bcba26adcf4c839705ffc45eab0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GymAssests/streetlightmodel/textures/lamps_lamp02_Metalness.png using Guid(54af2bcba26adcf4c839705ffc45eab0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f2c87453a2fec3e4f4273b4727e45e51') in 0.037438 seconds 
-  Import took 0.051477 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000660 seconds.
-  path: Assets/GymAssests/streetlightmodel/textures/lamps_lamp01_Emissive.png
-  artifactKey: Guid(0432b7dd4aa630f42a8f102c42c70fe6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GymAssests/streetlightmodel/textures/lamps_lamp01_Emissive.png using Guid(0432b7dd4aa630f42a8f102c42c70fe6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cad52844252d6f25feaeb51bc47e6091') in 0.032901 seconds 
-  Import took 0.046475 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000276 seconds.
-  path: Assets/GymAssests/streetlightmodel/textures/lamps_pole_4side_1_Metalness.png
-  artifactKey: Guid(be7a25241ba5280488c49af8d37660f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GymAssests/streetlightmodel/textures/lamps_pole_4side_1_Metalness.png using Guid(be7a25241ba5280488c49af8d37660f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3c930c2a1ac7547ac9ef44038166cef2') in 0.031686 seconds 
-  Import took 0.043349 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000353 seconds.
-  path: Assets/GymAssests/streetlightmodel/textures/lamps_pole_small_1_Roughness.png
-  artifactKey: Guid(fc00252bdad5267459aff4ae740ea9b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GymAssests/streetlightmodel/textures/lamps_pole_small_1_Roughness.png using Guid(fc00252bdad5267459aff4ae740ea9b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd1eb1f278e6e75aa66aabbffec713fd2') in 0.029778 seconds 
-  Import took 0.044251 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000264 seconds.
-  path: Assets/GymAssests/streetlightmodel/textures/lamps_pole_wall_3_Metalness.png
-  artifactKey: Guid(2d63ae296df44fa4c9de40375ee4b010) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GymAssests/streetlightmodel/textures/lamps_pole_wall_3_Metalness.png using Guid(2d63ae296df44fa4c9de40375ee4b010) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f574fa8fa2e5c83a4b38a172c3bdecc2') in 0.027936 seconds 
-  Import took 0.039355 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000249 seconds.
-  path: Assets/GymAssests/streetlightmodel/textures/lamps_lambert1_Roughness.png
-  artifactKey: Guid(7c923a93afceaca41ba7f5db7accfefa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GymAssests/streetlightmodel/textures/lamps_lambert1_Roughness.png using Guid(7c923a93afceaca41ba7f5db7accfefa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '48db1b7bd024728b225056ee4f2d52f8') in 0.025549 seconds 
-  Import took 0.040211 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000685 seconds.
-  path: Assets/GymAssests/streetlightmodel/textures/lamps_pole_wall_3_Roughness.png
-  artifactKey: Guid(b43c4ce54fa0748429a51e64ffd9260e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GymAssests/streetlightmodel/textures/lamps_pole_wall_3_Roughness.png using Guid(b43c4ce54fa0748429a51e64ffd9260e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f05eccb08149c8a32522320abd667282') in 0.031947 seconds 
-  Import took 0.041436 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000281 seconds.
-  path: Assets/GymAssests/streetlightmodel/textures/lamps_pole_single_1_Metalness.png
-  artifactKey: Guid(2657d7169f6b4ee4eb25d3ce7f16c606) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GymAssests/streetlightmodel/textures/lamps_pole_single_1_Metalness.png using Guid(2657d7169f6b4ee4eb25d3ce7f16c606) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '22dc65e6f70c72516772246a70be0458') in 0.025548 seconds 
-  Import took 0.044567 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000820 seconds.
-  path: Assets/GymAssests/streetlightmodel/textures/lamps_pole_small_2_Metalness.png
-  artifactKey: Guid(3d395ceea1752634887f82e245279744) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GymAssests/streetlightmodel/textures/lamps_pole_small_2_Metalness.png using Guid(3d395ceea1752634887f82e245279744) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5705af476967ae2352a3d9c772f49ea4') in 0.022997 seconds 
-  Import took 0.033985 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000391 seconds.
-  path: Assets/GymAssests/streetlightmodel/textures/lamps_pole_wall_1_BaseColor.png
-  artifactKey: Guid(93a85ede9cabe504e9aee977dfc15d87) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GymAssests/streetlightmodel/textures/lamps_pole_wall_1_BaseColor.png using Guid(93a85ede9cabe504e9aee977dfc15d87) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f9980ec6d080df692bb1e71284e4ffce') in 0.034051 seconds 
-  Import took 0.046569 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000249 seconds.
-  path: Assets/GymAssests/streetlightmodel/textures/lamps_lamp_04_Opacity.png
-  artifactKey: Guid(e86056cc174de6e4583fadbd6d227231) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GymAssests/streetlightmodel/textures/lamps_lamp_04_Opacity.png using Guid(e86056cc174de6e4583fadbd6d227231) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ee25754b03dad3193ca8e2dbaeeaf4a7') in 0.031325 seconds 
-  Import took 0.040704 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000371 seconds.
-  path: Assets/GymAssests/streetlightmodel/textures/lamps_pole_wall_1_Normal.png
-  artifactKey: Guid(6ff504a05da2b46448b6f355619b95fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GymAssests/streetlightmodel/textures/lamps_pole_wall_1_Normal.png using Guid(6ff504a05da2b46448b6f355619b95fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c78925f454cb7da33c826c5b152e1502') in 0.024601 seconds 
-  Import took 0.041347 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000760 seconds.
-  path: Assets/GymAssests/streetlightmodel/textures/lamps_lamp02_Normal.png
-  artifactKey: Guid(ff7055decf9181946aa69b8349791a78) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GymAssests/streetlightmodel/textures/lamps_lamp02_Normal.png using Guid(ff7055decf9181946aa69b8349791a78) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '61b8661d7b28616e6ffc6f026d96b2e5') in 0.031656 seconds 
-  Import took 0.043505 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000312 seconds.
-  path: Assets/GymAssests/streetlightmodel/textures/lamps_lamp01_Normal.png
-  artifactKey: Guid(8a9156f5aa0dfe64b88e1b4b4be8b3ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GymAssests/streetlightmodel/textures/lamps_lamp01_Normal.png using Guid(8a9156f5aa0dfe64b88e1b4b4be8b3ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1bb9e5dd154431582f0876b7e595e4a0') in 0.035498 seconds 
-  Import took 0.051290 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000619 seconds.
-  path: Assets/GymAssests/streetlightmodel/textures/lamps_lamp01_Opacity.png
-  artifactKey: Guid(25eb6c2b70f59a9479275c943c2cf87a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GymAssests/streetlightmodel/textures/lamps_lamp01_Opacity.png using Guid(25eb6c2b70f59a9479275c943c2cf87a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ad184d94d8194123dd5ae9511973bdf4') in 0.046649 seconds 
-  Import took 0.058356 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000229 seconds.
-  path: Assets/GymAssests/streetlightmodel/textures/lamps_lamp03_Height.png
-  artifactKey: Guid(70c4b894a38e2ff479ec67dcf39873dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GymAssests/streetlightmodel/textures/lamps_lamp03_Height.png using Guid(70c4b894a38e2ff479ec67dcf39873dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e632e248e1c832335380a282e54fe070') in 0.024910 seconds 
-  Import took 0.034125 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000289 seconds.
-  path: Assets/GymAssests/streetlightmodel/textures/lamps_lamp02_Height.png
-  artifactKey: Guid(f6ed7d741efa595428b23aff7e23f107) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GymAssests/streetlightmodel/textures/lamps_lamp02_Height.png using Guid(f6ed7d741efa595428b23aff7e23f107) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '95a20364e19e8e7337604a56f75b6d2a') in 0.023759 seconds 
-  Import took 0.041232 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000333 seconds.
-  path: Assets/GymAssests/streetlightmodel/textures/lamps_lamp03_BaseColor.png
-  artifactKey: Guid(221b5f1488c47914399261d0c81af09a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GymAssests/streetlightmodel/textures/lamps_lamp03_BaseColor.png using Guid(221b5f1488c47914399261d0c81af09a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bf0c64423fca405d9a3f34659d16a377') in 0.025472 seconds 
-  Import took 0.039866 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000307 seconds.
-  path: Assets/GymAssests/streetlightmodel/textures/lamps_pole_wall_2_Roughness.png
-  artifactKey: Guid(70b4127af211da04ba68168c23701284) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GymAssests/streetlightmodel/textures/lamps_pole_wall_2_Roughness.png using Guid(70b4127af211da04ba68168c23701284) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd9ec658f0e86aa2bcaeb7fc2f8af33bf') in 0.029452 seconds 
-  Import took 0.045536 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000295 seconds.
-  path: Assets/GymAssests/streetlightmodel/textures/lamps_pole_wall_3_Height.png
-  artifactKey: Guid(786325c2afcc58f41913144766017eaa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GymAssests/streetlightmodel/textures/lamps_pole_wall_3_Height.png using Guid(786325c2afcc58f41913144766017eaa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7e629b310e709daf7b2e4afad8684815') in 0.031860 seconds 
-  Import took 0.042643 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000343 seconds.
-  path: Assets/GymAssests/streetlightmodel/textures/lamps_pole_single_1_Height.png
-  artifactKey: Guid(3fcac1f2248e671499ec5d8e84366f64) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GymAssests/streetlightmodel/textures/lamps_pole_single_1_Height.png using Guid(3fcac1f2248e671499ec5d8e84366f64) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c9cf5d64850078e422cb6b04b5398abd') in 0.034378 seconds 
-  Import took 0.048809 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000423 seconds.
-  path: Assets/GymAssests/streetlightmodel/textures/lamps_pole_wall_1_Metalness.png
-  artifactKey: Guid(4805f1c83f536234884240b1b38ae3a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GymAssests/streetlightmodel/textures/lamps_pole_wall_1_Metalness.png using Guid(4805f1c83f536234884240b1b38ae3a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '47298f19f1a810bac095e757d66347e6') in 0.029008 seconds 
-  Import took 0.042625 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000313 seconds.
-  path: Assets/GymAssests/streetlightmodel/textures/lamps_pole_single_2_Metalness.png
-  artifactKey: Guid(d01ea6ef3e5e98e4092cc08fb220e2f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GymAssests/streetlightmodel/textures/lamps_pole_single_2_Metalness.png using Guid(d01ea6ef3e5e98e4092cc08fb220e2f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bc14092f294fe6069da0ca0d308b7bae') in 0.030352 seconds 
-  Import took 0.043006 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000396 seconds.
-  path: Assets/GymAssests/streetlightmodel/textures/lamps_pole_single_2_Normal.png
-  artifactKey: Guid(bc81da3dc040f21469f3f8633fac6f93) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GymAssests/streetlightmodel/textures/lamps_pole_single_2_Normal.png using Guid(bc81da3dc040f21469f3f8633fac6f93) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '19107904598a9050576d49f44a060954') in 0.022750 seconds 
-  Import took 0.035994 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000266 seconds.
-  path: Assets/GymAssests/streetlightmodel/textures/lamps_pole_2side_1_Height.png
-  artifactKey: Guid(8ddafd0a2dc76e74995348c30c9046f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GymAssests/streetlightmodel/textures/lamps_pole_2side_1_Height.png using Guid(8ddafd0a2dc76e74995348c30c9046f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c0c36927d3c69dbdfbea24b7172b5696') in 0.030048 seconds 
-  Import took 0.040520 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.001023 seconds.
-  path: Assets/GymAssests/streetlightmodel/textures/lamps_pole_wall_1_Roughness.png
-  artifactKey: Guid(992535b56e09e8a4e948472c4d61707f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GymAssests/streetlightmodel/textures/lamps_pole_wall_1_Roughness.png using Guid(992535b56e09e8a4e948472c4d61707f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2c10c92a50afc7b1474e64c0f0127d6d') in 0.026293 seconds 
-  Import took 0.040542 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000309 seconds.
-  path: Assets/GymAssests/streetlightmodel/textures/lamps_pole_2side_1_Roughness.png
-  artifactKey: Guid(c3b24e5c7a106be46a643b37d4cd8ef8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GymAssests/streetlightmodel/textures/lamps_pole_2side_1_Roughness.png using Guid(c3b24e5c7a106be46a643b37d4cd8ef8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8915e54492b9d07798f16ef84625ae1b') in 0.030498 seconds 
-  Import took 0.039470 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000262 seconds.
-  path: Assets/GymAssests/streetlightmodel/textures/lamps_pole_wall_3_BaseColor.png
-  artifactKey: Guid(86f4c37b60b061e48835088809869e80) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GymAssests/streetlightmodel/textures/lamps_pole_wall_3_BaseColor.png using Guid(86f4c37b60b061e48835088809869e80) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '20027d3c6d31b1f78d4486f977b61003') in 0.038628 seconds 
-  Import took 0.056799 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 278.471142 seconds.
-  path: Assets/GymAssests/streetlightmodel/textures/New Material.mat
-  artifactKey: Guid(85c705494d6233d418995ce0624438b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GymAssests/streetlightmodel/textures/New Material.mat using Guid(85c705494d6233d418995ce0624438b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cb4585fd04fcba44e490b60a0a58a5a7') in 0.025162 seconds 
-  Import took 0.038277 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 14.920790 seconds.
-  path: Assets/GymAssests/streetlightmodel/textures/New Material.mat
-  artifactKey: Guid(85c705494d6233d418995ce0624438b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GymAssests/streetlightmodel/textures/New Material.mat using Guid(85c705494d6233d418995ce0624438b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '14958ab75d0fd504a97c810daebffdf8') in 0.026190 seconds 
-  Import took 0.036211 seconds .
-
+  path: Assets/UniversalRenderPipelineAsset.asset
+  artifactKey: Guid(354398a4ec99999439aa8fec9af680cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UniversalRenderPipelineAsset.asset using Guid(354398a4ec99999439aa8fec9af680cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9c0b135a991f7067a48129a49bba9a6f') in 0.036395 seconds 
+  Import took 0.041345 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000211 seconds.
+  path: Assets/New Terrain.asset
+  artifactKey: Guid(cf2b1c6cb1021204d98017b4431db1e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/New Terrain.asset using Guid(cf2b1c6cb1021204d98017b4431db1e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2d8b8573dc649d42146d46ab2c8f3d58') in 0.041171 seconds 
+  Import took 0.046317 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000200 seconds.
+  path: Assets/UniversalRenderPipelineAsset_Renderer.asset
+  artifactKey: Guid(02e94b3bd0c7d0845afe0496e4b3e970) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UniversalRenderPipelineAsset_Renderer.asset using Guid(02e94b3bd0c7d0845afe0496e4b3e970) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0692a5d45e664cd65750a877479d85ea') in 0.004441 seconds 
+  Import took 0.008298 seconds .
+
+========================================================================
+Received Prepare
+Assets/GymAssests/uploads-files-669576-aeq3vjprnoqo-Bleachers-1/bleachers.c4d: Unity no longer supports importing Cinema 4D files directly, but we're working with Maxon to make the experience better. To import Cinema 4D files, install Maxon's external importer. You can find more information on the Unity Forum: https://on.unity.com/c4d.
+
+Please note that FBX files exported from Cinema4D are still supported.
+
+Registering precompiled user dll's ...
+Registered in 0.014040 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.99 ms, found 10 plugins.
+Preloading 1 native plugins for Editor in 0.10 ms.
+System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation. ---> System.NullReferenceException: Object reference not set to an instance of an object
+  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x00048] in C:\Users\Tairo Kageyama\Documents\GitHub\BVW-Unity-VR\VR Room Project\Library\PackageCache\com.unity.xr.oculus@1.10.0\Runtime\OculusLoader.cs:250 
+  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0007b] in C:\Users\Tairo Kageyama\Documents\GitHub\BVW-Unity-VR\VR Room Project\Library\PackageCache\com.unity.xr.oculus@1.10.0\Runtime\OculusLoader.cs:235 
+  at (wrapper managed-to-native) System.Reflection.MonoMethod.InternalInvoke(System.Reflection.MonoMethod,object,object[],System.Exception&)
+  at System.Reflection.MonoMethod.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00032] in <695d1cc93cca45069c528c15c9fdd749>:0 
+   --- End of inner exception stack trace ---
+  at System.Reflection.MonoMethod.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00048] in <695d1cc93cca45069c528c15c9fdd749>:0 
+  at System.Reflection.MethodBase.Invoke (System.Object obj, System.Object[] parameters) [0x00000] in <695d1cc93cca45069c528c15c9fdd749>:0 
+  at UnityEditor.EditorAssemblies.ProcessInitializeOnLoadMethodAttributes () [0x00047] in <d0e4b8c1204147f3935b6e9c8b8565ad>:0 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
+
+Mono: successfully reloaded assembly
+- Completed reload, in  0.937 seconds
+Domain Reload Profiling:
+	ReloadAssembly (937ms)
+		BeginReloadAssembly (117ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (3ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (31ms)
+		EndReloadAssembly (771ms)
+			LoadAssemblies (89ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (206ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (30ms)
+			SetupLoadedEditorAssemblies (334ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (3ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (64ms)
+				ProcessInitializeOnLoadAttributes (246ms)
+				ProcessInitializeOnLoadMethodAttributes (11ms)
+				AfterProcessingInitializeOnLoad (8ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (7ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.02 ms, found 10 plugins.
+Preloading 1 native plugins for Editor in 0.11 ms.
+Unloading 3796 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 174.2 MB.
+System memory in use after: 174.4 MB.
+
+Unloading 35 unused Assets to reduce memory usage. Loaded Objects now: 4464.
+Total: 3.450000 ms (FindLiveObjects: 0.330700 ms CreateObjectMapping: 0.127300 ms MarkObjects: 2.924600 ms  DeleteObjects: 0.066500 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 AssetImportWorkerClient::OnTransportError - code=2 error=End of file
