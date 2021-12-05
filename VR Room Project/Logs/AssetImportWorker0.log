@@ -1079,3 +1079,107 @@ AssetImportParameters requested are different than current active one (requested
   custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 5432.368602 seconds.
+  path: Assets/GymAssests
+  artifactKey: Guid(cd9d152971dd7b143bbdc99b938891fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GymAssests using Guid(cd9d152971dd7b143bbdc99b938891fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5f04f8680b47528a3e4c2efcfa56b46c') in 0.103208 seconds 
+  Import took 0.266287 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 19.938627 seconds.
+  path: Assets/GymAssests/WallHanger.fbx
+  artifactKey: Guid(7ca04cce4f3ef4bd7b71b35b179560cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GymAssests/WallHanger.fbx using Guid(7ca04cce4f3ef4bd7b71b35b179560cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b362f4d761e95c90a288197ec4a1d160') in 0.823245 seconds 
+  Import took 0.858380 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 30.249147 seconds.
+  path: Assets/_Course Library/Materials/Object Materials/Material_Wood_Dark.mat
+  artifactKey: Guid(e7b638a089431c04bb74a1b4b8db697a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Course Library/Materials/Object Materials/Material_Wood_Dark.mat using Guid(e7b638a089431c04bb74a1b4b8db697a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '80b47b4a363319038786e62f00e96807') in 0.037483 seconds 
+  Import took 0.056467 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000249 seconds.
+  path: Assets/_Course Library/Materials/Object Materials/Material_Wood_Light.mat
+  artifactKey: Guid(0e6e52f9b5a0f1745a9a648da89b7bcb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Course Library/Materials/Object Materials/Material_Wood_Light.mat using Guid(0e6e52f9b5a0f1745a9a648da89b7bcb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'db9b032192ed6a740a7d8b4d80e60258') in 0.012967 seconds 
+  Import took 0.018346 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000285 seconds.
+  path: Assets/Materials/Wood2.mat
+  artifactKey: Guid(f9f5e921d1f862f438cac2e931a22418) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Wood2.mat using Guid(f9f5e921d1f862f438cac2e931a22418) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0eb3f63521ddac7624f82f48d2de7354') in 0.009433 seconds 
+  Import took 0.014674 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000257 seconds.
+  path: Assets/GymAssests/LowPolyChristmasAddOn/Meshes/Snowman.fbx
+  artifactKey: Guid(77e74f65e820c4ea9b756ade108c63d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GymAssests/LowPolyChristmasAddOn/Meshes/Snowman.fbx using Guid(77e74f65e820c4ea9b756ade108c63d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4f72e19a704b1d2671b484c855369034') in 0.075487 seconds 
+  Import took 0.080176 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000494 seconds.
+  path: Assets/Challenges/01_Architecture/Materials/Wood.mat
+  artifactKey: Guid(6f5aa76632f2022448fc10d876a8c1dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Challenges/01_Architecture/Materials/Wood.mat using Guid(6f5aa76632f2022448fc10d876a8c1dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e47a44af38878ab03081024d66f3ea14') in 0.008711 seconds 
+  Import took 0.013342 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000270 seconds.
+  path: Assets/Textures/Wood2.png
+  artifactKey: Guid(2481d5304a28ddd4e9694bfc3a119c9a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Wood2.png using Guid(2481d5304a28ddd4e9694bfc3a119c9a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b0e14a7dfd4758ee50f7186527e53c16') in 0.040977 seconds 
+  Import took 0.046242 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000268 seconds.
+  path: Assets/GymAssests/LowPolyChristmasAddOn/Meshes/Sled_1.fbx
+  artifactKey: Guid(aa3abe1c5e77f46609f6f6550c2a2e84) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GymAssests/LowPolyChristmasAddOn/Meshes/Sled_1.fbx using Guid(aa3abe1c5e77f46609f6f6550c2a2e84) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5171279bd7f8c4176deb1eb4674b28e5') in 0.022949 seconds 
+  Import took 0.027771 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000324 seconds.
+  path: Assets/GymAssests/LowPolyChristmasAddOn/Meshes/ChristmasTree_2.fbx
+  artifactKey: Guid(f7a2dc762b2aa4378a37c7cb24fadfaa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GymAssests/LowPolyChristmasAddOn/Meshes/ChristmasTree_2.fbx using Guid(f7a2dc762b2aa4378a37c7cb24fadfaa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a465681703e98b7ed452bea7080b1d6d') in 0.187067 seconds 
+  Import took 0.191700 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000441 seconds.
+  path: Assets/_Course Library/Textures/WoodFloor_Texture.png
+  artifactKey: Guid(79a6f16b6c7b08541813ca8532fb917c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Course Library/Textures/WoodFloor_Texture.png using Guid(79a6f16b6c7b08541813ca8532fb917c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bfebe4812911f042df704365a223d0f3') in 0.007718 seconds 
+  Import took 0.012060 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000222 seconds.
+  path: Assets/GymAssests/LowPolyChristmasAddOn/Meshes/ChristmasTree_1.fbx
+  artifactKey: Guid(41078cf1584534477ad18a55c8619aa8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GymAssests/LowPolyChristmasAddOn/Meshes/ChristmasTree_1.fbx using Guid(41078cf1584534477ad18a55c8619aa8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cc6df8e23cc85901d0b555801d1a41e4') in 0.028436 seconds 
+  Import took 0.033401 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000331 seconds.
+  path: Assets/_Course Library/Materials/Object Materials/Material_Wood_Rustic.mat
+  artifactKey: Guid(0e77f434c76d1e14086e2281d4df3849) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Course Library/Materials/Object Materials/Material_Wood_Rustic.mat using Guid(0e77f434c76d1e14086e2281d4df3849) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7655311b57ddaf45a03533b1505ab27b') in 0.008198 seconds 
+  Import took 0.013365 seconds .
+
