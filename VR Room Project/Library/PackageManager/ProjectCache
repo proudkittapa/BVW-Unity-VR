@@ -5,7 +5,7 @@ m_ProjectFiles:
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 637742756100000000
+      ticks: 637742879830000000
     m_Hash: 1777642345
   m_LockFileStatus:
     m_FilePath: /Users/kittapasasivimonpan/Desktop/BVW-Unity-VR/VR Room Project/Packages/packages-lock.json
@@ -13,7 +13,7 @@ m_ProjectFiles:
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 637742756100000000
+      ticks: 637742879830000000
     m_Hash: 3202217773
 m_EmbeddedPackageManifests:
   m_ManifestsStatus: {}
