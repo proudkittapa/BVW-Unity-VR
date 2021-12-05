@@ -6222,6 +6222,7 @@ GameObject:
   m_Component:
   - component: {fileID: 166957838}
   - component: {fileID: 166957839}
+  - component: {fileID: 166957840}
   m_Layer: 0
   m_Name: Socket
   m_TagString: Untagged
@@ -6238,7 +6239,7 @@ Transform:
   m_GameObject: {fileID: 166957837}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 0.1, y: 0.1, z: 0.1}
   m_Children:
   - {fileID: 1000412663}
   m_Father: {fileID: 835280905}
@@ -6292,6 +6293,19 @@ MonoBehaviour:
   m_SocketActive: 1
   m_InteractableHoverScale: 1
   m_RecycleDelayTime: 1
+--- !u!65 &166957840
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 166957837}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &169398229
 GameObject:
   m_ObjectHideFlags: 0
@@ -17635,6 +17649,7 @@ GameObject:
   m_Component:
   - component: {fileID: 905522059}
   - component: {fileID: 905522060}
+  - component: {fileID: 905522061}
   m_Layer: 0
   m_Name: Socket (1)
   m_TagString: Untagged
@@ -17651,7 +17666,7 @@ Transform:
   m_GameObject: {fileID: 905522058}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: -0.15}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 0.1, y: 0.1, z: 0.1}
   m_Children:
   - {fileID: 1401672671}
   m_Father: {fileID: 835280905}
@@ -17705,6 +17720,19 @@ MonoBehaviour:
   m_SocketActive: 1
   m_InteractableHoverScale: 1
   m_RecycleDelayTime: 1
+--- !u!65 &905522061
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 905522058}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1001 &912241082
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -27497,6 +27525,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1470522115}
   - component: {fileID: 1470522116}
+  - component: {fileID: 1470522117}
   m_Layer: 0
   m_Name: Socket (2)
   m_TagString: Untagged
@@ -27513,7 +27542,7 @@ Transform:
   m_GameObject: {fileID: 1470522114}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: -0.33}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 0.1, y: 0.1, z: 0.1}
   m_Children:
   - {fileID: 1077694831}
   m_Father: {fileID: 835280905}
@@ -27567,6 +27596,19 @@ MonoBehaviour:
   m_SocketActive: 1
   m_InteractableHoverScale: 1
   m_RecycleDelayTime: 1
+--- !u!65 &1470522117
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1470522114}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &1511981720 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: -2139182177853841223, guid: 7eef42cc2edfd478f8fd94d1be3c4da4, type: 3}
