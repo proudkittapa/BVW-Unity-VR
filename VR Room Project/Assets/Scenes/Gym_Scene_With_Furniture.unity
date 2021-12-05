@@ -16271,7 +16271,7 @@ PrefabInstance:
     - target: {fileID: -7511558181221131132, guid: 7ca04cce4f3ef4bd7b71b35b179560cc, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
-      objectReference: {fileID: 2100000, guid: f9f5e921d1f862f438cac2e931a22418, type: 2}
+      objectReference: {fileID: 2100000, guid: 0e6e52f9b5a0f1745a9a648da89b7bcb, type: 2}
     - target: {fileID: 919132149155446097, guid: 7ca04cce4f3ef4bd7b71b35b179560cc, type: 3}
       propertyPath: m_Name
       value: WallHanger
