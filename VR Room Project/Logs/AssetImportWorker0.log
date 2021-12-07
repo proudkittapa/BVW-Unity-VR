@@ -15,7 +15,7 @@ C:/Users/Adminstrator/Documents/GitHub/BVW-Unity-VR/VR Room Project
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-58542
+61127
 Successfully changed project path to: C:/Users/Adminstrator/Documents/GitHub/BVW-Unity-VR/VR Room Project
 C:/Users/Adminstrator/Documents/GitHub/BVW-Unity-VR/VR Room Project
 Using Asset Import Pipeline V2.
@@ -23,8 +23,8 @@ Assets/GymAssests/uploads-files-669576-aeq3vjprnoqo-Bleachers-1/bleachers.c4d: U
 
 Please note that FBX files exported from Cinema4D are still supported.
 
-Refreshing native plugins compatible for Editor in 130.41 ms, found 10 plugins.
-Preloading 1 native plugins for Editor in 1.19 ms.
+Refreshing native plugins compatible for Editor in 131.41 ms, found 10 plugins.
+Preloading 1 native plugins for Editor in 1.26 ms.
 Initialize engine version: 2020.3.17f1 (a4537701e4ab)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.17f1/Editor/Data/Resources/UnitySubsystems
 [Subsystems] Discovering subsystems at path C:/Users/Adminstrator/Documents/GitHub/BVW-Unity-VR/VR Room Project/Assets
@@ -39,7 +39,7 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.17f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.17f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.17f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56528
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56000
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.17f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
@@ -47,7 +47,7 @@ Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.17f1/
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.17f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.17f1/Editor/Data/PlaybackEngines/LinuxStandaloneSupport/UnityEditor.LinuxStandalone.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.17f1/Editor/Data/PlaybackEngines/LuminSupport/UnityEditor.Lumin.Extensions.dll
-Registered in 0.004360 seconds.
+Registered in 0.004443 seconds.
 Native extension for Lumin target not found
 Native extension for LinuxStandalone target not found
 Native extension for WindowsStandalone target not found
@@ -57,39 +57,39 @@ Assets/GymAssests/uploads-files-669576-aeq3vjprnoqo-Bleachers-1/bleachers.c4d: U
 
 Please note that FBX files exported from Cinema4D are still supported.
 
-Refreshing native plugins compatible for Editor in 108.13 ms, found 10 plugins.
+Refreshing native plugins compatible for Editor in 109.16 ms, found 10 plugins.
 Preloading 1 native plugins for Editor in 0.09 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  2.862 seconds
+- Completed reload, in  2.599 seconds
 Domain Reload Profiling:
-	ReloadAssembly (2862ms)
-		BeginReloadAssembly (73ms)
+	ReloadAssembly (2599ms)
+		BeginReloadAssembly (71ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (622ms)
-			LoadAssemblies (72ms)
+		EndReloadAssembly (611ms)
+			LoadAssemblies (70ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (206ms)
+			SetupTypeCache (201ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (44ms)
+			RebuildScriptCaches (41ms)
 			SetupLoadedEditorAssemblies (272ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (9ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (108ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (109ms)
 				BeforeProcessingInitializeOnLoad (21ms)
-				ProcessInitializeOnLoadAttributes (98ms)
-				ProcessInitializeOnLoadMethodAttributes (35ms)
+				ProcessInitializeOnLoadAttributes (97ms)
+				ProcessInitializeOnLoadMethodAttributes (34ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.012660 seconds.
+Registered in 0.011999 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for Lumin target not found
 Native extension for LinuxStandalone target not found
@@ -100,7 +100,7 @@ Assets/GymAssests/uploads-files-669576-aeq3vjprnoqo-Bleachers-1/bleachers.c4d: U
 
 Please note that FBX files exported from Cinema4D are still supported.
 
-Refreshing native plugins compatible for Editor in 111.77 ms, found 10 plugins.
+Refreshing native plugins compatible for Editor in 115.86 ms, found 10 plugins.
 Preloading 1 native plugins for Editor in 0.09 ms.
 [XR] OculusXRPlugin: registering subsystems
 [XR] Unable to register display lifecyle provider: [1]
@@ -122,33 +122,33 @@ UnityEngine.Debug:LogError (object)
 UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
 
 Mono: successfully reloaded assembly
-- Completed reload, in  2.030 seconds
+- Completed reload, in  1.982 seconds
 Domain Reload Profiling:
-	ReloadAssembly (2031ms)
-		BeginReloadAssembly (205ms)
+	ReloadAssembly (1983ms)
+		BeginReloadAssembly (186ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (7ms)
+			DisableScriptedObjects (6ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (26ms)
-		EndReloadAssembly (1741ms)
-			LoadAssemblies (147ms)
+			CreateAndSetChildDomain (25ms)
+		EndReloadAssembly (1717ms)
+			LoadAssemblies (130ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (500ms)
+			SetupTypeCache (473ms)
 			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (85ms)
-			SetupLoadedEditorAssemblies (772ms)
+			RebuildScriptCaches (93ms)
+			SetupLoadedEditorAssemblies (786ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (8ms)
+				InitializePlatformSupportModulesInManaged (9ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (112ms)
-				BeforeProcessingInitializeOnLoad (153ms)
-				ProcessInitializeOnLoadAttributes (467ms)
-				ProcessInitializeOnLoadMethodAttributes (20ms)
-				AfterProcessingInitializeOnLoad (11ms)
+				RefreshPlugins (116ms)
+				BeforeProcessingInitializeOnLoad (158ms)
+				ProcessInitializeOnLoadAttributes (478ms)
+				ProcessInitializeOnLoadMethodAttributes (17ms)
+				AfterProcessingInitializeOnLoad (7ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (10ms)
+			AwakeInstancesAfterBackupRestoration (7ms)
 Platform modules already initialized, skipping
 Assets/GymAssests/uploads-files-669576-aeq3vjprnoqo-Bleachers-1/bleachers.c4d: Unity no longer supports importing Cinema 4D files directly, but we're working with Maxon to make the experience better. To import Cinema 4D files, install Maxon's external importer. You can find more information on the Unity Forum: https://on.unity.com/c4d.
 
@@ -160,15 +160,15 @@ Assets/GymAssests/uploads-files-669576-aeq3vjprnoqo-Bleachers-1/bleachers.c4d: U
 
 Please note that FBX files exported from Cinema4D are still supported.
 
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.10 seconds
-Refreshing native plugins compatible for Editor in 1.29 ms, found 10 plugins.
-Preloading 1 native plugins for Editor in 0.18 ms.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.09 seconds
+Refreshing native plugins compatible for Editor in 1.53 ms, found 10 plugins.
+Preloading 1 native plugins for Editor in 0.12 ms.
 Unloading 3865 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 177.6 MB.
-System memory in use after: 177.7 MB.
+System memory in use before: 177.7 MB.
+System memory in use after: 177.8 MB.
 
 Unloading 41 unused Assets to reduce memory usage. Loaded Objects now: 4354.
-Total: 5.943700 ms (FindLiveObjects: 0.399400 ms CreateObjectMapping: 0.187000 ms MarkObjects: 5.203300 ms  DeleteObjects: 0.152500 ms)
+Total: 5.114400 ms (FindLiveObjects: 0.443900 ms CreateObjectMapping: 0.226500 ms MarkObjects: 4.301600 ms  DeleteObjects: 0.141300 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
@@ -182,193 +182,57 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  path: Assets/GymAssests/bakedLightSetting.lighting
-  artifactKey: Guid(6dadc1dbab1cdcd48adea13f853ec818) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GymAssests/bakedLightSetting.lighting using Guid(6dadc1dbab1cdcd48adea13f853ec818) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ddbe033a1e2a5f008bea515b33ca8945') in 0.079174 seconds 
-  Import took 0.088252 seconds .
+  path: Assets/GymAssests/low-poly-scoreboard
+  artifactKey: Guid(e5e64ba2cf9044aaf98b5524f975e405) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GymAssests/low-poly-scoreboard using Guid(e5e64ba2cf9044aaf98b5524f975e405) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e18eb48b7faaedfa45a56a6fb29b7305') in 0.013689 seconds 
+  Import took 0.021753 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 331.366646 seconds.
-  path: Assets/GymAssests/streetlightmodel/lampmat 1.mat
-  artifactKey: Guid(cf9a08004e520a847b31ce016e02efa8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GymAssests/streetlightmodel/lampmat 1.mat using Guid(cf9a08004e520a847b31ce016e02efa8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '72d307c9ceff78394208b8dd2f560d27') in 1.059084 seconds 
-  Import took 1.078915 seconds .
+  Time since last request: 0.000465 seconds.
+  path: Assets/GymAssests/Hanger
+  artifactKey: Guid(1ad3cfa8158da4f1b9ad0c5bec2cffbe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GymAssests/Hanger using Guid(1ad3cfa8158da4f1b9ad0c5bec2cffbe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a1ccac25a78ba32901d981a254505e71') in 0.010877 seconds 
+  Import took 0.021956 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000378 seconds.
-  path: Assets/GymAssests/streetlightmodel/lampmat 2.mat
-  artifactKey: Guid(7cb063c92e5a15048836954dfa005860) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GymAssests/streetlightmodel/lampmat 2.mat using Guid(7cb063c92e5a15048836954dfa005860) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2eb26768a364de00019aa67e26cbe316') in 0.072079 seconds 
-  Import took 0.091771 seconds .
+  Time since last request: 0.000408 seconds.
+  path: Assets/GymAssests/dodgeball_v1_L3.123c8c280b2b-fcd4-4a87-a19a-2ce7b74dddb1
+  artifactKey: Guid(20e51bab9ac6c45649662a0ff7a54e80) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GymAssests/dodgeball_v1_L3.123c8c280b2b-fcd4-4a87-a19a-2ce7b74dddb1 using Guid(20e51bab9ac6c45649662a0ff7a54e80) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9bbd60ceb3ccbf8ba20feecb4a6da412') in 0.011565 seconds 
+  Import took 0.022284 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.030055 seconds.
-  path: Assets/GymAssests/streetlightmodel/lampmat 2.mat
-  artifactKey: Guid(7cb063c92e5a15048836954dfa005860) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GymAssests/streetlightmodel/lampmat 2.mat using Guid(7cb063c92e5a15048836954dfa005860) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2eb26768a364de00019aa67e26cbe316') in 0.045505 seconds 
-  Import took 0.075729 seconds .
+  Time since last request: 0.000345 seconds.
+  path: Assets/GymAssests/Christmas Tree - POLYCRAFT Series
+  artifactKey: Guid(9a0229a36bfa45f429c2036c3d8a4da2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GymAssests/Christmas Tree - POLYCRAFT Series using Guid(9a0229a36bfa45f429c2036c3d8a4da2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f1a82977497a597f04073f760cd83837') in 0.008492 seconds 
+  Import took 0.018536 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 66.063451 seconds.
-  path: Packages/com.unity.render-pipelines.universal/Runtime/Materials/ParticlesUnlit.mat
-  artifactKey: Guid(e823cd5b5d27c0f4b8256e7c12ee3e6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.render-pipelines.universal/Runtime/Materials/ParticlesUnlit.mat using Guid(e823cd5b5d27c0f4b8256e7c12ee3e6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '92a855a8cf7f7f44436ed5619e2fc009') in 0.039575 seconds 
-  Import took 0.054448 seconds .
+  Time since last request: 0.000305 seconds.
+  path: Assets/GymAssests/Locker_room_props
+  artifactKey: Guid(42b0fc209ac3f44f990e200bd1515915) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GymAssests/Locker_room_props using Guid(42b0fc209ac3f44f990e200bd1515915) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7c818f7950a1b0382ff7febf3c72a8ef') in 0.007913 seconds 
+  Import took 0.016474 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 8089.284446 seconds.
-  path: Assets/GymAssests/squid-game-pinksoldier-triangle
-  artifactKey: Guid(d8709759e662e4ecf88d706c4fec4ce2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GymAssests/squid-game-pinksoldier-triangle using Guid(d8709759e662e4ecf88d706c4fec4ce2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '16a1fb85868cb1abacb3eaf0a4fcaea0') in 0.014598 seconds 
-  Import took 0.084102 seconds .
+  Time since last request: 211.478595 seconds.
+  path: Assets/GymAssests/squid-game-pinksoldier-triangle/source/PinkSoldier_T.obj
+  artifactKey: Guid(ee672add8dcedd5429d333b23068ada4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GymAssests/squid-game-pinksoldier-triangle/source/PinkSoldier_T.obj using Guid(ee672add8dcedd5429d333b23068ada4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd305f41637b7cab5c4b589c7adab8b07') in 0.385106 seconds 
+  Import took 0.400771 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 1.022920 seconds.
-  path: Assets/GymAssests/squid-game-pinksoldier-triangle/source
-  artifactKey: Guid(56784a365c27e4eeda963f5f79d27c82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GymAssests/squid-game-pinksoldier-triangle/source using Guid(56784a365c27e4eeda963f5f79d27c82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3cb4a1923d4958249a772c536a02916d') in 0.012394 seconds 
-  Import took 0.022569 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 1.031902 seconds.
-  path: Assets/GymAssests/squid-game-pinksoldier-triangle/source/PinkSoldier_T.zip
-  artifactKey: Guid(7dbfd55871d834957ad486ce52d9a918) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GymAssests/squid-game-pinksoldier-triangle/source/PinkSoldier_T.zip using Guid(7dbfd55871d834957ad486ce52d9a918) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6d46594c554e84e2dc798c4726b2790a') in 0.038250 seconds 
-  Import took 0.047540 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 3.347774 seconds.
-  path: Assets/GymAssests/squid-game-pinksoldier-triangle/source/PinkSoldier_T
-  artifactKey: Guid(e74575a4b9b3d4ed8bc1befd118d1d1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GymAssests/squid-game-pinksoldier-triangle/source/PinkSoldier_T using Guid(e74575a4b9b3d4ed8bc1befd118d1d1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bd1e0f8b375a6084a35c54312864a1bb') in 0.005603 seconds 
-  Import took 0.014399 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.064020 seconds.
-  path: Assets/GymAssests/squid-game-pinksoldier-triangle/source/PinkSoldier_T/lambert4sg.mat
-  artifactKey: Guid(96e4557d479e54e85b7391d7556c207f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GymAssests/squid-game-pinksoldier-triangle/source/PinkSoldier_T/lambert4sg.mat using Guid(96e4557d479e54e85b7391d7556c207f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a47d490a2b1e6e699e6173a1608e242e') in 0.127238 seconds 
-  Import took 0.136001 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000344 seconds.
-  path: Assets/GymAssests/squid-game-pinksoldier-triangle/source/PinkSoldier_T/PinkSoldier_T.obj
-  artifactKey: Guid(72a6752ddce2b432a8988cc12b6c4c15) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GymAssests/squid-game-pinksoldier-triangle/source/PinkSoldier_T/PinkSoldier_T.obj using Guid(72a6752ddce2b432a8988cc12b6c4c15) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ec6b93f0bb851e24393a6dfec3e18090') in 0.010816 seconds 
-  Import took 0.019606 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000377 seconds.
-  path: Assets/GymAssests/squid-game-pinksoldier-triangle/source/PinkSoldier_T/lambert5sg.mat
-  artifactKey: Guid(c2adf43ba96a04ebea6e093ac847b255) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GymAssests/squid-game-pinksoldier-triangle/source/PinkSoldier_T/lambert5sg.mat using Guid(c2adf43ba96a04ebea6e093ac847b255) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd459ddc6ffbe499bb29150a762c3fe31') in 0.063328 seconds 
-  Import took 0.071871 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 9.729015 seconds.
-  path: Assets/GymAssests/squid-game-pinksoldier-triangle/textures
-  artifactKey: Guid(6edfa035e95c545d6a9efeb24d50ebb2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GymAssests/squid-game-pinksoldier-triangle/textures using Guid(6edfa035e95c545d6a9efeb24d50ebb2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '554ce15dc3882696c399575d0a740bfa') in 0.003426 seconds 
-  Import took 0.012692 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.074994 seconds.
-  path: Assets/GymAssests/squid-game-pinksoldier-triangle/textures/PinkSoldier_C_BaseColor_1001.png
-  artifactKey: Guid(7962cfb6361384264bd68deb48928966) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GymAssests/squid-game-pinksoldier-triangle/textures/PinkSoldier_C_BaseColor_1001.png using Guid(7962cfb6361384264bd68deb48928966) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f0eac31695389ca2f7a6ddb9b059db5d') in 0.057992 seconds 
-  Import took 0.066435 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000309 seconds.
-  path: Assets/GymAssests/squid-game-pinksoldier-triangle/textures/PinkSoldier_C_Metalness_1002.png
-  artifactKey: Guid(b4dcc325bd3914b9f9108d715e6138bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GymAssests/squid-game-pinksoldier-triangle/textures/PinkSoldier_C_Metalness_1002.png using Guid(b4dcc325bd3914b9f9108d715e6138bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8d58f4af88b8af93ba55f5e66b63e803') in 0.056564 seconds 
-  Import took 0.063443 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000322 seconds.
-  path: Assets/GymAssests/squid-game-pinksoldier-triangle/textures/PinkSoldier_C_Metalness_1001.png
-  artifactKey: Guid(c9c373cdc2b1849978541cdc3a6d03c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GymAssests/squid-game-pinksoldier-triangle/textures/PinkSoldier_C_Metalness_1001.png using Guid(c9c373cdc2b1849978541cdc3a6d03c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e78153358d6e975ff5fe095c3ab4e753') in 0.052246 seconds 
-  Import took 0.059167 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000286 seconds.
-  path: Assets/GymAssests/squid-game-pinksoldier-triangle/textures/PinkSoldier_C_Roughness_1002.png
-  artifactKey: Guid(c1073540d8931433db49ca0265d9befc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GymAssests/squid-game-pinksoldier-triangle/textures/PinkSoldier_C_Roughness_1002.png using Guid(c1073540d8931433db49ca0265d9befc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a8ffb9b920c428a652a93ec216f52d1a') in 0.057961 seconds 
-  Import took 0.065449 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000430 seconds.
-  path: Assets/GymAssests/squid-game-pinksoldier-triangle/textures/PinkSoldier_C_BaseColor_1002.png
-  artifactKey: Guid(379cdb23dd10a43b59d49dc8dbe551b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GymAssests/squid-game-pinksoldier-triangle/textures/PinkSoldier_C_BaseColor_1002.png using Guid(379cdb23dd10a43b59d49dc8dbe551b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '98faf97fcf9bf67f6eb2bb4336011c70') in 0.023286 seconds 
-  Import took 0.032568 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000280 seconds.
-  path: Assets/GymAssests/squid-game-pinksoldier-triangle/textures/PinkSoldier_C_Normal_1002.png
-  artifactKey: Guid(6a8fc75f17a8843678a3d31b13f52d7b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GymAssests/squid-game-pinksoldier-triangle/textures/PinkSoldier_C_Normal_1002.png using Guid(6a8fc75f17a8843678a3d31b13f52d7b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd9bf604ed1ef4a26f506e6ad06610f50') in 0.049423 seconds 
-  Import took 0.058222 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000281 seconds.
-  path: Assets/GymAssests/squid-game-pinksoldier-triangle/textures/PinkSoldier_C_Roughness_1001.png
-  artifactKey: Guid(a4efc189819ed435998baac3c53e17d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GymAssests/squid-game-pinksoldier-triangle/textures/PinkSoldier_C_Roughness_1001.png using Guid(a4efc189819ed435998baac3c53e17d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '822945317a198f9f402a8bab014347b4') in 0.050412 seconds 
-  Import took 0.057343 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000292 seconds.
-  path: Assets/GymAssests/squid-game-pinksoldier-triangle/textures/PinkSoldier_C_Normal_1001.png
-  artifactKey: Guid(a7daee8c5446749b4a28b8a126e14f9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GymAssests/squid-game-pinksoldier-triangle/textures/PinkSoldier_C_Normal_1001.png using Guid(a7daee8c5446749b4a28b8a126e14f9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '83930f65a438dbf456f57e44aa63ae22') in 0.051577 seconds 
-  Import took 0.058185 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 4.127468 seconds.
-  path: Assets/GymAssests/TrophyCups
-  artifactKey: Guid(6f721dad36ae148a7971c88cada9bdd0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GymAssests/TrophyCups using Guid(6f721dad36ae148a7971c88cada9bdd0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e2c98df74b30f45070f3191fc4b77c84') in 0.009114 seconds 
-  Import took 0.017207 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.466452 seconds.
-  path: Assets/GymAssests/uploads-files-669576-aeq3vjprnoqo-Bleachers-1
-  artifactKey: Guid(14a771f143bde4f5e80f4f36eb3e5b99) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GymAssests/uploads-files-669576-aeq3vjprnoqo-Bleachers-1 using Guid(14a771f143bde4f5e80f4f36eb3e5b99) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd22ff2141f22975fec276792c45c3b8f') in 0.014820 seconds 
-  Import took 0.023265 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 275.530803 seconds.
-  path: Assets/Challenges
-  artifactKey: Guid(b42c81c04683f6b43ad0246f78a29254) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Challenges using Guid(b42c81c04683f6b43ad0246f78a29254) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bb0d3a36d50a60dc7e4f6c00b0eb4e10') in 0.010127 seconds 
-  Import took 0.019342 seconds .
+  Time since last request: 11.690874 seconds.
+  path: Assets/GymAssests/squid-game-pinksoldier-triangle/source/PinkSoldier_T.mtl
+  artifactKey: Guid(33b528c95fd9cb2489980064a48666ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GymAssests/squid-game-pinksoldier-triangle/source/PinkSoldier_T.mtl using Guid(33b528c95fd9cb2489980064a48666ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0641451e5bdf488144a8b6161fb0252b') in 0.007068 seconds 
+  Import took 0.017955 seconds .
 
 AssetImportWorkerClient::OnTransportError - code=2 error=End of file
