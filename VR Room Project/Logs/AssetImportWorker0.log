@@ -1,16 +1,33 @@
+Unity Editor version:    2020.3.17f1 (a4537701e4ab)
+Branch:                  2020.3/staging
+Build type:              Release
+Batch mode:              YES
+macOS version:           Version 12.0.1 (Build 21A559)
+Darwin version:          21.1.0
+Architecture:            x86_64
+Running under Rosetta:   YES
+Available memory:        8192 MB
 Using pre-set license
+<<<<<<< HEAD
 Built from '2020.3/staging' branch; Version is '2020.3.17f1 (a4537701e4ab) revision 10769271'; Using compiler version '192528614'; Build Type 'Release'
 OS: 'Windows 10 Home Single Language; OS build 19043.1348; Version 2009; 64bit' Language: 'en' Physical Memory: 16233 MB
 BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
 
 COMMAND LINE ARGUMENTS:
 C:\Program Files\Unity\Hub\Editor\2020.3.17f1\Editor\Unity.exe
+=======
+Pro License: NO
+
+COMMAND LINE ARGUMENTS:
+/Applications/2020.3.17f1/Unity.app/Contents/MacOS/Unity
+>>>>>>> ae080820797522c313614b089e7830ca5d4e4b35
 -adb2
 -batchMode
 -noUpm
 -name
 AssetImportWorker0
 -projectPath
+<<<<<<< HEAD
 C:/Users/Pink/Documents/GitHub/BVW-Unity-VR/VR Room Project
 -logFile
 Logs/AssetImportWorker0.log
@@ -18,11 +35,21 @@ Logs/AssetImportWorker0.log
 63099
 Successfully changed project path to: C:/Users/Pink/Documents/GitHub/BVW-Unity-VR/VR Room Project
 C:/Users/Pink/Documents/GitHub/BVW-Unity-VR/VR Room Project
+=======
+/Users/kittapasasivimonpan/Desktop/BVW-Unity-VR/VR Room Project
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+54780
+Successfully changed project path to: /Users/kittapasasivimonpan/Desktop/BVW-Unity-VR/VR Room Project
+/Users/kittapasasivimonpan/Desktop/BVW-Unity-VR/VR Room Project
+>>>>>>> ae080820797522c313614b089e7830ca5d4e4b35
 Using Asset Import Pipeline V2.
 Assets/GymAssests/uploads-files-669576-aeq3vjprnoqo-Bleachers-1/bleachers.c4d: Unity no longer supports importing Cinema 4D files directly, but we're working with Maxon to make the experience better. To import Cinema 4D files, install Maxon's external importer. You can find more information on the Unity Forum: https://on.unity.com/c4d.
 
 Please note that FBX files exported from Cinema4D are still supported.
 
+<<<<<<< HEAD
 Refreshing native plugins compatible for Editor in 191.02 ms, found 10 plugins.
 Preloading 1 native plugins for Editor in 1.40 ms.
 Initialize engine version: 2020.3.17f1 (a4537701e4ab)
@@ -47,10 +74,34 @@ Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.17f1/
 Registered in 0.004211 seconds.
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
+=======
+Refreshing native plugins compatible for Editor in 85.73 ms, found 3 plugins.
+Preloading 1 native plugins for Editor in 16.39 ms.
+Initialize engine version: 2020.3.17f1 (a4537701e4ab)
+[Subsystems] Discovering subsystems at path /Applications/2020.3.17f1/Unity.app/Contents/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path /Users/kittapasasivimonpan/Desktop/BVW-Unity-VR/VR Room Project/Assets
+GfxDevice: creating device client; threaded=0
+2021-12-07 21:53:33.814 Unity[14225:569117] (null) preferred device: Apple M1 (high power)
+2021-12-07 21:53:33.814 Unity[14225:569117] Metal devices available: 1
+2021-12-07 21:53:33.814 Unity[14225:569117] 0: Apple M1 (high power)
+2021-12-07 21:53:33.815 Unity[14225:569117] Using device Apple M1 (high power)
+Initializing Metal device caps: Apple M1
+Initialize mono
+Mono path[0] = '/Applications/2020.3.17f1/Unity.app/Contents/Managed'
+Mono path[1] = '/Applications/2020.3.17f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = '/Applications/2020.3.17f1/Unity.app/Contents/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56225
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: /Applications/2020.3.17f1/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
+Registered in 0.002151 seconds.
+Native extension for OSXStandalone target not found
+>>>>>>> ae080820797522c313614b089e7830ca5d4e4b35
 Assets/GymAssests/uploads-files-669576-aeq3vjprnoqo-Bleachers-1/bleachers.c4d: Unity no longer supports importing Cinema 4D files directly, but we're working with Maxon to make the experience better. To import Cinema 4D files, install Maxon's external importer. You can find more information on the Unity Forum: https://on.unity.com/c4d.
 
 Please note that FBX files exported from Cinema4D are still supported.
 
+<<<<<<< HEAD
 Refreshing native plugins compatible for Editor in 140.80 ms, found 10 plugins.
 Preloading 1 native plugins for Editor in 0.13 ms.
 Mono: successfully reloaded assembly
@@ -58,10 +109,20 @@ Mono: successfully reloaded assembly
 Domain Reload Profiling:
 	ReloadAssembly (3653ms)
 		BeginReloadAssembly (98ms)
+=======
+Refreshing native plugins compatible for Editor in 74.70 ms, found 3 plugins.
+Preloading 1 native plugins for Editor in 0.29 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.308 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2309ms)
+		BeginReloadAssembly (96ms)
+>>>>>>> ae080820797522c313614b089e7830ca5d4e4b35
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
+<<<<<<< HEAD
 			CreateAndSetChildDomain (1ms)
 		EndReloadAssembly (786ms)
 			LoadAssemblies (95ms)
@@ -77,12 +138,30 @@ Domain Reload Profiling:
 				BeforeProcessingInitializeOnLoad (24ms)
 				ProcessInitializeOnLoadAttributes (134ms)
 				ProcessInitializeOnLoadMethodAttributes (46ms)
+=======
+			CreateAndSetChildDomain (3ms)
+		EndReloadAssembly (842ms)
+			LoadAssemblies (93ms)
+			RebuildTransferFunctionScriptingTraits (1ms)
+			SetupTypeCache (170ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (43ms)
+			SetupLoadedEditorAssemblies (486ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (9ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (75ms)
+				BeforeProcessingInitializeOnLoad (22ms)
+				ProcessInitializeOnLoadAttributes (272ms)
+				ProcessInitializeOnLoadMethodAttributes (107ms)
+>>>>>>> ae080820797522c313614b089e7830ca5d4e4b35
 				AfterProcessingInitializeOnLoad (0ms)
-				EditorAssembliesLoaded (0ms)
+				EditorAssembliesLoaded (1ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
+<<<<<<< HEAD
 Registered in 0.016444 seconds.
 Begin MonoManager ReloadAssembly
 Symbol file data-000001E873FF8C20 doesn't match image C:\Users\Pink\Documents\GitHub\BVW-Unity-VR\VR Room Project\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
@@ -209,10 +288,16 @@ Symbol file data-000001E86F7C6400 doesn't match image C:\Users\Pink\Documents\Gi
 Symbol file LoadedFromMemory is not a mono symbol file
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
+=======
+Registered in 0.005548 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+>>>>>>> ae080820797522c313614b089e7830ca5d4e4b35
 Assets/GymAssests/uploads-files-669576-aeq3vjprnoqo-Bleachers-1/bleachers.c4d: Unity no longer supports importing Cinema 4D files directly, but we're working with Maxon to make the experience better. To import Cinema 4D files, install Maxon's external importer. You can find more information on the Unity Forum: https://on.unity.com/c4d.
 
 Please note that FBX files exported from Cinema4D are still supported.
 
+<<<<<<< HEAD
 Refreshing native plugins compatible for Editor in 150.60 ms, found 10 plugins.
 Preloading 1 native plugins for Editor in 0.14 ms.
 [XR] OculusXRPlugin: registering subsystems
@@ -262,17 +347,70 @@ Domain Reload Profiling:
 				EditorAssembliesLoaded (1ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (12ms)
+=======
+Refreshing native plugins compatible for Editor in 80.41 ms, found 3 plugins.
+Preloading 1 native plugins for Editor in 0.28 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.938 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2941ms)
+		BeginReloadAssembly (252ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (32ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (33ms)
+		EndReloadAssembly (2603ms)
+			LoadAssemblies (211ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (392ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (69ms)
+			SetupLoadedEditorAssemblies (1550ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (10ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (81ms)
+				BeforeProcessingInitializeOnLoad (147ms)
+				ProcessInitializeOnLoadAttributes (1297ms)
+				ProcessInitializeOnLoadMethodAttributes (14ms)
+				AfterProcessingInitializeOnLoad (1ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (30ms)
+>>>>>>> ae080820797522c313614b089e7830ca5d4e4b35
 Platform modules already initialized, skipping
+Validating Project structure ... 0.017996 seconds.
+Shader import version has changed; will reimport all shaders...
+Upgrading shader files ...0.035355 seconds.
+Application.AssetDatabase Initial Script Refresh Start
+RefreshInfo: InitialScriptRefreshV2(NoUpdateAssetOptions) scanfilter:  ... 1 filters
+RefreshProfiler: Total: 0.000ms
+Application.AssetDatabase Initial Script Refresh End
 Assets/GymAssests/uploads-files-669576-aeq3vjprnoqo-Bleachers-1/bleachers.c4d: Unity no longer supports importing Cinema 4D files directly, but we're working with Maxon to make the experience better. To import Cinema 4D files, install Maxon's external importer. You can find more information on the Unity Forum: https://on.unity.com/c4d.
 
 Please note that FBX files exported from Cinema4D are still supported.
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/buildslave/unity/build/Runtime/Export/Scripting/StackTrace.cs:37)
+UnityEditor.AssemblyValidation:ValidateAssemblyDefinitionFiles () (at /Users/bokken/buildslave/unity/build/Editor/Mono/AssemblyValidation.cs:143)
 
+[/Users/bokken/buildslave/unity/build/Runtime/Export/Scripting/StackTrace.cs line 37]
+
+Application.AssetDatabase.Refresh Start
+Application.AssetDatabase.Refresh End
+RefreshInfo: StopAssetImportingV2(ForceSynchronousImport) scanfilter: 
+RefreshProfiler: Total: 0.000ms
+Launching external process: /Applications/2020.3.17f1/Unity.app/Contents/Tools/UnityShaderCompiler
+Launched and connected shader compiler UnityShaderCompiler after 0.15 seconds
+Initializing Unity extensions:
+2021-12-07 21:53:41.428 Unity[14225:569117] NSEventModifierFlagFunction specified to -setKeyEquivalentModifierMask: for item <NSMenuItem: 0x600000cc8b60 Font Asset, ke='Command-F12'>, but is only supported for system-provided menu items; will not be used
+2021-12-07 21:53:41.433 Unity[14225:569117] NSEventModifierFlagFunction specified to -setKeyEquivalentModifierMask: for item <NSMenuItem: 0x600000f22d10 Font Asset, ke='Command-F12'>, but is only supported for system-provided menu items; will not be used
 ========================================================================
 Worker process is ready to serve import requests
 Assets/GymAssests/uploads-files-669576-aeq3vjprnoqo-Bleachers-1/bleachers.c4d: Unity no longer supports importing Cinema 4D files directly, but we're working with Maxon to make the experience better. To import Cinema 4D files, install Maxon's external importer. You can find more information on the Unity Forum: https://on.unity.com/c4d.
 
 Please note that FBX files exported from Cinema4D are still supported.
 
+<<<<<<< HEAD
 Launched and connected shader compiler UnityShaderCompiler.exe after 0.13 seconds
 Refreshing native plugins compatible for Editor in 1.44 ms, found 10 plugins.
 Preloading 1 native plugins for Editor in 0.14 ms.
@@ -282,20 +420,34 @@ System memory in use after: 177.5 MB.
 
 Unloading 41 unused Assets to reduce memory usage. Loaded Objects now: 4354.
 Total: 5.878300 ms (FindLiveObjects: 0.470500 ms CreateObjectMapping: 0.301800 ms MarkObjects: 4.984600 ms  DeleteObjects: 0.119400 ms)
+=======
+Refreshing native plugins compatible for Editor in 0.94 ms, found 3 plugins.
+Preloading 1 native plugins for Editor in 0.27 ms.
+Unloading 3868 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 323.1 MB.
+System memory in use after: 323.1 MB.
+
+Unloading 231 unused Assets to reduce memory usage. Loaded Objects now: 4396.
+Total: 4.863416 ms (FindLiveObjects: 0.308750 ms CreateObjectMapping: 0.096375 ms MarkObjects: 4.262000 ms  DeleteObjects: 0.195416 ms)
+>>>>>>> ae080820797522c313614b089e7830ca5d4e4b35
 
 AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
   custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
   custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
   custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+<<<<<<< HEAD
   custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+=======
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+>>>>>>> ae080820797522c313614b089e7830ca5d4e4b35
   custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
+<<<<<<< HEAD
   path: Assets/GymAssests/dodgeball_v1_L3.123c8c280b2b-fcd4-4a87-a19a-2ce7b74dddb1/10498_dodgeball_diffuse_v1.jpg
   artifactKey: Guid(d8670cd71b17f4f5588d732ed03bd1b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
 Start importing Assets/GymAssests/dodgeball_v1_L3.123c8c280b2b-fcd4-4a87-a19a-2ce7b74dddb1/10498_dodgeball_diffuse_v1.jpg using Guid(d8670cd71b17f4f5588d732ed03bd1b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '980145923e0e1632746f9663c0806a83') in 0.129344 seconds 
@@ -332,6 +484,68 @@ Received Import Request.
   artifactKey: Guid(2cf728c9deb3dca4cbfeb6ec043d6c1e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
 Start importing Assets/Textures/woodensign.png using Guid(2cf728c9deb3dca4cbfeb6ec043d6c1e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '779e066328b19be68e4ef4c7b84725a9') in 0.045455 seconds 
   Import took 0.055766 seconds .
+=======
+  path: Assets/UniversalRenderPipelineAsset.asset
+  artifactKey: Guid(354398a4ec99999439aa8fec9af680cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UniversalRenderPipelineAsset.asset using Guid(354398a4ec99999439aa8fec9af680cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '12f3add19ddc4f64f7a947ef8b654adf') in 0.313935 seconds 
+  Import took 0.319708 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002169 seconds.
+  path: Assets/New Terrain.asset
+  artifactKey: Guid(cf2b1c6cb1021204d98017b4431db1e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/New Terrain.asset using Guid(cf2b1c6cb1021204d98017b4431db1e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b053d905459078fae53909e764464bc3') in 0.097950 seconds 
+  Import took 0.103547 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000226 seconds.
+  path: Assets/UniversalRenderPipelineAsset_Renderer.asset
+  artifactKey: Guid(02e94b3bd0c7d0845afe0496e4b3e970) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UniversalRenderPipelineAsset_Renderer.asset using Guid(02e94b3bd0c7d0845afe0496e4b3e970) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9e82b45819d2dd0c4ab38315f1038099') in 0.002581 seconds 
+  Import took 0.008901 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000243 seconds.
+  path: Assets/WorkingWallHanger.prefab
+  artifactKey: Guid(74071b28bebaf5a4f9ffce20a8851dec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/WorkingWallHanger.prefab using Guid(74071b28bebaf5a4f9ffce20a8851dec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cd876474d2fe1527a8550abd210fa660') in 0.108103 seconds 
+  Import took 0.114537 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 98.398781 seconds.
+  path: Assets/Scripts
+  artifactKey: Guid(b1769b6fca1fa4e16a2d37be1bcb88b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts using Guid(b1769b6fca1fa4e16a2d37be1bcb88b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '749be21d6b9f2bd57b168919f54da3fe') in 0.001712 seconds 
+  Import took 0.020853 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.027927 seconds.
+  path: Assets/Scripts
+  artifactKey: Guid(b1769b6fca1fa4e16a2d37be1bcb88b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts using Guid(b1769b6fca1fa4e16a2d37be1bcb88b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '749be21d6b9f2bd57b168919f54da3fe') in 0.001063 seconds 
+  Import took 0.006101 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 13.613159 seconds.
+  path: Assets/Scripts/Teleport Start.cs
+  artifactKey: Guid(7d58336b2d56d4e86a004b1ef8a3b002) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Teleport Start.cs using Guid(7d58336b2d56d4e86a004b1ef8a3b002) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4be928ffbc03faec8addd74b857d00e8') in 0.189838 seconds 
+  Import took 0.194946 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.146321 seconds.
+  path: Assets/Scripts/Teleport Start.cs
+  artifactKey: Guid(7d58336b2d56d4e86a004b1ef8a3b002) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Teleport Start.cs using Guid(7d58336b2d56d4e86a004b1ef8a3b002) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4be928ffbc03faec8addd74b857d00e8') in 0.001729 seconds 
+  Import took 0.007248 seconds .
+>>>>>>> ae080820797522c313614b089e7830ca5d4e4b35
 
 ========================================================================
 Received Prepare
@@ -340,6 +554,7 @@ Assets/GymAssests/uploads-files-669576-aeq3vjprnoqo-Bleachers-1/bleachers.c4d: U
 Please note that FBX files exported from Cinema4D are still supported.
 
 Registering precompiled user dll's ...
+<<<<<<< HEAD
 Registered in 0.023206 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
@@ -360,8 +575,109 @@ UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,st
 UnityEngine.Logger:Log (UnityEngine.LogType,object)
 UnityEngine.Debug:LogError (object)
 UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
-
+=======
+Registered in 0.007210 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 1.20 ms, found 3 plugins.
+Preloading 1 native plugins for Editor in 0.47 ms.
+2021-12-07 21:55:42.673 Unity[14225:569117] NSEventModifierFlagFunction specified to -setKeyEquivalentModifierMask: for item <NSMenuItem: 0x600000cfca80 Font Asset, ke='Command-F12'>, but is only supported for system-provided menu items; will not be used
 Mono: successfully reloaded assembly
+- Completed reload, in  3.095 seconds
+Domain Reload Profiling:
+	ReloadAssembly (3097ms)
+		BeginReloadAssembly (270ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (32ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (107ms)
+		EndReloadAssembly (2736ms)
+			LoadAssemblies (204ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (399ms)
+			ReleaseScriptCaches (3ms)
+			RebuildScriptCaches (59ms)
+			SetupLoadedEditorAssemblies (1531ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (12ms)
+				SetLoadedEditorAssemblies (2ms)
+				RefreshPlugins (2ms)
+				BeforeProcessingInitializeOnLoad (212ms)
+				ProcessInitializeOnLoadAttributes (1287ms)
+				ProcessInitializeOnLoadMethodAttributes (14ms)
+				AfterProcessingInitializeOnLoad (1ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (45ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.90 ms, found 3 plugins.
+Preloading 1 native plugins for Editor in 0.26 ms.
+Unloading 3718 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 326.2 MB.
+System memory in use after: 326.5 MB.
+
+Unloading 35 unused Assets to reduce memory usage. Loaded Objects now: 4403.
+Total: 3.028875 ms (FindLiveObjects: 0.267666 ms CreateObjectMapping: 0.097709 ms MarkObjects: 2.637916 ms  DeleteObjects: 0.024833 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 103.520935 seconds.
+  path: Packages/com.unity.xr.interaction.toolkit/Runtime/XR/XRRig.cs
+  artifactKey: Guid(7448815bd5148434682b3d931066cd10) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.xr.interaction.toolkit/Runtime/XR/XRRig.cs using Guid(7448815bd5148434682b3d931066cd10) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '97868cc50511730db57fcfa9115deec9') in 0.046027 seconds 
+  Import took 0.067955 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 197.179533 seconds.
+  path: Assets/Samples/XR Interaction Toolkit/1.0.0-pre.3/XR Device Simulator/XR Device Simulator Controls.inputactions
+  artifactKey: Guid(da2b439d1a2de5c46a4f428f8cf4fe19) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/XR Interaction Toolkit/1.0.0-pre.3/XR Device Simulator/XR Device Simulator Controls.inputactions using Guid(da2b439d1a2de5c46a4f428f8cf4fe19) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7a37f4084b6d717beef3ab434638111a') in 0.167967 seconds 
+  Import took 0.184498 seconds .
+>>>>>>> ae080820797522c313614b089e7830ca5d4e4b35
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002099 seconds.
+  path: Assets/Samples/XR Interaction Toolkit/1.0.0-pre.3/XR Device Simulator/XR Device Simulator.prefab
+  artifactKey: Guid(9f5a24a380916d14db9775daab4fe333) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/XR Interaction Toolkit/1.0.0-pre.3/XR Device Simulator/XR Device Simulator.prefab using Guid(9f5a24a380916d14db9775daab4fe333) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dec569026e3ff822b03bcdd512e2309a') in 0.056106 seconds 
+  Import took 0.062908 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000228 seconds.
+  path: Assets/Samples/XR Interaction Toolkit/1.0.0-pre.3/Default Input Actions/XRI Default Input Actions.inputactions
+  artifactKey: Guid(c348712bda248c246b8c49b3db54643f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/XR Interaction Toolkit/1.0.0-pre.3/Default Input Actions/XRI Default Input Actions.inputactions using Guid(c348712bda248c246b8c49b3db54643f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4d5259632d68fdea46102dcdb40c2d02') in 0.009521 seconds 
+  Import took 0.014326 seconds .
+
+========================================================================
+Received Prepare
+Assets/GymAssests/uploads-files-669576-aeq3vjprnoqo-Bleachers-1/bleachers.c4d: Unity no longer supports importing Cinema 4D files directly, but we're working with Maxon to make the experience better. To import Cinema 4D files, install Maxon's external importer. You can find more information on the Unity Forum: https://on.unity.com/c4d.
+
+Please note that FBX files exported from Cinema4D are still supported.
+
+Registering precompiled user dll's ...
+Registered in 0.009986 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 1.02 ms, found 3 plugins.
+Preloading 1 native plugins for Editor in 0.46 ms.
+2021-12-07 22:01:30.477 Unity[14225:569117] NSEventModifierFlagFunction specified to -setKeyEquivalentModifierMask: for item <NSMenuItem: 0x600000cfe220 Font Asset, ke='Command-F12'>, but is only supported for system-provided menu items; will not be used
+Mono: successfully reloaded assembly
+<<<<<<< HEAD
 - Completed reload, in  2.327 seconds
 Domain Reload Profiling:
 	ReloadAssembly (2328ms)
@@ -398,20 +714,62 @@ System memory in use after: 167.9 MB.
 
 Unloading 34 unused Assets to reduce memory usage. Loaded Objects now: 4364.
 Total: 6.879500 ms (FindLiveObjects: 0.623600 ms CreateObjectMapping: 0.309200 ms MarkObjects: 5.897100 ms  DeleteObjects: 0.047500 ms)
+=======
+- Completed reload, in  2.958 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2960ms)
+		BeginReloadAssembly (280ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (30ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (107ms)
+		EndReloadAssembly (2592ms)
+			LoadAssemblies (217ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (384ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (55ms)
+			SetupLoadedEditorAssemblies (1417ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (12ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (2ms)
+				BeforeProcessingInitializeOnLoad (196ms)
+				ProcessInitializeOnLoadAttributes (1192ms)
+				ProcessInitializeOnLoadMethodAttributes (14ms)
+				AfterProcessingInitializeOnLoad (1ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (44ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.89 ms, found 3 plugins.
+Preloading 1 native plugins for Editor in 0.26 ms.
+Unloading 3718 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 330.9 MB.
+System memory in use after: 331.1 MB.
+
+Unloading 34 unused Assets to reduce memory usage. Loaded Objects now: 4406.
+Total: 2.987625 ms (FindLiveObjects: 0.261292 ms CreateObjectMapping: 0.092333 ms MarkObjects: 2.610916 ms  DeleteObjects: 0.022125 ms)
+>>>>>>> ae080820797522c313614b089e7830ca5d4e4b35
 
 AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
   custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
   custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
   custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+<<<<<<< HEAD
   custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+=======
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+>>>>>>> ae080820797522c313614b089e7830ca5d4e4b35
   custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
+<<<<<<< HEAD
   Time since last request: 101.377913 seconds.
   path: Assets/TextMesh Pro/Fonts
   artifactKey: Guid(6ab70aee4d56447429c680537fbf93ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
@@ -425,6 +783,45 @@ Received Import Request.
   artifactKey: Guid(618c0f44852f0be46942a5cd1f4ef721) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
 Start importing Assets/TextMesh Pro/Fonts/Christmas Bell - Personal Use SDF.asset using Guid(618c0f44852f0be46942a5cd1f4ef721) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '22bd8c4fd751bf4ef6a2ab42f1b4490d') in 0.385479 seconds 
   Import took 0.395121 seconds .
+=======
+  Time since last request: 318.138888 seconds.
+  path: Assets/test.cs
+  artifactKey: Guid(cc357dbb786204f59a3fbfc28578ea4a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/test.cs using Guid(cc357dbb786204f59a3fbfc28578ea4a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6e87392a78b0d5049fca541f7ff426fa') in 0.035521 seconds 
+  Import took 0.064269 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 20.790044 seconds.
+  path: Assets/Scripts/Teleport Start.cs
+  artifactKey: Guid(7d58336b2d56d4e86a004b1ef8a3b002) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Teleport Start.cs using Guid(7d58336b2d56d4e86a004b1ef8a3b002) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9699dad2e82eb1433f5eed30e1b65cec') in 0.001215 seconds 
+  Import took 0.007169 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.010086 seconds.
+  path: Assets/Scripts/Teleport Start.cs
+  artifactKey: Guid(7d58336b2d56d4e86a004b1ef8a3b002) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Teleport Start.cs using Guid(7d58336b2d56d4e86a004b1ef8a3b002) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9699dad2e82eb1433f5eed30e1b65cec') in 0.000922 seconds 
+  Import took 0.006687 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 9.304828 seconds.
+  path: Assets/Scripts/Teleport Start.cs
+  artifactKey: Guid(7d58336b2d56d4e86a004b1ef8a3b002) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Teleport Start.cs using Guid(7d58336b2d56d4e86a004b1ef8a3b002) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '43967ea0e6dbf83a27278940d05d1c21') in 0.004420 seconds 
+  Import took 0.061972 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 16.210694 seconds.
+  path: Assets/Scripts/Teleport Start.cs
+  artifactKey: Guid(7d58336b2d56d4e86a004b1ef8a3b002) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Teleport Start.cs using Guid(7d58336b2d56d4e86a004b1ef8a3b002) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a842789098f4577c9ce585b5307a15eb') in 0.003287 seconds 
+  Import took 0.019617 seconds .
+>>>>>>> ae080820797522c313614b089e7830ca5d4e4b35
 
 ========================================================================
 Received Import Request.
@@ -442,6 +839,7 @@ Received Import Request.
 Start importing Assets/TextMesh Pro/Fonts/Christmas Bell - Personal Use.otf using Guid(622ef7083e72db94694a90cf6288a353) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '20af37b6c4bb5db20d337e49551dd984') in 0.029682 seconds 
   Import took 0.039553 seconds .
 
+<<<<<<< HEAD
 ========================================================================
 Received Import Request.
   Time since last request: 52.367805 seconds.
@@ -458,6 +856,70 @@ You probably need to assign the material variable of the TMP_FontAsset script in
  -> (artifact id: '370f6d44d5d310dfd1b184ba4a81d885') in 0.010101 seconds 
   Import took 0.019682 seconds .
 
+=======
+Registering precompiled user dll's ...
+Registered in 0.008014 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 1.06 ms, found 3 plugins.
+Preloading 1 native plugins for Editor in 0.49 ms.
+2021-12-07 22:08:08.010 Unity[14225:569117] NSEventModifierFlagFunction specified to -setKeyEquivalentModifierMask: for item <NSMenuItem: 0x600000cf6a70 Font Asset, ke='Command-F12'>, but is only supported for system-provided menu items; will not be used
+Mono: successfully reloaded assembly
+- Completed reload, in  3.155 seconds
+Domain Reload Profiling:
+	ReloadAssembly (3157ms)
+		BeginReloadAssembly (312ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (39ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (127ms)
+		EndReloadAssembly (2753ms)
+			LoadAssemblies (200ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (412ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (59ms)
+			SetupLoadedEditorAssemblies (1558ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (14ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (2ms)
+				BeforeProcessingInitializeOnLoad (275ms)
+				ProcessInitializeOnLoadAttributes (1251ms)
+				ProcessInitializeOnLoadMethodAttributes (15ms)
+				AfterProcessingInitializeOnLoad (1ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (45ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.91 ms, found 3 plugins.
+Preloading 1 native plugins for Editor in 0.26 ms.
+Unloading 3718 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 331.3 MB.
+System memory in use after: 331.5 MB.
+
+Unloading 34 unused Assets to reduce memory usage. Loaded Objects now: 4409.
+Total: 5.346125 ms (FindLiveObjects: 0.485667 ms CreateObjectMapping: 0.100166 ms MarkObjects: 4.725167 ms  DeleteObjects: 0.033542 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 89.618725 seconds.
+  path: Assets/Scripts/Teleport Start.cs
+  artifactKey: Guid(7d58336b2d56d4e86a004b1ef8a3b002) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Teleport Start.cs using Guid(7d58336b2d56d4e86a004b1ef8a3b002) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '94fe411ce66e9d2eb0fa5f78d323fc68') in 0.014792 seconds 
+  Import took 0.020125 seconds .
+
 ========================================================================
 Received Prepare
 Assets/GymAssests/uploads-files-669576-aeq3vjprnoqo-Bleachers-1/bleachers.c4d: Unity no longer supports importing Cinema 4D files directly, but we're working with Maxon to make the experience better. To import Cinema 4D files, install Maxon's external importer. You can find more information on the Unity Forum: https://on.unity.com/c4d.
@@ -465,6 +927,69 @@ Assets/GymAssests/uploads-files-669576-aeq3vjprnoqo-Bleachers-1/bleachers.c4d: U
 Please note that FBX files exported from Cinema4D are still supported.
 
 Registering precompiled user dll's ...
+Registered in 0.008562 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 1.03 ms, found 3 plugins.
+Preloading 1 native plugins for Editor in 0.54 ms.
+2021-12-07 22:09:16.175 Unity[14225:569117] NSEventModifierFlagFunction specified to -setKeyEquivalentModifierMask: for item <NSMenuItem: 0x600000ce35d0 Font Asset, ke='Command-F12'>, but is only supported for system-provided menu items; will not be used
+Mono: successfully reloaded assembly
+- Completed reload, in  3.066 seconds
+Domain Reload Profiling:
+	ReloadAssembly (3072ms)
+		BeginReloadAssembly (290ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (33ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (117ms)
+		EndReloadAssembly (2690ms)
+			LoadAssemblies (214ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (405ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (58ms)
+			SetupLoadedEditorAssemblies (1469ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (20ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (2ms)
+				BeforeProcessingInitializeOnLoad (219ms)
+				ProcessInitializeOnLoadAttributes (1212ms)
+				ProcessInitializeOnLoadMethodAttributes (14ms)
+				AfterProcessingInitializeOnLoad (1ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (44ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.91 ms, found 3 plugins.
+Preloading 1 native plugins for Editor in 0.26 ms.
+Unloading 3718 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 331.5 MB.
+System memory in use after: 331.8 MB.
+
+Unloading 34 unused Assets to reduce memory usage. Loaded Objects now: 4412.
+Total: 3.009250 ms (FindLiveObjects: 0.270000 ms CreateObjectMapping: 0.090167 ms MarkObjects: 2.624917 ms  DeleteObjects: 0.023209 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+>>>>>>> ae080820797522c313614b089e7830ca5d4e4b35
+========================================================================
+Received Prepare
+Assets/GymAssests/uploads-files-669576-aeq3vjprnoqo-Bleachers-1/bleachers.c4d: Unity no longer supports importing Cinema 4D files directly, but we're working with Maxon to make the experience better. To import Cinema 4D files, install Maxon's external importer. You can find more information on the Unity Forum: https://on.unity.com/c4d.
+
+Please note that FBX files exported from Cinema4D are still supported.
+
+Registering precompiled user dll's ...
+<<<<<<< HEAD
 Registered in 0.019674 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
@@ -485,8 +1010,93 @@ UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,st
 UnityEngine.Logger:Log (UnityEngine.LogType,object)
 UnityEngine.Debug:LogError (object)
 UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
-
+=======
+Registered in 0.008626 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 1.03 ms, found 3 plugins.
+Preloading 1 native plugins for Editor in 0.47 ms.
+2021-12-07 22:12:30.990 Unity[14225:569117] NSEventModifierFlagFunction specified to -setKeyEquivalentModifierMask: for item <NSMenuItem: 0x600000cf40e0 Font Asset, ke='Command-F12'>, but is only supported for system-provided menu items; will not be used
 Mono: successfully reloaded assembly
+- Completed reload, in  3.129 seconds
+Domain Reload Profiling:
+	ReloadAssembly (3130ms)
+		BeginReloadAssembly (318ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (32ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (144ms)
+		EndReloadAssembly (2720ms)
+			LoadAssemblies (264ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (413ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (58ms)
+			SetupLoadedEditorAssemblies (1448ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (12ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (2ms)
+				BeforeProcessingInitializeOnLoad (223ms)
+				ProcessInitializeOnLoadAttributes (1196ms)
+				ProcessInitializeOnLoadMethodAttributes (14ms)
+				AfterProcessingInitializeOnLoad (1ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (44ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.91 ms, found 3 plugins.
+Preloading 1 native plugins for Editor in 0.26 ms.
+Unloading 3718 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 331.8 MB.
+System memory in use after: 332.1 MB.
+>>>>>>> ae080820797522c313614b089e7830ca5d4e4b35
+
+Unloading 34 unused Assets to reduce memory usage. Loaded Objects now: 4415.
+Total: 2.979250 ms (FindLiveObjects: 0.264500 ms CreateObjectMapping: 0.089667 ms MarkObjects: 2.600250 ms  DeleteObjects: 0.023875 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 318.742863 seconds.
+  path: Assets/Scripts/Teleport Start.cs
+  artifactKey: Guid(7d58336b2d56d4e86a004b1ef8a3b002) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Teleport Start.cs using Guid(7d58336b2d56d4e86a004b1ef8a3b002) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ac8975eac2d0378caa6bac16e2a94e90') in 0.026556 seconds 
+  Import took 0.038405 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.751140 seconds.
+  path: Assets/Scripts/Teleport_Start.cs
+  artifactKey: Guid(7d58336b2d56d4e86a004b1ef8a3b002) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Teleport_Start.cs using Guid(7d58336b2d56d4e86a004b1ef8a3b002) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5fd158b0f6208e71e8db331b901fd2c1') in 0.002041 seconds 
+  Import took 0.008144 seconds .
+
+========================================================================
+Received Prepare
+Assets/GymAssests/uploads-files-669576-aeq3vjprnoqo-Bleachers-1/bleachers.c4d: Unity no longer supports importing Cinema 4D files directly, but we're working with Maxon to make the experience better. To import Cinema 4D files, install Maxon's external importer. You can find more information on the Unity Forum: https://on.unity.com/c4d.
+
+Please note that FBX files exported from Cinema4D are still supported.
+
+Registering precompiled user dll's ...
+Registered in 0.009004 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 1.04 ms, found 3 plugins.
+Preloading 1 native plugins for Editor in 0.50 ms.
+2021-12-07 22:13:42.586 Unity[14225:569117] NSEventModifierFlagFunction specified to -setKeyEquivalentModifierMask: for item <NSMenuItem: 0x600000c23800 Font Asset, ke='Command-F12'>, but is only supported for system-provided menu items; will not be used
+Mono: successfully reloaded assembly
+<<<<<<< HEAD
 - Completed reload, in  2.379 seconds
 Domain Reload Profiling:
 	ReloadAssembly (2380ms)
@@ -523,15 +1133,56 @@ System memory in use after: 168.2 MB.
 
 Unloading 94 unused Assets to reduce memory usage. Loaded Objects now: 4386.
 Total: 8.476300 ms (FindLiveObjects: 0.782100 ms CreateObjectMapping: 0.499500 ms MarkObjects: 7.102900 ms  DeleteObjects: 0.089500 ms)
+=======
+- Completed reload, in  3.203 seconds
+Domain Reload Profiling:
+	ReloadAssembly (3205ms)
+		BeginReloadAssembly (272ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (32ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (107ms)
+		EndReloadAssembly (2835ms)
+			LoadAssemblies (189ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (417ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (58ms)
+			SetupLoadedEditorAssemblies (1587ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (21ms)
+				SetLoadedEditorAssemblies (2ms)
+				RefreshPlugins (2ms)
+				BeforeProcessingInitializeOnLoad (235ms)
+				ProcessInitializeOnLoadAttributes (1313ms)
+				ProcessInitializeOnLoadMethodAttributes (14ms)
+				AfterProcessingInitializeOnLoad (1ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (49ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.91 ms, found 3 plugins.
+Preloading 1 native plugins for Editor in 0.28 ms.
+Unloading 3718 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 332.1 MB.
+System memory in use after: 332.4 MB.
+
+Unloading 34 unused Assets to reduce memory usage. Loaded Objects now: 4418.
+Total: 3.353000 ms (FindLiveObjects: 0.377417 ms CreateObjectMapping: 0.093666 ms MarkObjects: 2.854000 ms  DeleteObjects: 0.026542 ms)
+>>>>>>> ae080820797522c313614b089e7830ca5d4e4b35
 
 AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
   custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
   custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
   custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+<<<<<<< HEAD
   custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+=======
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+>>>>>>> ae080820797522c313614b089e7830ca5d4e4b35
   custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
@@ -542,6 +1193,7 @@ Assets/GymAssests/uploads-files-669576-aeq3vjprnoqo-Bleachers-1/bleachers.c4d: U
 Please note that FBX files exported from Cinema4D are still supported.
 
 Registering precompiled user dll's ...
+<<<<<<< HEAD
 Registered in 0.016016 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
@@ -562,8 +1214,85 @@ UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,st
 UnityEngine.Logger:Log (UnityEngine.LogType,object)
 UnityEngine.Debug:LogError (object)
 UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
-
+=======
+Registered in 0.007822 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 1.23 ms, found 3 plugins.
+Preloading 1 native plugins for Editor in 0.66 ms.
+2021-12-07 22:14:07.539 Unity[14225:569117] NSEventModifierFlagFunction specified to -setKeyEquivalentModifierMask: for item <NSMenuItem: 0x600000ce6450 Font Asset, ke='Command-F12'>, but is only supported for system-provided menu items; will not be used
 Mono: successfully reloaded assembly
+- Completed reload, in  3.137 seconds
+Domain Reload Profiling:
+	ReloadAssembly (3138ms)
+		BeginReloadAssembly (266ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (33ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (101ms)
+		EndReloadAssembly (2777ms)
+			LoadAssemblies (209ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (414ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (59ms)
+			SetupLoadedEditorAssemblies (1547ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (33ms)
+				SetLoadedEditorAssemblies (2ms)
+				RefreshPlugins (2ms)
+				BeforeProcessingInitializeOnLoad (224ms)
+				ProcessInitializeOnLoadAttributes (1271ms)
+				ProcessInitializeOnLoadMethodAttributes (14ms)
+				AfterProcessingInitializeOnLoad (1ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (47ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.90 ms, found 3 plugins.
+Preloading 1 native plugins for Editor in 0.26 ms.
+Unloading 3718 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 332.4 MB.
+System memory in use after: 332.7 MB.
+>>>>>>> ae080820797522c313614b089e7830ca5d4e4b35
+
+Unloading 34 unused Assets to reduce memory usage. Loaded Objects now: 4421.
+Total: 2.967084 ms (FindLiveObjects: 0.246458 ms CreateObjectMapping: 0.092042 ms MarkObjects: 2.600541 ms  DeleteObjects: 0.027250 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 34.998697 seconds.
+  path: Assets/Scripts/Teleport_Start.cs
+  artifactKey: Guid(7d58336b2d56d4e86a004b1ef8a3b002) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Teleport_Start.cs using Guid(7d58336b2d56d4e86a004b1ef8a3b002) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '094c558154e5a380827ab91c213085b7') in 0.015476 seconds 
+  Import took 0.020235 seconds .
+
+========================================================================
+Received Prepare
+Assets/GymAssests/uploads-files-669576-aeq3vjprnoqo-Bleachers-1/bleachers.c4d: Unity no longer supports importing Cinema 4D files directly, but we're working with Maxon to make the experience better. To import Cinema 4D files, install Maxon's external importer. You can find more information on the Unity Forum: https://on.unity.com/c4d.
+
+Please note that FBX files exported from Cinema4D are still supported.
+
+Registering precompiled user dll's ...
+Registered in 0.009821 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 1.04 ms, found 3 plugins.
+Preloading 1 native plugins for Editor in 0.47 ms.
+2021-12-07 22:15:03.671 Unity[14225:569117] NSEventModifierFlagFunction specified to -setKeyEquivalentModifierMask: for item <NSMenuItem: 0x600000c0c850 Font Asset, ke='Command-F12'>, but is only supported for system-provided menu items; will not be used
+Mono: successfully reloaded assembly
+<<<<<<< HEAD
 - Completed reload, in  2.382 seconds
 Domain Reload Profiling:
 	ReloadAssembly (2383ms)
@@ -580,10 +1309,29 @@ Domain Reload Profiling:
 			ReleaseScriptCaches (2ms)
 			RebuildScriptCaches (80ms)
 			SetupLoadedEditorAssemblies (800ms)
+=======
+- Completed reload, in  3.172 seconds
+Domain Reload Profiling:
+	ReloadAssembly (3173ms)
+		BeginReloadAssembly (294ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (36ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (113ms)
+		EndReloadAssembly (2786ms)
+			LoadAssemblies (222ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (413ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (59ms)
+			SetupLoadedEditorAssemblies (1526ms)
+>>>>>>> ae080820797522c313614b089e7830ca5d4e4b35
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (12ms)
 				SetLoadedEditorAssemblies (1ms)
 				RefreshPlugins (2ms)
+<<<<<<< HEAD
 				BeforeProcessingInitializeOnLoad (159ms)
 				ProcessInitializeOnLoadAttributes (595ms)
 				ProcessInitializeOnLoadMethodAttributes (19ms)
@@ -600,25 +1348,66 @@ System memory in use after: 170.4 MB.
 
 Unloading 34 unused Assets to reduce memory usage. Loaded Objects now: 4449.
 Total: 10.667000 ms (FindLiveObjects: 2.267600 ms CreateObjectMapping: 0.723300 ms MarkObjects: 7.611000 ms  DeleteObjects: 0.061700 ms)
+=======
+				BeforeProcessingInitializeOnLoad (217ms)
+				ProcessInitializeOnLoadAttributes (1279ms)
+				ProcessInitializeOnLoadMethodAttributes (15ms)
+				AfterProcessingInitializeOnLoad (1ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (47ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.93 ms, found 3 plugins.
+Preloading 1 native plugins for Editor in 0.27 ms.
+Unloading 3718 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 332.7 MB.
+System memory in use after: 333.0 MB.
+
+Unloading 34 unused Assets to reduce memory usage. Loaded Objects now: 4424.
+Total: 3.148209 ms (FindLiveObjects: 0.298209 ms CreateObjectMapping: 0.097375 ms MarkObjects: 2.729416 ms  DeleteObjects: 0.022333 ms)
+>>>>>>> ae080820797522c313614b089e7830ca5d4e4b35
 
 AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
   custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
   custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
   custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+<<<<<<< HEAD
   custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+=======
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+>>>>>>> ae080820797522c313614b089e7830ca5d4e4b35
   custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
+<<<<<<< HEAD
   Time since last request: 123.231767 seconds.
   path: Assets
   artifactKey: Guid(00000000000000001000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
 Start importing Assets using Guid(00000000000000001000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '42d402b061de3733987d63b9cc3b64de') in 0.015227 seconds 
   Import took 0.028872 seconds .
+=======
+  Time since last request: 56.142858 seconds.
+  path: Assets/Scripts/Teleport_Start.cs
+  artifactKey: Guid(7d58336b2d56d4e86a004b1ef8a3b002) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Teleport_Start.cs using Guid(7d58336b2d56d4e86a004b1ef8a3b002) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd4cb8544fe05912b5b16dff7000c61eb') in 0.008679 seconds 
+  Import took 0.013574 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.574812 seconds.
+  path: Assets/Scripts/Teleport_Start.cs
+  artifactKey: Guid(7d58336b2d56d4e86a004b1ef8a3b002) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Teleport_Start.cs using Guid(7d58336b2d56d4e86a004b1ef8a3b002) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd4cb8544fe05912b5b16dff7000c61eb') in 0.001300 seconds 
+  Import took 0.005970 seconds .
+
+========================================================================
+Received Prepare
+Assets/GymAssests/uploads-files-669576-aeq3vjprnoqo-Bleachers-1/bleachers.c4d: Unity no longer supports importing Cinema 4D files directly, but we're working with Maxon to make the experience better. To import Cinema 4D files, install Maxon's external importer. You can find more information on the Unity Forum: https://on.unity.com/c4d.
+>>>>>>> ae080820797522c313614b089e7830ca5d4e4b35
 
 ========================================================================
 Received Import Request.
@@ -628,6 +1417,7 @@ Received Import Request.
 Start importing Assets/UI using Guid(4eddce497da2c6d48bb3676b00e070ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b3fc40bcf72f9d4d6548bc278863712c') in 0.008869 seconds 
   Import took 0.018934 seconds .
 
+<<<<<<< HEAD
 ========================================================================
 Received Import Request.
   Time since last request: 8.664997 seconds.
@@ -1485,3 +2275,60 @@ Start importing Assets/_Course Library/Fonts/Christmas Bell - Personal Use SDF.a
   Import took 0.041626 seconds .
 
 AssetImportWorkerClient::OnTransportError - code=2 error=End of file
+=======
+Registering precompiled user dll's ...
+Registered in 0.011628 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.96 ms, found 3 plugins.
+Preloading 1 native plugins for Editor in 0.44 ms.
+2021-12-07 22:16:31.605 Unity[14225:569117] NSEventModifierFlagFunction specified to -setKeyEquivalentModifierMask: for item <NSMenuItem: 0x600000cf8150 Font Asset, ke='Command-F12'>, but is only supported for system-provided menu items; will not be used
+Mono: successfully reloaded assembly
+- Completed reload, in  3.082 seconds
+Domain Reload Profiling:
+	ReloadAssembly (3083ms)
+		BeginReloadAssembly (283ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (34ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (109ms)
+		EndReloadAssembly (2707ms)
+			LoadAssemblies (230ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (375ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (56ms)
+			SetupLoadedEditorAssemblies (1500ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (12ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (198ms)
+				ProcessInitializeOnLoadAttributes (1266ms)
+				ProcessInitializeOnLoadMethodAttributes (21ms)
+				AfterProcessingInitializeOnLoad (1ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (51ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.91 ms, found 3 plugins.
+Preloading 1 native plugins for Editor in 0.26 ms.
+Unloading 3718 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 333.0 MB.
+System memory in use after: 333.3 MB.
+
+Unloading 34 unused Assets to reduce memory usage. Loaded Objects now: 4427.
+Total: 2.992291 ms (FindLiveObjects: 0.272791 ms CreateObjectMapping: 0.091167 ms MarkObjects: 2.607417 ms  DeleteObjects: 0.020250 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+>>>>>>> ae080820797522c313614b089e7830ca5d4e4b35
