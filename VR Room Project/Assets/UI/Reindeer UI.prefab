@@ -67,7 +67,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 2cf728c9deb3dca4cbfeb6ec043d6c1e, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 877cd2334f38d63428636f9bef2f5f4c, type: 3}
   m_Type: 3
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -262,12 +262,12 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: '( Free Ride )
+  m_text: '<Free Ride>
 
     ( to the Gym )'
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 618c0f44852f0be46942a5cd1f4ef721, type: 2}
-  m_sharedMaterial: {fileID: 1835348347457537884, guid: 618c0f44852f0be46942a5cd1f4ef721, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: fbde5644e48bdd64abd95f618db94ed8, type: 2}
+  m_sharedMaterial: {fileID: 4875036842616643329, guid: fbde5644e48bdd64abd95f618db94ed8, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -402,8 +402,8 @@ MonoBehaviour:
 
     ( to go to the gym )'
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 618c0f44852f0be46942a5cd1f4ef721, type: 2}
-  m_sharedMaterial: {fileID: 1835348347457537884, guid: 618c0f44852f0be46942a5cd1f4ef721, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: fbde5644e48bdd64abd95f618db94ed8, type: 2}
+  m_sharedMaterial: {fileID: 4875036842616643329, guid: fbde5644e48bdd64abd95f618db94ed8, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
