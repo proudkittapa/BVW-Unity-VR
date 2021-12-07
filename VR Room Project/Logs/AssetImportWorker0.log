@@ -1,0 +1,583 @@
+Unity Editor version:    2020.3.17f1 (a4537701e4ab)
+Branch:                  2020.3/staging
+Build type:              Release
+Batch mode:              YES
+macOS version:           Version 12.0.1 (Build 21A559)
+Darwin version:          21.1.0
+Architecture:            x86_64
+Running under Rosetta:   YES
+Available memory:        8192 MB
+Using pre-set license
+Pro License: NO
+
+COMMAND LINE ARGUMENTS:
+/Applications/2020.3.17f1/Unity.app/Contents/MacOS/Unity
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+/Users/kittapasasivimonpan/Desktop/BVW-Unity-VR/VR Room Project
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+53994
+Successfully changed project path to: /Users/kittapasasivimonpan/Desktop/BVW-Unity-VR/VR Room Project
+/Users/kittapasasivimonpan/Desktop/BVW-Unity-VR/VR Room Project
+Using Asset Import Pipeline V2.
+Assets/GymAssests/uploads-files-669576-aeq3vjprnoqo-Bleachers-1/bleachers.c4d: Unity no longer supports importing Cinema 4D files directly, but we're working with Maxon to make the experience better. To import Cinema 4D files, install Maxon's external importer. You can find more information on the Unity Forum: https://on.unity.com/c4d.
+
+Please note that FBX files exported from Cinema4D are still supported.
+
+Refreshing native plugins compatible for Editor in 88.14 ms, found 3 plugins.
+Preloading 1 native plugins for Editor in 16.54 ms.
+Initialize engine version: 2020.3.17f1 (a4537701e4ab)
+[Subsystems] Discovering subsystems at path /Applications/2020.3.17f1/Unity.app/Contents/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path /Users/kittapasasivimonpan/Desktop/BVW-Unity-VR/VR Room Project/Assets
+GfxDevice: creating device client; threaded=0
+2021-12-07 14:14:39.371 Unity[9869:454266] (null) preferred device: Apple M1 (high power)
+2021-12-07 14:14:39.371 Unity[9869:454266] Metal devices available: 1
+2021-12-07 14:14:39.371 Unity[9869:454266] 0: Apple M1 (high power)
+2021-12-07 14:14:39.371 Unity[9869:454266] Using device Apple M1 (high power)
+Initializing Metal device caps: Apple M1
+Initialize mono
+Mono path[0] = '/Applications/2020.3.17f1/Unity.app/Contents/Managed'
+Mono path[1] = '/Applications/2020.3.17f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = '/Applications/2020.3.17f1/Unity.app/Contents/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56869
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: /Applications/2020.3.17f1/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
+Registered in 0.002299 seconds.
+Native extension for OSXStandalone target not found
+Assets/GymAssests/uploads-files-669576-aeq3vjprnoqo-Bleachers-1/bleachers.c4d: Unity no longer supports importing Cinema 4D files directly, but we're working with Maxon to make the experience better. To import Cinema 4D files, install Maxon's external importer. You can find more information on the Unity Forum: https://on.unity.com/c4d.
+
+Please note that FBX files exported from Cinema4D are still supported.
+
+Refreshing native plugins compatible for Editor in 73.67 ms, found 3 plugins.
+Preloading 1 native plugins for Editor in 0.28 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.047 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2048ms)
+		BeginReloadAssembly (101ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (3ms)
+		EndReloadAssembly (879ms)
+			LoadAssemblies (98ms)
+			RebuildTransferFunctionScriptingTraits (1ms)
+			SetupTypeCache (167ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (39ms)
+			SetupLoadedEditorAssemblies (516ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (9ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (74ms)
+				BeforeProcessingInitializeOnLoad (22ms)
+				ProcessInitializeOnLoadAttributes (295ms)
+				ProcessInitializeOnLoadMethodAttributes (113ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (2ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.006277 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Assets/GymAssests/uploads-files-669576-aeq3vjprnoqo-Bleachers-1/bleachers.c4d: Unity no longer supports importing Cinema 4D files directly, but we're working with Maxon to make the experience better. To import Cinema 4D files, install Maxon's external importer. You can find more information on the Unity Forum: https://on.unity.com/c4d.
+
+Please note that FBX files exported from Cinema4D are still supported.
+
+Refreshing native plugins compatible for Editor in 77.32 ms, found 3 plugins.
+Preloading 1 native plugins for Editor in 3.49 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.919 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2921ms)
+		BeginReloadAssembly (260ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (32ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (32ms)
+		EndReloadAssembly (2574ms)
+			LoadAssemblies (205ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (379ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (69ms)
+			SetupLoadedEditorAssemblies (1531ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (11ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (81ms)
+				BeforeProcessingInitializeOnLoad (158ms)
+				ProcessInitializeOnLoadAttributes (1265ms)
+				ProcessInitializeOnLoadMethodAttributes (15ms)
+				AfterProcessingInitializeOnLoad (1ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (35ms)
+Platform modules already initialized, skipping
+Validating Project structure ... 0.035153 seconds.
+Shader import version has changed; will reimport all shaders...
+Upgrading shader files ...0.032472 seconds.
+Application.AssetDatabase Initial Script Refresh Start
+RefreshInfo: InitialScriptRefreshV2(NoUpdateAssetOptions) scanfilter:  ... 1 filters
+RefreshProfiler: Total: 0.000ms
+Application.AssetDatabase Initial Script Refresh End
+Assets/GymAssests/uploads-files-669576-aeq3vjprnoqo-Bleachers-1/bleachers.c4d: Unity no longer supports importing Cinema 4D files directly, but we're working with Maxon to make the experience better. To import Cinema 4D files, install Maxon's external importer. You can find more information on the Unity Forum: https://on.unity.com/c4d.
+
+Please note that FBX files exported from Cinema4D are still supported.
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/buildslave/unity/build/Runtime/Export/Scripting/StackTrace.cs:37)
+UnityEditor.AssemblyValidation:ValidateAssemblyDefinitionFiles () (at /Users/bokken/buildslave/unity/build/Editor/Mono/AssemblyValidation.cs:143)
+
+[/Users/bokken/buildslave/unity/build/Runtime/Export/Scripting/StackTrace.cs line 37]
+
+Application.AssetDatabase.Refresh Start
+Application.AssetDatabase.Refresh End
+RefreshInfo: StopAssetImportingV2(ForceSynchronousImport) scanfilter: 
+RefreshProfiler: Total: 0.000ms
+Launching external process: /Applications/2020.3.17f1/Unity.app/Contents/Tools/UnityShaderCompiler
+Launched and connected shader compiler UnityShaderCompiler after 0.15 seconds
+Initializing Unity extensions:
+2021-12-07 14:14:46.719 Unity[9869:454266] NSEventModifierFlagFunction specified to -setKeyEquivalentModifierMask: for item <NSMenuItem: 0x60000034ec30 Font Asset, ke='Command-F12'>, but is only supported for system-provided menu items; will not be used
+2021-12-07 14:14:46.723 Unity[9869:454266] NSEventModifierFlagFunction specified to -setKeyEquivalentModifierMask: for item <NSMenuItem: 0x6000003695e0 Font Asset, ke='Command-F12'>, but is only supported for system-provided menu items; will not be used
+========================================================================
+Worker process is ready to serve import requests
+Assets/GymAssests/uploads-files-669576-aeq3vjprnoqo-Bleachers-1/bleachers.c4d: Unity no longer supports importing Cinema 4D files directly, but we're working with Maxon to make the experience better. To import Cinema 4D files, install Maxon's external importer. You can find more information on the Unity Forum: https://on.unity.com/c4d.
+
+Please note that FBX files exported from Cinema4D are still supported.
+
+Refreshing native plugins compatible for Editor in 0.84 ms, found 3 plugins.
+Preloading 1 native plugins for Editor in 0.27 ms.
+Unloading 3868 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 321.9 MB.
+System memory in use after: 321.9 MB.
+
+Unloading 231 unused Assets to reduce memory usage. Loaded Objects now: 4396.
+Total: 3.949125 ms (FindLiveObjects: 0.279916 ms CreateObjectMapping: 0.095750 ms MarkObjects: 3.391708 ms  DeleteObjects: 0.180708 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  path: Assets/UniversalRenderPipelineAsset.asset
+  artifactKey: Guid(354398a4ec99999439aa8fec9af680cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UniversalRenderPipelineAsset.asset using Guid(354398a4ec99999439aa8fec9af680cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '12f3add19ddc4f64f7a947ef8b654adf') in 0.568918 seconds 
+  Import took 0.575043 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002079 seconds.
+  path: Assets/New Terrain.asset
+  artifactKey: Guid(cf2b1c6cb1021204d98017b4431db1e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/New Terrain.asset using Guid(cf2b1c6cb1021204d98017b4431db1e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b053d905459078fae53909e764464bc3') in 0.062953 seconds 
+  Import took 0.067617 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000320 seconds.
+  path: Assets/UniversalRenderPipelineAsset_Renderer.asset
+  artifactKey: Guid(02e94b3bd0c7d0845afe0496e4b3e970) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UniversalRenderPipelineAsset_Renderer.asset using Guid(02e94b3bd0c7d0845afe0496e4b3e970) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9e82b45819d2dd0c4ab38315f1038099') in 0.002037 seconds 
+  Import took 0.006288 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000284 seconds.
+  path: Assets/GymAssests
+  artifactKey: Guid(cd9d152971dd7b143bbdc99b938891fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GymAssests using Guid(cd9d152971dd7b143bbdc99b938891fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5f04f8680b47528a3e4c2efcfa56b46c') in 0.000535 seconds 
+  Import took 0.004229 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 7.769411 seconds.
+  path: Assets/GymAssests/Hanger
+  artifactKey: Guid(1ad3cfa8158da4f1b9ad0c5bec2cffbe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GymAssests/Hanger using Guid(1ad3cfa8158da4f1b9ad0c5bec2cffbe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6362aa882cfa5bb3bcdce4b071b2340b') in 0.001529 seconds 
+  Import took 0.010866 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 25.497352 seconds.
+  path: Assets/GymAssests/Hanger/WallHanger.fbx
+  artifactKey: Guid(96ef92383875342c68c05610abf7a915) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GymAssests/Hanger/WallHanger.fbx using Guid(96ef92383875342c68c05610abf7a915) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6711ef9956d04351b6c6227b2d2ac6b4') in 1.013845 seconds 
+  Import took 1.049754 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 28.680757 seconds.
+  path: Assets/_Course Library/Models/Lamp_Wall_1.fbx
+  artifactKey: Guid(927ae7e9d26768c478c940a750247813) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Course Library/Models/Lamp_Wall_1.fbx using Guid(927ae7e9d26768c478c940a750247813) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b1d004371bf09fb39cb7afd7c5540e23') in 0.051372 seconds 
+  Import took 0.070562 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000286 seconds.
+  path: Assets/StarterAssets/Environment/Art/Models/Wall_Mesh.fbx
+  artifactKey: Guid(ff02a0a00ab750f48b09459b1cafd1b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StarterAssets/Environment/Art/Models/Wall_Mesh.fbx using Guid(ff02a0a00ab750f48b09459b1cafd1b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c8235a0635af9b1a3e6eed3ce9345984') in 0.020823 seconds 
+  Import took 0.025852 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000276 seconds.
+  path: Assets/GymAssests/streetlightmodel/textures/lamps_pole_wall_2_Metalness.png
+  artifactKey: Guid(61e641c0fbbc8c64c90ee6eb920fa306) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GymAssests/streetlightmodel/textures/lamps_pole_wall_2_Metalness.png using Guid(61e641c0fbbc8c64c90ee6eb920fa306) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '300456cb8da9555866e5e95fd0cd581e') in 0.441764 seconds 
+  Import took 0.447708 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002092 seconds.
+  path: Assets/Materials/wall1.mat
+  artifactKey: Guid(d92b3b8139b9f2346b4b44cc04ae62d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/wall1.mat using Guid(d92b3b8139b9f2346b4b44cc04ae62d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c717262aea1bad39d774de0e99b50adb') in 0.174980 seconds 
+  Import took 0.179638 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002332 seconds.
+  path: Assets/GymAssests/streetlightmodel/textures/lamps_pole_wall_3_Metalness.png
+  artifactKey: Guid(2d63ae296df44fa4c9de40375ee4b010) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GymAssests/streetlightmodel/textures/lamps_pole_wall_3_Metalness.png using Guid(2d63ae296df44fa4c9de40375ee4b010) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f574fa8fa2e5c83a4b38a172c3bdecc2') in 0.010112 seconds 
+  Import took 0.014948 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000215 seconds.
+  path: Assets/GymAssests/streetlightmodel/textures/lamps_pole_wall_3_Normal.png
+  artifactKey: Guid(7f8adfdf892e179489ca29dfab58e3cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GymAssests/streetlightmodel/textures/lamps_pole_wall_3_Normal.png using Guid(7f8adfdf892e179489ca29dfab58e3cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f07d708e7deef2dbb5937f0eeab24673') in 0.011667 seconds 
+  Import took 0.016715 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000195 seconds.
+  path: Assets/_Course Library/_Prefabs/Televisions/TV_FlatWallMounted.prefab
+  artifactKey: Guid(a3051c696c83442f8b9a1c115ffa2359) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Course Library/_Prefabs/Televisions/TV_FlatWallMounted.prefab using Guid(a3051c696c83442f8b9a1c115ffa2359) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4e5bff6f41c305ff4c9a56e3125954d2') in 0.456114 seconds 
+  Import took 0.461682 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002276 seconds.
+  path: Assets/_Course Library/Models/RoomTraditional_Models/Room_Traditional_All.fbx
+  artifactKey: Guid(215119b6893ae7d4b890c9acaa834b89) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Course Library/Models/RoomTraditional_Models/Room_Traditional_All.fbx using Guid(215119b6893ae7d4b890c9acaa834b89) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'affa9e970fefd64780d7b5ef1c772ed0') in 0.001416 seconds 
+  Import took 0.005627 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000228 seconds.
+  path: Assets/GymAssests/streetlightmodel/textures/lamps_pole_wall_3_Roughness.png
+  artifactKey: Guid(b43c4ce54fa0748429a51e64ffd9260e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GymAssests/streetlightmodel/textures/lamps_pole_wall_3_Roughness.png using Guid(b43c4ce54fa0748429a51e64ffd9260e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f05eccb08149c8a32522320abd667282') in 0.009343 seconds 
+  Import took 0.013654 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000235 seconds.
+  path: Assets/Challenges/01_Architecture/Prefabs/Wall.prefab
+  artifactKey: Guid(b425eb33b57f29f449ca9b014c3bb6d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Challenges/01_Architecture/Prefabs/Wall.prefab using Guid(b425eb33b57f29f449ca9b014c3bb6d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7c079be3b8638f3b287b927f38abfb8e') in 0.009033 seconds 
+  Import took 0.013783 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000223 seconds.
+  path: Assets/StarterAssets/Environment/Prefabs/Wall_Prefab.prefab
+  artifactKey: Guid(9eb847ab97b24024588682c8601254cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StarterAssets/Environment/Prefabs/Wall_Prefab.prefab using Guid(9eb847ab97b24024588682c8601254cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fdf5786aad4d08c44e1065de043e020f') in 0.328032 seconds 
+  Import took 0.332687 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000276 seconds.
+  path: Assets/GymAssests/BodyBuilder Asset Pack/Textures/whitegymwall 1.png
+  artifactKey: Guid(991a371071650477cac2f9660989af54) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GymAssests/BodyBuilder Asset Pack/Textures/whitegymwall 1.png using Guid(991a371071650477cac2f9660989af54) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5e67b94a283d4043f65d3dad20a5ab76') in 0.029187 seconds 
+  Import took 0.033775 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000284 seconds.
+  path: Assets/GymAssests/streetlightmodel/textures/lamps_pole_wall_1_BaseColor.png
+  artifactKey: Guid(93a85ede9cabe504e9aee977dfc15d87) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GymAssests/streetlightmodel/textures/lamps_pole_wall_1_BaseColor.png using Guid(93a85ede9cabe504e9aee977dfc15d87) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f9980ec6d080df692bb1e71284e4ffce') in 0.014539 seconds 
+  Import took 0.021120 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000239 seconds.
+  path: Assets/Challenges/01_Architecture/Materials/Walls.mat
+  artifactKey: Guid(99ae0efbba907da4f933560b695093f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Challenges/01_Architecture/Materials/Walls.mat using Guid(99ae0efbba907da4f933560b695093f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd7fbcef661caac5739cd792b11e758fc') in 0.007712 seconds 
+  Import took 0.012210 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000233 seconds.
+  path: Assets/GymAssests/streetlightmodel/textures/lamps_pole_wall_1_Normal.png
+  artifactKey: Guid(6ff504a05da2b46448b6f355619b95fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GymAssests/streetlightmodel/textures/lamps_pole_wall_1_Normal.png using Guid(6ff504a05da2b46448b6f355619b95fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c78925f454cb7da33c826c5b152e1502') in 0.008132 seconds 
+  Import took 0.013551 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000216 seconds.
+  path: Assets/GymAssests/streetlightmodel/textures/lamps_pole_wall_2_Normal.png
+  artifactKey: Guid(ed047c43c1c3ab744b6453c995f530f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GymAssests/streetlightmodel/textures/lamps_pole_wall_2_Normal.png using Guid(ed047c43c1c3ab744b6453c995f530f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b97333252e8e4d0ecebdf642b4a747a6') in 0.007644 seconds 
+  Import took 0.012526 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000220 seconds.
+  path: Assets/_Course Library/Models/Lamp_Wall_2.fbx
+  artifactKey: Guid(15cd8819c9f72a845acf8ccb7487b837) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Course Library/Models/Lamp_Wall_2.fbx using Guid(15cd8819c9f72a845acf8ccb7487b837) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f93003d5d702324fc3c323f98419bf52') in 0.031629 seconds 
+  Import took 0.035909 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000369 seconds.
+  path: Assets/Textures/wall1.png
+  artifactKey: Guid(f3d88502d259b454ebdbb14db5ae187a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/wall1.png using Guid(f3d88502d259b454ebdbb14db5ae187a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b52fa054645f7105d68711a00f45e20f') in 0.005884 seconds 
+  Import took 0.010409 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000291 seconds.
+  path: Assets/_Course Library/Models/RoomRustic_Models/Room_Rustic_All.fbx
+  artifactKey: Guid(5b7378af8ebeb2c4b9ba1624fe8ce998) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Course Library/Models/RoomRustic_Models/Room_Rustic_All.fbx using Guid(5b7378af8ebeb2c4b9ba1624fe8ce998) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '08b6dcdd5c058d04c04b6f63383b7552') in 0.082671 seconds 
+  Import took 0.087251 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000850 seconds.
+  path: Assets/GymAssests/BodyBuilder Asset Pack/Materials/WhiteWall.mat
+  artifactKey: Guid(7b45e65695c5241488014b488aebbc29) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GymAssests/BodyBuilder Asset Pack/Materials/WhiteWall.mat using Guid(7b45e65695c5241488014b488aebbc29) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '785d775c5a3802eb02976b0708a72b2d') in 0.220204 seconds 
+  Import took 0.224549 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000257 seconds.
+  path: Assets/_Course Library/Models/TV_FlatWallMounted 1.fbx
+  artifactKey: Guid(72bfa3b5cc1b2224cb8d36e9c68896d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Course Library/Models/TV_FlatWallMounted 1.fbx using Guid(72bfa3b5cc1b2224cb8d36e9c68896d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4f455ad285bd05f7687fb226b76f5a66') in 0.029906 seconds 
+  Import took 0.034260 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000347 seconds.
+  path: Assets/GymAssests/streetlightmodel/textures/lamps_pole_wall_2_Roughness.png
+  artifactKey: Guid(70b4127af211da04ba68168c23701284) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GymAssests/streetlightmodel/textures/lamps_pole_wall_2_Roughness.png using Guid(70b4127af211da04ba68168c23701284) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd9ec658f0e86aa2bcaeb7fc2f8af33bf') in 0.008026 seconds 
+  Import took 0.012395 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000255 seconds.
+  path: Assets/GymAssests/streetlightmodel/textures/lamps_pole_wall_2_BaseColor.png
+  artifactKey: Guid(9920f4328db19994ea853b45a9f2a32e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GymAssests/streetlightmodel/textures/lamps_pole_wall_2_BaseColor.png using Guid(9920f4328db19994ea853b45a9f2a32e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6849a0710d9bcb841a00bf42c15ce374') in 0.012675 seconds 
+  Import took 0.017005 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000192 seconds.
+  path: Assets/GymAssests/streetlightmodel/textures/lamps_pole_wall_2_Roughness.png
+  artifactKey: Guid(70b4127af211da04ba68168c23701284) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GymAssests/streetlightmodel/textures/lamps_pole_wall_2_Roughness.png using Guid(70b4127af211da04ba68168c23701284) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd9ec658f0e86aa2bcaeb7fc2f8af33bf') in 0.008073 seconds 
+  Import took 0.012629 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000244 seconds.
+  path: Assets/GymAssests/streetlightmodel/textures/lamps_pole_wall_3_Height.png
+  artifactKey: Guid(786325c2afcc58f41913144766017eaa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GymAssests/streetlightmodel/textures/lamps_pole_wall_3_Height.png using Guid(786325c2afcc58f41913144766017eaa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7e629b310e709daf7b2e4afad8684815') in 0.008533 seconds 
+  Import took 0.013645 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000161 seconds.
+  path: Assets/_Course Library/Textures/StoneWall_Texture.jpg
+  artifactKey: Guid(d5f3743f553fe1349a6203a70f7bbe1e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Course Library/Textures/StoneWall_Texture.jpg using Guid(d5f3743f553fe1349a6203a70f7bbe1e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f2a8ca0f23ac4468032563b44356b288') in 0.517928 seconds 
+  Import took 0.522662 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002052 seconds.
+  path: Assets/GymAssests/streetlightmodel/textures/lamps_pole_wall_1_Metalness.png
+  artifactKey: Guid(4805f1c83f536234884240b1b38ae3a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GymAssests/streetlightmodel/textures/lamps_pole_wall_1_Metalness.png using Guid(4805f1c83f536234884240b1b38ae3a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '47298f19f1a810bac095e757d66347e6') in 0.009822 seconds 
+  Import took 0.014786 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000269 seconds.
+  path: Assets/GymAssests/streetlightmodel/source/lamps.fbx
+  artifactKey: Guid(30c35b433244f5f4e8ee3d2cd0280ff6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GymAssests/streetlightmodel/source/lamps.fbx using Guid(30c35b433244f5f4e8ee3d2cd0280ff6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '407ec232d2b5bff5f93273bfde837d3a') in 0.003676 seconds 
+  Import took 0.009490 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000185 seconds.
+  path: Assets/_Course Library/Materials/Object Materials/Material_StoneWall.mat
+  artifactKey: Guid(90ac924eb62506646af50d7048d7b437) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Course Library/Materials/Object Materials/Material_StoneWall.mat using Guid(90ac924eb62506646af50d7048d7b437) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1bb889936fe29578c9f739b4bca52bb2') in 0.012203 seconds 
+  Import took 0.017212 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000205 seconds.
+  path: Assets/_Course Library/Models/RoomModern_Models/Room_Modern_All.FBX
+  artifactKey: Guid(be28df98030e8f64591e136832fc9829) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Course Library/Models/RoomModern_Models/Room_Modern_All.FBX using Guid(be28df98030e8f64591e136832fc9829) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '64114ecff915d52e8e4b135deaf8822c') in 0.121240 seconds 
+  Import took 0.126277 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002726 seconds.
+  path: Assets/GymAssests/BodyBuilder Asset Pack/Textures/whitegymwall.png
+  artifactKey: Guid(d0926752df82b489da0974c84b8ec9f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GymAssests/BodyBuilder Asset Pack/Textures/whitegymwall.png using Guid(d0926752df82b489da0974c84b8ec9f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4e9530be58c682411f382a236a29184a') in 0.008836 seconds 
+  Import took 0.014228 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000193 seconds.
+  path: Assets/GymAssests/streetlightmodel/textures/lamps_pole_wall_1_Roughness.png
+  artifactKey: Guid(992535b56e09e8a4e948472c4d61707f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GymAssests/streetlightmodel/textures/lamps_pole_wall_1_Roughness.png using Guid(992535b56e09e8a4e948472c4d61707f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2c10c92a50afc7b1474e64c0f0127d6d') in 0.008449 seconds 
+  Import took 0.012836 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000327 seconds.
+  path: Assets/GymAssests/streetlightmodel/textures/lamps_pole_wall_3_BaseColor.png
+  artifactKey: Guid(86f4c37b60b061e48835088809869e80) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GymAssests/streetlightmodel/textures/lamps_pole_wall_3_BaseColor.png using Guid(86f4c37b60b061e48835088809869e80) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '20027d3c6d31b1f78d4486f977b61003') in 0.008517 seconds 
+  Import took 0.012898 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.506620 seconds.
+  path: Assets/_Course Library/Materials/Object Materials/Material_Wood_Dark.mat
+  artifactKey: Guid(e7b638a089431c04bb74a1b4b8db697a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Course Library/Materials/Object Materials/Material_Wood_Dark.mat using Guid(e7b638a089431c04bb74a1b4b8db697a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '80b47b4a363319038786e62f00e96807') in 0.015410 seconds 
+  Import took 0.024525 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000327 seconds.
+  path: Assets/_Course Library/Materials/Object Materials/Material_Wood_Light.mat
+  artifactKey: Guid(0e6e52f9b5a0f1745a9a648da89b7bcb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Course Library/Materials/Object Materials/Material_Wood_Light.mat using Guid(0e6e52f9b5a0f1745a9a648da89b7bcb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'db9b032192ed6a740a7d8b4d80e60258') in 0.011880 seconds 
+  Import took 0.017930 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000283 seconds.
+  path: Assets/Materials/Wood2.mat
+  artifactKey: Guid(f9f5e921d1f862f438cac2e931a22418) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Wood2.mat using Guid(f9f5e921d1f862f438cac2e931a22418) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0eb3f63521ddac7624f82f48d2de7354') in 0.010875 seconds 
+  Import took 0.016787 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000183 seconds.
+  path: Assets/Textures/Wood2.png
+  artifactKey: Guid(2481d5304a28ddd4e9694bfc3a119c9a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Wood2.png using Guid(2481d5304a28ddd4e9694bfc3a119c9a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b0e14a7dfd4758ee50f7186527e53c16') in 0.006588 seconds 
+  Import took 0.011623 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000301 seconds.
+  path: Assets/GymAssests/LowPolyChristmasAddOn/Meshes/Sled_1.fbx
+  artifactKey: Guid(aa3abe1c5e77f46609f6f6550c2a2e84) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GymAssests/LowPolyChristmasAddOn/Meshes/Sled_1.fbx using Guid(aa3abe1c5e77f46609f6f6550c2a2e84) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5171279bd7f8c4176deb1eb4674b28e5') in 0.018746 seconds 
+  Import took 0.023734 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000222 seconds.
+  path: Assets/GymAssests/LowPolyChristmasAddOn/Meshes/TreeStumb_1.fbx
+  artifactKey: Guid(48a0b9667e5cc4456bec96e4eb3b4061) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GymAssests/LowPolyChristmasAddOn/Meshes/TreeStumb_1.fbx using Guid(48a0b9667e5cc4456bec96e4eb3b4061) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f7a13250d65c13650c6fa47aca4441dc') in 0.021897 seconds 
+  Import took 0.026555 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000236 seconds.
+  path: Assets/GymAssests/LowPolyChristmasAddOn/Meshes/ChristmasTree_2.fbx
+  artifactKey: Guid(f7a2dc762b2aa4378a37c7cb24fadfaa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GymAssests/LowPolyChristmasAddOn/Meshes/ChristmasTree_2.fbx using Guid(f7a2dc762b2aa4378a37c7cb24fadfaa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a465681703e98b7ed452bea7080b1d6d') in 0.034560 seconds 
+  Import took 0.038866 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000323 seconds.
+  path: Assets/_Course Library/Textures/WoodFloor_Texture.png
+  artifactKey: Guid(79a6f16b6c7b08541813ca8532fb917c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Course Library/Textures/WoodFloor_Texture.png using Guid(79a6f16b6c7b08541813ca8532fb917c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bfebe4812911f042df704365a223d0f3') in 0.006029 seconds 
+  Import took 0.010300 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000233 seconds.
+  path: Assets/GymAssests/LowPolyChristmasAddOn/Meshes/Snowman.fbx
+  artifactKey: Guid(77e74f65e820c4ea9b756ade108c63d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GymAssests/LowPolyChristmasAddOn/Meshes/Snowman.fbx using Guid(77e74f65e820c4ea9b756ade108c63d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4f72e19a704b1d2671b484c855369034') in 0.038030 seconds 
+  Import took 0.042593 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000420 seconds.
+  path: Assets/GymAssests/LowPolyChristmasAddOn/Meshes/ChristmasTree_1.fbx
+  artifactKey: Guid(41078cf1584534477ad18a55c8619aa8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GymAssests/LowPolyChristmasAddOn/Meshes/ChristmasTree_1.fbx using Guid(41078cf1584534477ad18a55c8619aa8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c5a8d5132fb1353db20992cb6cec388c') in 0.001172 seconds 
+  Import took 0.005198 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000222 seconds.
+  path: Assets/_Course Library/Materials/Object Materials/Material_Wood_Rustic.mat
+  artifactKey: Guid(0e77f434c76d1e14086e2281d4df3849) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Course Library/Materials/Object Materials/Material_Wood_Rustic.mat using Guid(0e77f434c76d1e14086e2281d4df3849) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7655311b57ddaf45a03533b1505ab27b') in 0.007907 seconds 
+  Import took 0.012314 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000286 seconds.
+  path: Assets/Challenges/01_Architecture/Materials/Wood.mat
+  artifactKey: Guid(6f5aa76632f2022448fc10d876a8c1dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Challenges/01_Architecture/Materials/Wood.mat using Guid(6f5aa76632f2022448fc10d876a8c1dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e47a44af38878ab03081024d66f3ea14') in 0.007549 seconds 
+  Import took 0.011437 seconds .
+
