@@ -1,105 +1,227 @@
 Using pre-set license
 Built from '2020.3/staging' branch; Version is '2020.3.17f1 (a4537701e4ab) revision 10769271'; Using compiler version '192528614'; Build Type 'Release'
-OS: 'Windows 10 Pro; OS build 19041.1348; Version 2004; 64bit' Language: 'en' Physical Memory: 8134 MB
+OS: 'Windows 10 Home Single Language; OS build 19043.1348; Version 2009; 64bit' Language: 'en' Physical Memory: 16233 MB
 BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
 
 COMMAND LINE ARGUMENTS:
-D:\Unity Hub\2020.3.17f1\Editor\Unity.exe
+C:\Program Files\Unity\Hub\Editor\2020.3.17f1\Editor\Unity.exe
 -adb2
 -batchMode
 -noUpm
 -name
 AssetImportWorker0
 -projectPath
-D:/Project/BVW-Unity-VR/VR Room Project
+C:/Users/Pink/Documents/GitHub/BVW-Unity-VR/VR Room Project
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-51026
-Successfully changed project path to: D:/Project/BVW-Unity-VR/VR Room Project
-D:/Project/BVW-Unity-VR/VR Room Project
+63099
+Successfully changed project path to: C:/Users/Pink/Documents/GitHub/BVW-Unity-VR/VR Room Project
+C:/Users/Pink/Documents/GitHub/BVW-Unity-VR/VR Room Project
 Using Asset Import Pipeline V2.
 Assets/GymAssests/uploads-files-669576-aeq3vjprnoqo-Bleachers-1/bleachers.c4d: Unity no longer supports importing Cinema 4D files directly, but we're working with Maxon to make the experience better. To import Cinema 4D files, install Maxon's external importer. You can find more information on the Unity Forum: https://on.unity.com/c4d.
 
 Please note that FBX files exported from Cinema4D are still supported.
 
-Refreshing native plugins compatible for Editor in 86.84 ms, found 10 plugins.
-Preloading 1 native plugins for Editor in 0.88 ms.
+Refreshing native plugins compatible for Editor in 191.02 ms, found 10 plugins.
+Preloading 1 native plugins for Editor in 1.40 ms.
 Initialize engine version: 2020.3.17f1 (a4537701e4ab)
-[Subsystems] Discovering subsystems at path D:/Unity Hub/2020.3.17f1/Editor/Data/Resources/UnitySubsystems
-[Subsystems] Discovering subsystems at path D:/Project/BVW-Unity-VR/VR Room Project/Assets
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.17f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/Pink/Documents/GitHub/BVW-Unity-VR/VR Room Project/Assets
 GfxDevice: creating device client; threaded=0
 Direct3D:
     Version:  Direct3D 11.0 [level 11.1]
-    Renderer: NVIDIA GeForce GTX 1060 6GB (ID=0x1c03)
+    Renderer: NVIDIA GeForce RTX 2070 (ID=0x1f10)
     Vendor:   
-    VRAM:     6052 MB
-    Driver:   27.21.14.6663
+    VRAM:     8031 MB
+    Driver:   27.21.14.6627
 Initialize mono
-Mono path[0] = 'D:/Unity Hub/2020.3.17f1/Editor/Data/Managed'
-Mono path[1] = 'D:/Unity Hub/2020.3.17f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
-Mono config path = 'D:/Unity Hub/2020.3.17f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56060
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.17f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.17f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.17f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56408
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
-Register platform support module: D:/Unity Hub/2020.3.17f1/Editor/Data/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
-Register platform support module: D:/Unity Hub/2020.3.17f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.001371 seconds.
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.17f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.17f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.004211 seconds.
 Native extension for WindowsStandalone target not found
-Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
 Assets/GymAssests/uploads-files-669576-aeq3vjprnoqo-Bleachers-1/bleachers.c4d: Unity no longer supports importing Cinema 4D files directly, but we're working with Maxon to make the experience better. To import Cinema 4D files, install Maxon's external importer. You can find more information on the Unity Forum: https://on.unity.com/c4d.
 
 Please note that FBX files exported from Cinema4D are still supported.
 
-Refreshing native plugins compatible for Editor in 79.69 ms, found 10 plugins.
-Preloading 1 native plugins for Editor in 0.05 ms.
+Refreshing native plugins compatible for Editor in 140.80 ms, found 10 plugins.
+Preloading 1 native plugins for Editor in 0.13 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.632 seconds
+- Completed reload, in  3.653 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1632ms)
-		BeginReloadAssembly (191ms)
+	ReloadAssembly (3653ms)
+		BeginReloadAssembly (98ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (444ms)
-			LoadAssemblies (190ms)
+		EndReloadAssembly (786ms)
+			LoadAssemblies (95ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (150ms)
+			SetupTypeCache (261ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (31ms)
-			SetupLoadedEditorAssemblies (196ms)
+			RebuildScriptCaches (53ms)
+			SetupLoadedEditorAssemblies (354ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (4ms)
+				InitializePlatformSupportModulesInManaged (8ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (80ms)
-				BeforeProcessingInitializeOnLoad (9ms)
-				ProcessInitializeOnLoadAttributes (75ms)
-				ProcessInitializeOnLoadMethodAttributes (27ms)
+				RefreshPlugins (141ms)
+				BeforeProcessingInitializeOnLoad (24ms)
+				ProcessInitializeOnLoadAttributes (134ms)
+				ProcessInitializeOnLoadMethodAttributes (46ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.006053 seconds.
+Registered in 0.016444 seconds.
 Begin MonoManager ReloadAssembly
+Symbol file data-000001E873FF8C20 doesn't match image C:\Users\Pink\Documents\GitHub\BVW-Unity-VR\VR Room Project\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E873E117E0 doesn't match image C:\Users\Pink\Documents\GitHub\BVW-Unity-VR\VR Room Project\Library\ScriptAssemblies\Unity.RenderPipelines.Universal.Shaders.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E86F535610 doesn't match image C:\Users\Pink\Documents\GitHub\BVW-Unity-VR\VR Room Project\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E86F535610 doesn't match image C:\Users\Pink\Documents\GitHub\BVW-Unity-VR\VR Room Project\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E86F802B80 doesn't match image C:\Users\Pink\Documents\GitHub\BVW-Unity-VR\VR Room Project\Library\ScriptAssemblies\Unity.Searcher.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E874BE0D50 doesn't match image C:\Users\Pink\Documents\GitHub\BVW-Unity-VR\VR Room Project\Library\ScriptAssemblies\Unity.ShaderGraph.Utilities.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E86F7D43E0 doesn't match image C:\Users\Pink\Documents\GitHub\BVW-Unity-VR\VR Room Project\Library\ScriptAssemblies\Unity.ProBuilder.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E86F921230 doesn't match image C:\Users\Pink\Documents\GitHub\BVW-Unity-VR\VR Room Project\Library\ScriptAssemblies\UnityEditor.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E875304010 doesn't match image C:\Users\Pink\Documents\GitHub\BVW-Unity-VR\VR Room Project\Library\ScriptAssemblies\Unity.InputSystem.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E86F7E8DF0 doesn't match image C:\Users\Pink\Documents\GitHub\BVW-Unity-VR\VR Room Project\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E874BE3670 doesn't match image C:\Users\Pink\Documents\GitHub\BVW-Unity-VR\VR Room Project\Library\ScriptAssemblies\Unity.RenderPipelines.Core.ShaderLibrary.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E873DEB010 doesn't match image C:\Users\Pink\Documents\GitHub\BVW-Unity-VR\VR Room Project\Library\ScriptAssemblies\UnityEngine.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E86F69C940 doesn't match image C:\Users\Pink\Documents\GitHub\BVW-Unity-VR\VR Room Project\Library\ScriptAssemblies\UnityEngine.SpatialTracking.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E86F802B80 doesn't match image C:\Users\Pink\Documents\GitHub\BVW-Unity-VR\VR Room Project\Library\ScriptAssemblies\Unity.ProBuilder.Poly2Tri.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E874B60020 doesn't match image C:\Users\Pink\Documents\GitHub\BVW-Unity-VR\VR Room Project\Library\ScriptAssemblies\Unity.ShaderGraph.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E873DEB010 doesn't match image C:\Users\Pink\Documents\GitHub\BVW-Unity-VR\VR Room Project\Library\ScriptAssemblies\Cinemachine.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E86F7E8DF0 doesn't match image C:\Users\Pink\Documents\GitHub\BVW-Unity-VR\VR Room Project\Library\ScriptAssemblies\com.unity.cinemachine.editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E86F802B80 doesn't match image C:\Users\Pink\Documents\GitHub\BVW-Unity-VR\VR Room Project\Library\ScriptAssemblies\Unity.Settings.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E873E11210 doesn't match image C:\Users\Pink\Documents\GitHub\BVW-Unity-VR\VR Room Project\Library\ScriptAssemblies\Unity.RenderPipeline.Universal.ShaderLibrary.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E86F806790 doesn't match image C:\Users\Pink\Documents\GitHub\BVW-Unity-VR\VR Room Project\Library\ScriptAssemblies\Unity.XR.Management.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E86F7E8DF0 doesn't match image C:\Users\Pink\Documents\GitHub\BVW-Unity-VR\VR Room Project\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E86F4B4AD0 doesn't match image C:\Users\Pink\Documents\GitHub\BVW-Unity-VR\VR Room Project\Library\ScriptAssemblies\Unity.Mathematics.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E86F69C940 doesn't match image C:\Users\Pink\Documents\GitHub\BVW-Unity-VR\VR Room Project\Library\ScriptAssemblies\Unity.XR.OpenXR.Features.RuntimeDebugger.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E86F69C940 doesn't match image C:\Users\Pink\Documents\GitHub\BVW-Unity-VR\VR Room Project\Library\ScriptAssemblies\Unity.XR.Oculus.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E86F92C060 doesn't match image C:\Users\Pink\Documents\GitHub\BVW-Unity-VR\VR Room Project\Library\ScriptAssemblies\Unity.ProGrids.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E8751CDDF0 doesn't match image C:\Users\Pink\Documents\GitHub\BVW-Unity-VR\VR Room Project\Library\ScriptAssemblies\Unity.XR.OpenXR.Features.MockDriver.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E873DEB010 doesn't match image C:\Users\Pink\Documents\GitHub\BVW-Unity-VR\VR Room Project\Library\ScriptAssemblies\Unity.RenderPipelines.Universal.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E86FC2A0D0 doesn't match image C:\Users\Pink\Documents\GitHub\BVW-Unity-VR\VR Room Project\Library\ScriptAssemblies\Unity.ProBuilder.AddOns.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E86F7F1C10 doesn't match image C:\Users\Pink\Documents\GitHub\BVW-Unity-VR\VR Room Project\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E874A81A40 doesn't match image C:\Users\Pink\Documents\GitHub\BVW-Unity-VR\VR Room Project\Library\ScriptAssemblies\Unity.XR.OpenXR.Features.OculusQuestSupport.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E86F4F32E0 doesn't match image C:\Users\Pink\Documents\GitHub\BVW-Unity-VR\VR Room Project\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E86F7F1C10 doesn't match image C:\Users\Pink\Documents\GitHub\BVW-Unity-VR\VR Room Project\Library\ScriptAssemblies\Unity.XR.Management.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E86FCBF230 doesn't match image C:\Users\Pink\Documents\GitHub\BVW-Unity-VR\VR Room Project\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E874221020 doesn't match image C:\Users\Pink\Documents\GitHub\BVW-Unity-VR\VR Room Project\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E86FCBF230 doesn't match image C:\Users\Pink\Documents\GitHub\BVW-Unity-VR\VR Room Project\Library\ScriptAssemblies\Unity.XR.Interaction.Toolkit.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E873EEE240 doesn't match image C:\Users\Pink\Documents\GitHub\BVW-Unity-VR\VR Room Project\Library\ScriptAssemblies\Unity.ProBuilder.Csg.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E86FD17060 doesn't match image C:\Users\Pink\Documents\GitHub\BVW-Unity-VR\VR Room Project\Library\ScriptAssemblies\Unity.XR.OpenXR.Features.MockRuntime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E8742E8430 doesn't match image C:\Users\Pink\Documents\GitHub\BVW-Unity-VR\VR Room Project\Library\ScriptAssemblies\Unity.RenderPipelines.Core.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E86FC34BD0 doesn't match image C:\Users\Pink\Documents\GitHub\BVW-Unity-VR\VR Room Project\Library\ScriptAssemblies\Unity.Subsystem.Registration.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E86F5B3010 doesn't match image C:\Users\Pink\Documents\GitHub\BVW-Unity-VR\VR Room Project\Library\ScriptAssemblies\Unity.ProBuilder.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E86F5B3010 doesn't match image C:\Users\Pink\Documents\GitHub\BVW-Unity-VR\VR Room Project\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E86FCCE640 doesn't match image C:\Users\Pink\Documents\GitHub\BVW-Unity-VR\VR Room Project\Library\ScriptAssemblies\Unity.ProGrids.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E874A81A40 doesn't match image C:\Users\Pink\Documents\GitHub\BVW-Unity-VR\VR Room Project\Library\ScriptAssemblies\Unity.XR.OpenXR.Features.OculusQuestSupport.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E873F02020 doesn't match image C:\Users\Pink\Documents\GitHub\BVW-Unity-VR\VR Room Project\Library\ScriptAssemblies\Unity.Mathematics.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E86F43D010 doesn't match image C:\Users\Pink\Documents\GitHub\BVW-Unity-VR\VR Room Project\Library\ScriptAssemblies\Unity.ProBuilder.KdTree.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E874BE0060 doesn't match image C:\Users\Pink\Documents\GitHub\BVW-Unity-VR\VR Room Project\Library\ScriptAssemblies\Unity.XR.OpenXR.TestHelpers.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E86F5B3010 doesn't match image C:\Users\Pink\Documents\GitHub\BVW-Unity-VR\VR Room Project\Library\ScriptAssemblies\Unity.RenderPipelines.Universal.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E8746A5630 doesn't match image C:\Users\Pink\Documents\GitHub\BVW-Unity-VR\VR Room Project\Library\ScriptAssemblies\Unity.ProBuilder.AssetIdRemapUtility.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E873EEE240 doesn't match image C:\Users\Pink\Documents\GitHub\BVW-Unity-VR\VR Room Project\Library\ScriptAssemblies\UnityEngine.XR.LegacyInputHelpers.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E86F6DFEF0 doesn't match image C:\Users\Pink\Documents\GitHub\BVW-Unity-VR\VR Room Project\Library\ScriptAssemblies\Unity.ProBuilder.Stl.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E874306A50 doesn't match image C:\Users\Pink\Documents\GitHub\BVW-Unity-VR\VR Room Project\Library\ScriptAssemblies\Unity.XR.OpenXR.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E874BE2470 doesn't match image C:\Users\Pink\Documents\GitHub\BVW-Unity-VR\VR Room Project\Library\ScriptAssemblies\Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E87452E010 doesn't match image C:\Users\Pink\Documents\GitHub\BVW-Unity-VR\VR Room Project\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E875611030 doesn't match image C:\Users\Pink\Documents\GitHub\BVW-Unity-VR\VR Room Project\Library\ScriptAssemblies\UnityEditor.XR.LegacyInputHelpers.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E8748F0C30 doesn't match image C:\Users\Pink\Documents\GitHub\BVW-Unity-VR\VR Room Project\Library\ScriptAssemblies\Unity.XR.OpenXR.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E8748F0C30 doesn't match image C:\Users\Pink\Documents\GitHub\BVW-Unity-VR\VR Room Project\Library\ScriptAssemblies\Unity.XR.Interaction.Toolkit.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E8759B1E40 doesn't match image C:\Users\Pink\Documents\GitHub\BVW-Unity-VR\VR Room Project\Library\ScriptAssemblies\Unity.XR.Oculus.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E874A81A40 doesn't match image C:\Users\Pink\Documents\GitHub\BVW-Unity-VR\VR Room Project\Library\ScriptAssemblies\UnityEditor.SpatialTracking.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E86FD9F1F0 doesn't match image C:\Users\Pink\Documents\GitHub\BVW-Unity-VR\VR Room Project\Library\ScriptAssemblies\Unity.XR.OpenXR.Features.ConformanceAutomation.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E874582010 doesn't match image C:\Users\Pink\Documents\GitHub\BVW-Unity-VR\VR Room Project\Library\ScriptAssemblies\Unity.RenderPipelines.Core.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E86F7C6400 doesn't match image C:\Users\Pink\Documents\GitHub\BVW-Unity-VR\VR Room Project\Library\ScriptAssemblies\Unity.XR.OpenXR.Features.RuntimeDebugger.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
 Native extension for WindowsStandalone target not found
-Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
 Assets/GymAssests/uploads-files-669576-aeq3vjprnoqo-Bleachers-1/bleachers.c4d: Unity no longer supports importing Cinema 4D files directly, but we're working with Maxon to make the experience better. To import Cinema 4D files, install Maxon's external importer. You can find more information on the Unity Forum: https://on.unity.com/c4d.
 
 Please note that FBX files exported from Cinema4D are still supported.
 
-Refreshing native plugins compatible for Editor in 83.77 ms, found 10 plugins.
-Preloading 1 native plugins for Editor in 0.05 ms.
+Refreshing native plugins compatible for Editor in 150.60 ms, found 10 plugins.
+Preloading 1 native plugins for Editor in 0.14 ms.
 [XR] OculusXRPlugin: registering subsystems
 [XR] Unable to register display lifecyle provider: [1]
 [XR] Oculus Input lifecycle provider registered.
 [XR] Unable to register input lifecyle provider: [1]
 System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation. ---> System.NullReferenceException: Object reference not set to an instance of an object
-  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x00048] in D:\Project\BVW-Unity-VR\VR Room Project\Library\PackageCache\com.unity.xr.oculus@1.10.0\Runtime\OculusLoader.cs:250 
-  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0007b] in D:\Project\BVW-Unity-VR\VR Room Project\Library\PackageCache\com.unity.xr.oculus@1.10.0\Runtime\OculusLoader.cs:235 
+  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x0004e] in <f49fc4cfc43246d885ac07448673a433>:0 
+  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0007b] in <f49fc4cfc43246d885ac07448673a433>:0 
   at (wrapper managed-to-native) System.Reflection.MonoMethod.InternalInvoke(System.Reflection.MonoMethod,object,object[],System.Exception&)
   at System.Reflection.MonoMethod.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00032] in <695d1cc93cca45069c528c15c9fdd749>:0 
    --- End of inner exception stack trace ---
@@ -113,33 +235,33 @@ UnityEngine.Debug:LogError (object)
 UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
 
 Mono: successfully reloaded assembly
-- Completed reload, in  1.542 seconds
+- Completed reload, in  2.635 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1543ms)
-		BeginReloadAssembly (134ms)
+	ReloadAssembly (2636ms)
+		BeginReloadAssembly (246ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (4ms)
+			DisableScriptedObjects (7ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (17ms)
-		EndReloadAssembly (1351ms)
-			LoadAssemblies (93ms)
+			CreateAndSetChildDomain (29ms)
+		EndReloadAssembly (2282ms)
+			LoadAssemblies (181ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (347ms)
+			SetupTypeCache (604ms)
 			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (60ms)
-			SetupLoadedEditorAssemblies (636ms)
+			RebuildScriptCaches (106ms)
+			SetupLoadedEditorAssemblies (1077ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (4ms)
+				InitializePlatformSupportModulesInManaged (7ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (84ms)
-				BeforeProcessingInitializeOnLoad (90ms)
-				ProcessInitializeOnLoadAttributes (381ms)
-				ProcessInitializeOnLoadMethodAttributes (74ms)
-				AfterProcessingInitializeOnLoad (2ms)
-				EditorAssembliesLoaded (0ms)
+				RefreshPlugins (151ms)
+				BeforeProcessingInitializeOnLoad (186ms)
+				ProcessInitializeOnLoadAttributes (687ms)
+				ProcessInitializeOnLoadMethodAttributes (30ms)
+				AfterProcessingInitializeOnLoad (14ms)
+				EditorAssembliesLoaded (1ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (5ms)
+			AwakeInstancesAfterBackupRestoration (12ms)
 Platform modules already initialized, skipping
 Assets/GymAssests/uploads-files-669576-aeq3vjprnoqo-Bleachers-1/bleachers.c4d: Unity no longer supports importing Cinema 4D files directly, but we're working with Maxon to make the experience better. To import Cinema 4D files, install Maxon's external importer. You can find more information on the Unity Forum: https://on.unity.com/c4d.
 
@@ -151,15 +273,15 @@ Assets/GymAssests/uploads-files-669576-aeq3vjprnoqo-Bleachers-1/bleachers.c4d: U
 
 Please note that FBX files exported from Cinema4D are still supported.
 
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.14 seconds
-Refreshing native plugins compatible for Editor in 0.97 ms, found 10 plugins.
-Preloading 1 native plugins for Editor in 0.05 ms.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.13 seconds
+Refreshing native plugins compatible for Editor in 1.44 ms, found 10 plugins.
+Preloading 1 native plugins for Editor in 0.14 ms.
 Unloading 3865 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 177.8 MB.
-System memory in use after: 177.8 MB.
+System memory in use before: 177.5 MB.
+System memory in use after: 177.5 MB.
 
 Unloading 41 unused Assets to reduce memory usage. Loaded Objects now: 4354.
-Total: 3.705500 ms (FindLiveObjects: 0.313500 ms CreateObjectMapping: 0.179500 ms MarkObjects: 3.126600 ms  DeleteObjects: 0.084800 ms)
+Total: 5.878300 ms (FindLiveObjects: 0.470500 ms CreateObjectMapping: 0.301800 ms MarkObjects: 4.984600 ms  DeleteObjects: 0.119400 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
@@ -168,123 +290,48 @@ AssetImportParameters requested are different than current active one (requested
   custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
   custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
   custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  path: Assets/UniversalRenderPipelineAsset.asset
-  artifactKey: Guid(354398a4ec99999439aa8fec9af680cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/UniversalRenderPipelineAsset.asset using Guid(354398a4ec99999439aa8fec9af680cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9c0b135a991f7067a48129a49bba9a6f') in 0.063787 seconds 
-  Import took 0.085932 seconds .
+  path: Assets/GymAssests/dodgeball_v1_L3.123c8c280b2b-fcd4-4a87-a19a-2ce7b74dddb1/10498_dodgeball_diffuse_v1.jpg
+  artifactKey: Guid(d8670cd71b17f4f5588d732ed03bd1b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GymAssests/dodgeball_v1_L3.123c8c280b2b-fcd4-4a87-a19a-2ce7b74dddb1/10498_dodgeball_diffuse_v1.jpg using Guid(d8670cd71b17f4f5588d732ed03bd1b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '980145923e0e1632746f9663c0806a83') in 0.129344 seconds 
+  Import took 0.142790 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000337 seconds.
-  path: Assets/New Terrain.asset
-  artifactKey: Guid(cf2b1c6cb1021204d98017b4431db1e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/New Terrain.asset using Guid(cf2b1c6cb1021204d98017b4431db1e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2d8b8573dc649d42146d46ab2c8f3d58') in 0.172737 seconds 
-  Import took 0.215276 seconds .
+  Time since last request: 0.000435 seconds.
+  path: Assets/GymAssests/dodgeball_v1_L3.123c8c280b2b-fcd4-4a87-a19a-2ce7b74dddb1
+  artifactKey: Guid(20e51bab9ac6c45649662a0ff7a54e80) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GymAssests/dodgeball_v1_L3.123c8c280b2b-fcd4-4a87-a19a-2ce7b74dddb1 using Guid(20e51bab9ac6c45649662a0ff7a54e80) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9bbd60ceb3ccbf8ba20feecb4a6da412') in 0.012563 seconds 
+  Import took 0.022780 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000196 seconds.
-  path: Assets/UniversalRenderPipelineAsset_Renderer.asset
-  artifactKey: Guid(02e94b3bd0c7d0845afe0496e4b3e970) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/UniversalRenderPipelineAsset_Renderer.asset using Guid(02e94b3bd0c7d0845afe0496e4b3e970) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0692a5d45e664cd65750a877479d85ea') in 0.003713 seconds 
-  Import took 0.038214 seconds .
-
-========================================================================
-Received Prepare
-Assets/GymAssests/uploads-files-669576-aeq3vjprnoqo-Bleachers-1/bleachers.c4d: Unity no longer supports importing Cinema 4D files directly, but we're working with Maxon to make the experience better. To import Cinema 4D files, install Maxon's external importer. You can find more information on the Unity Forum: https://on.unity.com/c4d.
-
-Please note that FBX files exported from Cinema4D are still supported.
-
-Registering precompiled user dll's ...
-Registered in 0.005873 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for OSXStandalone target not found
-Refreshing native plugins compatible for Editor in 1.02 ms, found 10 plugins.
-Preloading 1 native plugins for Editor in 0.06 ms.
-System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation. ---> System.NullReferenceException: Object reference not set to an instance of an object
-  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x00048] in D:\Project\BVW-Unity-VR\VR Room Project\Library\PackageCache\com.unity.xr.oculus@1.10.0\Runtime\OculusLoader.cs:250 
-  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0007b] in D:\Project\BVW-Unity-VR\VR Room Project\Library\PackageCache\com.unity.xr.oculus@1.10.0\Runtime\OculusLoader.cs:235 
-  at (wrapper managed-to-native) System.Reflection.MonoMethod.InternalInvoke(System.Reflection.MonoMethod,object,object[],System.Exception&)
-  at System.Reflection.MonoMethod.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00032] in <695d1cc93cca45069c528c15c9fdd749>:0 
-   --- End of inner exception stack trace ---
-  at System.Reflection.MonoMethod.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00048] in <695d1cc93cca45069c528c15c9fdd749>:0 
-  at System.Reflection.MethodBase.Invoke (System.Object obj, System.Object[] parameters) [0x00000] in <695d1cc93cca45069c528c15c9fdd749>:0 
-  at UnityEditor.EditorAssemblies.ProcessInitializeOnLoadMethodAttributes () [0x00047] in <d0e4b8c1204147f3935b6e9c8b8565ad>:0 
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
-UnityEngine.Logger:Log (UnityEngine.LogType,object)
-UnityEngine.Debug:LogError (object)
-UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
-
-Mono: successfully reloaded assembly
-- Completed reload, in  1.239 seconds
-Domain Reload Profiling:
-	ReloadAssembly (1239ms)
-		BeginReloadAssembly (123ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (5ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (36ms)
-		EndReloadAssembly (1064ms)
-			LoadAssemblies (88ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (327ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (49ms)
-			SetupLoadedEditorAssemblies (440ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (4ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (77ms)
-				ProcessInitializeOnLoadAttributes (343ms)
-				ProcessInitializeOnLoadMethodAttributes (12ms)
-				AfterProcessingInitializeOnLoad (2ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (10ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 1.04 ms, found 10 plugins.
-Preloading 1 native plugins for Editor in 0.06 ms.
-Unloading 3720 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 168.0 MB.
-System memory in use after: 168.2 MB.
-
-Unloading 34 unused Assets to reduce memory usage. Loaded Objects now: 4363.
-Total: 3.775600 ms (FindLiveObjects: 0.298600 ms CreateObjectMapping: 0.167100 ms MarkObjects: 3.284800 ms  DeleteObjects: 0.024300 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Import Request.
-  Time since last request: 17.585163 seconds.
+  Time since last request: 0.000407 seconds.
   path: Assets/WorkingWallHanger.prefab
   artifactKey: Guid(74071b28bebaf5a4f9ffce20a8851dec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/WorkingWallHanger.prefab using Guid(74071b28bebaf5a4f9ffce20a8851dec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cd876474d2fe1527a8550abd210fa660') in 0.048302 seconds 
-  Import took 0.102221 seconds .
+Start importing Assets/WorkingWallHanger.prefab using Guid(74071b28bebaf5a4f9ffce20a8851dec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4ac6ac2a68d06da0cd04fa1b226dadd7') in 0.050702 seconds 
+  Import took 0.061218 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.271850 seconds.
-  path: Assets/WorkingWallHanger.prefab
-  artifactKey: Guid(74071b28bebaf5a4f9ffce20a8851dec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/WorkingWallHanger.prefab using Guid(74071b28bebaf5a4f9ffce20a8851dec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cd876474d2fe1527a8550abd210fa660') in 0.003933 seconds 
-  Import took 0.009512 seconds .
+  Time since last request: 110.159386 seconds.
+  path: Assets/Textures/sign.png
+  artifactKey: Guid(e248b1d3a6d5d8a46b9fc6563c0db552) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/sign.png using Guid(e248b1d3a6d5d8a46b9fc6563c0db552) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'db7adf0fc207a287b57e9aa2ae53d92c') in 0.068079 seconds 
+  Import took 0.082056 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000563 seconds.
+  path: Assets/Textures/woodensign.png
+  artifactKey: Guid(2cf728c9deb3dca4cbfeb6ec043d6c1e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/woodensign.png using Guid(2cf728c9deb3dca4cbfeb6ec043d6c1e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '779e066328b19be68e4ef4c7b84725a9') in 0.045455 seconds 
+  Import took 0.055766 seconds .
 
 ========================================================================
 Received Prepare
@@ -293,15 +340,15 @@ Assets/GymAssests/uploads-files-669576-aeq3vjprnoqo-Bleachers-1/bleachers.c4d: U
 Please note that FBX files exported from Cinema4D are still supported.
 
 Registering precompiled user dll's ...
-Registered in 0.006542 seconds.
+Registered in 0.023206 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Native extension for OSXStandalone target not found
-Refreshing native plugins compatible for Editor in 1.01 ms, found 10 plugins.
-Preloading 1 native plugins for Editor in 0.06 ms.
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 1.60 ms, found 10 plugins.
+Preloading 1 native plugins for Editor in 0.17 ms.
 System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation. ---> System.NullReferenceException: Object reference not set to an instance of an object
-  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x00048] in D:\Project\BVW-Unity-VR\VR Room Project\Library\PackageCache\com.unity.xr.oculus@1.10.0\Runtime\OculusLoader.cs:250 
-  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0007b] in D:\Project\BVW-Unity-VR\VR Room Project\Library\PackageCache\com.unity.xr.oculus@1.10.0\Runtime\OculusLoader.cs:235 
+  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x00048] in C:\Users\Pink\Documents\GitHub\BVW-Unity-VR\VR Room Project\Library\PackageCache\com.unity.xr.oculus@1.10.0\Runtime\OculusLoader.cs:250 
+  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0007b] in C:\Users\Pink\Documents\GitHub\BVW-Unity-VR\VR Room Project\Library\PackageCache\com.unity.xr.oculus@1.10.0\Runtime\OculusLoader.cs:235 
   at (wrapper managed-to-native) System.Reflection.MonoMethod.InternalInvoke(System.Reflection.MonoMethod,object,object[],System.Exception&)
   at System.Reflection.MonoMethod.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00032] in <695d1cc93cca45069c528c15c9fdd749>:0 
    --- End of inner exception stack trace ---
@@ -315,194 +362,42 @@ UnityEngine.Debug:LogError (object)
 UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
 
 Mono: successfully reloaded assembly
-- Completed reload, in  1.306 seconds
+- Completed reload, in  2.327 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1307ms)
-		BeginReloadAssembly (120ms)
+	ReloadAssembly (2328ms)
+		BeginReloadAssembly (239ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (4ms)
+			DisableScriptedObjects (7ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (41ms)
-		EndReloadAssembly (1127ms)
-			LoadAssemblies (96ms)
+			CreateAndSetChildDomain (62ms)
+		EndReloadAssembly (1963ms)
+			LoadAssemblies (215ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (346ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (51ms)
-			SetupLoadedEditorAssemblies (459ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (5ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (76ms)
-				ProcessInitializeOnLoadAttributes (361ms)
-				ProcessInitializeOnLoadMethodAttributes (13ms)
-				AfterProcessingInitializeOnLoad (3ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (11ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 1.09 ms, found 10 plugins.
-Preloading 1 native plugins for Editor in 0.06 ms.
-Unloading 3717 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 168.0 MB.
-System memory in use after: 168.2 MB.
-
-Unloading 34 unused Assets to reduce memory usage. Loaded Objects now: 4366.
-Total: 4.294900 ms (FindLiveObjects: 0.388500 ms CreateObjectMapping: 0.288900 ms MarkObjects: 3.588400 ms  DeleteObjects: 0.027900 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Assets/GymAssests/uploads-files-669576-aeq3vjprnoqo-Bleachers-1/bleachers.c4d: Unity no longer supports importing Cinema 4D files directly, but we're working with Maxon to make the experience better. To import Cinema 4D files, install Maxon's external importer. You can find more information on the Unity Forum: https://on.unity.com/c4d.
-
-Please note that FBX files exported from Cinema4D are still supported.
-
-Registering precompiled user dll's ...
-Registered in 0.006442 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for OSXStandalone target not found
-Refreshing native plugins compatible for Editor in 1.02 ms, found 10 plugins.
-Preloading 1 native plugins for Editor in 0.06 ms.
-System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation. ---> System.NullReferenceException: Object reference not set to an instance of an object
-  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x00048] in D:\Project\BVW-Unity-VR\VR Room Project\Library\PackageCache\com.unity.xr.oculus@1.10.0\Runtime\OculusLoader.cs:250 
-  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0007b] in D:\Project\BVW-Unity-VR\VR Room Project\Library\PackageCache\com.unity.xr.oculus@1.10.0\Runtime\OculusLoader.cs:235 
-  at (wrapper managed-to-native) System.Reflection.MonoMethod.InternalInvoke(System.Reflection.MonoMethod,object,object[],System.Exception&)
-  at System.Reflection.MonoMethod.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00032] in <695d1cc93cca45069c528c15c9fdd749>:0 
-   --- End of inner exception stack trace ---
-  at System.Reflection.MonoMethod.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00048] in <695d1cc93cca45069c528c15c9fdd749>:0 
-  at System.Reflection.MethodBase.Invoke (System.Object obj, System.Object[] parameters) [0x00000] in <695d1cc93cca45069c528c15c9fdd749>:0 
-  at UnityEditor.EditorAssemblies.ProcessInitializeOnLoadMethodAttributes () [0x00047] in <d0e4b8c1204147f3935b6e9c8b8565ad>:0 
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
-UnityEngine.Logger:Log (UnityEngine.LogType,object)
-UnityEngine.Debug:LogError (object)
-UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
-
-Mono: successfully reloaded assembly
-- Completed reload, in  1.175 seconds
-Domain Reload Profiling:
-	ReloadAssembly (1175ms)
-		BeginReloadAssembly (104ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (4ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (33ms)
-		EndReloadAssembly (1019ms)
-			LoadAssemblies (84ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (307ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (47ms)
-			SetupLoadedEditorAssemblies (427ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (4ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (71ms)
-				ProcessInitializeOnLoadAttributes (336ms)
-				ProcessInitializeOnLoadMethodAttributes (12ms)
-				AfterProcessingInitializeOnLoad (2ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (11ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 1.01 ms, found 10 plugins.
-Preloading 1 native plugins for Editor in 0.05 ms.
-Unloading 3717 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 168.0 MB.
-System memory in use after: 168.3 MB.
-
-Unloading 34 unused Assets to reduce memory usage. Loaded Objects now: 4369.
-Total: 3.818900 ms (FindLiveObjects: 0.331200 ms CreateObjectMapping: 0.176700 ms MarkObjects: 3.287500 ms  DeleteObjects: 0.022700 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Assets/GymAssests/uploads-files-669576-aeq3vjprnoqo-Bleachers-1/bleachers.c4d: Unity no longer supports importing Cinema 4D files directly, but we're working with Maxon to make the experience better. To import Cinema 4D files, install Maxon's external importer. You can find more information on the Unity Forum: https://on.unity.com/c4d.
-
-Please note that FBX files exported from Cinema4D are still supported.
-
-Registering precompiled user dll's ...
-Registered in 0.006769 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for OSXStandalone target not found
-Refreshing native plugins compatible for Editor in 1.04 ms, found 10 plugins.
-Preloading 1 native plugins for Editor in 0.06 ms.
-System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation. ---> System.NullReferenceException: Object reference not set to an instance of an object
-  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x00048] in D:\Project\BVW-Unity-VR\VR Room Project\Library\PackageCache\com.unity.xr.oculus@1.10.0\Runtime\OculusLoader.cs:250 
-  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0007b] in D:\Project\BVW-Unity-VR\VR Room Project\Library\PackageCache\com.unity.xr.oculus@1.10.0\Runtime\OculusLoader.cs:235 
-  at (wrapper managed-to-native) System.Reflection.MonoMethod.InternalInvoke(System.Reflection.MonoMethod,object,object[],System.Exception&)
-  at System.Reflection.MonoMethod.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00032] in <695d1cc93cca45069c528c15c9fdd749>:0 
-   --- End of inner exception stack trace ---
-  at System.Reflection.MonoMethod.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00048] in <695d1cc93cca45069c528c15c9fdd749>:0 
-  at System.Reflection.MethodBase.Invoke (System.Object obj, System.Object[] parameters) [0x00000] in <695d1cc93cca45069c528c15c9fdd749>:0 
-  at UnityEditor.EditorAssemblies.ProcessInitializeOnLoadMethodAttributes () [0x00047] in <d0e4b8c1204147f3935b6e9c8b8565ad>:0 
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
-UnityEngine.Logger:Log (UnityEngine.LogType,object)
-UnityEngine.Debug:LogError (object)
-UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
-
-Mono: successfully reloaded assembly
-- Completed reload, in  1.321 seconds
-Domain Reload Profiling:
-	ReloadAssembly (1322ms)
-		BeginReloadAssembly (112ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (4ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (36ms)
-		EndReloadAssembly (1153ms)
-			LoadAssemblies (96ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (340ms)
+			SetupTypeCache (581ms)
 			ReleaseScriptCaches (2ms)
-			RebuildScriptCaches (53ms)
-			SetupLoadedEditorAssemblies (480ms)
+			RebuildScriptCaches (83ms)
+			SetupLoadedEditorAssemblies (814ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (4ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (76ms)
-				ProcessInitializeOnLoadAttributes (380ms)
-				ProcessInitializeOnLoadMethodAttributes (15ms)
-				AfterProcessingInitializeOnLoad (3ms)
+				InitializePlatformSupportModulesInManaged (8ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (2ms)
+				BeforeProcessingInitializeOnLoad (150ms)
+				ProcessInitializeOnLoadAttributes (619ms)
+				ProcessInitializeOnLoadMethodAttributes (23ms)
+				AfterProcessingInitializeOnLoad (11ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (13ms)
+			AwakeInstancesAfterBackupRestoration (19ms)
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 1.09 ms, found 10 plugins.
-Preloading 1 native plugins for Editor in 0.06 ms.
+Refreshing native plugins compatible for Editor in 1.65 ms, found 10 plugins.
+Preloading 1 native plugins for Editor in 0.14 ms.
 Unloading 3717 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 168.0 MB.
-System memory in use after: 168.3 MB.
+System memory in use before: 167.6 MB.
+System memory in use after: 167.9 MB.
 
-Unloading 34 unused Assets to reduce memory usage. Loaded Objects now: 4372.
-Total: 4.625700 ms (FindLiveObjects: 0.405500 ms CreateObjectMapping: 0.270600 ms MarkObjects: 3.916100 ms  DeleteObjects: 0.032200 ms)
+Unloading 34 unused Assets to reduce memory usage. Loaded Objects now: 4364.
+Total: 6.879500 ms (FindLiveObjects: 0.623600 ms CreateObjectMapping: 0.309200 ms MarkObjects: 5.897100 ms  DeleteObjects: 0.047500 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
@@ -511,9 +406,58 @@ AssetImportParameters requested are different than current active one (requested
   custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
   custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
   custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 101.377913 seconds.
+  path: Assets/TextMesh Pro/Fonts
+  artifactKey: Guid(6ab70aee4d56447429c680537fbf93ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Fonts using Guid(6ab70aee4d56447429c680537fbf93ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c860dfdf0522eec1202f36843e52d436') in 0.015383 seconds 
+  Import took 0.027962 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.059162 seconds.
+  path: Assets/TextMesh Pro/Fonts/Christmas Bell - Personal Use SDF.asset
+  artifactKey: Guid(618c0f44852f0be46942a5cd1f4ef721) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Fonts/Christmas Bell - Personal Use SDF.asset using Guid(618c0f44852f0be46942a5cd1f4ef721) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '22bd8c4fd751bf4ef6a2ab42f1b4490d') in 0.385479 seconds 
+  Import took 0.395121 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000454 seconds.
+  path: Assets/TextMesh Pro/Fonts/LiberationSans.ttf
+  artifactKey: Guid(e3265ab4bf004d28a9537516768c1c75) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Fonts/LiberationSans.ttf using Guid(e3265ab4bf004d28a9537516768c1c75) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fd9723bb4a86147e56c9166637c6f521') in 0.035507 seconds 
+  Import took 0.045018 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000422 seconds.
+  path: Assets/TextMesh Pro/Fonts/Christmas Bell - Personal Use.otf
+  artifactKey: Guid(622ef7083e72db94694a90cf6288a353) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Fonts/Christmas Bell - Personal Use.otf using Guid(622ef7083e72db94694a90cf6288a353) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '20af37b6c4bb5db20d337e49551dd984') in 0.029682 seconds 
+  Import took 0.039553 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 52.367805 seconds.
+  path: Assets/TextMesh Pro/Fonts/Christmas Bell - Personal Use SDF.asset
+  artifactKey: Guid(618c0f44852f0be46942a5cd1f4ef721) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Fonts/Christmas Bell - Personal Use SDF.asset using Guid(618c0f44852f0be46942a5cd1f4ef721) Importer(815301076,1909f56bfc062723c751e8b465ee728b) UnassignedReferenceException: The variable material of TMP_FontAsset has not been assigned.
+You probably need to assign the material variable of the TMP_FontAsset script in the inspector.
+  at (wrapper managed-to-native) UnityEngine.Material.HasProperty(UnityEngine.Material,int)
+  at TMPro.TMP_FontAsset.ReadFontAssetDefinition () [0x0008f] in C:\Users\Pink\Documents\GitHub\BVW-Unity-VR\VR Room Project\Library\PackageCache\com.unity.textmeshpro@3.0.6\Scripts\Runtime\TMP_FontAsset.cs:588 
+  at TMPro.TMP_FontAsset.OnValidate () [0x00010] in C:\Users\Pink\Documents\GitHub\BVW-Unity-VR\VR Room Project\Library\PackageCache\com.unity.textmeshpro@3.0.6\Scripts\Runtime\TMP_FontAsset.cs:555 
+
+(Filename: Library/PackageCache/com.unity.textmeshpro@3.0.6/Scripts/Runtime/TMP_FontAsset.cs Line: 588)
+
+ -> (artifact id: '370f6d44d5d310dfd1b184ba4a81d885') in 0.010101 seconds 
+  Import took 0.019682 seconds .
+
 ========================================================================
 Received Prepare
 Assets/GymAssests/uploads-files-669576-aeq3vjprnoqo-Bleachers-1/bleachers.c4d: Unity no longer supports importing Cinema 4D files directly, but we're working with Maxon to make the experience better. To import Cinema 4D files, install Maxon's external importer. You can find more information on the Unity Forum: https://on.unity.com/c4d.
@@ -521,15 +465,15 @@ Assets/GymAssests/uploads-files-669576-aeq3vjprnoqo-Bleachers-1/bleachers.c4d: U
 Please note that FBX files exported from Cinema4D are still supported.
 
 Registering precompiled user dll's ...
-Registered in 0.006183 seconds.
+Registered in 0.019674 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Native extension for OSXStandalone target not found
-Refreshing native plugins compatible for Editor in 1.05 ms, found 10 plugins.
-Preloading 1 native plugins for Editor in 0.06 ms.
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 2.06 ms, found 10 plugins.
+Preloading 1 native plugins for Editor in 0.18 ms.
 System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation. ---> System.NullReferenceException: Object reference not set to an instance of an object
-  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x00048] in D:\Project\BVW-Unity-VR\VR Room Project\Library\PackageCache\com.unity.xr.oculus@1.10.0\Runtime\OculusLoader.cs:250 
-  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0007b] in D:\Project\BVW-Unity-VR\VR Room Project\Library\PackageCache\com.unity.xr.oculus@1.10.0\Runtime\OculusLoader.cs:235 
+  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x00048] in C:\Users\Pink\Documents\GitHub\BVW-Unity-VR\VR Room Project\Library\PackageCache\com.unity.xr.oculus@1.10.0\Runtime\OculusLoader.cs:250 
+  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0007b] in C:\Users\Pink\Documents\GitHub\BVW-Unity-VR\VR Room Project\Library\PackageCache\com.unity.xr.oculus@1.10.0\Runtime\OculusLoader.cs:235 
   at (wrapper managed-to-native) System.Reflection.MonoMethod.InternalInvoke(System.Reflection.MonoMethod,object,object[],System.Exception&)
   at System.Reflection.MonoMethod.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00032] in <695d1cc93cca45069c528c15c9fdd749>:0 
    --- End of inner exception stack trace ---
@@ -543,42 +487,42 @@ UnityEngine.Debug:LogError (object)
 UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
 
 Mono: successfully reloaded assembly
-- Completed reload, in  1.225 seconds
+- Completed reload, in  2.379 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1226ms)
-		BeginReloadAssembly (126ms)
+	ReloadAssembly (2380ms)
+		BeginReloadAssembly (283ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (5ms)
+			DisableScriptedObjects (11ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (37ms)
-		EndReloadAssembly (1040ms)
-			LoadAssemblies (90ms)
+			CreateAndSetChildDomain (99ms)
+		EndReloadAssembly (1988ms)
+			LoadAssemblies (189ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (324ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (47ms)
-			SetupLoadedEditorAssemblies (425ms)
+			SetupTypeCache (578ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (97ms)
+			SetupLoadedEditorAssemblies (784ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (4ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (72ms)
-				ProcessInitializeOnLoadAttributes (333ms)
-				ProcessInitializeOnLoadMethodAttributes (12ms)
-				AfterProcessingInitializeOnLoad (2ms)
+				InitializePlatformSupportModulesInManaged (9ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (2ms)
+				BeforeProcessingInitializeOnLoad (150ms)
+				ProcessInitializeOnLoadAttributes (590ms)
+				ProcessInitializeOnLoadMethodAttributes (19ms)
+				AfterProcessingInitializeOnLoad (12ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (11ms)
+			AwakeInstancesAfterBackupRestoration (31ms)
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 1.01 ms, found 10 plugins.
-Preloading 1 native plugins for Editor in 0.05 ms.
-Unloading 3717 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 168.1 MB.
-System memory in use after: 168.3 MB.
+Refreshing native plugins compatible for Editor in 2.11 ms, found 10 plugins.
+Preloading 1 native plugins for Editor in 0.20 ms.
+Unloading 3608 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 167.9 MB.
+System memory in use after: 168.2 MB.
 
-Unloading 34 unused Assets to reduce memory usage. Loaded Objects now: 4375.
-Total: 4.107600 ms (FindLiveObjects: 0.348600 ms CreateObjectMapping: 0.191700 ms MarkObjects: 3.538400 ms  DeleteObjects: 0.027700 ms)
+Unloading 94 unused Assets to reduce memory usage. Loaded Objects now: 4386.
+Total: 8.476300 ms (FindLiveObjects: 0.782100 ms CreateObjectMapping: 0.499500 ms MarkObjects: 7.102900 ms  DeleteObjects: 0.089500 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
@@ -587,7 +531,957 @@ AssetImportParameters requested are different than current active one (requested
   custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
   custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
   custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Assets/GymAssests/uploads-files-669576-aeq3vjprnoqo-Bleachers-1/bleachers.c4d: Unity no longer supports importing Cinema 4D files directly, but we're working with Maxon to make the experience better. To import Cinema 4D files, install Maxon's external importer. You can find more information on the Unity Forum: https://on.unity.com/c4d.
+
+Please note that FBX files exported from Cinema4D are still supported.
+
+Registering precompiled user dll's ...
+Registered in 0.016016 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 1.69 ms, found 10 plugins.
+Preloading 1 native plugins for Editor in 0.21 ms.
+System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation. ---> System.NullReferenceException: Object reference not set to an instance of an object
+  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x00048] in C:\Users\Pink\Documents\GitHub\BVW-Unity-VR\VR Room Project\Library\PackageCache\com.unity.xr.oculus@1.10.0\Runtime\OculusLoader.cs:250 
+  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0007b] in C:\Users\Pink\Documents\GitHub\BVW-Unity-VR\VR Room Project\Library\PackageCache\com.unity.xr.oculus@1.10.0\Runtime\OculusLoader.cs:235 
+  at (wrapper managed-to-native) System.Reflection.MonoMethod.InternalInvoke(System.Reflection.MonoMethod,object,object[],System.Exception&)
+  at System.Reflection.MonoMethod.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00032] in <695d1cc93cca45069c528c15c9fdd749>:0 
+   --- End of inner exception stack trace ---
+  at System.Reflection.MonoMethod.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00048] in <695d1cc93cca45069c528c15c9fdd749>:0 
+  at System.Reflection.MethodBase.Invoke (System.Object obj, System.Object[] parameters) [0x00000] in <695d1cc93cca45069c528c15c9fdd749>:0 
+  at UnityEditor.EditorAssemblies.ProcessInitializeOnLoadMethodAttributes () [0x00047] in <d0e4b8c1204147f3935b6e9c8b8565ad>:0 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
+
+Mono: successfully reloaded assembly
+- Completed reload, in  2.382 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2383ms)
+		BeginReloadAssembly (216ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (9ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (64ms)
+		EndReloadAssembly (2051ms)
+			LoadAssemblies (178ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (599ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (80ms)
+			SetupLoadedEditorAssemblies (800ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (12ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (2ms)
+				BeforeProcessingInitializeOnLoad (159ms)
+				ProcessInitializeOnLoadAttributes (595ms)
+				ProcessInitializeOnLoadMethodAttributes (19ms)
+				AfterProcessingInitializeOnLoad (11ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (29ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 2.23 ms, found 10 plugins.
+Preloading 1 native plugins for Editor in 0.20 ms.
+Unloading 3717 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 170.2 MB.
+System memory in use after: 170.4 MB.
+
+Unloading 34 unused Assets to reduce memory usage. Loaded Objects now: 4449.
+Total: 10.667000 ms (FindLiveObjects: 2.267600 ms CreateObjectMapping: 0.723300 ms MarkObjects: 7.611000 ms  DeleteObjects: 0.061700 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 123.231767 seconds.
+  path: Assets
+  artifactKey: Guid(00000000000000001000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets using Guid(00000000000000001000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '42d402b061de3733987d63b9cc3b64de') in 0.015227 seconds 
+  Import took 0.028872 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 7.445673 seconds.
+  path: Assets/UI
+  artifactKey: Guid(4eddce497da2c6d48bb3676b00e070ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UI using Guid(4eddce497da2c6d48bb3676b00e070ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b3fc40bcf72f9d4d6548bc278863712c') in 0.008869 seconds 
+  Import took 0.018934 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 8.664997 seconds.
+  path: Assets/UI/Inside Gym UI.prefab
+  artifactKey: Guid(5dc6737b0e850c04aa36323d71cd4a1e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UI/Inside Gym UI.prefab using Guid(5dc6737b0e850c04aa36323d71cd4a1e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c3ce894ad82a6b2a50d494666e304796') in 0.161114 seconds 
+  Import took 0.172608 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000450 seconds.
+  path: Assets/UI/Reindeer UI.prefab
+  artifactKey: Guid(33d6d08f5d0cce04394e28b1806b4ee5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UI/Reindeer UI.prefab using Guid(33d6d08f5d0cce04394e28b1806b4ee5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) UnassignedReferenceException: The variable material of TMP_FontAsset has not been assigned.
+You probably need to assign the material variable of the TMP_FontAsset script in the inspector.
+  at (wrapper managed-to-native) UnityEngine.Material.HasProperty(UnityEngine.Material,int)
+  at TMPro.TMP_FontAsset.ReadFontAssetDefinition () [0x0008f] in C:\Users\Pink\Documents\GitHub\BVW-Unity-VR\VR Room Project\Library\PackageCache\com.unity.textmeshpro@3.0.6\Scripts\Runtime\TMP_FontAsset.cs:588 
+  at TMPro.TMP_FontAsset.OnValidate () [0x00010] in C:\Users\Pink\Documents\GitHub\BVW-Unity-VR\VR Room Project\Library\PackageCache\com.unity.textmeshpro@3.0.6\Scripts\Runtime\TMP_FontAsset.cs:555 
+
+(Filename: Library/PackageCache/com.unity.textmeshpro@3.0.6/Scripts/Runtime/TMP_FontAsset.cs Line: 588)
+
+ -> (artifact id: '2e2b50aef99a17cac3797a2cf98bc7e8') in 0.021189 seconds 
+  Import took 0.031024 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 48.569373 seconds.
+  path: Assets/_Course Library/Fonts/Caveat-Regular SDF.asset
+  artifactKey: Guid(18eb93125c4dc48309f35bea3f9afe65) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Course Library/Fonts/Caveat-Regular SDF.asset using Guid(18eb93125c4dc48309f35bea3f9afe65) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a98f7da7d88db464cd268944c1a02615') in 0.255331 seconds 
+  Import took 0.268879 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000456 seconds.
+  path: Assets/_Course Library/Fonts/Inter-Regular-slnt=0 SDF.asset
+  artifactKey: Guid(c8ac1ed6123904112adeaf50e63c4731) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Course Library/Fonts/Inter-Regular-slnt=0 SDF.asset using Guid(c8ac1ed6123904112adeaf50e63c4731) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '10a650eb90a6226ce79a452521d97c53') in 0.042070 seconds 
+  Import took 0.051211 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000482 seconds.
+  path: Assets/_Course Library/Fonts/SourceCodePro-Regular SDF.asset
+  artifactKey: Guid(500c8b014e8c041b8982d40b1db00225) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Course Library/Fonts/SourceCodePro-Regular SDF.asset using Guid(500c8b014e8c041b8982d40b1db00225) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dc3cca437c9c2338e2e9fbe283acf8a8') in 0.039100 seconds 
+  Import took 0.047899 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000470 seconds.
+  path: Assets/_Course Library/Fonts/Lora-Regular SDF.asset
+  artifactKey: Guid(46d4660eedeaf406995fa1afed253fe0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Course Library/Fonts/Lora-Regular SDF.asset using Guid(46d4660eedeaf406995fa1afed253fe0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '905a7855e5b7c6fd762480728b1f38b0') in 0.040158 seconds 
+  Import took 0.049023 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000445 seconds.
+  path: Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Fallback.asset
+  artifactKey: Guid(2e498d1c8094910479dc3e1b768306a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Fallback.asset using Guid(2e498d1c8094910479dc3e1b768306a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '789b439732afb3f316794a14d6f211a9') in 0.028748 seconds 
+  Import took 0.038930 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000439 seconds.
+  path: Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF.asset
+  artifactKey: Guid(8f586378b4e144a9851e7b34d9b748ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF.asset using Guid(8f586378b4e144a9851e7b34d9b748ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ca88d055ad0285ebf0967754b0a95f5a') in 0.059920 seconds 
+  Import took 0.069124 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000469 seconds.
+  path: Assets/_Course Library/Fonts/Inter-Regular-slnt=0 SDF.asset
+  artifactKey: Guid(c8ac1ed6123904112adeaf50e63c4731) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Course Library/Fonts/Inter-Regular-slnt=0 SDF.asset using Guid(c8ac1ed6123904112adeaf50e63c4731) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '10a650eb90a6226ce79a452521d97c53') in 0.039344 seconds 
+  Import took 0.049156 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000417 seconds.
+  path: Assets/_Course Library/Fonts/Caveat-Regular SDF.asset
+  artifactKey: Guid(18eb93125c4dc48309f35bea3f9afe65) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Course Library/Fonts/Caveat-Regular SDF.asset using Guid(18eb93125c4dc48309f35bea3f9afe65) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a98f7da7d88db464cd268944c1a02615') in 0.043117 seconds 
+  Import took 0.052987 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 241.969364 seconds.
+  path: Assets/GymAssests/BodyBuilder Asset Pack/Textures/60.png
+  artifactKey: Guid(00c80c42246154d89a8827fdcdd5d1b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GymAssests/BodyBuilder Asset Pack/Textures/60.png using Guid(00c80c42246154d89a8827fdcdd5d1b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7ffd80e3a4afe3aa29c73c27481ce26d') in 0.039937 seconds 
+  Import took 0.052763 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000695 seconds.
+  path: Assets/9t5 PBR Textures Pack Freebies/Textures/Dirt 1/Dirt 1-specular.png
+  artifactKey: Guid(25d00a34a643039469e4831bc5d9d0d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/9t5 PBR Textures Pack Freebies/Textures/Dirt 1/Dirt 1-specular.png using Guid(25d00a34a643039469e4831bc5d9d0d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b110811ec7e73de3996798c36b1ac938') in 0.033997 seconds 
+  Import took 0.045344 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000472 seconds.
+  path: Assets/GymAssests/Locker_room_props/Textures/bench.bmp
+  artifactKey: Guid(e7521e68f0589644bbb7cc904783c7fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GymAssests/Locker_room_props/Textures/bench.bmp using Guid(e7521e68f0589644bbb7cc904783c7fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '475d66efc7826a1a96c9f09c165e18d4') in 0.032430 seconds 
+  Import took 0.045800 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000360 seconds.
+  path: Assets/GymAssests/uploads-files-669576-aeq3vjprnoqo-Bleachers-1/Bleachers.png
+  artifactKey: Guid(03808f91becd14ffc83db7e60f9b7326) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GymAssests/uploads-files-669576-aeq3vjprnoqo-Bleachers-1/Bleachers.png using Guid(03808f91becd14ffc83db7e60f9b7326) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ecf3729d0054982a1bf0abd122785915') in 0.034293 seconds 
+  Import took 0.044793 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000330 seconds.
+  path: Assets/9t5 PBR Textures Pack Freebies/Textures/Dirt 1/Dirt 1-displacement.tif
+  artifactKey: Guid(8a9fa17708db93b42909ae69b2c6c6f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/9t5 PBR Textures Pack Freebies/Textures/Dirt 1/Dirt 1-displacement.tif using Guid(8a9fa17708db93b42909ae69b2c6c6f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dda06b0a71ad9d8218f5e8ff4baea4b9') in 0.051951 seconds 
+  Import took 0.063456 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000390 seconds.
+  path: Assets/BrokenVector/LowPolyTreePack/Textures/Colorsheet Tree Cold.png
+  artifactKey: Guid(ed297eb21cb5e5e4188600ba2d272554) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BrokenVector/LowPolyTreePack/Textures/Colorsheet Tree Cold.png using Guid(ed297eb21cb5e5e4188600ba2d272554) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f84bbc1e419dfc062980010e16a70cbf') in 0.024976 seconds 
+  Import took 0.035587 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000334 seconds.
+  path: Assets/GymAssests/BodyBuilder Asset Pack/Textures/carpet 1.png
+  artifactKey: Guid(4ee674ac5d0274774bb7d005785a78b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GymAssests/BodyBuilder Asset Pack/Textures/carpet 1.png using Guid(4ee674ac5d0274774bb7d005785a78b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '900559b505ab5a3dff3b8b7b783400b8') in 0.046886 seconds 
+  Import took 0.057417 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000398 seconds.
+  path: Assets/BrokenVector/LowPolyTreePack/Textures/Colorsheet Tree Fall.png
+  artifactKey: Guid(99897f7919c46fc43969a2a130434315) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BrokenVector/LowPolyTreePack/Textures/Colorsheet Tree Fall.png using Guid(99897f7919c46fc43969a2a130434315) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ca75e97d33ac1d4e55de5e4aa43c29f8') in 0.023704 seconds 
+  Import took 0.033725 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000451 seconds.
+  path: Assets/GymAssests/BodyBuilder Asset Pack/Textures/Chrome.png
+  artifactKey: Guid(0fc6395d6761b4944896e196ff8e1f29) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GymAssests/BodyBuilder Asset Pack/Textures/Chrome.png using Guid(0fc6395d6761b4944896e196ff8e1f29) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '05683a7bcffeaa076ec1b29c2ced2800') in 0.026842 seconds 
+  Import took 0.039268 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000410 seconds.
+  path: Assets/9t5 PBR Textures Pack Freebies/Textures/Dirt 1/Dirt 1-diffuse.png
+  artifactKey: Guid(4aedb388ca159f84bb2dc92b9b5a7228) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/9t5 PBR Textures Pack Freebies/Textures/Dirt 1/Dirt 1-diffuse.png using Guid(4aedb388ca159f84bb2dc92b9b5a7228) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '79a64a7a4c0b327c030015553417fc6d') in 0.032311 seconds 
+  Import took 0.043052 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000438 seconds.
+  path: Assets/9t5 PBR Textures Pack Freebies/Textures/Dirt 1/Dirt 1-texture.png
+  artifactKey: Guid(0cd977654fbead34f8a2113d9f708c0d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/9t5 PBR Textures Pack Freebies/Textures/Dirt 1/Dirt 1-texture.png using Guid(0cd977654fbead34f8a2113d9f708c0d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '02925537d7132f71f7279ae9b5276937') in 0.020865 seconds 
+  Import took 0.031276 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000481 seconds.
+  path: Assets/BrokenVector/LowPolyTreePack/Textures/Colorsheet Tree Normal.png
+  artifactKey: Guid(8ba8b94b5ab0c214fa2810a7df98a1a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BrokenVector/LowPolyTreePack/Textures/Colorsheet Tree Normal.png using Guid(8ba8b94b5ab0c214fa2810a7df98a1a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3aca203f3833e141dfae8a744baae9d2') in 0.017618 seconds 
+  Import took 0.027926 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000469 seconds.
+  path: Assets/9t5 PBR Textures Pack Freebies/Textures/Dirt 1/Dirt 1-ao.tif
+  artifactKey: Guid(4da6fb00f99995a4ba5e8b206371d5c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/9t5 PBR Textures Pack Freebies/Textures/Dirt 1/Dirt 1-ao.tif using Guid(4da6fb00f99995a4ba5e8b206371d5c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '443d75b11eab117c45bb15e9f6e37817') in 0.028190 seconds 
+  Import took 0.038619 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000439 seconds.
+  path: Assets/TextMesh Pro/Sprites/EmojiOne.png
+  artifactKey: Guid(dffef66376be4fa480fb02b19edbe903) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Sprites/EmojiOne.png using Guid(dffef66376be4fa480fb02b19edbe903) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3bee5fbf0b864b518914929d6554eb8c') in 0.021225 seconds 
+  Import took 0.031178 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000451 seconds.
+  path: Assets/9t5 PBR Textures Pack Freebies/Textures/Dirt 1/Dirt 1-normal.png
+  artifactKey: Guid(7d3e6392d196a7a49aa5a960067151b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/9t5 PBR Textures Pack Freebies/Textures/Dirt 1/Dirt 1-normal.png using Guid(7d3e6392d196a7a49aa5a960067151b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4c16cce90f720f1a31465d23f26e19e1') in 0.030572 seconds 
+  Import took 0.039586 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000439 seconds.
+  path: Assets/TextMesh Pro/Fonts/Christmas Bell - Personal Use SDF.asset
+  artifactKey: Guid(618c0f44852f0be46942a5cd1f4ef721) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Fonts/Christmas Bell - Personal Use SDF.asset using Guid(618c0f44852f0be46942a5cd1f4ef721) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bf1f318dc6bc23573e3366cdfc4c18dd') in 0.016634 seconds 
+  Import took 0.026449 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000410 seconds.
+  path: Assets/GymAssests/BodyBuilder Asset Pack/Textures/60.png
+  artifactKey: Guid(00c80c42246154d89a8827fdcdd5d1b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GymAssests/BodyBuilder Asset Pack/Textures/60.png using Guid(00c80c42246154d89a8827fdcdd5d1b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7ffd80e3a4afe3aa29c73c27481ce26d') in 0.014252 seconds 
+  Import took 0.023479 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000432 seconds.
+  path: Assets/GymAssests/BodyBuilder Asset Pack/Textures/Chrome 1.png
+  artifactKey: Guid(c2d0eb69b2c014002b6c676d8b1d5a82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GymAssests/BodyBuilder Asset Pack/Textures/Chrome 1.png using Guid(c2d0eb69b2c014002b6c676d8b1d5a82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '27be75fa2956a97c38bce6972b69ca4b') in 0.028952 seconds 
+  Import took 0.038465 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000398 seconds.
+  path: Assets/GymAssests/BodyBuilder Asset Pack/Textures/carpet.png
+  artifactKey: Guid(8ef8577e568194e36993aefeafa77468) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GymAssests/BodyBuilder Asset Pack/Textures/carpet.png using Guid(8ef8577e568194e36993aefeafa77468) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fe5e6f06b7b177e295adc58d274ac6d3') in 0.034807 seconds 
+  Import took 0.044879 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000429 seconds.
+  path: Assets/BrokenVector/LowPolyTreePack/Textures/Colorsheet Tree Dry.png
+  artifactKey: Guid(9236635f319ab034fa33215e8eaa903a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BrokenVector/LowPolyTreePack/Textures/Colorsheet Tree Dry.png using Guid(9236635f319ab034fa33215e8eaa903a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7aee5875d33c854f2ac65018195bdf80') in 0.025339 seconds 
+  Import took 0.035493 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000412 seconds.
+  path: Assets/AlignedGames/Polygonal Foliage Asset Package/Art/Textures/atlass_1_diffuse.png
+  artifactKey: Guid(bb8118f34410a604dbf31c021fae3009) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AlignedGames/Polygonal Foliage Asset Package/Art/Textures/atlass_1_diffuse.png using Guid(bb8118f34410a604dbf31c021fae3009) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0d8638165acf3a2f4116f04b1525cc76') in 0.026334 seconds 
+  Import took 0.037108 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.069543 seconds.
+  path: Assets/GymAssests/ball/textures/gltf_embedded_0.png
+  artifactKey: Guid(416f2cfecdd234a34b2986b2557626f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GymAssests/ball/textures/gltf_embedded_0.png using Guid(416f2cfecdd234a34b2986b2557626f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b9ba34d51a76a4b6df5e6f3b1c034afc') in 0.040757 seconds 
+  Import took 0.051325 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000441 seconds.
+  path: Assets/GymAssests/ball/textures/gltf_embedded_1@channels=RGB.png
+  artifactKey: Guid(718bb10ae7c164bfa9120f0d3861e504) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GymAssests/ball/textures/gltf_embedded_1@channels=RGB.png using Guid(718bb10ae7c164bfa9120f0d3861e504) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8bf69ed08dfeebbda66b198b46e927a4') in 0.032975 seconds 
+  Import took 0.042039 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000486 seconds.
+  path: Assets/StarterAssets/Environment/Art/Textures/Grid_01_Emissive.png
+  artifactKey: Guid(d4d6919451fe3e24388816386a6d15a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StarterAssets/Environment/Art/Textures/Grid_01_Emissive.png using Guid(d4d6919451fe3e24388816386a6d15a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8e6163f2b2dbf825d52bb2ad978db75d') in 0.029396 seconds 
+  Import took 0.040490 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000420 seconds.
+  path: Assets/GymAssests/ball/textures/gltf_embedded_1@channels=A.png
+  artifactKey: Guid(032dea06a3d814d6482a1c9695a75c4f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GymAssests/ball/textures/gltf_embedded_1@channels=A.png using Guid(032dea06a3d814d6482a1c9695a75c4f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8748048a6c834274ddc19f344f1d6cb8') in 0.034944 seconds 
+  Import took 0.045054 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000422 seconds.
+  path: Assets/_Course Library/Textures/Icon_Gear.png
+  artifactKey: Guid(5cc05834449b82544bd1a87bc90bd81e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Course Library/Textures/Icon_Gear.png using Guid(5cc05834449b82544bd1a87bc90bd81e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dd339603539b5108bf4517551187dc98') in 0.053053 seconds 
+  Import took 0.061601 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000429 seconds.
+  path: Assets/GymAssests/ball/textures/gltf_embedded_1@channels=A.png
+  artifactKey: Guid(032dea06a3d814d6482a1c9695a75c4f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GymAssests/ball/textures/gltf_embedded_1@channels=A.png using Guid(032dea06a3d814d6482a1c9695a75c4f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8748048a6c834274ddc19f344f1d6cb8') in 0.022958 seconds 
+  Import took 0.034746 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000657 seconds.
+  path: Assets/_Course Library/Textures/Icon_Close.png
+  artifactKey: Guid(811cf8ccf45f8c4439f6c52f9c345fcd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Course Library/Textures/Icon_Close.png using Guid(811cf8ccf45f8c4439f6c52f9c345fcd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e9535049c2e4a071b2f42f4960cb8ed3') in 0.028408 seconds 
+  Import took 0.040587 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000589 seconds.
+  path: Assets/GymAssests/ball/textures/gltf_embedded_0.png
+  artifactKey: Guid(416f2cfecdd234a34b2986b2557626f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GymAssests/ball/textures/gltf_embedded_0.png using Guid(416f2cfecdd234a34b2986b2557626f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b9ba34d51a76a4b6df5e6f3b1c034afc') in 0.026184 seconds 
+  Import took 0.035675 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000338 seconds.
+  path: Assets/StarterAssets/Environment/Art/Textures/Grid_01_BaseMap.png
+  artifactKey: Guid(d1118dda59970a2449ee890fa247c4c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StarterAssets/Environment/Art/Textures/Grid_01_BaseMap.png using Guid(d1118dda59970a2449ee890fa247c4c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '340041a58af7008ea512a7bb31657401') in 0.027440 seconds 
+  Import took 0.036678 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000409 seconds.
+  path: Assets/GymAssests/BodyBuilder Asset Pack/Textures/Grip.png
+  artifactKey: Guid(1372e1bd3576b439bbab76dd18a3d309) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GymAssests/BodyBuilder Asset Pack/Textures/Grip.png using Guid(1372e1bd3576b439bbab76dd18a3d309) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '39257004273230fe2bb45d152de6d171') in 0.030549 seconds 
+  Import took 0.041183 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000395 seconds.
+  path: Assets/StarterAssets/Environment/Art/Textures/Grid_02_BaseMap.png
+  artifactKey: Guid(d9c0dd5cdac07b145be73329e489869a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StarterAssets/Environment/Art/Textures/Grid_02_BaseMap.png using Guid(d9c0dd5cdac07b145be73329e489869a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a6ad150dc9411cc5e431e0b4ae501630') in 0.027884 seconds 
+  Import took 0.037949 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000412 seconds.
+  path: Assets/StarterAssets/Environment/Art/Textures/Grid_01_Normal.png
+  artifactKey: Guid(c5c221ed57a3bf6488f8eba0db28a004) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StarterAssets/Environment/Art/Textures/Grid_01_Normal.png using Guid(c5c221ed57a3bf6488f8eba0db28a004) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bc2d19c3e8cb0a2b44f13d54520db3d4') in 0.029213 seconds 
+  Import took 0.039847 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.437806 seconds.
+  path: Assets/_Course Library/Textures/InteriorColourSwatch.png
+  artifactKey: Guid(22560b08cafc5da46b333eef8c0c711c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Course Library/Textures/InteriorColourSwatch.png using Guid(22560b08cafc5da46b333eef8c0c711c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd36c3d14a47beb03a7a1b67906e1008f') in 0.042049 seconds 
+  Import took 0.052207 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000490 seconds.
+  path: Assets/GymAssests/streetlightmodel/textures/lamps_lambert1_BaseColor.png
+  artifactKey: Guid(8c67b0cb9930521449a8890a7c2ee86b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GymAssests/streetlightmodel/textures/lamps_lambert1_BaseColor.png using Guid(8c67b0cb9930521449a8890a7c2ee86b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6df03a43f064a125d8a0fdfeab0f2207') in 0.033970 seconds 
+  Import took 0.043824 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000425 seconds.
+  path: Assets/GymAssests/streetlightmodel/textures/lamps_lambert1_Roughness.png
+  artifactKey: Guid(7c923a93afceaca41ba7f5db7accfefa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GymAssests/streetlightmodel/textures/lamps_lambert1_Roughness.png using Guid(7c923a93afceaca41ba7f5db7accfefa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '417c7cfc7c52ec459d4eb438a8730fb0') in 0.032494 seconds 
+  Import took 0.042040 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000452 seconds.
+  path: Assets/GymAssests/streetlightmodel/textures/lamps_lambert1_Metalness.png
+  artifactKey: Guid(55fc9572832459c4dbea01d5610d3871) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GymAssests/streetlightmodel/textures/lamps_lambert1_Metalness.png using Guid(55fc9572832459c4dbea01d5610d3871) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c87df8a90e48b392a074ef5e662a9233') in 0.029793 seconds 
+  Import took 0.040891 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000424 seconds.
+  path: Assets/GymAssests/streetlightmodel/textures/internal_ground_ao_texture.jpeg
+  artifactKey: Guid(8738ff95e07779a4cb8483304047dd65) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GymAssests/streetlightmodel/textures/internal_ground_ao_texture.jpeg using Guid(8738ff95e07779a4cb8483304047dd65) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2e475501dab4ca88e35fc980b3bb2c3b') in 0.031791 seconds 
+  Import took 0.042093 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000388 seconds.
+  path: Assets/GymAssests/streetlightmodel/textures/lamps_lambert1_Normal.png
+  artifactKey: Guid(172750b95eb69a042a18f71dcae7d5e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GymAssests/streetlightmodel/textures/lamps_lambert1_Normal.png using Guid(172750b95eb69a042a18f71dcae7d5e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f1c194b73851774d52c03f8c4febfeb1') in 0.033480 seconds 
+  Import took 0.044957 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.052474 seconds.
+  path: Assets/GymAssests/streetlightmodel/textures/lamps_lambert1_Normal.png
+  artifactKey: Guid(172750b95eb69a042a18f71dcae7d5e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GymAssests/streetlightmodel/textures/lamps_lambert1_Normal.png using Guid(172750b95eb69a042a18f71dcae7d5e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f1c194b73851774d52c03f8c4febfeb1') in 0.018427 seconds 
+  Import took 0.029023 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.274012 seconds.
+  path: Assets/GymAssests/streetlightmodel/textures/lamps_lamp01_BaseColor.png
+  artifactKey: Guid(a60209cbd93734f4bbba1174392c4f53) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GymAssests/streetlightmodel/textures/lamps_lamp01_BaseColor.png using Guid(a60209cbd93734f4bbba1174392c4f53) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fc47fbb4f25ad95c78ea501e562d8e10') in 0.033854 seconds 
+  Import took 0.043295 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000463 seconds.
+  path: Assets/GymAssests/streetlightmodel/textures/lamps_lamp01_Metalness.png
+  artifactKey: Guid(b92babb0b6a36154ab481122d4470d01) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GymAssests/streetlightmodel/textures/lamps_lamp01_Metalness.png using Guid(b92babb0b6a36154ab481122d4470d01) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ef268375e1131f8a741aefcb41d50060') in 0.040766 seconds 
+  Import took 0.053178 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000449 seconds.
+  path: Assets/GymAssests/streetlightmodel/textures/lamps_lamp01_Emissive.png
+  artifactKey: Guid(0432b7dd4aa630f42a8f102c42c70fe6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GymAssests/streetlightmodel/textures/lamps_lamp01_Emissive.png using Guid(0432b7dd4aa630f42a8f102c42c70fe6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eb6fad46665b090e6c03b8bea2b6f36c') in 0.036675 seconds 
+  Import took 0.046223 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000443 seconds.
+  path: Assets/GymAssests/streetlightmodel/textures/lamps_lamp01_Normal.png
+  artifactKey: Guid(8a9156f5aa0dfe64b88e1b4b4be8b3ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GymAssests/streetlightmodel/textures/lamps_lamp01_Normal.png using Guid(8a9156f5aa0dfe64b88e1b4b4be8b3ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '13785beab346d156f52b3dfaf9e07a75') in 0.032316 seconds 
+  Import took 0.042258 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000422 seconds.
+  path: Assets/GymAssests/streetlightmodel/textures/lamps_lamp01_Opacity.png
+  artifactKey: Guid(25eb6c2b70f59a9479275c943c2cf87a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GymAssests/streetlightmodel/textures/lamps_lamp01_Opacity.png using Guid(25eb6c2b70f59a9479275c943c2cf87a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9bc756a8088729b3a9565553adf395b4') in 0.038824 seconds 
+  Import took 0.048618 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000462 seconds.
+  path: Assets/GymAssests/streetlightmodel/textures/lamps_lamp01_Roughness.png
+  artifactKey: Guid(2a039b33f099cf2468d6db8ee525b006) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GymAssests/streetlightmodel/textures/lamps_lamp01_Roughness.png using Guid(2a039b33f099cf2468d6db8ee525b006) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c0f4dc2e3ba0033cbdf530c40a53028e') in 0.033744 seconds 
+  Import took 0.043443 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.037957 seconds.
+  path: Assets/GymAssests/streetlightmodel/textures/lamps_lamp01_Opacity.png
+  artifactKey: Guid(25eb6c2b70f59a9479275c943c2cf87a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GymAssests/streetlightmodel/textures/lamps_lamp01_Opacity.png using Guid(25eb6c2b70f59a9479275c943c2cf87a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9bc756a8088729b3a9565553adf395b4') in 0.019705 seconds 
+  Import took 0.031711 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.097961 seconds.
+  path: Assets/GymAssests/streetlightmodel/textures/lamps_lamp02_BaseColor.png
+  artifactKey: Guid(c3b98667b8f4dd8418e300e9ed744c9f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GymAssests/streetlightmodel/textures/lamps_lamp02_BaseColor.png using Guid(c3b98667b8f4dd8418e300e9ed744c9f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e091a3dc9c436a53d5480ad39d9f3106') in 0.035307 seconds 
+  Import took 0.045533 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000447 seconds.
+  path: Assets/GymAssests/streetlightmodel/textures/lamps_lamp02_Metalness.png
+  artifactKey: Guid(54af2bcba26adcf4c839705ffc45eab0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GymAssests/streetlightmodel/textures/lamps_lamp02_Metalness.png using Guid(54af2bcba26adcf4c839705ffc45eab0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1ff061db04d09507ac04bc6eda634b26') in 0.032835 seconds 
+  Import took 0.041719 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000436 seconds.
+  path: Assets/GymAssests/streetlightmodel/textures/lamps_lamp02_Opacity.png
+  artifactKey: Guid(c1ffc8a973cefe74ab586a507f7abbed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GymAssests/streetlightmodel/textures/lamps_lamp02_Opacity.png using Guid(c1ffc8a973cefe74ab586a507f7abbed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '15e32a44ac86800f35e7a5bd16cdeefc') in 0.036184 seconds 
+  Import took 0.046042 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000356 seconds.
+  path: Assets/GymAssests/streetlightmodel/textures/lamps_lamp03_Metalness.png
+  artifactKey: Guid(5a7727cbd1c415e49a777fc67215bd20) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GymAssests/streetlightmodel/textures/lamps_lamp03_Metalness.png using Guid(5a7727cbd1c415e49a777fc67215bd20) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '40f79b519a19b0e23ac807d15f8b4235') in 0.032075 seconds 
+  Import took 0.043472 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000444 seconds.
+  path: Assets/GymAssests/streetlightmodel/textures/lamps_lamp03_Normal.png
+  artifactKey: Guid(72542cd0602a3234dacc92462ed61b9e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GymAssests/streetlightmodel/textures/lamps_lamp03_Normal.png using Guid(72542cd0602a3234dacc92462ed61b9e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0fa5ac5f906bd0f385ffc14616361305') in 0.031562 seconds 
+  Import took 0.041693 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000469 seconds.
+  path: Assets/GymAssests/streetlightmodel/textures/lamps_lamp02_Normal.png
+  artifactKey: Guid(ff7055decf9181946aa69b8349791a78) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GymAssests/streetlightmodel/textures/lamps_lamp02_Normal.png using Guid(ff7055decf9181946aa69b8349791a78) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b09f2f1dba7b8f12ef741feab646b6ce') in 0.033366 seconds 
+  Import took 0.042183 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000467 seconds.
+  path: Assets/GymAssests/streetlightmodel/textures/lamps_lamp03_Height.png
+  artifactKey: Guid(70c4b894a38e2ff479ec67dcf39873dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GymAssests/streetlightmodel/textures/lamps_lamp03_Height.png using Guid(70c4b894a38e2ff479ec67dcf39873dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bb4e80d498f319456b18996cde8b5ff8') in 0.029449 seconds 
+  Import took 0.039330 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000366 seconds.
+  path: Assets/GymAssests/streetlightmodel/textures/lamps_lamp03_Emissive.png
+  artifactKey: Guid(e95ad4963ba97c24d831eb0d866d03dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GymAssests/streetlightmodel/textures/lamps_lamp03_Emissive.png using Guid(e95ad4963ba97c24d831eb0d866d03dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e9430eea13841352d1b61de1d9ef4197') in 0.036264 seconds 
+  Import took 0.045782 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000435 seconds.
+  path: Assets/GymAssests/streetlightmodel/textures/lamps_lamp02_Height.png
+  artifactKey: Guid(f6ed7d741efa595428b23aff7e23f107) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GymAssests/streetlightmodel/textures/lamps_lamp02_Height.png using Guid(f6ed7d741efa595428b23aff7e23f107) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5812977d508cffb0e99c77aa4603bc8c') in 0.029700 seconds 
+  Import took 0.040091 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000469 seconds.
+  path: Assets/GymAssests/streetlightmodel/textures/lamps_lamp02_Emissive.png
+  artifactKey: Guid(a315074339d2f134db9148d1da42368c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GymAssests/streetlightmodel/textures/lamps_lamp02_Emissive.png using Guid(a315074339d2f134db9148d1da42368c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '77cc90b25d66c9e9bfe83d7de5284613') in 0.035769 seconds 
+  Import took 0.044755 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000412 seconds.
+  path: Assets/GymAssests/streetlightmodel/textures/lamps_lamp03_BaseColor.png
+  artifactKey: Guid(221b5f1488c47914399261d0c81af09a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GymAssests/streetlightmodel/textures/lamps_lamp03_BaseColor.png using Guid(221b5f1488c47914399261d0c81af09a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4bc8dd82d1efbbcc6f05a298fbbc2b1a') in 0.032733 seconds 
+  Import took 0.041837 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000418 seconds.
+  path: Assets/GymAssests/streetlightmodel/textures/lamps_lamp02_Roughness.png
+  artifactKey: Guid(dcf3e6e2002f0e5469ffe5b40e11936b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GymAssests/streetlightmodel/textures/lamps_lamp02_Roughness.png using Guid(dcf3e6e2002f0e5469ffe5b40e11936b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cf9ed2d391c63cdfc5fbcd4cd04d60e7') in 0.034491 seconds 
+  Import took 0.044738 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.010215 seconds.
+  path: Assets/GymAssests/streetlightmodel/textures/lamps_lamp02_Roughness.png
+  artifactKey: Guid(dcf3e6e2002f0e5469ffe5b40e11936b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GymAssests/streetlightmodel/textures/lamps_lamp02_Roughness.png using Guid(dcf3e6e2002f0e5469ffe5b40e11936b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cf9ed2d391c63cdfc5fbcd4cd04d60e7') in 0.018060 seconds 
+  Import took 0.028226 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.313559 seconds.
+  path: Assets/GymAssests/Locker_room_props/Textures/locker_01.png
+  artifactKey: Guid(64e7b353695891e49ba7c6fce51a5931) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GymAssests/Locker_room_props/Textures/locker_01.png using Guid(64e7b353695891e49ba7c6fce51a5931) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a3db62b98667e00dc9e68034d6339d18') in 0.020339 seconds 
+  Import took 0.030269 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000509 seconds.
+  path: Assets/GymAssests/squid-game-pinksoldier-triangle/textures/PinkSoldier_C_BaseColor_1001.png
+  artifactKey: Guid(7962cfb6361384264bd68deb48928966) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GymAssests/squid-game-pinksoldier-triangle/textures/PinkSoldier_C_BaseColor_1001.png using Guid(7962cfb6361384264bd68deb48928966) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f0eac31695389ca2f7a6ddb9b059db5d') in 0.066317 seconds 
+  Import took 0.075653 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000451 seconds.
+  path: Assets/GymAssests/squid-game-pinksoldier-triangle/textures/PinkSoldier_C_Metalness_1002.png
+  artifactKey: Guid(b4dcc325bd3914b9f9108d715e6138bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GymAssests/squid-game-pinksoldier-triangle/textures/PinkSoldier_C_Metalness_1002.png using Guid(b4dcc325bd3914b9f9108d715e6138bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8d58f4af88b8af93ba55f5e66b63e803') in 0.067833 seconds 
+  Import took 0.077743 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000443 seconds.
+  path: Assets/GymAssests/squid-game-pinksoldier-triangle/textures/PinkSoldier_C_Metalness_1001.png
+  artifactKey: Guid(c9c373cdc2b1849978541cdc3a6d03c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GymAssests/squid-game-pinksoldier-triangle/textures/PinkSoldier_C_Metalness_1001.png using Guid(c9c373cdc2b1849978541cdc3a6d03c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e78153358d6e975ff5fe095c3ab4e753') in 0.046259 seconds 
+  Import took 0.055126 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000444 seconds.
+  path: Assets/GymAssests/BodyBuilder Asset Pack/Textures/TexturesCom_Metal_SteelPitted_1K_albedo 1.tif
+  artifactKey: Guid(f41394d6200d44d71aaa7754559370c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GymAssests/BodyBuilder Asset Pack/Textures/TexturesCom_Metal_SteelPitted_1K_albedo 1.tif using Guid(f41394d6200d44d71aaa7754559370c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '084da1a3441b8318c715b368604c2b93') in 0.030122 seconds 
+  Import took 0.040880 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000418 seconds.
+  path: Assets/StarterAssets/FirstPersonController/Scenes/Playground/ReflectionProbe-2.exr
+  artifactKey: Guid(c49ef192a57a5af42a728163b2468c8a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StarterAssets/FirstPersonController/Scenes/Playground/ReflectionProbe-2.exr using Guid(c49ef192a57a5af42a728163b2468c8a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '844747919c96de7f1707871b1f22ce35') in 0.012151 seconds 
+  Import took 0.021783 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000484 seconds.
+  path: Assets/GymAssests/squid-game-pinksoldier-triangle/textures/PinkSoldier_C_Roughness_1002.png
+  artifactKey: Guid(c1073540d8931433db49ca0265d9befc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GymAssests/squid-game-pinksoldier-triangle/textures/PinkSoldier_C_Roughness_1002.png using Guid(c1073540d8931433db49ca0265d9befc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a8ffb9b920c428a652a93ec216f52d1a') in 0.050362 seconds 
+  Import took 0.061876 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000416 seconds.
+  path: Assets/GymAssests/squid-game-pinksoldier-triangle/textures/PinkSoldier_C_BaseColor_1002.png
+  artifactKey: Guid(379cdb23dd10a43b59d49dc8dbe551b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GymAssests/squid-game-pinksoldier-triangle/textures/PinkSoldier_C_BaseColor_1002.png using Guid(379cdb23dd10a43b59d49dc8dbe551b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '98faf97fcf9bf67f6eb2bb4336011c70') in 0.056118 seconds 
+  Import took 0.067444 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000426 seconds.
+  path: Assets/_Course Library/Textures/Mirror_Texture_Black.renderTexture
+  artifactKey: Guid(5c66ef5a44f9143fea4b30a1fabe8fbb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Course Library/Textures/Mirror_Texture_Black.renderTexture using Guid(5c66ef5a44f9143fea4b30a1fabe8fbb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '08129bd3a811503489cb90ec8a9064cf') in 0.026752 seconds 
+  Import took 0.035809 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000448 seconds.
+  path: Assets/AlignedGames/Polygonal Foliage Asset Package/Scenes/Demonstration1/ReflectionProbe-1.exr
+  artifactKey: Guid(56fbc552b21c5a249a2d06299e94a18f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AlignedGames/Polygonal Foliage Asset Package/Scenes/Demonstration1/ReflectionProbe-1.exr using Guid(56fbc552b21c5a249a2d06299e94a18f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '102c87f0b57f19e5865ae7e6458c4790') in 0.008880 seconds 
+  Import took 0.018198 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000402 seconds.
+  path: Assets/GymAssests/squid-game-pinksoldier-triangle/textures/PinkSoldier_C_Normal_1002.png
+  artifactKey: Guid(6a8fc75f17a8843678a3d31b13f52d7b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GymAssests/squid-game-pinksoldier-triangle/textures/PinkSoldier_C_Normal_1002.png using Guid(6a8fc75f17a8843678a3d31b13f52d7b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd9bf604ed1ef4a26f506e6ad06610f50') in 0.043983 seconds 
+  Import took 0.055269 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000430 seconds.
+  path: Assets/GymAssests/squid-game-pinksoldier-triangle/textures/PinkSoldier_C_Roughness_1001.png
+  artifactKey: Guid(a4efc189819ed435998baac3c53e17d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GymAssests/squid-game-pinksoldier-triangle/textures/PinkSoldier_C_Roughness_1001.png using Guid(a4efc189819ed435998baac3c53e17d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '822945317a198f9f402a8bab014347b4') in 0.050320 seconds 
+  Import took 0.061002 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000391 seconds.
+  path: Assets/StarterAssets/FirstPersonController/Scenes/Playground/ReflectionProbe-1.exr
+  artifactKey: Guid(5515cbebf3ef1144ebf8d50ed9091e17) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StarterAssets/FirstPersonController/Scenes/Playground/ReflectionProbe-1.exr using Guid(5515cbebf3ef1144ebf8d50ed9091e17) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f137e94ac40b9d63b87f03a0fc9ea739') in 0.003181 seconds 
+  Import took 0.012302 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000392 seconds.
+  path: Assets/GymAssests/LowPolyChristmasAddOn/Particles/Snow_particle.png
+  artifactKey: Guid(571958c187b6a45ed8f4c8fa7733a433) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GymAssests/LowPolyChristmasAddOn/Particles/Snow_particle.png using Guid(571958c187b6a45ed8f4c8fa7733a433) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dc79dc17c0a544109ac6ca5e1b81fc0f') in 0.032484 seconds 
+  Import took 0.043000 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000524 seconds.
+  path: Assets/GymAssests/BodyBuilder Asset Pack/Textures/TexturesCom_Paint_Hammerite_1K_albedo.tif
+  artifactKey: Guid(6256fe05ef689462880eb4c17d4a454f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GymAssests/BodyBuilder Asset Pack/Textures/TexturesCom_Paint_Hammerite_1K_albedo.tif using Guid(6256fe05ef689462880eb4c17d4a454f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '05bdaed56809746a9e11722f0b11cd99') in 0.029759 seconds 
+  Import took 0.038793 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000479 seconds.
+  path: Assets/GymAssests/TrophyCups/SampleScene/SampleScene/ReflectionProbe-0.exr
+  artifactKey: Guid(65e77d406a4955e49a5efede2d201998) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GymAssests/TrophyCups/SampleScene/SampleScene/ReflectionProbe-0.exr using Guid(65e77d406a4955e49a5efede2d201998) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '13f9559b8e90cb67cfea3389de54f34d') in 0.009247 seconds 
+  Import took 0.018401 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000434 seconds.
+  path: Assets/GymAssests/BodyBuilder Asset Pack/Textures/TexturesCom_Metal_SteelBrushed_1K_albedo.tif
+  artifactKey: Guid(5728bcc9f4af44e8aa6c2cf7c3a358c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GymAssests/BodyBuilder Asset Pack/Textures/TexturesCom_Metal_SteelBrushed_1K_albedo.tif using Guid(5728bcc9f4af44e8aa6c2cf7c3a358c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ec745be53b2cba77cfd80dbb6e1f3e43') in 0.026795 seconds 
+  Import took 0.037148 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000398 seconds.
+  path: Assets/GymAssests/squid-game-pinksoldier-triangle/textures/PinkSoldier_C_Normal_1001.png
+  artifactKey: Guid(a7daee8c5446749b4a28b8a126e14f9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GymAssests/squid-game-pinksoldier-triangle/textures/PinkSoldier_C_Normal_1001.png using Guid(a7daee8c5446749b4a28b8a126e14f9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '83930f65a438dbf456f57e44aa63ae22') in 0.045580 seconds 
+  Import took 0.055751 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000452 seconds.
+  path: Assets/GymAssests/BodyBuilder Asset Pack/Textures/TexturesCom_Metal_SteelPitted_1K_albedo 2.tif
+  artifactKey: Guid(88f24351468c743a6aea3dc2596b3077) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GymAssests/BodyBuilder Asset Pack/Textures/TexturesCom_Metal_SteelPitted_1K_albedo 2.tif using Guid(88f24351468c743a6aea3dc2596b3077) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '90ee3508be6c4e38a69d1f1b7b3a492f') in 0.029885 seconds 
+  Import took 0.038135 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000455 seconds.
+  path: Assets/AlignedGames/Polygonal Foliage Asset Package/Scenes/Demonstration1/ReflectionProbe-0.exr
+  artifactKey: Guid(07b00cf76694fb24f9c2caf79ed5c4c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AlignedGames/Polygonal Foliage Asset Package/Scenes/Demonstration1/ReflectionProbe-0.exr using Guid(07b00cf76694fb24f9c2caf79ed5c4c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '19169894af98e6de604fb1b5585b3170') in 0.003260 seconds 
+  Import took 0.013260 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000451 seconds.
+  path: Assets/StarterAssets/FirstPersonController/Scenes/Playground/ReflectionProbe-0.exr
+  artifactKey: Guid(ac547032e7ab2874b8b53ccbfec07526) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StarterAssets/FirstPersonController/Scenes/Playground/ReflectionProbe-0.exr using Guid(ac547032e7ab2874b8b53ccbfec07526) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e2976d17f3ffd61a523625e5a06dfcc9') in 0.004348 seconds 
+  Import took 0.013140 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000404 seconds.
+  path: Assets/GymAssests/BodyBuilder Asset Pack/Textures/TexturesCom_Metal_SteelBrushed_1K_normal.tif
+  artifactKey: Guid(957415c5331894c5e95d13b0d418fead) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GymAssests/BodyBuilder Asset Pack/Textures/TexturesCom_Metal_SteelBrushed_1K_normal.tif using Guid(957415c5331894c5e95d13b0d418fead) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '840c76c6a1abb0f5c65fd76a561428e6') in 0.029523 seconds 
+  Import took 0.038637 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000457 seconds.
+  path: Assets/GymAssests/BodyBuilder Asset Pack/Textures/TexturesCom_Metal_SteelPitted_1K_albedo.tif
+  artifactKey: Guid(6ac1f78438e824cdd8ebcb78cdb20e3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GymAssests/BodyBuilder Asset Pack/Textures/TexturesCom_Metal_SteelPitted_1K_albedo.tif using Guid(6ac1f78438e824cdd8ebcb78cdb20e3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '815d601995d939b605ab33c7808f7355') in 0.030628 seconds 
+  Import took 0.040890 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000441 seconds.
+  path: Assets/GymAssests/Locker_room_props/Textures/locker_01_bump.bmp
+  artifactKey: Guid(cb46f1e315264b448b68afbd5c8d49b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GymAssests/Locker_room_props/Textures/locker_01_bump.bmp using Guid(cb46f1e315264b448b68afbd5c8d49b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e9209d3be5bcf58ea0206be4a087918c') in 0.018733 seconds 
+  Import took 0.028285 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 15.731942 seconds.
+  path: Assets/_Course Library/Fonts/Christmas Bell - Personal Use.otf
+  artifactKey: Guid(1c62b60046f3e964993a5df5d71839fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Course Library/Fonts/Christmas Bell - Personal Use.otf using Guid(1c62b60046f3e964993a5df5d71839fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a3f3836b80ee522e2dc5c70150aabcaa') in 0.028841 seconds 
+  Import took 0.038975 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 17.969273 seconds.
+  path: Assets/_Course Library/Fonts/Christmas Bell - Personal Use SDF.asset
+  artifactKey: Guid(79eea3397963c924da1df9c80c6e73fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Course Library/Fonts/Christmas Bell - Personal Use SDF.asset using Guid(79eea3397963c924da1df9c80c6e73fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b) UnassignedReferenceException: The variable material of TMP_FontAsset has not been assigned.
+You probably need to assign the material variable of the TMP_FontAsset script in the inspector.
+  at (wrapper managed-to-native) UnityEngine.Material.HasProperty(UnityEngine.Material,int)
+  at TMPro.TMP_FontAsset.ReadFontAssetDefinition () [0x0008f] in C:\Users\Pink\Documents\GitHub\BVW-Unity-VR\VR Room Project\Library\PackageCache\com.unity.textmeshpro@3.0.6\Scripts\Runtime\TMP_FontAsset.cs:588 
+  at TMPro.TMP_FontAsset.OnValidate () [0x00010] in C:\Users\Pink\Documents\GitHub\BVW-Unity-VR\VR Room Project\Library\PackageCache\com.unity.textmeshpro@3.0.6\Scripts\Runtime\TMP_FontAsset.cs:555 
+
+(Filename: Library/PackageCache/com.unity.textmeshpro@3.0.6/Scripts/Runtime/TMP_FontAsset.cs Line: 588)
+
+ -> (artifact id: '062dbc4e90eed4eb8f2b2966b1bbe275') in 0.006393 seconds 
+  Import took 0.016469 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 51.047874 seconds.
+  path: Assets/GymAssests/streetlightmodel/textures/lamps_lamp03_Opacity.png
+  artifactKey: Guid(7d29d8f69b80b0c49a350af248bb0796) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GymAssests/streetlightmodel/textures/lamps_lamp03_Opacity.png using Guid(7d29d8f69b80b0c49a350af248bb0796) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '05dd07d09aad40ff298a8e53f0766303') in 0.050009 seconds 
+  Import took 0.065969 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000731 seconds.
+  path: Assets/GymAssests/streetlightmodel/textures/lamps_lamp_04_BaseColor.png
+  artifactKey: Guid(29aa076499fc1fc40a8d3cb6bccd35db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GymAssests/streetlightmodel/textures/lamps_lamp_04_BaseColor.png using Guid(29aa076499fc1fc40a8d3cb6bccd35db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a0bc733047d59fc969a26ae14cf14ff7') in 0.041189 seconds 
+  Import took 0.051320 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000734 seconds.
+  path: Assets/GymAssests/streetlightmodel/textures/lamps_lamp_04_Opacity.png
+  artifactKey: Guid(e86056cc174de6e4583fadbd6d227231) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GymAssests/streetlightmodel/textures/lamps_lamp_04_Opacity.png using Guid(e86056cc174de6e4583fadbd6d227231) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a4cb40b3d054f801bab7e0f7811a90ef') in 0.050210 seconds 
+  Import took 0.062874 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000415 seconds.
+  path: Assets/GymAssests/streetlightmodel/textures/lamps_lamp03_Opacity.png
+  artifactKey: Guid(7d29d8f69b80b0c49a350af248bb0796) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GymAssests/streetlightmodel/textures/lamps_lamp03_Opacity.png using Guid(7d29d8f69b80b0c49a350af248bb0796) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '05dd07d09aad40ff298a8e53f0766303') in 0.025181 seconds 
+  Import took 0.038928 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.007573 seconds.
+  path: Assets/GymAssests/streetlightmodel/textures/lamps_lamp_04_BaseColor.png
+  artifactKey: Guid(29aa076499fc1fc40a8d3cb6bccd35db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GymAssests/streetlightmodel/textures/lamps_lamp_04_BaseColor.png using Guid(29aa076499fc1fc40a8d3cb6bccd35db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a0bc733047d59fc969a26ae14cf14ff7') in 0.016565 seconds 
+  Import took 0.029845 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 34.792574 seconds.
+  path: Assets/_Course Library/Fonts/Christmas Bell.asset
+  artifactKey: Guid(471a7db71f22db241820410246036f9b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Course Library/Fonts/Christmas Bell.asset using Guid(471a7db71f22db241820410246036f9b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) UnassignedReferenceException: The variable material of TMP_FontAsset has not been assigned.
+You probably need to assign the material variable of the TMP_FontAsset script in the inspector.
+  at (wrapper managed-to-native) UnityEngine.Material.HasProperty(UnityEngine.Material,int)
+  at TMPro.TMP_FontAsset.ReadFontAssetDefinition () [0x0008f] in C:\Users\Pink\Documents\GitHub\BVW-Unity-VR\VR Room Project\Library\PackageCache\com.unity.textmeshpro@3.0.6\Scripts\Runtime\TMP_FontAsset.cs:588 
+  at TMPro.TMP_FontAsset.OnValidate () [0x00010] in C:\Users\Pink\Documents\GitHub\BVW-Unity-VR\VR Room Project\Library\PackageCache\com.unity.textmeshpro@3.0.6\Scripts\Runtime\TMP_FontAsset.cs:555 
+
+(Filename: Library/PackageCache/com.unity.textmeshpro@3.0.6/Scripts/Runtime/TMP_FontAsset.cs Line: 588)
+
+ -> (artifact id: 'e312548ff03ccee2d6b69ba64c608a52') in 0.016799 seconds 
+  Import took 0.033090 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 87.456030 seconds.
+  path: Assets/_Course Library/Fonts/Caveat-Regular SDF.asset
+  artifactKey: Guid(18eb93125c4dc48309f35bea3f9afe65) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Course Library/Fonts/Caveat-Regular SDF.asset using Guid(18eb93125c4dc48309f35bea3f9afe65) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3b0981a1f6bc316b3c2ea6559742a0bb') in 0.048587 seconds 
+  Import took 0.062758 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000570 seconds.
+  path: Assets/_Course Library/Fonts/Christmas Bell - Personal Use SDF.asset
+  artifactKey: Guid(79eea3397963c924da1df9c80c6e73fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Course Library/Fonts/Christmas Bell - Personal Use SDF.asset using Guid(79eea3397963c924da1df9c80c6e73fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '041516a30c4022a068ae3d23c4b0a05d') in 0.026648 seconds 
+  Import took 0.041626 seconds .
+
 AssetImportWorkerClient::OnTransportError - code=2 error=End of file
