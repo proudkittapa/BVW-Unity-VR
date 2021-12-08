@@ -5,16 +5,19 @@ using UnityEngine;
 public class Teleport_Start : MonoBehaviour
 {
     public GameObject Rig;
+    private Vector3 start;
     // Start is called before the first frame update
     void Start()
     {
-        // new WaitForSeconds(5);
-        Rig.transform.position = new Vector3(-10.24f, 1.26f, -20.37f);
+        start = Rig.transform.position;
     }
 
-    // Update is called once per frame
-    void Update()
+    public void toStart()
     {
-        
+        Rig.transform.position = start;
+    }
+    public void toGym()
+    {
+        Rig.transform.position = new Vector3(11f, 1.26f, -7f);
     }
 }
