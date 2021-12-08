@@ -1,105 +1,229 @@
 Using pre-set license
 Built from '2020.3/staging' branch; Version is '2020.3.17f1 (a4537701e4ab) revision 10769271'; Using compiler version '192528614'; Build Type 'Release'
-OS: 'Windows 10 Home Single Language; OS build 19043.1348; Version 2009; 64bit' Language: 'en' Physical Memory: 16233 MB
+OS: 'Windows 10 Pro; OS build 19041.1348; Version 2004; 64bit' Language: 'en' Physical Memory: 8134 MB
 BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
 
 COMMAND LINE ARGUMENTS:
-C:\Program Files\Unity\Hub\Editor\2020.3.17f1\Editor\Unity.exe
+D:\Unity Hub\2020.3.17f1\Editor\Unity.exe
 -adb2
 -batchMode
 -noUpm
 -name
 AssetImportWorker0
 -projectPath
-C:/Users/Pink/Documents/GitHub/BVW-Unity-VR/VR Room Project
+D:/Project/BVW-Unity-VR/VR Room Project
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-55804
-Successfully changed project path to: C:/Users/Pink/Documents/GitHub/BVW-Unity-VR/VR Room Project
-C:/Users/Pink/Documents/GitHub/BVW-Unity-VR/VR Room Project
+55183
+Successfully changed project path to: D:/Project/BVW-Unity-VR/VR Room Project
+D:/Project/BVW-Unity-VR/VR Room Project
 Using Asset Import Pipeline V2.
 Assets/GymAssests/uploads-files-669576-aeq3vjprnoqo-Bleachers-1/bleachers.c4d: Unity no longer supports importing Cinema 4D files directly, but we're working with Maxon to make the experience better. To import Cinema 4D files, install Maxon's external importer. You can find more information on the Unity Forum: https://on.unity.com/c4d.
 
 Please note that FBX files exported from Cinema4D are still supported.
 
-Refreshing native plugins compatible for Editor in 120.94 ms, found 10 plugins.
-Preloading 1 native plugins for Editor in 1.28 ms.
+Refreshing native plugins compatible for Editor in 96.53 ms, found 10 plugins.
+Preloading 1 native plugins for Editor in 1.31 ms.
 Initialize engine version: 2020.3.17f1 (a4537701e4ab)
-[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.17f1/Editor/Data/Resources/UnitySubsystems
-[Subsystems] Discovering subsystems at path C:/Users/Pink/Documents/GitHub/BVW-Unity-VR/VR Room Project/Assets
+[Subsystems] Discovering subsystems at path D:/Unity Hub/2020.3.17f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path D:/Project/BVW-Unity-VR/VR Room Project/Assets
 GfxDevice: creating device client; threaded=0
 Direct3D:
     Version:  Direct3D 11.0 [level 11.1]
-    Renderer: NVIDIA GeForce RTX 2070 (ID=0x1f10)
+    Renderer: NVIDIA GeForce GTX 1060 6GB (ID=0x1c03)
     Vendor:   
-    VRAM:     8031 MB
-    Driver:   27.21.14.6627
+    VRAM:     6052 MB
+    Driver:   27.21.14.6663
 Initialize mono
-Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.17f1/Editor/Data/Managed'
-Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.17f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
-Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.17f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56324
+Mono path[0] = 'D:/Unity Hub/2020.3.17f1/Editor/Data/Managed'
+Mono path[1] = 'D:/Unity Hub/2020.3.17f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'D:/Unity Hub/2020.3.17f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56492
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
-Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.17f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
-Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.17f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.002748 seconds.
+Register platform support module: D:/Unity Hub/2020.3.17f1/Editor/Data/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
+Register platform support module: D:/Unity Hub/2020.3.17f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.001351 seconds.
 Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
+Native extension for OSXStandalone target not found
 Assets/GymAssests/uploads-files-669576-aeq3vjprnoqo-Bleachers-1/bleachers.c4d: Unity no longer supports importing Cinema 4D files directly, but we're working with Maxon to make the experience better. To import Cinema 4D files, install Maxon's external importer. You can find more information on the Unity Forum: https://on.unity.com/c4d.
 
 Please note that FBX files exported from Cinema4D are still supported.
 
-Refreshing native plugins compatible for Editor in 88.68 ms, found 10 plugins.
-Preloading 1 native plugins for Editor in 0.08 ms.
+Refreshing native plugins compatible for Editor in 89.56 ms, found 10 plugins.
+Preloading 1 native plugins for Editor in 0.05 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  2.288 seconds
+- Completed reload, in  1.590 seconds
 Domain Reload Profiling:
-	ReloadAssembly (2288ms)
-		BeginReloadAssembly (66ms)
+	ReloadAssembly (1590ms)
+		BeginReloadAssembly (57ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (506ms)
-			LoadAssemblies (64ms)
+		EndReloadAssembly (493ms)
+			LoadAssemblies (57ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (171ms)
+			SetupTypeCache (181ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (33ms)
-			SetupLoadedEditorAssemblies (224ms)
+			RebuildScriptCaches (31ms)
+			SetupLoadedEditorAssemblies (213ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (7ms)
+				InitializePlatformSupportModulesInManaged (5ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (89ms)
-				BeforeProcessingInitializeOnLoad (11ms)
-				ProcessInitializeOnLoadAttributes (85ms)
-				ProcessInitializeOnLoadMethodAttributes (31ms)
+				RefreshPlugins (90ms)
+				BeforeProcessingInitializeOnLoad (9ms)
+				ProcessInitializeOnLoadAttributes (80ms)
+				ProcessInitializeOnLoadMethodAttributes (29ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.010651 seconds.
+Registered in 0.006141 seconds.
 Begin MonoManager ReloadAssembly
+Symbol file data-000001826E84CE40 doesn't match image D:\Project\BVW-Unity-VR\VR Room Project\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000182690F0C30 doesn't match image D:\Project\BVW-Unity-VR\VR Room Project\Library\ScriptAssemblies\Unity.RenderPipelines.Universal.Shaders.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000018273FC5030 doesn't match image D:\Project\BVW-Unity-VR\VR Room Project\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000018273FC5030 doesn't match image D:\Project\BVW-Unity-VR\VR Room Project\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000018272AD4020 doesn't match image D:\Project\BVW-Unity-VR\VR Room Project\Library\ScriptAssemblies\Unity.Searcher.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001826E2C2030 doesn't match image D:\Project\BVW-Unity-VR\VR Room Project\Library\ScriptAssemblies\Unity.ShaderGraph.Utilities.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000018272DF9420 doesn't match image D:\Project\BVW-Unity-VR\VR Room Project\Library\ScriptAssemblies\Unity.ProBuilder.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001826E281C00 doesn't match image D:\Project\BVW-Unity-VR\VR Room Project\Library\ScriptAssemblies\UnityEditor.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000018273414020 doesn't match image D:\Project\BVW-Unity-VR\VR Room Project\Library\ScriptAssemblies\Unity.InputSystem.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000182744013E0 doesn't match image D:\Project\BVW-Unity-VR\VR Room Project\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001826DF80870 doesn't match image D:\Project\BVW-Unity-VR\VR Room Project\Library\ScriptAssemblies\Unity.RenderPipelines.Core.ShaderLibrary.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001826E5B7010 doesn't match image D:\Project\BVW-Unity-VR\VR Room Project\Library\ScriptAssemblies\UnityEngine.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001826E3439E0 doesn't match image D:\Project\BVW-Unity-VR\VR Room Project\Library\ScriptAssemblies\UnityEngine.SpatialTracking.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001826E91C6E0 doesn't match image D:\Project\BVW-Unity-VR\VR Room Project\Library\ScriptAssemblies\Unity.ProBuilder.Poly2Tri.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000018273414020 doesn't match image D:\Project\BVW-Unity-VR\VR Room Project\Library\ScriptAssemblies\Unity.ShaderGraph.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001826E5B7010 doesn't match image D:\Project\BVW-Unity-VR\VR Room Project\Library\ScriptAssemblies\Cinemachine.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000018272ED1230 doesn't match image D:\Project\BVW-Unity-VR\VR Room Project\Library\ScriptAssemblies\com.unity.cinemachine.editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000018272E38170 doesn't match image D:\Project\BVW-Unity-VR\VR Room Project\Library\ScriptAssemblies\Unity.Settings.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001826DF800F0 doesn't match image D:\Project\BVW-Unity-VR\VR Room Project\Library\ScriptAssemblies\Unity.RenderPipeline.Universal.ShaderLibrary.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001826E80CC50 doesn't match image D:\Project\BVW-Unity-VR\VR Room Project\Library\ScriptAssemblies\Unity.XR.Management.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001827418B620 doesn't match image D:\Project\BVW-Unity-VR\VR Room Project\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000182691883C0 doesn't match image D:\Project\BVW-Unity-VR\VR Room Project\Library\ScriptAssemblies\Unity.Mathematics.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001826E3439E0 doesn't match image D:\Project\BVW-Unity-VR\VR Room Project\Library\ScriptAssemblies\Unity.XR.OpenXR.Features.RuntimeDebugger.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000018273FE04E0 doesn't match image D:\Project\BVW-Unity-VR\VR Room Project\Library\ScriptAssemblies\Unity.XR.Oculus.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000018272DD37C0 doesn't match image D:\Project\BVW-Unity-VR\VR Room Project\Library\ScriptAssemblies\Unity.ProGrids.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001826E4F5040 doesn't match image D:\Project\BVW-Unity-VR\VR Room Project\Library\ScriptAssemblies\Unity.XR.OpenXR.Features.MockDriver.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001826E5B7010 doesn't match image D:\Project\BVW-Unity-VR\VR Room Project\Library\ScriptAssemblies\Unity.RenderPipelines.Universal.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000018273FDD050 doesn't match image D:\Project\BVW-Unity-VR\VR Room Project\Library\ScriptAssemblies\Unity.ProBuilder.AddOns.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000182733A7840 doesn't match image D:\Project\BVW-Unity-VR\VR Room Project\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001826E2C2030 doesn't match image D:\Project\BVW-Unity-VR\VR Room Project\Library\ScriptAssemblies\Unity.XR.OpenXR.Features.OculusQuestSupport.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001827418B620 doesn't match image D:\Project\BVW-Unity-VR\VR Room Project\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001826E18C020 doesn't match image D:\Project\BVW-Unity-VR\VR Room Project\Library\ScriptAssemblies\Unity.XR.Management.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000182738DC630 doesn't match image D:\Project\BVW-Unity-VR\VR Room Project\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000018272FB7010 doesn't match image D:\Project\BVW-Unity-VR\VR Room Project\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001827305F010 doesn't match image D:\Project\BVW-Unity-VR\VR Room Project\Library\ScriptAssemblies\Unity.XR.Interaction.Toolkit.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001826E1D8510 doesn't match image D:\Project\BVW-Unity-VR\VR Room Project\Library\ScriptAssemblies\Unity.ProBuilder.Csg.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000018273E318A0 doesn't match image D:\Project\BVW-Unity-VR\VR Room Project\Library\ScriptAssemblies\Unity.XR.OpenXR.Features.MockRuntime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000182738DC630 doesn't match image D:\Project\BVW-Unity-VR\VR Room Project\Library\ScriptAssemblies\Unity.2D.Sprite.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000018273086020 doesn't match image D:\Project\BVW-Unity-VR\VR Room Project\Library\ScriptAssemblies\Unity.RenderPipelines.Core.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001826DBAF7C0 doesn't match image D:\Project\BVW-Unity-VR\VR Room Project\Library\ScriptAssemblies\Unity.Subsystem.Registration.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000018273778010 doesn't match image D:\Project\BVW-Unity-VR\VR Room Project\Library\ScriptAssemblies\Unity.ProBuilder.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000018273778010 doesn't match image D:\Project\BVW-Unity-VR\VR Room Project\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001826E91C6E0 doesn't match image D:\Project\BVW-Unity-VR\VR Room Project\Library\ScriptAssemblies\Unity.ProGrids.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001826E839C30 doesn't match image D:\Project\BVW-Unity-VR\VR Room Project\Library\ScriptAssemblies\Unity.XR.OpenXR.Features.OculusQuestSupport.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001826E556230 doesn't match image D:\Project\BVW-Unity-VR\VR Room Project\Library\ScriptAssemblies\Unity.Mathematics.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000018272EE1240 doesn't match image D:\Project\BVW-Unity-VR\VR Room Project\Library\ScriptAssemblies\Unity.ProBuilder.KdTree.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000018273FDD050 doesn't match image D:\Project\BVW-Unity-VR\VR Room Project\Library\ScriptAssemblies\Unity.XR.OpenXR.TestHelpers.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000018273778010 doesn't match image D:\Project\BVW-Unity-VR\VR Room Project\Library\ScriptAssemblies\Unity.RenderPipelines.Universal.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000018274193630 doesn't match image D:\Project\BVW-Unity-VR\VR Room Project\Library\ScriptAssemblies\Unity.ProBuilder.AssetIdRemapUtility.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000018272ED66B0 doesn't match image D:\Project\BVW-Unity-VR\VR Room Project\Library\ScriptAssemblies\UnityEngine.XR.LegacyInputHelpers.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001826E80CC50 doesn't match image D:\Project\BVW-Unity-VR\VR Room Project\Library\ScriptAssemblies\Unity.ProBuilder.Stl.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001826E91C6E0 doesn't match image D:\Project\BVW-Unity-VR\VR Room Project\Library\ScriptAssemblies\Unity.XR.OpenXR.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001826DF80870 doesn't match image D:\Project\BVW-Unity-VR\VR Room Project\Library\ScriptAssemblies\Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001826EAF0010 doesn't match image D:\Project\BVW-Unity-VR\VR Room Project\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000018273FE04E0 doesn't match image D:\Project\BVW-Unity-VR\VR Room Project\Library\ScriptAssemblies\UnityEditor.XR.LegacyInputHelpers.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001826E281C00 doesn't match image D:\Project\BVW-Unity-VR\VR Room Project\Library\ScriptAssemblies\Unity.XR.OpenXR.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001826E281C00 doesn't match image D:\Project\BVW-Unity-VR\VR Room Project\Library\ScriptAssemblies\Unity.XR.Interaction.Toolkit.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001826E91C6E0 doesn't match image D:\Project\BVW-Unity-VR\VR Room Project\Library\ScriptAssemblies\Unity.XR.Oculus.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001826E2C2030 doesn't match image D:\Project\BVW-Unity-VR\VR Room Project\Library\ScriptAssemblies\UnityEditor.SpatialTracking.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000182740141F0 doesn't match image D:\Project\BVW-Unity-VR\VR Room Project\Library\ScriptAssemblies\Unity.XR.OpenXR.Features.ConformanceAutomation.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001826EB0DC20 doesn't match image D:\Project\BVW-Unity-VR\VR Room Project\Library\ScriptAssemblies\Unity.RenderPipelines.Core.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000018274266420 doesn't match image D:\Project\BVW-Unity-VR\VR Room Project\Library\ScriptAssemblies\Unity.XR.OpenXR.Features.RuntimeDebugger.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
 Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
+Native extension for OSXStandalone target not found
 Assets/GymAssests/uploads-files-669576-aeq3vjprnoqo-Bleachers-1/bleachers.c4d: Unity no longer supports importing Cinema 4D files directly, but we're working with Maxon to make the experience better. To import Cinema 4D files, install Maxon's external importer. You can find more information on the Unity Forum: https://on.unity.com/c4d.
 
 Please note that FBX files exported from Cinema4D are still supported.
 
-Refreshing native plugins compatible for Editor in 106.60 ms, found 10 plugins.
-Preloading 1 native plugins for Editor in 0.08 ms.
+Refreshing native plugins compatible for Editor in 86.29 ms, found 10 plugins.
+Preloading 1 native plugins for Editor in 0.05 ms.
 [XR] OculusXRPlugin: registering subsystems
 [XR] Unable to register display lifecyle provider: [1]
 [XR] Oculus Input lifecycle provider registered.
 [XR] Unable to register input lifecyle provider: [1]
 System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation. ---> System.NullReferenceException: Object reference not set to an instance of an object
-  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x00048] in C:\Users\Pink\Documents\GitHub\BVW-Unity-VR\VR Room Project\Library\PackageCache\com.unity.xr.oculus@1.10.0\Runtime\OculusLoader.cs:250 
-  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0007b] in C:\Users\Pink\Documents\GitHub\BVW-Unity-VR\VR Room Project\Library\PackageCache\com.unity.xr.oculus@1.10.0\Runtime\OculusLoader.cs:235 
+  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x0004e] in <8a071fb1f4e44da789de830ea0d8d7ac>:0 
+  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0007b] in <8a071fb1f4e44da789de830ea0d8d7ac>:0 
   at (wrapper managed-to-native) System.Reflection.MonoMethod.InternalInvoke(System.Reflection.MonoMethod,object,object[],System.Exception&)
   at System.Reflection.MonoMethod.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00032] in <695d1cc93cca45069c528c15c9fdd749>:0 
    --- End of inner exception stack trace ---
@@ -113,33 +237,33 @@ UnityEngine.Debug:LogError (object)
 UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
 
 Mono: successfully reloaded assembly
-- Completed reload, in  1.817 seconds
+- Completed reload, in  1.490 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1818ms)
-		BeginReloadAssembly (170ms)
+	ReloadAssembly (1491ms)
+		BeginReloadAssembly (136ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (5ms)
+			DisableScriptedObjects (4ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (22ms)
-		EndReloadAssembly (1570ms)
-			LoadAssemblies (120ms)
+			CreateAndSetChildDomain (17ms)
+		EndReloadAssembly (1300ms)
+			LoadAssemblies (96ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (411ms)
+			SetupTypeCache (357ms)
 			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (90ms)
-			SetupLoadedEditorAssemblies (705ms)
+			RebuildScriptCaches (62ms)
+			SetupLoadedEditorAssemblies (607ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (6ms)
-				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (107ms)
-				BeforeProcessingInitializeOnLoad (125ms)
-				ProcessInitializeOnLoadAttributes (441ms)
-				ProcessInitializeOnLoadMethodAttributes (19ms)
-				AfterProcessingInitializeOnLoad (7ms)
+				InitializePlatformSupportModulesInManaged (4ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (86ms)
+				BeforeProcessingInitializeOnLoad (102ms)
+				ProcessInitializeOnLoadAttributes (377ms)
+				ProcessInitializeOnLoadMethodAttributes (35ms)
+				AfterProcessingInitializeOnLoad (2ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (6ms)
+			AwakeInstancesAfterBackupRestoration (5ms)
 Platform modules already initialized, skipping
 Assets/GymAssests/uploads-files-669576-aeq3vjprnoqo-Bleachers-1/bleachers.c4d: Unity no longer supports importing Cinema 4D files directly, but we're working with Maxon to make the experience better. To import Cinema 4D files, install Maxon's external importer. You can find more information on the Unity Forum: https://on.unity.com/c4d.
 
@@ -151,15 +275,15 @@ Assets/GymAssests/uploads-files-669576-aeq3vjprnoqo-Bleachers-1/bleachers.c4d: U
 
 Please note that FBX files exported from Cinema4D are still supported.
 
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.10 seconds
-Refreshing native plugins compatible for Editor in 1.88 ms, found 10 plugins.
-Preloading 1 native plugins for Editor in 0.12 ms.
-Unloading 3999 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 187.2 MB.
-System memory in use after: 187.2 MB.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.15 seconds
+Refreshing native plugins compatible for Editor in 1.00 ms, found 10 plugins.
+Preloading 1 native plugins for Editor in 0.05 ms.
+Unloading 3907 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 180.3 MB.
+System memory in use after: 180.3 MB.
 
-Unloading 42 unused Assets to reduce memory usage. Loaded Objects now: 4488.
-Total: 4.156400 ms (FindLiveObjects: 0.428000 ms CreateObjectMapping: 0.206600 ms MarkObjects: 3.371700 ms  DeleteObjects: 0.149000 ms)
+Unloading 42 unused Assets to reduce memory usage. Loaded Objects now: 4396.
+Total: 4.052200 ms (FindLiveObjects: 0.302100 ms CreateObjectMapping: 0.185400 ms MarkObjects: 3.457000 ms  DeleteObjects: 0.106600 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
@@ -168,16 +292,495 @@ AssetImportParameters requested are different than current active one (requested
   custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
   custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
   custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  path: Assets/TextMesh Pro/Fonts/Christmas Bell - Personal Use SDF.asset
-  artifactKey: Guid(fbde5644e48bdd64abd95f618db94ed8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TextMesh Pro/Fonts/Christmas Bell - Personal Use SDF.asset using Guid(fbde5644e48bdd64abd95f618db94ed8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '69af699564e63a280a750fc8dc631489') in 0.289245 seconds 
-  Import took 0.296038 seconds .
+  path: Assets/UniversalRenderPipelineAsset.asset
+  artifactKey: Guid(354398a4ec99999439aa8fec9af680cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UniversalRenderPipelineAsset.asset using Guid(354398a4ec99999439aa8fec9af680cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9c0b135a991f7067a48129a49bba9a6f') in 0.054912 seconds 
+  Import took 0.077223 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000432 seconds.
+  path: Assets/New Terrain.asset
+  artifactKey: Guid(cf2b1c6cb1021204d98017b4431db1e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/New Terrain.asset using Guid(cf2b1c6cb1021204d98017b4431db1e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2d8b8573dc649d42146d46ab2c8f3d58') in 0.127252 seconds 
+  Import took 0.166744 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000275 seconds.
+  path: Assets/UniversalRenderPipelineAsset_Renderer.asset
+  artifactKey: Guid(02e94b3bd0c7d0845afe0496e4b3e970) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UniversalRenderPipelineAsset_Renderer.asset using Guid(02e94b3bd0c7d0845afe0496e4b3e970) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0692a5d45e664cd65750a877479d85ea') in 0.006689 seconds 
+  Import took 0.031256 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000272 seconds.
+  path: Assets/WorkingWallHanger.prefab
+  artifactKey: Guid(74071b28bebaf5a4f9ffce20a8851dec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/WorkingWallHanger.prefab using Guid(74071b28bebaf5a4f9ffce20a8851dec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4ac6ac2a68d06da0cd04fa1b226dadd7') in 0.028183 seconds 
+  Import took 0.037284 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 98.315462 seconds.
+  path: Assets/StarterAssets/Readme.asset
+  artifactKey: Guid(d6872a7871e66a149bb52681fd1a9ea0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StarterAssets/Readme.asset using Guid(d6872a7871e66a149bb52681fd1a9ea0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '22e2ed3b16fbe9d16267d782ca819181') in 0.005076 seconds 
+  Import took 0.035029 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 11.059647 seconds.
+  path: Assets/Materials/CourtLine.mat
+  artifactKey: Guid(6e937bf5afb8438448137e17985521d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/CourtLine.mat using Guid(6e937bf5afb8438448137e17985521d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bbe908fd2230b812084cbdc40785a0c3') in 0.166703 seconds 
+  Import took 0.196189 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000275 seconds.
+  path: Assets/Materials/yuka2.mat
+  artifactKey: Guid(5f6a115db5258964e91e3c1539897060) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/yuka2.mat using Guid(5f6a115db5258964e91e3c1539897060) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '682c2577cee6f56ade54e66f3683020d') in 0.014208 seconds 
+  Import took 0.027070 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000278 seconds.
+  path: Assets/Materials/wall1.mat
+  artifactKey: Guid(d92b3b8139b9f2346b4b44cc04ae62d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/wall1.mat using Guid(d92b3b8139b9f2346b4b44cc04ae62d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '08e5f4a05660ea79d4d40514ac3530ef') in 0.012340 seconds 
+  Import took 0.049366 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000206 seconds.
+  path: Assets/Materials/Wood2.mat
+  artifactKey: Guid(f9f5e921d1f862f438cac2e931a22418) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Wood2.mat using Guid(f9f5e921d1f862f438cac2e931a22418) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ad037fb87fd77db49b101792ff95580e') in 0.010962 seconds 
+  Import took 0.016802 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000217 seconds.
+  path: Assets/Materials/Mat TP 2.mat
+  artifactKey: Guid(430c9778b98142b4ca170a6911ac0013) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Mat TP 2.mat using Guid(430c9778b98142b4ca170a6911ac0013) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2d404f82c4f325847f0c9743f8e50a49') in 0.011255 seconds 
+  Import took 0.035211 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000204 seconds.
+  path: Assets/Materials/Roof.mat
+  artifactKey: Guid(427cf2fb24a9b7144a7c9a56b8359aa6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Roof.mat using Guid(427cf2fb24a9b7144a7c9a56b8359aa6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f64dec422e8a0590fcc74c2be6091927') in 0.010378 seconds 
+  Import took 0.036283 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000215 seconds.
+  path: Assets/Materials/Mat TP 1.mat
+  artifactKey: Guid(4504d4b55ad59f0489bb37ee0f280a34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Mat TP 1.mat using Guid(4504d4b55ad59f0489bb37ee0f280a34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8e2cbd42aad968de8f65552797f09377') in 0.010533 seconds 
+  Import took 0.024262 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.014351 seconds.
+  path: Assets/Settings/UniversalRenderPipelineAsset.asset
+  artifactKey: Guid(ca51ab8269d7945dd9bbb86c7c9a4ac6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Settings/UniversalRenderPipelineAsset.asset using Guid(ca51ab8269d7945dd9bbb86c7c9a4ac6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2c56e7d9017e1d089ebf25fa1c9f6ba2') in 0.001859 seconds 
+  Import took 0.030369 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000270 seconds.
+  path: Assets/Settings/UniversalRenderPipelineAsset_Renderer.asset
+  artifactKey: Guid(d9e88bdd0f5f0462ebf470d8ea4b285e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Settings/UniversalRenderPipelineAsset_Renderer.asset using Guid(d9e88bdd0f5f0462ebf470d8ea4b285e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '219ffe3ce85fa45acbbbec506c5e65dc') in 0.002147 seconds 
+  Import took 0.009746 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.650354 seconds.
+  path: Assets/skybox/mat_skybox.mat
+  artifactKey: Guid(2f4daf7366107bd45ac689d4dca86913) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/skybox/mat_skybox.mat using Guid(2f4daf7366107bd45ac689d4dca86913) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ef7b102ae10f16db80f5e8fd11b782ab') in 0.012284 seconds 
+  Import took 0.018402 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.216145 seconds.
+  path: Assets/Textures/CourtLine.png
+  artifactKey: Guid(8cf36922e4055de4da1d5f425b02f05a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/CourtLine.png using Guid(8cf36922e4055de4da1d5f425b02f05a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0f716cf786760be2f05527876c5af36a') in 0.056511 seconds 
+  Import took 0.088547 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000334 seconds.
+  path: Assets/Textures/Wood2.png
+  artifactKey: Guid(2481d5304a28ddd4e9694bfc3a119c9a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Wood2.png using Guid(2481d5304a28ddd4e9694bfc3a119c9a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aaea24ff7b70c21231103406af743bae') in 0.009007 seconds 
+  Import took 0.014402 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000260 seconds.
+  path: Assets/Textures/woodensign.png
+  artifactKey: Guid(877cd2334f38d63428636f9bef2f5f4c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/woodensign.png using Guid(877cd2334f38d63428636f9bef2f5f4c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bba2eb77d226f1b0669e111dad395b26') in 0.052936 seconds 
+  Import took 0.058672 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000243 seconds.
+  path: Assets/Textures/sign.png
+  artifactKey: Guid(f36f0c009bdea3148b86701996d2c298) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/sign.png using Guid(f36f0c009bdea3148b86701996d2c298) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '99fe5c4a0de19f62af50b69cd044d33b') in 0.012292 seconds 
+  Import took 0.040928 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000233 seconds.
+  path: Assets/Textures/wall1.png
+  artifactKey: Guid(f3d88502d259b454ebdbb14db5ae187a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/wall1.png using Guid(f3d88502d259b454ebdbb14db5ae187a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '840b4fe3eee8c2d9032b2db78333b09b') in 0.009764 seconds 
+  Import took 0.017416 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000235 seconds.
+  path: Assets/Textures/yuka2.jpg
+  artifactKey: Guid(c6c33efca37636d41ba96204a4f64326) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/yuka2.jpg using Guid(c6c33efca37636d41ba96204a4f64326) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '99bbc649d29f45e26267f6be62df9b7e') in 0.009544 seconds 
+  Import took 0.015400 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 8.941157 seconds.
+  path: Assets/XR/XRGeneralSettings.asset
+  artifactKey: Guid(d3134b6f939114be9b8d6dbeff42d453) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/XR/XRGeneralSettings.asset using Guid(d3134b6f939114be9b8d6dbeff42d453) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '38e98b526a7145d0ae97c3fc5e67dc14') in 0.011768 seconds 
+  Import took 0.017609 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 24.021935 seconds.
+  path: Assets/_Course Library/Models/Button_1.fbx
+  artifactKey: Guid(a6686a70d840b52429001a751b157c1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Course Library/Models/Button_1.fbx using Guid(a6686a70d840b52429001a751b157c1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8081776d5ab2ba5da1d92647b5349be9') in 0.601206 seconds 
+  Import took 0.624255 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000246 seconds.
+  path: Assets/_Course Library/_Prefabs/Seating/Chair_Modern_Black.prefab
+  artifactKey: Guid(7b3726eaddf29ab41b207a350a3905cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Course Library/_Prefabs/Seating/Chair_Modern_Black.prefab using Guid(7b3726eaddf29ab41b207a350a3905cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bdeff73ea2900b5845e2308b6c151f18') in 0.036299 seconds 
+  Import took 0.056187 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000241 seconds.
+  path: Assets/_Course Library/Models/Fan_A_1.fbx
+  artifactKey: Guid(748c068008049a445b43e59d1fcb1485) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Course Library/Models/Fan_A_1.fbx using Guid(748c068008049a445b43e59d1fcb1485) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '63b8169b6fadb3d1b9d033fd32c2f2a9') in 0.100921 seconds 
+  Import took 0.129209 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000236 seconds.
+  path: Assets/_Course Library/Models/Couch_Modern.fbx
+  artifactKey: Guid(6c60321f3de9e344e927b5167d419689) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Course Library/Models/Couch_Modern.fbx using Guid(6c60321f3de9e344e927b5167d419689) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ba49b80175cff4f678d912f932d32577') in 0.063749 seconds 
+  Import took 0.069109 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000238 seconds.
+  path: Assets/_Course Library/_Prefabs/Storage/Chest_Modern_Light.prefab
+  artifactKey: Guid(38340d4a0ac59e14dba87194143b1881) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Course Library/_Prefabs/Storage/Chest_Modern_Light.prefab using Guid(38340d4a0ac59e14dba87194143b1881) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f1936329ac4452d0af8dadddb7cc1f03') in 0.025049 seconds 
+  Import took 0.040026 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000276 seconds.
+  path: Assets/_Course Library/Models/Chair_Modern.fbx
+  artifactKey: Guid(54de80ef7ba578842b2dbc6098b94a74) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Course Library/Models/Chair_Modern.fbx using Guid(54de80ef7ba578842b2dbc6098b94a74) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '05ff92f6c2ec38ee4f83d47ac595418f') in 0.019451 seconds 
+  Import took 0.038322 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000248 seconds.
+  path: Assets/_Course Library/Models/Slider_2.FBX
+  artifactKey: Guid(dcbacd2e11ea73b4ea57e56fed4ae4b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Course Library/Models/Slider_2.FBX using Guid(dcbacd2e11ea73b4ea57e56fed4ae4b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1da08b1d29a85faedbcb947ccee7b41a') in 0.104761 seconds 
+  Import took 0.144387 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000230 seconds.
+  path: Assets/_Course Library/Models/Chest_Modern.fbx
+  artifactKey: Guid(59f9d2be05e0a774899ba14b1f7a1203) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Course Library/Models/Chest_Modern.fbx using Guid(59f9d2be05e0a774899ba14b1f7a1203) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0e6ea35a1c1b3e7083c5cb89043e935c') in 0.045130 seconds 
+  Import took 0.099331 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000196 seconds.
+  path: Assets/_Course Library/Models/Plant_Snake.fbx
+  artifactKey: Guid(fe0f3b6d90cb7de4c8d4741bf31c5a6b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Course Library/Models/Plant_Snake.fbx using Guid(fe0f3b6d90cb7de4c8d4741bf31c5a6b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8bfc96ab285f0d94063d83e359cd85b0') in 0.049550 seconds 
+  Import took 0.070956 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000233 seconds.
+  path: Assets/_Course Library/_Prefabs/Controls/Control_Slider_Blue.prefab
+  artifactKey: Guid(9d212ff47e36da14ab04befe7439b445) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Course Library/_Prefabs/Controls/Control_Slider_Blue.prefab using Guid(9d212ff47e36da14ab04befe7439b445) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b905c0de93a1ae58bc5aece4afab4660') in 0.032615 seconds 
+  Import took 0.044821 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000251 seconds.
+  path: Assets/_Course Library/Models/Chandalier_Modern.fbx
+  artifactKey: Guid(8c6a7cdc75fd7ed46baea0f967191dc7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Course Library/Models/Chandalier_Modern.fbx using Guid(8c6a7cdc75fd7ed46baea0f967191dc7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3f019ecc999e60b3758d0ec440bdea5f') in 0.034459 seconds 
+  Import took 0.053980 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000251 seconds.
+  path: Assets/XR/Settings/Open XR Package Settings.asset
+  artifactKey: Guid(2b485d7676a7d4b3eba3a764bd60d013) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/XR/Settings/Open XR Package Settings.asset using Guid(2b485d7676a7d4b3eba3a764bd60d013) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '882b933ddcedc312078bcd5a9978eab7') in 0.020581 seconds 
+  Import took 0.030888 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000249 seconds.
+  path: Assets/_Course Library/Models/Chandelier_Rustic.fbx
+  artifactKey: Guid(18c0edda600483b4789dbdccc43b1e13) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Course Library/Models/Chandelier_Rustic.fbx using Guid(18c0edda600483b4789dbdccc43b1e13) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2c7e7374d339d70bfa5e6041263d6a4e') in 0.054642 seconds 
+  Import took 0.060499 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000228 seconds.
+  path: Assets/StarterAssets/Environment/Art/Models/Stairs_650_400_300_Mesh.fbx
+  artifactKey: Guid(7e0223e1d3e1733499accfa5ebffb67e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StarterAssets/Environment/Art/Models/Stairs_650_400_300_Mesh.fbx using Guid(7e0223e1d3e1733499accfa5ebffb67e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9d5bfd303903b07f0be89c68df325a1f') in 0.066917 seconds 
+  Import took 0.090720 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000219 seconds.
+  path: Assets/StarterAssets/Environment/Art/Models/Ramp_Mesh.fbx
+  artifactKey: Guid(426a2785f8a940049aac2c246661cf09) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StarterAssets/Environment/Art/Models/Ramp_Mesh.fbx using Guid(426a2785f8a940049aac2c246661cf09) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9319044475a70215219ecc008fd2602d') in 0.020762 seconds 
+  Import took 0.030838 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000191 seconds.
+  path: Assets/Samples/XR Interaction Toolkit/1.0.0-pre.3/Default Input Actions/XRI Default Input Actions.inputactions
+  artifactKey: Guid(c348712bda248c246b8c49b3db54643f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/XR Interaction Toolkit/1.0.0-pre.3/Default Input Actions/XRI Default Input Actions.inputactions using Guid(c348712bda248c246b8c49b3db54643f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '47bba644b2e046c789021b8951ebea74') in 0.017219 seconds 
+  Import took 0.023459 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000279 seconds.
+  path: Assets/_Course Library/_Prefabs/Controls/Control_Slider_Gray.prefab
+  artifactKey: Guid(87ca67a8e46a8f54b853a2f5381e91c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Course Library/_Prefabs/Controls/Control_Slider_Gray.prefab using Guid(87ca67a8e46a8f54b853a2f5381e91c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ea2b68e473aa35fbc16de81fc21a46cb') in 0.038219 seconds 
+  Import took 0.044507 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000217 seconds.
+  path: Assets/_Course Library/_Prefabs/Seating/Chair_Modern_Brown.prefab
+  artifactKey: Guid(5e80c6b19a85a0d46b1ebd9f0eb64b5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Course Library/_Prefabs/Seating/Chair_Modern_Brown.prefab using Guid(5e80c6b19a85a0d46b1ebd9f0eb64b5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8465eb0f1922fbbf7e902a78d1031a5e') in 0.043173 seconds 
+  Import took 0.048702 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000262 seconds.
+  path: Assets/_Course Library/_Prefabs/Lighting/Chandelier_Modern.prefab
+  artifactKey: Guid(d5bb5377bb2f0bd45a41101a27ddecee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Course Library/_Prefabs/Lighting/Chandelier_Modern.prefab using Guid(d5bb5377bb2f0bd45a41101a27ddecee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0933e83436122344ac64bab5f6fdcfcc') in 0.015146 seconds 
+  Import took 0.033312 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000226 seconds.
+  path: Assets/_Course Library/Models/Dimmer_1.fbx
+  artifactKey: Guid(474d742cc0076d3428ba1caf5382a962) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Course Library/Models/Dimmer_1.fbx using Guid(474d742cc0076d3428ba1caf5382a962) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8d0456a511a4f12c4ad5e368a6d2e468') in 0.037833 seconds 
+  Import took 0.053910 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000191 seconds.
+  path: Assets/_Course Library/_Prefabs/Storage/Chest_Modern_Dark.prefab
+  artifactKey: Guid(0f35b98739529f9448c26470b6f4187b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Course Library/_Prefabs/Storage/Chest_Modern_Dark.prefab using Guid(0f35b98739529f9448c26470b6f4187b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'db5ce8ac894358f8b13f84826ee47e96') in 0.012952 seconds 
+  Import took 0.018530 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000266 seconds.
+  path: Assets/_Course Library/Models/Slider_1.fbx
+  artifactKey: Guid(2e68c8d1a02debb4d8c26e384e21498a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Course Library/Models/Slider_1.fbx using Guid(2e68c8d1a02debb4d8c26e384e21498a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a9e81f11defa2c7bca57e507028748f7') in 0.054267 seconds 
+  Import took 0.060506 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000191 seconds.
+  path: Assets/GymAssests/Dumbell/02 - Default.mat
+  artifactKey: Guid(de1f14d89f16a40bbaddd2d0985b09cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GymAssests/Dumbell/02 - Default.mat using Guid(de1f14d89f16a40bbaddd2d0985b09cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1f234fa47c3aa0ffb4cf617508913e09') in 0.010130 seconds 
+  Import took 0.030143 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000224 seconds.
+  path: Assets/Samples/XR Interaction Toolkit/1.0.0-pre.3/XR Device Simulator/XR Device Simulator Controls.inputactions
+  artifactKey: Guid(da2b439d1a2de5c46a4f428f8cf4fe19) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/XR Interaction Toolkit/1.0.0-pre.3/XR Device Simulator/XR Device Simulator Controls.inputactions using Guid(da2b439d1a2de5c46a4f428f8cf4fe19) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '54bced60165a5552ac69d161de5ec5c7') in 0.014334 seconds 
+  Import took 0.027257 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000171 seconds.
+  path: Assets/_Course Library/Models/Clock_Digital.FBX
+  artifactKey: Guid(db825e9dcb189af418a836ed20a68ac8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Course Library/Models/Clock_Digital.FBX using Guid(db825e9dcb189af418a836ed20a68ac8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '250ef7654e14a5dd31c977d1b9818dbe') in 0.044145 seconds 
+  Import took 0.061160 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000137 seconds.
+  path: Assets/_Course Library/Models/Chest_Modern_B.fbx
+  artifactKey: Guid(42324ce4420b0544ab69afb9e3185de8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Course Library/Models/Chest_Modern_B.fbx using Guid(42324ce4420b0544ab69afb9e3185de8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f795c5ce2dd0d88edc9686a2100796c4') in 0.035814 seconds 
+  Import took 0.048404 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000283 seconds.
+  path: Assets/Samples/XR Interaction Toolkit/1.0.0-pre.3/XR Device Simulator/XR Device Simulator.prefab
+  artifactKey: Guid(9f5a24a380916d14db9775daab4fe333) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/XR Interaction Toolkit/1.0.0-pre.3/XR Device Simulator/XR Device Simulator.prefab using Guid(9f5a24a380916d14db9775daab4fe333) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e8681840c60956f90058a4f824989425') in 0.010252 seconds 
+  Import took 0.021813 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000216 seconds.
+  path: Assets/_Course Library/Models/Chair_Modern_B.fbx
+  artifactKey: Guid(a99bfce40f8f44647a68dc0babb8e395) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Course Library/Models/Chair_Modern_B.fbx using Guid(a99bfce40f8f44647a68dc0babb8e395) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b7ff5a3d2cf4c12d8de1874cc7c66649') in 0.021645 seconds 
+  Import took 0.036554 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000231 seconds.
+  path: Assets/_Course Library/Models/Plant_Pot_Round.fbx
+  artifactKey: Guid(3f653719e6a05cc4d920120a8ec8f03b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Course Library/Models/Plant_Pot_Round.fbx using Guid(3f653719e6a05cc4d920120a8ec8f03b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0df1b6a7d0b0ef799b0a40d4dd3f7551') in 0.058050 seconds 
+  Import took 0.063511 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000202 seconds.
+  path: Assets/_Course Library/Models/Chandelier_Traditional.fbx
+  artifactKey: Guid(30cbc3cd9a16fcc4d8c54a9aa698c080) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Course Library/Models/Chandelier_Traditional.fbx using Guid(30cbc3cd9a16fcc4d8c54a9aa698c080) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4101fc5f913967efebbf023c57047773') in 0.073038 seconds 
+  Import took 0.078615 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000249 seconds.
+  path: Assets/_Course Library/Models/Cabinet_Modern_B.fbx
+  artifactKey: Guid(332ad90e44467c44a81dea0f29d07765) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Course Library/Models/Cabinet_Modern_B.fbx using Guid(332ad90e44467c44a81dea0f29d07765) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2f8242b0e3fee39d47a51fd898f88282') in 0.066596 seconds 
+  Import took 0.083581 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000260 seconds.
+  path: Assets/_Course Library/_Prefabs/Storage/Cabinet_Modern.prefab
+  artifactKey: Guid(f7a65282a054cc846acdcfc67d1fcb9b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Course Library/_Prefabs/Storage/Cabinet_Modern.prefab using Guid(f7a65282a054cc846acdcfc67d1fcb9b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e75718fdd72ea6c57e9b685e935d80e3') in 0.015561 seconds 
+  Import took 0.021194 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000263 seconds.
+  path: Assets/StarterAssets/Environment/Art/Models/Stairs_200x100x200_Mesh.fbx
+  artifactKey: Guid(fce3bf5a5b603db45ab0048fb6ab44df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StarterAssets/Environment/Art/Models/Stairs_200x100x200_Mesh.fbx using Guid(fce3bf5a5b603db45ab0048fb6ab44df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f3b2d19cd5ad0ee091d8ab95c2ef83f9') in 0.069731 seconds 
+  Import took 0.075927 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000225 seconds.
+  path: Assets/_Course Library/_Prefabs/Art/Art_Painting_Desert.prefab
+  artifactKey: Guid(058f9e06dbcfdea45bbef5faa545c076) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Course Library/_Prefabs/Art/Art_Painting_Desert.prefab using Guid(058f9e06dbcfdea45bbef5faa545c076) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a8fa968905024ac85e31ec7521f2e308') in 0.025733 seconds 
+  Import took 0.048384 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000253 seconds.
+  path: Assets/_Course Library/Models/Couch_Modern_B.fbx
+  artifactKey: Guid(e3f8bf0e1ffce9c429fedbde59a88d22) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Course Library/Models/Couch_Modern_B.fbx using Guid(e3f8bf0e1ffce9c429fedbde59a88d22) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5a88f229e8b4d1dd08bd7aee83a467dd') in 0.025065 seconds 
+  Import took 0.051195 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000222 seconds.
+  path: Assets/_Course Library/_Prefabs/Lighting/Chandelier_Traditional.prefab
+  artifactKey: Guid(24059ac741805e844a334555559f8f53) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Course Library/_Prefabs/Lighting/Chandelier_Traditional.prefab using Guid(24059ac741805e844a334555559f8f53) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1317483592c7afcaf5468a3837388139') in 0.012232 seconds 
+  Import took 0.018253 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000183 seconds.
+  path: Assets/_Course Library/Models/Lever_1.fbx
+  artifactKey: Guid(dfd4d258abd5f534a8fa081e381d9887) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Course Library/Models/Lever_1.fbx using Guid(dfd4d258abd5f534a8fa081e381d9887) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4eb03f23549e0bb7080485d2866da4cf') in 0.064734 seconds 
+  Import took 0.070931 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000150 seconds.
+  path: Assets/_Course Library/_Prefabs/Lighting/Chandelier_Rustic.prefab
+  artifactKey: Guid(eb39e0724dfebcf41b75eeb6574fffef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Course Library/_Prefabs/Lighting/Chandelier_Rustic.prefab using Guid(eb39e0724dfebcf41b75eeb6574fffef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '213e60041129efdacbceb1c35f3337fb') in 0.014190 seconds 
+  Import took 0.020233 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000298 seconds.
+  path: Assets/_Course Library/Models/Dimmer_2.FBX
+  artifactKey: Guid(33a1c756b70d2774491855713431eb4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Course Library/Models/Dimmer_2.FBX using Guid(33a1c756b70d2774491855713431eb4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '15cb54dae0532e64f42de224504c7504') in 0.040332 seconds 
+  Import took 0.059746 seconds .
 
 ========================================================================
 Received Prepare
@@ -186,15 +789,139 @@ Assets/GymAssests/uploads-files-669576-aeq3vjprnoqo-Bleachers-1/bleachers.c4d: U
 Please note that FBX files exported from Cinema4D are still supported.
 
 Registering precompiled user dll's ...
-Registered in 0.016196 seconds.
+Registered in 0.716457 seconds.
 Begin MonoManager ReloadAssembly
+Symbol file data-00000182690EE060 doesn't match image D:\Project\BVW-Unity-VR\VR Room Project\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001827E6FFA00 doesn't match image D:\Project\BVW-Unity-VR\VR Room Project\Library\ScriptAssemblies\Unity.RenderPipelines.Universal.Shaders.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001829FBB5020 doesn't match image D:\Project\BVW-Unity-VR\VR Room Project\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000018274C1E020 doesn't match image D:\Project\BVW-Unity-VR\VR Room Project\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001829F729030 doesn't match image D:\Project\BVW-Unity-VR\VR Room Project\Library\ScriptAssemblies\Unity.Searcher.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001827EAD8A80 doesn't match image D:\Project\BVW-Unity-VR\VR Room Project\Library\ScriptAssemblies\Unity.ShaderGraph.Utilities.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000018272E19440 doesn't match image D:\Project\BVW-Unity-VR\VR Room Project\Library\ScriptAssemblies\Unity.ProBuilder.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000018274468010 doesn't match image D:\Project\BVW-Unity-VR\VR Room Project\Library\ScriptAssemblies\UnityEditor.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000182761BC040 doesn't match image D:\Project\BVW-Unity-VR\VR Room Project\Library\ScriptAssemblies\Unity.InputSystem.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000182744013E0 doesn't match image D:\Project\BVW-Unity-VR\VR Room Project\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001826DF80690 doesn't match image D:\Project\BVW-Unity-VR\VR Room Project\Library\ScriptAssemblies\Unity.RenderPipelines.Core.ShaderLibrary.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001827311D040 doesn't match image D:\Project\BVW-Unity-VR\VR Room Project\Library\ScriptAssemblies\UnityEngine.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000182790AE500 doesn't match image D:\Project\BVW-Unity-VR\VR Room Project\Library\ScriptAssemblies\UnityEngine.SpatialTracking.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001826E301010 doesn't match image D:\Project\BVW-Unity-VR\VR Room Project\Library\ScriptAssemblies\Unity.ProBuilder.Poly2Tri.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000182774E8020 doesn't match image D:\Project\BVW-Unity-VR\VR Room Project\Library\ScriptAssemblies\Unity.ShaderGraph.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000018273796630 doesn't match image D:\Project\BVW-Unity-VR\VR Room Project\Library\ScriptAssemblies\Cinemachine.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001829FD3F000 doesn't match image D:\Project\BVW-Unity-VR\VR Room Project\Library\ScriptAssemblies\com.unity.cinemachine.editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001829F729030 doesn't match image D:\Project\BVW-Unity-VR\VR Room Project\Library\ScriptAssemblies\Unity.Settings.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001826DF80690 doesn't match image D:\Project\BVW-Unity-VR\VR Room Project\Library\ScriptAssemblies\Unity.RenderPipeline.Universal.ShaderLibrary.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000018273FC98C0 doesn't match image D:\Project\BVW-Unity-VR\VR Room Project\Library\ScriptAssemblies\Unity.XR.Management.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001829F9AF230 doesn't match image D:\Project\BVW-Unity-VR\VR Room Project\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000182691883C0 doesn't match image D:\Project\BVW-Unity-VR\VR Room Project\Library\ScriptAssemblies\Unity.Mathematics.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001829FD37040 doesn't match image D:\Project\BVW-Unity-VR\VR Room Project\Library\ScriptAssemblies\Unity.XR.OpenXR.Features.RuntimeDebugger.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001826E318640 doesn't match image D:\Project\BVW-Unity-VR\VR Room Project\Library\ScriptAssemblies\Unity.XR.Oculus.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001827EA8DE40 doesn't match image D:\Project\BVW-Unity-VR\VR Room Project\Library\ScriptAssemblies\Unity.ProGrids.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001827EC92E20 doesn't match image D:\Project\BVW-Unity-VR\VR Room Project\Library\ScriptAssemblies\Unity.XR.OpenXR.Features.MockDriver.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001829FBD5040 doesn't match image D:\Project\BVW-Unity-VR\VR Room Project\Library\ScriptAssemblies\Unity.RenderPipelines.Universal.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001826EB8E5D0 doesn't match image D:\Project\BVW-Unity-VR\VR Room Project\Library\ScriptAssemblies\Unity.ProBuilder.AddOns.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000018274468010 doesn't match image D:\Project\BVW-Unity-VR\VR Room Project\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000018278927AF0 doesn't match image D:\Project\BVW-Unity-VR\VR Room Project\Library\ScriptAssemblies\Unity.XR.OpenXR.Features.OculusQuestSupport.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001829F9AF230 doesn't match image D:\Project\BVW-Unity-VR\VR Room Project\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000018272FF0220 doesn't match image D:\Project\BVW-Unity-VR\VR Room Project\Library\ScriptAssemblies\Unity.XR.Management.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001829F9AF230 doesn't match image D:\Project\BVW-Unity-VR\VR Room Project\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001826E29A010 doesn't match image D:\Project\BVW-Unity-VR\VR Room Project\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000018274D9F020 doesn't match image D:\Project\BVW-Unity-VR\VR Room Project\Library\ScriptAssemblies\Unity.XR.Interaction.Toolkit.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001827400F6D0 doesn't match image D:\Project\BVW-Unity-VR\VR Room Project\Library\ScriptAssemblies\Unity.ProBuilder.Csg.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001829F9DF8B0 doesn't match image D:\Project\BVW-Unity-VR\VR Room Project\Library\ScriptAssemblies\Unity.XR.OpenXR.Features.MockRuntime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001829F9AF230 doesn't match image D:\Project\BVW-Unity-VR\VR Room Project\Library\ScriptAssemblies\Unity.2D.Sprite.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000182742F5010 doesn't match image D:\Project\BVW-Unity-VR\VR Room Project\Library\ScriptAssemblies\Unity.RenderPipelines.Core.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001829FAC2960 doesn't match image D:\Project\BVW-Unity-VR\VR Room Project\Library\ScriptAssemblies\Unity.Subsystem.Registration.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000018274CA6010 doesn't match image D:\Project\BVW-Unity-VR\VR Room Project\Library\ScriptAssemblies\Unity.ProBuilder.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000018274CA6010 doesn't match image D:\Project\BVW-Unity-VR\VR Room Project\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001826DFD8020 doesn't match image D:\Project\BVW-Unity-VR\VR Room Project\Library\ScriptAssemblies\Unity.ProGrids.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001826E337790 doesn't match image D:\Project\BVW-Unity-VR\VR Room Project\Library\ScriptAssemblies\Unity.XR.OpenXR.Features.OculusQuestSupport.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000018273656020 doesn't match image D:\Project\BVW-Unity-VR\VR Room Project\Library\ScriptAssemblies\Unity.Mathematics.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000018273535220 doesn't match image D:\Project\BVW-Unity-VR\VR Room Project\Library\ScriptAssemblies\Unity.ProBuilder.KdTree.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001827EAD5270 doesn't match image D:\Project\BVW-Unity-VR\VR Room Project\Library\ScriptAssemblies\Unity.XR.OpenXR.TestHelpers.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000018277847030 doesn't match image D:\Project\BVW-Unity-VR\VR Room Project\Library\ScriptAssemblies\Unity.RenderPipelines.Universal.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001826E5D9BD0 doesn't match image D:\Project\BVW-Unity-VR\VR Room Project\Library\ScriptAssemblies\Unity.ProBuilder.AssetIdRemapUtility.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000018274B47770 doesn't match image D:\Project\BVW-Unity-VR\VR Room Project\Library\ScriptAssemblies\UnityEngine.XR.LegacyInputHelpers.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001829FA05560 doesn't match image D:\Project\BVW-Unity-VR\VR Room Project\Library\ScriptAssemblies\Unity.ProBuilder.Stl.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001829F6CA8F0 doesn't match image D:\Project\BVW-Unity-VR\VR Room Project\Library\ScriptAssemblies\Unity.XR.OpenXR.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001826DF80690 doesn't match image D:\Project\BVW-Unity-VR\VR Room Project\Library\ScriptAssemblies\Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000182737D29F0 doesn't match image D:\Project\BVW-Unity-VR\VR Room Project\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001826E318640 doesn't match image D:\Project\BVW-Unity-VR\VR Room Project\Library\ScriptAssemblies\UnityEditor.XR.LegacyInputHelpers.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000018272EDAC30 doesn't match image D:\Project\BVW-Unity-VR\VR Room Project\Library\ScriptAssemblies\Unity.XR.OpenXR.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001826E2C6580 doesn't match image D:\Project\BVW-Unity-VR\VR Room Project\Library\ScriptAssemblies\Unity.XR.Interaction.Toolkit.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000182737ABC40 doesn't match image D:\Project\BVW-Unity-VR\VR Room Project\Library\ScriptAssemblies\Unity.XR.Oculus.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000018278927AF0 doesn't match image D:\Project\BVW-Unity-VR\VR Room Project\Library\ScriptAssemblies\UnityEditor.SpatialTracking.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001829FB6FB00 doesn't match image D:\Project\BVW-Unity-VR\VR Room Project\Library\ScriptAssemblies\Unity.XR.OpenXR.Features.ConformanceAutomation.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001827311D040 doesn't match image D:\Project\BVW-Unity-VR\VR Room Project\Library\ScriptAssemblies\Unity.RenderPipelines.Core.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001827EF03660 doesn't match image D:\Project\BVW-Unity-VR\VR Room Project\Library\ScriptAssemblies\Unity.XR.OpenXR.Features.RuntimeDebugger.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
 Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 2.47 ms, found 10 plugins.
-Preloading 1 native plugins for Editor in 0.23 ms.
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 1.16 ms, found 10 plugins.
+Preloading 1 native plugins for Editor in 0.07 ms.
 System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation. ---> System.NullReferenceException: Object reference not set to an instance of an object
-  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x00048] in C:\Users\Pink\Documents\GitHub\BVW-Unity-VR\VR Room Project\Library\PackageCache\com.unity.xr.oculus@1.10.0\Runtime\OculusLoader.cs:250 
-  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0007b] in C:\Users\Pink\Documents\GitHub\BVW-Unity-VR\VR Room Project\Library\PackageCache\com.unity.xr.oculus@1.10.0\Runtime\OculusLoader.cs:235 
+  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x0004e] in <8a071fb1f4e44da789de830ea0d8d7ac>:0 
+  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0007b] in <8a071fb1f4e44da789de830ea0d8d7ac>:0 
   at (wrapper managed-to-native) System.Reflection.MonoMethod.InternalInvoke(System.Reflection.MonoMethod,object,object[],System.Exception&)
   at System.Reflection.MonoMethod.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00032] in <695d1cc93cca45069c528c15c9fdd749>:0 
    --- End of inner exception stack trace ---
@@ -208,196 +935,42 @@ UnityEngine.Debug:LogError (object)
 UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
 
 Mono: successfully reloaded assembly
-- Completed reload, in  1.901 seconds
+- Completed reload, in  4.767 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1901ms)
-		BeginReloadAssembly (202ms)
+	ReloadAssembly (4768ms)
+		BeginReloadAssembly (433ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (10ms)
+			DisableScriptedObjects (6ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (54ms)
-		EndReloadAssembly (1600ms)
-			LoadAssemblies (136ms)
+			CreateAndSetChildDomain (40ms)
+		EndReloadAssembly (4280ms)
+			LoadAssemblies (1932ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (466ms)
-			ReleaseScriptCaches (3ms)
-			RebuildScriptCaches (71ms)
-			SetupLoadedEditorAssemblies (653ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (5ms)
-				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (3ms)
-				BeforeProcessingInitializeOnLoad (126ms)
-				ProcessInitializeOnLoadAttributes (492ms)
-				ProcessInitializeOnLoadMethodAttributes (18ms)
-				AfterProcessingInitializeOnLoad (8ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (21ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 1.97 ms, found 10 plugins.
-Preloading 1 native plugins for Editor in 0.16 ms.
-Unloading 3825 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 177.2 MB.
-System memory in use after: 177.4 MB.
-
-Unloading 35 unused Assets to reduce memory usage. Loaded Objects now: 4571.
-Total: 7.649000 ms (FindLiveObjects: 0.701900 ms CreateObjectMapping: 0.324800 ms MarkObjects: 6.322800 ms  DeleteObjects: 0.297200 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Assets/GymAssests/uploads-files-669576-aeq3vjprnoqo-Bleachers-1/bleachers.c4d: Unity no longer supports importing Cinema 4D files directly, but we're working with Maxon to make the experience better. To import Cinema 4D files, install Maxon's external importer. You can find more information on the Unity Forum: https://on.unity.com/c4d.
-
-Please note that FBX files exported from Cinema4D are still supported.
-
-Registering precompiled user dll's ...
-Registered in 0.012735 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 1.20 ms, found 10 plugins.
-Preloading 1 native plugins for Editor in 0.11 ms.
-System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation. ---> System.NullReferenceException: Object reference not set to an instance of an object
-  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x00048] in C:\Users\Pink\Documents\GitHub\BVW-Unity-VR\VR Room Project\Library\PackageCache\com.unity.xr.oculus@1.10.0\Runtime\OculusLoader.cs:250 
-  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0007b] in C:\Users\Pink\Documents\GitHub\BVW-Unity-VR\VR Room Project\Library\PackageCache\com.unity.xr.oculus@1.10.0\Runtime\OculusLoader.cs:235 
-  at (wrapper managed-to-native) System.Reflection.MonoMethod.InternalInvoke(System.Reflection.MonoMethod,object,object[],System.Exception&)
-  at System.Reflection.MonoMethod.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00032] in <695d1cc93cca45069c528c15c9fdd749>:0 
-   --- End of inner exception stack trace ---
-  at System.Reflection.MonoMethod.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00048] in <695d1cc93cca45069c528c15c9fdd749>:0 
-  at System.Reflection.MethodBase.Invoke (System.Object obj, System.Object[] parameters) [0x00000] in <695d1cc93cca45069c528c15c9fdd749>:0 
-  at UnityEditor.EditorAssemblies.ProcessInitializeOnLoadMethodAttributes () [0x00047] in <d0e4b8c1204147f3935b6e9c8b8565ad>:0 
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
-UnityEngine.Logger:Log (UnityEngine.LogType,object)
-UnityEngine.Debug:LogError (object)
-UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
-
-Mono: successfully reloaded assembly
-- Completed reload, in  1.609 seconds
-Domain Reload Profiling:
-	ReloadAssembly (1610ms)
-		BeginReloadAssembly (148ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (5ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (44ms)
-		EndReloadAssembly (1387ms)
-			LoadAssemblies (118ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (419ms)
+			SetupTypeCache (523ms)
 			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (62ms)
-			SetupLoadedEditorAssemblies (549ms)
+			RebuildScriptCaches (60ms)
+			SetupLoadedEditorAssemblies (638ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (6ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (117ms)
-				ProcessInitializeOnLoadAttributes (402ms)
-				ProcessInitializeOnLoadMethodAttributes (16ms)
-				AfterProcessingInitializeOnLoad (7ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (20ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 1.50 ms, found 10 plugins.
-Preloading 1 native plugins for Editor in 0.11 ms.
-Unloading 3825 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 177.3 MB.
-System memory in use after: 177.5 MB.
-
-Unloading 35 unused Assets to reduce memory usage. Loaded Objects now: 4574.
-Total: 4.769400 ms (FindLiveObjects: 0.603200 ms CreateObjectMapping: 0.260600 ms MarkObjects: 3.820500 ms  DeleteObjects: 0.083900 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Assets/GymAssests/uploads-files-669576-aeq3vjprnoqo-Bleachers-1/bleachers.c4d: Unity no longer supports importing Cinema 4D files directly, but we're working with Maxon to make the experience better. To import Cinema 4D files, install Maxon's external importer. You can find more information on the Unity Forum: https://on.unity.com/c4d.
-
-Please note that FBX files exported from Cinema4D are still supported.
-
-Registering precompiled user dll's ...
-Registered in 0.012783 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 1.19 ms, found 10 plugins.
-Preloading 1 native plugins for Editor in 0.11 ms.
-System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation. ---> System.NullReferenceException: Object reference not set to an instance of an object
-  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x00048] in C:\Users\Pink\Documents\GitHub\BVW-Unity-VR\VR Room Project\Library\PackageCache\com.unity.xr.oculus@1.10.0\Runtime\OculusLoader.cs:250 
-  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0007b] in C:\Users\Pink\Documents\GitHub\BVW-Unity-VR\VR Room Project\Library\PackageCache\com.unity.xr.oculus@1.10.0\Runtime\OculusLoader.cs:235 
-  at (wrapper managed-to-native) System.Reflection.MonoMethod.InternalInvoke(System.Reflection.MonoMethod,object,object[],System.Exception&)
-  at System.Reflection.MonoMethod.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00032] in <695d1cc93cca45069c528c15c9fdd749>:0 
-   --- End of inner exception stack trace ---
-  at System.Reflection.MonoMethod.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00048] in <695d1cc93cca45069c528c15c9fdd749>:0 
-  at System.Reflection.MethodBase.Invoke (System.Object obj, System.Object[] parameters) [0x00000] in <695d1cc93cca45069c528c15c9fdd749>:0 
-  at UnityEditor.EditorAssemblies.ProcessInitializeOnLoadMethodAttributes () [0x00047] in <d0e4b8c1204147f3935b6e9c8b8565ad>:0 
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
-UnityEngine.Logger:Log (UnityEngine.LogType,object)
-UnityEngine.Debug:LogError (object)
-UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
-
-Mono: successfully reloaded assembly
-- Completed reload, in  1.534 seconds
-Domain Reload Profiling:
-	ReloadAssembly (1535ms)
-		BeginReloadAssembly (151ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (9ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (43ms)
-		EndReloadAssembly (1313ms)
-			LoadAssemblies (114ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (370ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (54ms)
-			SetupLoadedEditorAssemblies (550ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (8ms)
+				InitializePlatformSupportModulesInManaged (4ms)
 				SetLoadedEditorAssemblies (1ms)
 				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (97ms)
-				ProcessInitializeOnLoadAttributes (414ms)
+				BeforeProcessingInitializeOnLoad (82ms)
+				ProcessInitializeOnLoadAttributes (529ms)
 				ProcessInitializeOnLoadMethodAttributes (18ms)
-				AfterProcessingInitializeOnLoad (9ms)
+				AfterProcessingInitializeOnLoad (3ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (23ms)
+			AwakeInstancesAfterBackupRestoration (16ms)
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 1.14 ms, found 10 plugins.
-Preloading 1 native plugins for Editor in 0.22 ms.
-Unloading 3825 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 177.3 MB.
-System memory in use after: 177.5 MB.
+Refreshing native plugins compatible for Editor in 1.03 ms, found 10 plugins.
+Preloading 1 native plugins for Editor in 0.05 ms.
+Unloading 3762 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 175.0 MB.
+System memory in use after: 175.2 MB.
 
-Unloading 35 unused Assets to reduce memory usage. Loaded Objects now: 4577.
-Total: 9.069000 ms (FindLiveObjects: 0.694500 ms CreateObjectMapping: 0.499300 ms MarkObjects: 7.781300 ms  DeleteObjects: 0.092100 ms)
+Unloading 91 unused Assets to reduce memory usage. Loaded Objects now: 4494.
+Total: 4.086000 ms (FindLiveObjects: 0.336900 ms CreateObjectMapping: 0.168900 ms MarkObjects: 3.395600 ms  DeleteObjects: 0.183700 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
@@ -406,7 +979,6 @@ AssetImportParameters requested are different than current active one (requested
   custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
   custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
   custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
