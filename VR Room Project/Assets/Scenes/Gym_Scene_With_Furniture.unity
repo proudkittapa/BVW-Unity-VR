@@ -13566,6 +13566,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 2433269348354228057, guid: 33d6d08f5d0cce04394e28b1806b4ee5, type: 3}
+      propertyPath: m_RaycastTarget
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 2433269349058856646, guid: 33d6d08f5d0cce04394e28b1806b4ee5, type: 3}
       propertyPath: m_Name
       value: Reindeer UI
@@ -30478,6 +30482,10 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2995577230381520910, guid: 5dc6737b0e850c04aa36323d71cd4a1e, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2995577230977834340, guid: 5dc6737b0e850c04aa36323d71cd4a1e, type: 3}
+      propertyPath: m_RaycastTarget
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2995577231277203397, guid: 5dc6737b0e850c04aa36323d71cd4a1e, type: 3}
