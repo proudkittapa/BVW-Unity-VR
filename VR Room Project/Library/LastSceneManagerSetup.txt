@@ -1,5 +1,5 @@
 sceneSetups:
-- path: Assets/Scenes/Gym_Scene_With_Furniture.unity
+- path: Assets/Scenes/Gym_Scene.unity
   isLoaded: 1
   isActive: 1
   isSubScene: 0

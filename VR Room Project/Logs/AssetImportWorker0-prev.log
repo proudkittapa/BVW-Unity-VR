@@ -1,219 +1,220 @@
 Using pre-set license
 Built from '2020.3/staging' branch; Version is '2020.3.17f1 (a4537701e4ab) revision 10769271'; Using compiler version '192528614'; Build Type 'Release'
-OS: 'Windows 10 Home Single Language; OS build 19042.1348; Version 2009; 64bit' Language: 'en' Physical Memory: 16298 MB
+OS: 'Windows 10 Pro; OS build 19041.1348; Version 2004; 64bit' Language: 'en' Physical Memory: 8134 MB
 BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
 
 COMMAND LINE ARGUMENTS:
-C:\Program Files\Unity\Editor\Unity.exe
+D:\Unity Hub\2020.3.17f1\Editor\Unity.exe
 -adb2
 -batchMode
 -noUpm
 -name
 AssetImportWorker0
 -projectPath
-C:/Users/Tairo Kageyama/Documents/GitHub/BVW-Unity-VR/VR Room Project
+D:/Project/BVW-Unity-VR/VR Room Project
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-57442
-Successfully changed project path to: C:/Users/Tairo Kageyama/Documents/GitHub/BVW-Unity-VR/VR Room Project
-C:/Users/Tairo Kageyama/Documents/GitHub/BVW-Unity-VR/VR Room Project
+59112
+Successfully changed project path to: D:/Project/BVW-Unity-VR/VR Room Project
+D:/Project/BVW-Unity-VR/VR Room Project
 Using Asset Import Pipeline V2.
 Assets/GymAssests/uploads-files-669576-aeq3vjprnoqo-Bleachers-1/bleachers.c4d: Unity no longer supports importing Cinema 4D files directly, but we're working with Maxon to make the experience better. To import Cinema 4D files, install Maxon's external importer. You can find more information on the Unity Forum: https://on.unity.com/c4d.
 
 Please note that FBX files exported from Cinema4D are still supported.
 
-Refreshing native plugins compatible for Editor in 77.47 ms, found 10 plugins.
-Preloading 1 native plugins for Editor in 4.36 ms.
+Refreshing native plugins compatible for Editor in 96.09 ms, found 10 plugins.
+Preloading 1 native plugins for Editor in 1.30 ms.
 Initialize engine version: 2020.3.17f1 (a4537701e4ab)
-[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Editor/Data/Resources/UnitySubsystems
-[Subsystems] Discovering subsystems at path C:/Users/Tairo Kageyama/Documents/GitHub/BVW-Unity-VR/VR Room Project/Assets
+[Subsystems] Discovering subsystems at path D:/Unity Hub/2020.3.17f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path D:/Project/BVW-Unity-VR/VR Room Project/Assets
 GfxDevice: creating device client; threaded=0
 Direct3D:
     Version:  Direct3D 11.0 [level 11.1]
-    Renderer: NVIDIA GeForce RTX 3060 (ID=0x2504)
+    Renderer: NVIDIA GeForce GTX 1060 6GB (ID=0x1c03)
     Vendor:   
-    VRAM:     12143 MB
-    Driver:   30.0.14.9649
+    VRAM:     6052 MB
+    Driver:   27.21.14.6663
 Initialize mono
-Mono path[0] = 'C:/Program Files/Unity/Editor/Data/Managed'
-Mono path[1] = 'C:/Program Files/Unity/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
-Mono config path = 'C:/Program Files/Unity/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56060
+Mono path[0] = 'D:/Unity Hub/2020.3.17f1/Editor/Data/Managed'
+Mono path[1] = 'D:/Unity Hub/2020.3.17f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'D:/Unity Hub/2020.3.17f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56908
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
-Register platform support module: C:/Program Files/Unity/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.002991 seconds.
+Register platform support module: D:/Unity Hub/2020.3.17f1/Editor/Data/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
+Register platform support module: D:/Unity Hub/2020.3.17f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.001200 seconds.
 Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
 Assets/GymAssests/uploads-files-669576-aeq3vjprnoqo-Bleachers-1/bleachers.c4d: Unity no longer supports importing Cinema 4D files directly, but we're working with Maxon to make the experience better. To import Cinema 4D files, install Maxon's external importer. You can find more information on the Unity Forum: https://on.unity.com/c4d.
 
 Please note that FBX files exported from Cinema4D are still supported.
 
-Refreshing native plugins compatible for Editor in 59.16 ms, found 10 plugins.
-Preloading 1 native plugins for Editor in 0.12 ms.
+Refreshing native plugins compatible for Editor in 88.31 ms, found 10 plugins.
+Preloading 1 native plugins for Editor in 0.06 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.957 seconds
+- Completed reload, in  1.484 seconds
 Domain Reload Profiling:
-	ReloadAssembly (958ms)
-		BeginReloadAssembly (48ms)
+	ReloadAssembly (1484ms)
+		BeginReloadAssembly (51ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (302ms)
-			LoadAssemblies (45ms)
+		EndReloadAssembly (464ms)
+			LoadAssemblies (50ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (88ms)
+			SetupTypeCache (152ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (18ms)
-			SetupLoadedEditorAssemblies (140ms)
+			RebuildScriptCaches (32ms)
+			SetupLoadedEditorAssemblies (211ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (3ms)
+				InitializePlatformSupportModulesInManaged (4ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (60ms)
-				BeforeProcessingInitializeOnLoad (6ms)
-				ProcessInitializeOnLoadAttributes (52ms)
-				ProcessInitializeOnLoadMethodAttributes (19ms)
+				RefreshPlugins (88ms)
+				BeforeProcessingInitializeOnLoad (9ms)
+				ProcessInitializeOnLoadAttributes (79ms)
+				ProcessInitializeOnLoadMethodAttributes (30ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.012991 seconds.
+Registered in 0.006781 seconds.
 Begin MonoManager ReloadAssembly
-Symbol file data-00000172418999C0 doesn't match image C:\Users\Tairo Kageyama\Documents\GitHub\BVW-Unity-VR\VR Room Project\Library\ScriptAssemblies\Assembly-CSharp.dll
+Symbol file data-0000018DF8D60E30 doesn't match image D:\Project\BVW-Unity-VR\VR Room Project\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000173FBF4AA70 doesn't match image C:\Users\Tairo Kageyama\Documents\GitHub\BVW-Unity-VR\VR Room Project\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file data-0000018DF34613E0 doesn't match image D:\Project\BVW-Unity-VR\VR Room Project\Library\ScriptAssemblies\Unity.RenderPipelines.Universal.Shaders.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000173FBB6E9A0 doesn't match image C:\Users\Tairo Kageyama\Documents\GitHub\BVW-Unity-VR\VR Room Project\Library\ScriptAssemblies\Unity.RenderPipelines.Universal.Shaders.dll
+Symbol file data-0000018DF87E8010 doesn't match image D:\Project\BVW-Unity-VR\VR Room Project\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000172404DF3A0 doesn't match image C:\Users\Tairo Kageyama\Documents\GitHub\BVW-Unity-VR\VR Room Project\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+Symbol file data-0000018DFCFC0230 doesn't match image D:\Project\BVW-Unity-VR\VR Room Project\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000172409CC230 doesn't match image C:\Users\Tairo Kageyama\Documents\GitHub\BVW-Unity-VR\VR Room Project\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file data-0000018DF8D60E30 doesn't match image D:\Project\BVW-Unity-VR\VR Room Project\Library\ScriptAssemblies\Unity.Searcher.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000173FC04BC20 doesn't match image C:\Users\Tairo Kageyama\Documents\GitHub\BVW-Unity-VR\VR Room Project\Library\ScriptAssemblies\Unity.Searcher.Editor.dll
+Symbol file data-0000018DF83EFC60 doesn't match image D:\Project\BVW-Unity-VR\VR Room Project\Library\ScriptAssemblies\Unity.ShaderGraph.Utilities.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000173FBE26C20 doesn't match image C:\Users\Tairo Kageyama\Documents\GitHub\BVW-Unity-VR\VR Room Project\Library\ScriptAssemblies\Unity.ShaderGraph.Utilities.dll
+Symbol file data-0000018DF87E8010 doesn't match image D:\Project\BVW-Unity-VR\VR Room Project\Library\ScriptAssemblies\Unity.ProBuilder.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000017241239020 doesn't match image C:\Users\Tairo Kageyama\Documents\GitHub\BVW-Unity-VR\VR Room Project\Library\ScriptAssemblies\Unity.ProBuilder.dll
+Symbol file data-0000018DF8E11620 doesn't match image D:\Project\BVW-Unity-VR\VR Room Project\Library\ScriptAssemblies\UnityEditor.UI.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000173FC4A59C0 doesn't match image C:\Users\Tairo Kageyama\Documents\GitHub\BVW-Unity-VR\VR Room Project\Library\ScriptAssemblies\UnityEditor.UI.dll
+Symbol file data-0000018DFCD3EDF0 doesn't match image D:\Project\BVW-Unity-VR\VR Room Project\Library\ScriptAssemblies\Unity.InputSystem.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000172411A4010 doesn't match image C:\Users\Tairo Kageyama\Documents\GitHub\BVW-Unity-VR\VR Room Project\Library\ScriptAssemblies\Unity.InputSystem.dll
+Symbol file data-0000018DF8E11620 doesn't match image D:\Project\BVW-Unity-VR\VR Room Project\Library\ScriptAssemblies\Unity.Rider.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000172404F3DB0 doesn't match image C:\Users\Tairo Kageyama\Documents\GitHub\BVW-Unity-VR\VR Room Project\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file data-0000018DF8CED620 doesn't match image D:\Project\BVW-Unity-VR\VR Room Project\Library\ScriptAssemblies\Unity.RenderPipelines.Core.ShaderLibrary.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000172406211A0 doesn't match image C:\Users\Tairo Kageyama\Documents\GitHub\BVW-Unity-VR\VR Room Project\Library\ScriptAssemblies\Unity.RenderPipelines.Core.ShaderLibrary.dll
+Symbol file data-0000018DFE51A010 doesn't match image D:\Project\BVW-Unity-VR\VR Room Project\Library\ScriptAssemblies\UnityEngine.UI.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000172418E5020 doesn't match image C:\Users\Tairo Kageyama\Documents\GitHub\BVW-Unity-VR\VR Room Project\Library\ScriptAssemblies\UnityEngine.UI.dll
+Symbol file data-0000018DF86AE030 doesn't match image D:\Project\BVW-Unity-VR\VR Room Project\Library\ScriptAssemblies\UnityEngine.SpatialTracking.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000017241826020 doesn't match image C:\Users\Tairo Kageyama\Documents\GitHub\BVW-Unity-VR\VR Room Project\Library\ScriptAssemblies\UnityEngine.SpatialTracking.dll
+Symbol file data-0000018DFDB21030 doesn't match image D:\Project\BVW-Unity-VR\VR Room Project\Library\ScriptAssemblies\Unity.ProBuilder.Poly2Tri.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000173FC04BC20 doesn't match image C:\Users\Tairo Kageyama\Documents\GitHub\BVW-Unity-VR\VR Room Project\Library\ScriptAssemblies\Unity.ProBuilder.Poly2Tri.dll
+Symbol file data-0000018DFCD3EDF0 doesn't match image D:\Project\BVW-Unity-VR\VR Room Project\Library\ScriptAssemblies\Unity.ShaderGraph.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000173FC220540 doesn't match image C:\Users\Tairo Kageyama\Documents\GitHub\BVW-Unity-VR\VR Room Project\Library\ScriptAssemblies\Unity.ShaderGraph.Editor.dll
+Symbol file data-0000018DF87FCA20 doesn't match image D:\Project\BVW-Unity-VR\VR Room Project\Library\ScriptAssemblies\Cinemachine.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001724040F010 doesn't match image C:\Users\Tairo Kageyama\Documents\GitHub\BVW-Unity-VR\VR Room Project\Library\ScriptAssemblies\Cinemachine.dll
+Symbol file data-0000018DFCF12220 doesn't match image D:\Project\BVW-Unity-VR\VR Room Project\Library\ScriptAssemblies\com.unity.cinemachine.editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000017241051220 doesn't match image C:\Users\Tairo Kageyama\Documents\GitHub\BVW-Unity-VR\VR Room Project\Library\ScriptAssemblies\com.unity.cinemachine.editor.dll
+Symbol file data-0000018DF8D60E30 doesn't match image D:\Project\BVW-Unity-VR\VR Room Project\Library\ScriptAssemblies\Unity.Settings.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000173FC04BC20 doesn't match image C:\Users\Tairo Kageyama\Documents\GitHub\BVW-Unity-VR\VR Room Project\Library\ScriptAssemblies\Unity.Settings.Editor.dll
+Symbol file data-0000018DF8CEDBC0 doesn't match image D:\Project\BVW-Unity-VR\VR Room Project\Library\ScriptAssemblies\Unity.RenderPipeline.Universal.ShaderLibrary.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000172406211A0 doesn't match image C:\Users\Tairo Kageyama\Documents\GitHub\BVW-Unity-VR\VR Room Project\Library\ScriptAssemblies\Unity.RenderPipeline.Universal.ShaderLibrary.dll
+Symbol file data-0000018DFD8A9C30 doesn't match image D:\Project\BVW-Unity-VR\VR Room Project\Library\ScriptAssemblies\Unity.XR.Management.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000017241CF4020 doesn't match image C:\Users\Tairo Kageyama\Documents\GitHub\BVW-Unity-VR\VR Room Project\Library\ScriptAssemblies\Unity.XR.Management.dll
+Symbol file data-0000018DFCF12220 doesn't match image D:\Project\BVW-Unity-VR\VR Room Project\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000172418ED830 doesn't match image C:\Users\Tairo Kageyama\Documents\GitHub\BVW-Unity-VR\VR Room Project\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+Symbol file data-0000018DF34C5ED0 doesn't match image D:\Project\BVW-Unity-VR\VR Room Project\Library\ScriptAssemblies\Unity.Mathematics.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000173FBFBB030 doesn't match image C:\Users\Tairo Kageyama\Documents\GitHub\BVW-Unity-VR\VR Room Project\Library\ScriptAssemblies\Unity.Mathematics.Editor.dll
+Symbol file data-0000018DFE544230 doesn't match image D:\Project\BVW-Unity-VR\VR Room Project\Library\ScriptAssemblies\Unity.XR.OpenXR.Features.RuntimeDebugger.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000017241C65900 doesn't match image C:\Users\Tairo Kageyama\Documents\GitHub\BVW-Unity-VR\VR Room Project\Library\ScriptAssemblies\Unity.XR.OpenXR.Features.RuntimeDebugger.dll
+Symbol file data-0000018DFD027240 doesn't match image D:\Project\BVW-Unity-VR\VR Room Project\Library\ScriptAssemblies\Unity.XR.Oculus.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000017241826020 doesn't match image C:\Users\Tairo Kageyama\Documents\GitHub\BVW-Unity-VR\VR Room Project\Library\ScriptAssemblies\Unity.XR.Oculus.Editor.dll
+Symbol file data-0000018DF8E47D30 doesn't match image D:\Project\BVW-Unity-VR\VR Room Project\Library\ScriptAssemblies\Unity.ProGrids.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000173FBE1E350 doesn't match image C:\Users\Tairo Kageyama\Documents\GitHub\BVW-Unity-VR\VR Room Project\Library\ScriptAssemblies\Unity.ProGrids.dll
+Symbol file data-0000018DF81DCE10 doesn't match image D:\Project\BVW-Unity-VR\VR Room Project\Library\ScriptAssemblies\Unity.XR.OpenXR.Features.MockDriver.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000173FBBD8C10 doesn't match image C:\Users\Tairo Kageyama\Documents\GitHub\BVW-Unity-VR\VR Room Project\Library\ScriptAssemblies\Unity.XR.OpenXR.Features.MockDriver.dll
+Symbol file data-0000018DF8D7E020 doesn't match image D:\Project\BVW-Unity-VR\VR Room Project\Library\ScriptAssemblies\Unity.RenderPipelines.Universal.Runtime.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001724040F010 doesn't match image C:\Users\Tairo Kageyama\Documents\GitHub\BVW-Unity-VR\VR Room Project\Library\ScriptAssemblies\Unity.RenderPipelines.Universal.Runtime.dll
+Symbol file data-0000018DF84948D0 doesn't match image D:\Project\BVW-Unity-VR\VR Room Project\Library\ScriptAssemblies\Unity.ProBuilder.AddOns.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000173FBF4EDC0 doesn't match image C:\Users\Tairo Kageyama\Documents\GitHub\BVW-Unity-VR\VR Room Project\Library\ScriptAssemblies\Unity.ProBuilder.AddOns.Editor.dll
+Symbol file data-0000018DFCF19C40 doesn't match image D:\Project\BVW-Unity-VR\VR Room Project\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000017240424620 doesn't match image C:\Users\Tairo Kageyama\Documents\GitHub\BVW-Unity-VR\VR Room Project\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file data-0000018DF84948D0 doesn't match image D:\Project\BVW-Unity-VR\VR Room Project\Library\ScriptAssemblies\Unity.XR.OpenXR.Features.OculusQuestSupport.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000173FBF4EDC0 doesn't match image C:\Users\Tairo Kageyama\Documents\GitHub\BVW-Unity-VR\VR Room Project\Library\ScriptAssemblies\Unity.XR.OpenXR.Features.OculusQuestSupport.Editor.dll
+Symbol file data-0000018DFCF19C40 doesn't match image D:\Project\BVW-Unity-VR\VR Room Project\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000017241253230 doesn't match image C:\Users\Tairo Kageyama\Documents\GitHub\BVW-Unity-VR\VR Room Project\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file data-0000018DF8DA3640 doesn't match image D:\Project\BVW-Unity-VR\VR Room Project\Library\ScriptAssemblies\Unity.XR.Management.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000017240424620 doesn't match image C:\Users\Tairo Kageyama\Documents\GitHub\BVW-Unity-VR\VR Room Project\Library\ScriptAssemblies\Unity.XR.Management.Editor.dll
+Symbol file data-0000018DFD215630 doesn't match image D:\Project\BVW-Unity-VR\VR Room Project\Library\ScriptAssemblies\Unity.Timeline.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000017241943060 doesn't match image C:\Users\Tairo Kageyama\Documents\GitHub\BVW-Unity-VR\VR Room Project\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file data-0000018DFD190010 doesn't match image D:\Project\BVW-Unity-VR\VR Room Project\Library\ScriptAssemblies\Unity.TextMeshPro.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000017241150010 doesn't match image C:\Users\Tairo Kageyama\Documents\GitHub\BVW-Unity-VR\VR Room Project\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file data-0000018DFD44B010 doesn't match image D:\Project\BVW-Unity-VR\VR Room Project\Library\ScriptAssemblies\Unity.XR.Interaction.Toolkit.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000017240675220 doesn't match image C:\Users\Tairo Kageyama\Documents\GitHub\BVW-Unity-VR\VR Room Project\Library\ScriptAssemblies\Unity.XR.Interaction.Toolkit.dll
+Symbol file data-0000018DFE1B83A0 doesn't match image D:\Project\BVW-Unity-VR\VR Room Project\Library\ScriptAssemblies\Unity.ProBuilder.Csg.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000172404D3A30 doesn't match image C:\Users\Tairo Kageyama\Documents\GitHub\BVW-Unity-VR\VR Room Project\Library\ScriptAssemblies\Unity.ProBuilder.Csg.dll
+Symbol file data-0000018DFE2E6860 doesn't match image D:\Project\BVW-Unity-VR\VR Room Project\Library\ScriptAssemblies\Unity.XR.OpenXR.Features.MockRuntime.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000017240334240 doesn't match image C:\Users\Tairo Kageyama\Documents\GitHub\BVW-Unity-VR\VR Room Project\Library\ScriptAssemblies\Unity.XR.OpenXR.Features.MockRuntime.dll
+Symbol file data-0000018DFD472020 doesn't match image D:\Project\BVW-Unity-VR\VR Room Project\Library\ScriptAssemblies\Unity.RenderPipelines.Core.Runtime.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000017240B57020 doesn't match image C:\Users\Tairo Kageyama\Documents\GitHub\BVW-Unity-VR\VR Room Project\Library\ScriptAssemblies\Unity.RenderPipelines.Core.Runtime.dll
+Symbol file data-0000018DF7E799B0 doesn't match image D:\Project\BVW-Unity-VR\VR Room Project\Library\ScriptAssemblies\Unity.Subsystem.Registration.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000172405DA5E0 doesn't match image C:\Users\Tairo Kageyama\Documents\GitHub\BVW-Unity-VR\VR Room Project\Library\ScriptAssemblies\Unity.Subsystem.Registration.dll
+Symbol file data-0000018DF8819B60 doesn't match image D:\Project\BVW-Unity-VR\VR Room Project\Library\ScriptAssemblies\Unity.ProBuilder.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000017240FCD010 doesn't match image C:\Users\Tairo Kageyama\Documents\GitHub\BVW-Unity-VR\VR Room Project\Library\ScriptAssemblies\Unity.ProBuilder.Editor.dll
+Symbol file data-0000018DF8819B60 doesn't match image D:\Project\BVW-Unity-VR\VR Room Project\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000017240FCD010 doesn't match image C:\Users\Tairo Kageyama\Documents\GitHub\BVW-Unity-VR\VR Room Project\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll
+Symbol file data-0000018DF880CA30 doesn't match image D:\Project\BVW-Unity-VR\VR Room Project\Library\ScriptAssemblies\Unity.ProGrids.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000172404A8620 doesn't match image C:\Users\Tairo Kageyama\Documents\GitHub\BVW-Unity-VR\VR Room Project\Library\ScriptAssemblies\Unity.ProGrids.Editor.dll
+Symbol file data-0000018DFD438C30 doesn't match image D:\Project\BVW-Unity-VR\VR Room Project\Library\ScriptAssemblies\Unity.XR.OpenXR.Features.OculusQuestSupport.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000173FC49CFC0 doesn't match image C:\Users\Tairo Kageyama\Documents\GitHub\BVW-Unity-VR\VR Room Project\Library\ScriptAssemblies\Unity.XR.OpenXR.Features.OculusQuestSupport.dll
+Symbol file data-0000018DF885F230 doesn't match image D:\Project\BVW-Unity-VR\VR Room Project\Library\ScriptAssemblies\Unity.Mathematics.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000173FC296ED0 doesn't match image C:\Users\Tairo Kageyama\Documents\GitHub\BVW-Unity-VR\VR Room Project\Library\ScriptAssemblies\Unity.Mathematics.dll
+Symbol file data-0000018DFE41C030 doesn't match image D:\Project\BVW-Unity-VR\VR Room Project\Library\ScriptAssemblies\Unity.ProBuilder.KdTree.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000172406824E0 doesn't match image C:\Users\Tairo Kageyama\Documents\GitHub\BVW-Unity-VR\VR Room Project\Library\ScriptAssemblies\Unity.ProBuilder.KdTree.dll
+Symbol file data-0000018DF83EFC60 doesn't match image D:\Project\BVW-Unity-VR\VR Room Project\Library\ScriptAssemblies\Unity.XR.OpenXR.TestHelpers.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000173FBC29E60 doesn't match image C:\Users\Tairo Kageyama\Documents\GitHub\BVW-Unity-VR\VR Room Project\Library\ScriptAssemblies\Unity.XR.OpenXR.TestHelpers.dll
+Symbol file data-0000018DFD472020 doesn't match image D:\Project\BVW-Unity-VR\VR Room Project\Library\ScriptAssemblies\Unity.RenderPipelines.Universal.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001724085B420 doesn't match image C:\Users\Tairo Kageyama\Documents\GitHub\BVW-Unity-VR\VR Room Project\Library\ScriptAssemblies\Unity.RenderPipelines.Universal.Editor.dll
+Symbol file data-0000018DF86F7780 doesn't match image D:\Project\BVW-Unity-VR\VR Room Project\Library\ScriptAssemblies\Unity.ProBuilder.AssetIdRemapUtility.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000173FBF4AA70 doesn't match image C:\Users\Tairo Kageyama\Documents\GitHub\BVW-Unity-VR\VR Room Project\Library\ScriptAssemblies\Unity.ProBuilder.AssetIdRemapUtility.dll
+Symbol file data-0000018DF88072D0 doesn't match image D:\Project\BVW-Unity-VR\VR Room Project\Library\ScriptAssemblies\UnityEngine.XR.LegacyInputHelpers.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000173FC2FC030 doesn't match image C:\Users\Tairo Kageyama\Documents\GitHub\BVW-Unity-VR\VR Room Project\Library\ScriptAssemblies\UnityEngine.XR.LegacyInputHelpers.dll
+Symbol file data-0000018C6D25EEC0 doesn't match image D:\Project\BVW-Unity-VR\VR Room Project\Library\ScriptAssemblies\Unity.ProBuilder.Stl.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000172404F7DC0 doesn't match image C:\Users\Tairo Kageyama\Documents\GitHub\BVW-Unity-VR\VR Room Project\Library\ScriptAssemblies\Unity.ProBuilder.Stl.dll
+Symbol file data-0000018DFD1CB220 doesn't match image D:\Project\BVW-Unity-VR\VR Room Project\Library\ScriptAssemblies\Unity.XR.OpenXR.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001724118B220 doesn't match image C:\Users\Tairo Kageyama\Documents\GitHub\BVW-Unity-VR\VR Room Project\Library\ScriptAssemblies\Unity.XR.OpenXR.Editor.dll
+Symbol file data-0000018DF8CEE160 doesn't match image D:\Project\BVW-Unity-VR\VR Room Project\Library\ScriptAssemblies\Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000172406211A0 doesn't match image C:\Users\Tairo Kageyama\Documents\GitHub\BVW-Unity-VR\VR Room Project\Library\ScriptAssemblies\Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary.dll
+Symbol file data-0000018DF8819B60 doesn't match image D:\Project\BVW-Unity-VR\VR Room Project\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000017240FCD010 doesn't match image C:\Users\Tairo Kageyama\Documents\GitHub\BVW-Unity-VR\VR Room Project\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+Symbol file data-0000018DF86F9790 doesn't match image D:\Project\BVW-Unity-VR\VR Room Project\Library\ScriptAssemblies\UnityEditor.XR.LegacyInputHelpers.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000017241826020 doesn't match image C:\Users\Tairo Kageyama\Documents\GitHub\BVW-Unity-VR\VR Room Project\Library\ScriptAssemblies\UnityEditor.XR.LegacyInputHelpers.dll
+Symbol file data-0000018DFDA1AC30 doesn't match image D:\Project\BVW-Unity-VR\VR Room Project\Library\ScriptAssemblies\Unity.XR.OpenXR.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000172408C9C20 doesn't match image C:\Users\Tairo Kageyama\Documents\GitHub\BVW-Unity-VR\VR Room Project\Library\ScriptAssemblies\Unity.XR.OpenXR.dll
+Symbol file data-0000018DFDA1AC30 doesn't match image D:\Project\BVW-Unity-VR\VR Room Project\Library\ScriptAssemblies\Unity.XR.Interaction.Toolkit.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000172408C9C20 doesn't match image C:\Users\Tairo Kageyama\Documents\GitHub\BVW-Unity-VR\VR Room Project\Library\ScriptAssemblies\Unity.XR.Interaction.Toolkit.Editor.dll
+Symbol file data-0000018DFCD9DA00 doesn't match image D:\Project\BVW-Unity-VR\VR Room Project\Library\ScriptAssemblies\Unity.XR.Oculus.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000172404AB830 doesn't match image C:\Users\Tairo Kageyama\Documents\GitHub\BVW-Unity-VR\VR Room Project\Library\ScriptAssemblies\Unity.XR.Oculus.dll
+Symbol file data-0000018DF84948D0 doesn't match image D:\Project\BVW-Unity-VR\VR Room Project\Library\ScriptAssemblies\UnityEditor.SpatialTracking.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000173FBF4EDC0 doesn't match image C:\Users\Tairo Kageyama\Documents\GitHub\BVW-Unity-VR\VR Room Project\Library\ScriptAssemblies\UnityEditor.SpatialTracking.dll
+Symbol file data-0000018DF872E050 doesn't match image D:\Project\BVW-Unity-VR\VR Room Project\Library\ScriptAssemblies\Unity.XR.OpenXR.Features.ConformanceAutomation.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000017241A215F0 doesn't match image C:\Users\Tairo Kageyama\Documents\GitHub\BVW-Unity-VR\VR Room Project\Library\ScriptAssemblies\Unity.XR.OpenXR.Features.ConformanceAutomation.dll
+Symbol file data-0000018DFD683020 doesn't match image D:\Project\BVW-Unity-VR\VR Room Project\Library\ScriptAssemblies\Unity.RenderPipelines.Core.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001724168EAA0 doesn't match image C:\Users\Tairo Kageyama\Documents\GitHub\BVW-Unity-VR\VR Room Project\Library\ScriptAssemblies\Unity.RenderPipelines.Core.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000017241952470 doesn't match image C:\Users\Tairo Kageyama\Documents\GitHub\BVW-Unity-VR\VR Room Project\Library\ScriptAssemblies\Unity.XR.OpenXR.Features.RuntimeDebugger.Editor.dll
+Symbol file data-0000018DFCCA0AA0 doesn't match image D:\Project\BVW-Unity-VR\VR Room Project\Library\ScriptAssemblies\Unity.XR.OpenXR.Features.RuntimeDebugger.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
 Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
 Assets/GymAssests/uploads-files-669576-aeq3vjprnoqo-Bleachers-1/bleachers.c4d: Unity no longer supports importing Cinema 4D files directly, but we're working with Maxon to make the experience better. To import Cinema 4D files, install Maxon's external importer. You can find more information on the Unity Forum: https://on.unity.com/c4d.
 
 Please note that FBX files exported from Cinema4D are still supported.
 
-Refreshing native plugins compatible for Editor in 61.50 ms, found 10 plugins.
-Preloading 1 native plugins for Editor in 0.12 ms.
+Refreshing native plugins compatible for Editor in 90.16 ms, found 10 plugins.
+Preloading 1 native plugins for Editor in 0.05 ms.
 [XR] OculusXRPlugin: registering subsystems
 [XR] Unable to register display lifecyle provider: [1]
 [XR] Oculus Input lifecycle provider registered.
@@ -234,33 +235,33 @@ UnityEngine.Debug:LogError (object)
 UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
 
 Mono: successfully reloaded assembly
-- Completed reload, in  1.031 seconds
+- Completed reload, in  1.592 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1032ms)
-		BeginReloadAssembly (99ms)
+	ReloadAssembly (1593ms)
+		BeginReloadAssembly (169ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (3ms)
+			DisableScriptedObjects (6ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (13ms)
-		EndReloadAssembly (883ms)
-			LoadAssemblies (91ms)
+			CreateAndSetChildDomain (18ms)
+		EndReloadAssembly (1365ms)
+			LoadAssemblies (136ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (209ms)
+			SetupTypeCache (371ms)
 			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (40ms)
-			SetupLoadedEditorAssemblies (425ms)
+			RebuildScriptCaches (68ms)
+			SetupLoadedEditorAssemblies (621ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (3ms)
+				InitializePlatformSupportModulesInManaged (4ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (62ms)
-				BeforeProcessingInitializeOnLoad (81ms)
-				ProcessInitializeOnLoadAttributes (257ms)
-				ProcessInitializeOnLoadMethodAttributes (14ms)
-				AfterProcessingInitializeOnLoad (8ms)
+				RefreshPlugins (90ms)
+				BeforeProcessingInitializeOnLoad (99ms)
+				ProcessInitializeOnLoadAttributes (388ms)
+				ProcessInitializeOnLoadMethodAttributes (37ms)
+				AfterProcessingInitializeOnLoad (2ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (4ms)
+			AwakeInstancesAfterBackupRestoration (5ms)
 Platform modules already initialized, skipping
 Assets/GymAssests/uploads-files-669576-aeq3vjprnoqo-Bleachers-1/bleachers.c4d: Unity no longer supports importing Cinema 4D files directly, but we're working with Maxon to make the experience better. To import Cinema 4D files, install Maxon's external importer. You can find more information on the Unity Forum: https://on.unity.com/c4d.
 
@@ -272,15 +273,15 @@ Assets/GymAssests/uploads-files-669576-aeq3vjprnoqo-Bleachers-1/bleachers.c4d: U
 
 Please note that FBX files exported from Cinema4D are still supported.
 
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
-Refreshing native plugins compatible for Editor in 0.95 ms, found 10 plugins.
-Preloading 1 native plugins for Editor in 0.12 ms.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.14 seconds
+Refreshing native plugins compatible for Editor in 1.05 ms, found 10 plugins.
+Preloading 1 native plugins for Editor in 0.06 ms.
 Unloading 3907 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 180.0 MB.
-System memory in use after: 180.0 MB.
+System memory in use before: 180.2 MB.
+System memory in use after: 180.2 MB.
 
 Unloading 42 unused Assets to reduce memory usage. Loaded Objects now: 4396.
-Total: 3.140400 ms (FindLiveObjects: 0.262400 ms CreateObjectMapping: 0.109100 ms MarkObjects: 2.688900 ms  DeleteObjects: 0.079100 ms)
+Total: 4.027700 ms (FindLiveObjects: 0.363800 ms CreateObjectMapping: 0.228500 ms MarkObjects: 3.334400 ms  DeleteObjects: 0.100000 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
@@ -289,7 +290,6 @@ AssetImportParameters requested are different than current active one (requested
   custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
   custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
   custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
@@ -297,185 +297,64 @@ AssetImportParameters requested are different than current active one (requested
 Received Import Request.
   path: Assets/WorkingWallHanger.prefab
   artifactKey: Guid(74071b28bebaf5a4f9ffce20a8851dec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/WorkingWallHanger.prefab using Guid(74071b28bebaf5a4f9ffce20a8851dec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4ac6ac2a68d06da0cd04fa1b226dadd7') in 0.046813 seconds 
-  Import took 0.051223 seconds .
+Start importing Assets/WorkingWallHanger.prefab using Guid(74071b28bebaf5a4f9ffce20a8851dec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4ac6ac2a68d06da0cd04fa1b226dadd7') in 0.116287 seconds 
+  Import took 0.162675 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 91.693506 seconds.
-  path: Assets/tools
-  artifactKey: Guid(73f18ed27d9404742820858cf8437b6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/tools using Guid(73f18ed27d9404742820858cf8437b6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b98e1e5078e7148906af9bf5641d9f63') in 0.005130 seconds 
-  Import took 0.009484 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.001838 seconds.
-  path: Assets/tools
-  artifactKey: Guid(73f18ed27d9404742820858cf8437b6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/tools using Guid(73f18ed27d9404742820858cf8437b6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b98e1e5078e7148906af9bf5641d9f63') in 0.003132 seconds 
-  Import took 0.006450 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.012965 seconds.
-  path: Assets/tools/itmes.prefab
-  artifactKey: Guid(fa2ae43e5050d8d459f8d0e28bd6c9bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/tools/itmes.prefab using Guid(fa2ae43e5050d8d459f8d0e28bd6c9bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '152cb57f4d0ec003f3345067227e92cf') in 0.003572 seconds 
-  Import took 0.008363 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 8.357144 seconds.
-  path: Assets/tools/items
-  artifactKey: Guid(1d6bbe3f9cc2ec54b93e5a921a85cfa3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/tools/items using Guid(1d6bbe3f9cc2ec54b93e5a921a85cfa3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '82ce1163201f99fa7ae189be9634331c') in 0.005588 seconds 
-  Import took 0.009941 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 276.911907 seconds.
-  path: Assets/XR/Settings/Oculus Settings.asset
-  artifactKey: Guid(8fccb80e6c9a84389a75f2c1ed4d786d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/XR/Settings/Oculus Settings.asset using Guid(8fccb80e6c9a84389a75f2c1ed4d786d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2e33c23ff5cb4819e73ab2d1ec48dbd4') in 0.006143 seconds 
-  Import took 0.011026 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000194 seconds.
-  path: Assets/XR/Settings/OpenXR Editor Settings.asset
-  artifactKey: Guid(4ebed251fef9e43bda281b963aa75cc0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/XR/Settings/OpenXR Editor Settings.asset using Guid(4ebed251fef9e43bda281b963aa75cc0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eaff21f07d420f635f2ae8a4c824de44') in 0.004631 seconds 
-  Import took 0.008431 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000187 seconds.
-  path: Assets/XR/Settings/Open XR Package Settings.asset
-  artifactKey: Guid(2b485d7676a7d4b3eba3a764bd60d013) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/XR/Settings/Open XR Package Settings.asset using Guid(2b485d7676a7d4b3eba3a764bd60d013) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '882b933ddcedc312078bcd5a9978eab7') in 0.013745 seconds 
-  Import took 0.017864 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.721414 seconds.
-  path: Assets/XR/Loaders/Oculus Loader.asset
-  artifactKey: Guid(1b4063adf124943e38c40263cd745f7a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/XR/Loaders/Oculus Loader.asset using Guid(1b4063adf124943e38c40263cd745f7a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2d86f5cfc0a64e7a9d13e8f76e593a3e') in 0.005106 seconds 
-  Import took 0.009568 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 2.108178 seconds.
-  path: Assets/XR/Loaders/Open XR Loader No Pre Init.asset
-  artifactKey: Guid(4e5dfc6f941d64790bc0fcd162c4ffc4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/XR/Loaders/Open XR Loader No Pre Init.asset using Guid(4e5dfc6f941d64790bc0fcd162c4ffc4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [XR] Error loading subsystem: Display (1) (header mismatch?)
- -> (artifact id: '384889e8d775d9419a1fe7fb8cd34f11') in 0.009313 seconds 
-  Import took 0.013960 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000199 seconds.
-  path: Assets/XR/Loaders/Open XR Loader.asset
-  artifactKey: Guid(43df3a0edee5e4ae7a666925d25911ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/XR/Loaders/Open XR Loader.asset using Guid(43df3a0edee5e4ae7a666925d25911ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a769788d8e4b2550b20c2ad1507975fc') in 0.003990 seconds 
-  Import took 0.007358 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 2.907767 seconds.
-  path: Assets/XRI/Settings/Resources
-  artifactKey: Guid(8aa6332b07624114eb560575e73e3410) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/XRI/Settings/Resources using Guid(8aa6332b07624114eb560575e73e3410) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '51f130e4f668bfebac760d1f9b4662a6') in 0.003671 seconds 
-  Import took 0.008008 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 79.383887 seconds.
-  path: Assets/tools/items/Tennis_racket_V3_L3.123c4947b16d-cb34-4850-bca9-7f4ffd33bbb8
-  artifactKey: Guid(56fb9b98594af504da81e81e39fe9971) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/tools/items/Tennis_racket_V3_L3.123c4947b16d-cb34-4850-bca9-7f4ffd33bbb8 using Guid(56fb9b98594af504da81e81e39fe9971) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8e7376cdfff47ee6a2cc1bd419d4744c') in 0.003679 seconds 
-  Import took 0.007914 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.786545 seconds.
-  path: Assets/tools/items/Tennis_racket_V3_L3.123c4947b16d-cb34-4850-bca9-7f4ffd33bbb8/Tennis_racket_V3_L3.123c4947b16d-cb34-4850-bca9-7f4ffd33bbb8
-  artifactKey: Guid(7ac6c3043308fc948843b66cf4b3ae7a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/tools/items/Tennis_racket_V3_L3.123c4947b16d-cb34-4850-bca9-7f4ffd33bbb8/Tennis_racket_V3_L3.123c4947b16d-cb34-4850-bca9-7f4ffd33bbb8 using Guid(7ac6c3043308fc948843b66cf4b3ae7a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'facacbf91f4dec6a5e435dee6fb6501b') in 0.005342 seconds 
-  Import took 0.009793 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.053882 seconds.
-  path: Assets/tools/items/Tennis_racket_V3_L3.123c4947b16d-cb34-4850-bca9-7f4ffd33bbb8/Tennis_racket_V3_L3.123c4947b16d-cb34-4850-bca9-7f4ffd33bbb8/10540_Tennis_racket_V2_Diffuse.jpg
-  artifactKey: Guid(508fd0710d9480e4ea3eb4e56656857b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/tools/items/Tennis_racket_V3_L3.123c4947b16d-cb34-4850-bca9-7f4ffd33bbb8/Tennis_racket_V3_L3.123c4947b16d-cb34-4850-bca9-7f4ffd33bbb8/10540_Tennis_racket_V2_Diffuse.jpg using Guid(508fd0710d9480e4ea3eb4e56656857b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5316db05f9ac0e102922ee761d0d6398') in 0.039587 seconds 
-  Import took 0.044359 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000230 seconds.
-  path: Assets/tools/items/Tennis_racket_V3_L3.123c4947b16d-cb34-4850-bca9-7f4ffd33bbb8/Tennis_racket_V3_L3.123c4947b16d-cb34-4850-bca9-7f4ffd33bbb8/10540_Tennis_racket_V2_L3.obj
-  artifactKey: Guid(b6d07c9b1dae57546b6b10682efe6e05) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/tools/items/Tennis_racket_V3_L3.123c4947b16d-cb34-4850-bca9-7f4ffd33bbb8/Tennis_racket_V3_L3.123c4947b16d-cb34-4850-bca9-7f4ffd33bbb8/10540_Tennis_racket_V2_L3.obj using Guid(b6d07c9b1dae57546b6b10682efe6e05) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ef5d5f75dbc8f52e286f941fefbfa9c7') in 0.011100 seconds 
-  Import took 0.015100 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 87.233041 seconds.
+  Time since last request: 308.032210 seconds.
   path: Assets/GardenTools/Hoe
   artifactKey: Guid(8163969391749cc4aa4306a74a1f4fd4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GardenTools/Hoe using Guid(8163969391749cc4aa4306a74a1f4fd4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1f32dff574d2ccfcb056f0cd7459cc7a') in 0.003930 seconds 
-  Import took 0.008235 seconds .
+Start importing Assets/GardenTools/Hoe using Guid(8163969391749cc4aa4306a74a1f4fd4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1f32dff574d2ccfcb056f0cd7459cc7a') in 0.005733 seconds 
+  Import took 0.040275 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 2.474401 seconds.
+  Time since last request: 0.055931 seconds.
   path: Assets/GardenTools/Hoe/Hoe.fbx
   artifactKey: Guid(9c8bf62167f15304cab63c2bb582915d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GardenTools/Hoe/Hoe.fbx using Guid(9c8bf62167f15304cab63c2bb582915d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0a4d09052a9a82bc8d4b6c251140f36f') in 0.154870 seconds 
-  Import took 0.159981 seconds .
+Start importing Assets/GardenTools/Hoe/Hoe.fbx using Guid(9c8bf62167f15304cab63c2bb582915d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4fae323008ee98abb7fdcff4d9174812') in 0.269410 seconds 
+  Import took 0.321929 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000226 seconds.
+  Time since last request: 0.000260 seconds.
   path: Assets/GardenTools/Hoe/HoeLever.png
   artifactKey: Guid(09d5fab6744fcd84f966180d77ba216d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GardenTools/Hoe/HoeLever.png using Guid(09d5fab6744fcd84f966180d77ba216d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1298c542835ac5e767df6bfe42e31739') in 0.020650 seconds 
-  Import took 0.024920 seconds .
+Start importing Assets/GardenTools/Hoe/HoeLever.png using Guid(09d5fab6744fcd84f966180d77ba216d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '18c8967482df99358accd69e43b9b2ac') in 0.050425 seconds 
+  Import took 0.089391 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000210 seconds.
+  Time since last request: 0.000173 seconds.
   path: Assets/GardenTools/Hoe/HoePrefab.prefab
   artifactKey: Guid(adf79a2ca6c162e45854a3b5bf76a8f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GardenTools/Hoe/HoePrefab.prefab using Guid(adf79a2ca6c162e45854a3b5bf76a8f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6ab8486140e976f3dff9f8e6c5770ccc') in 0.031942 seconds 
-  Import took 0.037292 seconds .
+Start importing Assets/GardenTools/Hoe/HoePrefab.prefab using Guid(adf79a2ca6c162e45854a3b5bf76a8f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5c89510090d1db971a6649a80c8df8de') in 0.030900 seconds 
+  Import took 0.042397 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000217 seconds.
+  Time since last request: 0.000179 seconds.
   path: Assets/GardenTools/Hoe/HoeNM.png
   artifactKey: Guid(a8f1a699033141e4eb84a97ba3d10052) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GardenTools/Hoe/HoeNM.png using Guid(a8f1a699033141e4eb84a97ba3d10052) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dbec43505dd043ee8d52a5233f65e5d9') in 0.021006 seconds 
-  Import took 0.025209 seconds .
+Start importing Assets/GardenTools/Hoe/HoeNM.png using Guid(a8f1a699033141e4eb84a97ba3d10052) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dab4e36f6a9fc70546cd2c6305e73706') in 0.014444 seconds 
+  Import took 0.020795 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000206 seconds.
+  Time since last request: 0.000208 seconds.
   path: Assets/GardenTools/Hoe/Hoe.png
   artifactKey: Guid(059062350b631284597bebf4788736c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GardenTools/Hoe/Hoe.png using Guid(059062350b631284597bebf4788736c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '090d63d18b082473a8788efa33d2abac') in 0.016659 seconds 
-  Import took 0.020633 seconds .
+Start importing Assets/GardenTools/Hoe/Hoe.png using Guid(059062350b631284597bebf4788736c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '90bd2037eea0c4d3b41735f03430ff10') in 0.011577 seconds 
+  Import took 0.021361 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000196 seconds.
+  Time since last request: 0.000280 seconds.
   path: Assets/GardenTools/Hoe/HoeLeverNM.png
   artifactKey: Guid(53d4cdf144adef649afbaef0e1577c7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GardenTools/Hoe/HoeLeverNM.png using Guid(53d4cdf144adef649afbaef0e1577c7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '50b12798bc0f09dab021d25ff571117b') in 0.012451 seconds 
-  Import took 0.016402 seconds .
+Start importing Assets/GardenTools/Hoe/HoeLeverNM.png using Guid(53d4cdf144adef649afbaef0e1577c7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3ee9a29eb92f6789f05002057bdd0219') in 0.012910 seconds 
+  Import took 0.034603 seconds .
 
 ========================================================================
 Received Prepare
@@ -484,135 +363,134 @@ Assets/GymAssests/uploads-files-669576-aeq3vjprnoqo-Bleachers-1/bleachers.c4d: U
 Please note that FBX files exported from Cinema4D are still supported.
 
 Registering precompiled user dll's ...
-Registered in 0.013118 seconds.
+Registered in 0.006496 seconds.
 Begin MonoManager ReloadAssembly
-Symbol file data-00000174009A2150 doesn't match image C:\Users\Tairo Kageyama\Documents\GitHub\BVW-Unity-VR\VR Room Project\Library\ScriptAssemblies\Assembly-CSharp.dll
+Symbol file data-0000018DFD66C830 doesn't match image D:\Project\BVW-Unity-VR\VR Room Project\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000017402EFD020 doesn't match image C:\Users\Tairo Kageyama\Documents\GitHub\BVW-Unity-VR\VR Room Project\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file data-0000018C6883CEE0 doesn't match image D:\Project\BVW-Unity-VR\VR Room Project\Library\ScriptAssemblies\Unity.RenderPipelines.Universal.Shaders.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000174019EF8A0 doesn't match image C:\Users\Tairo Kageyama\Documents\GitHub\BVW-Unity-VR\VR Room Project\Library\ScriptAssemblies\Unity.RenderPipelines.Universal.Shaders.dll
+Symbol file data-0000018C624B8360 doesn't match image D:\Project\BVW-Unity-VR\VR Room Project\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000017242396020 doesn't match image C:\Users\Tairo Kageyama\Documents\GitHub\BVW-Unity-VR\VR Room Project\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+Symbol file data-0000018DFEBED030 doesn't match image D:\Project\BVW-Unity-VR\VR Room Project\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000017242589040 doesn't match image C:\Users\Tairo Kageyama\Documents\GitHub\BVW-Unity-VR\VR Room Project\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file data-0000018DFE0E3970 doesn't match image D:\Project\BVW-Unity-VR\VR Room Project\Library\ScriptAssemblies\Unity.Searcher.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000017403017AB0 doesn't match image C:\Users\Tairo Kageyama\Documents\GitHub\BVW-Unity-VR\VR Room Project\Library\ScriptAssemblies\Unity.Searcher.Editor.dll
+Symbol file data-0000018C68DE6300 doesn't match image D:\Project\BVW-Unity-VR\VR Room Project\Library\ScriptAssemblies\Unity.ShaderGraph.Utilities.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000017244DDADD0 doesn't match image C:\Users\Tairo Kageyama\Documents\GitHub\BVW-Unity-VR\VR Room Project\Library\ScriptAssemblies\Unity.ShaderGraph.Utilities.dll
+Symbol file data-0000018E20273030 doesn't match image D:\Project\BVW-Unity-VR\VR Room Project\Library\ScriptAssemblies\Unity.ProBuilder.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000017246F65030 doesn't match image C:\Users\Tairo Kageyama\Documents\GitHub\BVW-Unity-VR\VR Room Project\Library\ScriptAssemblies\Unity.ProBuilder.dll
+Symbol file data-0000018DFE70A010 doesn't match image D:\Project\BVW-Unity-VR\VR Room Project\Library\ScriptAssemblies\UnityEditor.UI.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000174237130B0 doesn't match image C:\Users\Tairo Kageyama\Documents\GitHub\BVW-Unity-VR\VR Room Project\Library\ScriptAssemblies\UnityEditor.UI.dll
+Symbol file data-0000018DFD9BD020 doesn't match image D:\Project\BVW-Unity-VR\VR Room Project\Library\ScriptAssemblies\Unity.InputSystem.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000172411A4010 doesn't match image C:\Users\Tairo Kageyama\Documents\GitHub\BVW-Unity-VR\VR Room Project\Library\ScriptAssemblies\Unity.InputSystem.dll
+Symbol file data-0000018C61B8A480 doesn't match image D:\Project\BVW-Unity-VR\VR Room Project\Library\ScriptAssemblies\Unity.Rider.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000173FC4A59C0 doesn't match image C:\Users\Tairo Kageyama\Documents\GitHub\BVW-Unity-VR\VR Room Project\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file data-0000018C68886810 doesn't match image D:\Project\BVW-Unity-VR\VR Room Project\Library\ScriptAssemblies\Unity.RenderPipelines.Core.ShaderLibrary.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000017402006A50 doesn't match image C:\Users\Tairo Kageyama\Documents\GitHub\BVW-Unity-VR\VR Room Project\Library\ScriptAssemblies\Unity.RenderPipelines.Core.ShaderLibrary.dll
+Symbol file data-0000018C61BF4040 doesn't match image D:\Project\BVW-Unity-VR\VR Room Project\Library\ScriptAssemblies\UnityEngine.UI.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000017241239020 doesn't match image C:\Users\Tairo Kageyama\Documents\GitHub\BVW-Unity-VR\VR Room Project\Library\ScriptAssemblies\UnityEngine.UI.dll
+Symbol file data-0000018DF81842D0 doesn't match image D:\Project\BVW-Unity-VR\VR Room Project\Library\ScriptAssemblies\UnityEngine.SpatialTracking.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001724239A2D0 doesn't match image C:\Users\Tairo Kageyama\Documents\GitHub\BVW-Unity-VR\VR Room Project\Library\ScriptAssemblies\UnityEngine.SpatialTracking.dll
+Symbol file data-0000018DF8E11620 doesn't match image D:\Project\BVW-Unity-VR\VR Room Project\Library\ScriptAssemblies\Unity.ProBuilder.Poly2Tri.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000173FBE3B0E0 doesn't match image C:\Users\Tairo Kageyama\Documents\GitHub\BVW-Unity-VR\VR Room Project\Library\ScriptAssemblies\Unity.ProBuilder.Poly2Tri.dll
+Symbol file data-0000018DFD9BD020 doesn't match image D:\Project\BVW-Unity-VR\VR Room Project\Library\ScriptAssemblies\Unity.ShaderGraph.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000172411A4010 doesn't match image C:\Users\Tairo Kageyama\Documents\GitHub\BVW-Unity-VR\VR Room Project\Library\ScriptAssemblies\Unity.ShaderGraph.Editor.dll
+Symbol file data-0000018DF83D53E0 doesn't match image D:\Project\BVW-Unity-VR\VR Room Project\Library\ScriptAssemblies\Cinemachine.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000017241F57020 doesn't match image C:\Users\Tairo Kageyama\Documents\GitHub\BVW-Unity-VR\VR Room Project\Library\ScriptAssemblies\Cinemachine.dll
+Symbol file data-0000018C624B8360 doesn't match image D:\Project\BVW-Unity-VR\VR Room Project\Library\ScriptAssemblies\com.unity.cinemachine.editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000017241943060 doesn't match image C:\Users\Tairo Kageyama\Documents\GitHub\BVW-Unity-VR\VR Room Project\Library\ScriptAssemblies\com.unity.cinemachine.editor.dll
+Symbol file data-0000018DFEDEE220 doesn't match image D:\Project\BVW-Unity-VR\VR Room Project\Library\ScriptAssemblies\Unity.Settings.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000017403017AB0 doesn't match image C:\Users\Tairo Kageyama\Documents\GitHub\BVW-Unity-VR\VR Room Project\Library\ScriptAssemblies\Unity.Settings.Editor.dll
+Symbol file data-0000018C68886810 doesn't match image D:\Project\BVW-Unity-VR\VR Room Project\Library\ScriptAssemblies\Unity.RenderPipeline.Universal.ShaderLibrary.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000017402009A50 doesn't match image C:\Users\Tairo Kageyama\Documents\GitHub\BVW-Unity-VR\VR Room Project\Library\ScriptAssemblies\Unity.RenderPipeline.Universal.ShaderLibrary.dll
+Symbol file data-0000018C61EDC480 doesn't match image D:\Project\BVW-Unity-VR\VR Room Project\Library\ScriptAssemblies\Unity.XR.Management.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000172404F7DC0 doesn't match image C:\Users\Tairo Kageyama\Documents\GitHub\BVW-Unity-VR\VR Room Project\Library\ScriptAssemblies\Unity.XR.Management.dll
+Symbol file data-0000018C624B8360 doesn't match image D:\Project\BVW-Unity-VR\VR Room Project\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000174236B3010 doesn't match image C:\Users\Tairo Kageyama\Documents\GitHub\BVW-Unity-VR\VR Room Project\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+Symbol file data-0000018DF34C6D60 doesn't match image D:\Project\BVW-Unity-VR\VR Room Project\Library\ScriptAssemblies\Unity.Mathematics.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000173CCB589A0 doesn't match image C:\Users\Tairo Kageyama\Documents\GitHub\BVW-Unity-VR\VR Room Project\Library\ScriptAssemblies\Unity.Mathematics.Editor.dll
+Symbol file data-0000018C61CDCBA0 doesn't match image D:\Project\BVW-Unity-VR\VR Room Project\Library\ScriptAssemblies\Unity.XR.OpenXR.Features.RuntimeDebugger.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000172425752D0 doesn't match image C:\Users\Tairo Kageyama\Documents\GitHub\BVW-Unity-VR\VR Room Project\Library\ScriptAssemblies\Unity.XR.OpenXR.Features.RuntimeDebugger.dll
+Symbol file data-0000018DF885C7A0 doesn't match image D:\Project\BVW-Unity-VR\VR Room Project\Library\ScriptAssemblies\Unity.XR.Oculus.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000017400295FC0 doesn't match image C:\Users\Tairo Kageyama\Documents\GitHub\BVW-Unity-VR\VR Room Project\Library\ScriptAssemblies\Unity.XR.Oculus.Editor.dll
+Symbol file data-0000018DF8E47240 doesn't match image D:\Project\BVW-Unity-VR\VR Room Project\Library\ScriptAssemblies\Unity.ProGrids.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000017402D12E80 doesn't match image C:\Users\Tairo Kageyama\Documents\GitHub\BVW-Unity-VR\VR Room Project\Library\ScriptAssemblies\Unity.ProGrids.dll
+Symbol file data-0000018C68AD5530 doesn't match image D:\Project\BVW-Unity-VR\VR Room Project\Library\ScriptAssemblies\Unity.XR.OpenXR.Features.MockDriver.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000017402EFC8E0 doesn't match image C:\Users\Tairo Kageyama\Documents\GitHub\BVW-Unity-VR\VR Room Project\Library\ScriptAssemblies\Unity.XR.OpenXR.Features.MockDriver.dll
+Symbol file data-0000018C612BC010 doesn't match image D:\Project\BVW-Unity-VR\VR Room Project\Library\ScriptAssemblies\Unity.RenderPipelines.Universal.Runtime.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000172404D5550 doesn't match image C:\Users\Tairo Kageyama\Documents\GitHub\BVW-Unity-VR\VR Room Project\Library\ScriptAssemblies\Unity.RenderPipelines.Universal.Runtime.dll
+Symbol file data-0000018C6D248140 doesn't match image D:\Project\BVW-Unity-VR\VR Room Project\Library\ScriptAssemblies\Unity.ProBuilder.AddOns.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000017241F76A80 doesn't match image C:\Users\Tairo Kageyama\Documents\GitHub\BVW-Unity-VR\VR Room Project\Library\ScriptAssemblies\Unity.ProBuilder.AddOns.Editor.dll
+Symbol file data-0000018DFE70A010 doesn't match image D:\Project\BVW-Unity-VR\VR Room Project\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000017240A2B230 doesn't match image C:\Users\Tairo Kageyama\Documents\GitHub\BVW-Unity-VR\VR Room Project\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file data-0000018C68A14770 doesn't match image D:\Project\BVW-Unity-VR\VR Room Project\Library\ScriptAssemblies\Unity.XR.OpenXR.Features.OculusQuestSupport.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000017401E4F9F0 doesn't match image C:\Users\Tairo Kageyama\Documents\GitHub\BVW-Unity-VR\VR Room Project\Library\ScriptAssemblies\Unity.XR.OpenXR.Features.OculusQuestSupport.Editor.dll
+Symbol file data-0000018C624B8360 doesn't match image D:\Project\BVW-Unity-VR\VR Room Project\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000174236B3010 doesn't match image C:\Users\Tairo Kageyama\Documents\GitHub\BVW-Unity-VR\VR Room Project\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file data-0000018DF8DA3640 doesn't match image D:\Project\BVW-Unity-VR\VR Room Project\Library\ScriptAssemblies\Unity.XR.Management.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000017240A2B230 doesn't match image C:\Users\Tairo Kageyama\Documents\GitHub\BVW-Unity-VR\VR Room Project\Library\ScriptAssemblies\Unity.XR.Management.Editor.dll
+Symbol file data-0000018C624B8360 doesn't match image D:\Project\BVW-Unity-VR\VR Room Project\Library\ScriptAssemblies\Unity.Timeline.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001742378D040 doesn't match image C:\Users\Tairo Kageyama\Documents\GitHub\BVW-Unity-VR\VR Room Project\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file data-0000018DFD6A3040 doesn't match image D:\Project\BVW-Unity-VR\VR Room Project\Library\ScriptAssemblies\Unity.TextMeshPro.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000173FBEE0020 doesn't match image C:\Users\Tairo Kageyama\Documents\GitHub\BVW-Unity-VR\VR Room Project\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file data-0000018DF8D76010 doesn't match image D:\Project\BVW-Unity-VR\VR Room Project\Library\ScriptAssemblies\Unity.XR.Interaction.Toolkit.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000017244F6E040 doesn't match image C:\Users\Tairo Kageyama\Documents\GitHub\BVW-Unity-VR\VR Room Project\Library\ScriptAssemblies\Unity.XR.Interaction.Toolkit.dll
+Symbol file data-0000018DF857F050 doesn't match image D:\Project\BVW-Unity-VR\VR Room Project\Library\ScriptAssemblies\Unity.ProBuilder.Csg.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000173FC656010 doesn't match image C:\Users\Tairo Kageyama\Documents\GitHub\BVW-Unity-VR\VR Room Project\Library\ScriptAssemblies\Unity.ProBuilder.Csg.dll
+Symbol file data-0000018DFD3E3010 doesn't match image D:\Project\BVW-Unity-VR\VR Room Project\Library\ScriptAssemblies\Unity.XR.OpenXR.Features.MockRuntime.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001742366FAA0 doesn't match image C:\Users\Tairo Kageyama\Documents\GitHub\BVW-Unity-VR\VR Room Project\Library\ScriptAssemblies\Unity.XR.OpenXR.Features.MockRuntime.dll
+Symbol file data-0000018DF8D76010 doesn't match image D:\Project\BVW-Unity-VR\VR Room Project\Library\ScriptAssemblies\Unity.RenderPipelines.Core.Runtime.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000017244F6E040 doesn't match image C:\Users\Tairo Kageyama\Documents\GitHub\BVW-Unity-VR\VR Room Project\Library\ScriptAssemblies\Unity.RenderPipelines.Core.Runtime.dll
+Symbol file data-0000018C68E10030 doesn't match image D:\Project\BVW-Unity-VR\VR Room Project\Library\ScriptAssemblies\Unity.Subsystem.Registration.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000172405DA060 doesn't match image C:\Users\Tairo Kageyama\Documents\GitHub\BVW-Unity-VR\VR Room Project\Library\ScriptAssemblies\Unity.Subsystem.Registration.dll
+Symbol file data-0000018DF8819B60 doesn't match image D:\Project\BVW-Unity-VR\VR Room Project\Library\ScriptAssemblies\Unity.ProBuilder.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000173FC220540 doesn't match image C:\Users\Tairo Kageyama\Documents\GitHub\BVW-Unity-VR\VR Room Project\Library\ScriptAssemblies\Unity.ProBuilder.Editor.dll
+Symbol file data-0000018DF8819B60 doesn't match image D:\Project\BVW-Unity-VR\VR Room Project\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000173FC220540 doesn't match image C:\Users\Tairo Kageyama\Documents\GitHub\BVW-Unity-VR\VR Room Project\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll
+Symbol file data-0000018DFD8A5C20 doesn't match image D:\Project\BVW-Unity-VR\VR Room Project\Library\ScriptAssemblies\Unity.ProGrids.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000172468DB020 doesn't match image C:\Users\Tairo Kageyama\Documents\GitHub\BVW-Unity-VR\VR Room Project\Library\ScriptAssemblies\Unity.ProGrids.Editor.dll
+Symbol file data-0000018C68A0F4C0 doesn't match image D:\Project\BVW-Unity-VR\VR Room Project\Library\ScriptAssemblies\Unity.XR.OpenXR.Features.OculusQuestSupport.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000172455AD1B0 doesn't match image C:\Users\Tairo Kageyama\Documents\GitHub\BVW-Unity-VR\VR Room Project\Library\ScriptAssemblies\Unity.XR.OpenXR.Features.OculusQuestSupport.dll
+Symbol file data-0000018DFD12A020 doesn't match image D:\Project\BVW-Unity-VR\VR Room Project\Library\ScriptAssemblies\Unity.Mathematics.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000173FC296ED0 doesn't match image C:\Users\Tairo Kageyama\Documents\GitHub\BVW-Unity-VR\VR Room Project\Library\ScriptAssemblies\Unity.Mathematics.dll
+Symbol file data-0000018DFECE9230 doesn't match image D:\Project\BVW-Unity-VR\VR Room Project\Library\ScriptAssemblies\Unity.ProBuilder.KdTree.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000017246DF4E70 doesn't match image C:\Users\Tairo Kageyama\Documents\GitHub\BVW-Unity-VR\VR Room Project\Library\ScriptAssemblies\Unity.ProBuilder.KdTree.dll
+Symbol file data-0000018C68DE6300 doesn't match image D:\Project\BVW-Unity-VR\VR Room Project\Library\ScriptAssemblies\Unity.XR.OpenXR.TestHelpers.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000174029DA820 doesn't match image C:\Users\Tairo Kageyama\Documents\GitHub\BVW-Unity-VR\VR Room Project\Library\ScriptAssemblies\Unity.XR.OpenXR.TestHelpers.dll
+Symbol file data-0000018DF8D76010 doesn't match image D:\Project\BVW-Unity-VR\VR Room Project\Library\ScriptAssemblies\Unity.RenderPipelines.Universal.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000017246407020 doesn't match image C:\Users\Tairo Kageyama\Documents\GitHub\BVW-Unity-VR\VR Room Project\Library\ScriptAssemblies\Unity.RenderPipelines.Universal.Editor.dll
+Symbol file data-0000018DFD66C830 doesn't match image D:\Project\BVW-Unity-VR\VR Room Project\Library\ScriptAssemblies\Unity.ProBuilder.AssetIdRemapUtility.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000017402EFD020 doesn't match image C:\Users\Tairo Kageyama\Documents\GitHub\BVW-Unity-VR\VR Room Project\Library\ScriptAssemblies\Unity.ProBuilder.AssetIdRemapUtility.dll
+Symbol file data-0000018DFEB08080 doesn't match image D:\Project\BVW-Unity-VR\VR Room Project\Library\ScriptAssemblies\UnityEngine.XR.LegacyInputHelpers.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000173FC656010 doesn't match image C:\Users\Tairo Kageyama\Documents\GitHub\BVW-Unity-VR\VR Room Project\Library\ScriptAssemblies\UnityEngine.XR.LegacyInputHelpers.dll
+Symbol file data-0000018C692116E0 doesn't match image D:\Project\BVW-Unity-VR\VR Room Project\Library\ScriptAssemblies\Unity.ProBuilder.Stl.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000172404F7DC0 doesn't match image C:\Users\Tairo Kageyama\Documents\GitHub\BVW-Unity-VR\VR Room Project\Library\ScriptAssemblies\Unity.ProBuilder.Stl.dll
+Symbol file data-0000018DFD8A5C20 doesn't match image D:\Project\BVW-Unity-VR\VR Room Project\Library\ScriptAssemblies\Unity.XR.OpenXR.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000172468DB020 doesn't match image C:\Users\Tairo Kageyama\Documents\GitHub\BVW-Unity-VR\VR Room Project\Library\ScriptAssemblies\Unity.XR.OpenXR.Editor.dll
+Symbol file data-0000018C68884290 doesn't match image D:\Project\BVW-Unity-VR\VR Room Project\Library\ScriptAssemblies\Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000017402009E50 doesn't match image C:\Users\Tairo Kageyama\Documents\GitHub\BVW-Unity-VR\VR Room Project\Library\ScriptAssemblies\Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary.dll
+Symbol file data-0000018DFD1E4010 doesn't match image D:\Project\BVW-Unity-VR\VR Room Project\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000173FC220540 doesn't match image C:\Users\Tairo Kageyama\Documents\GitHub\BVW-Unity-VR\VR Room Project\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+Symbol file data-0000018C62377F70 doesn't match image D:\Project\BVW-Unity-VR\VR Room Project\Library\ScriptAssemblies\UnityEditor.XR.LegacyInputHelpers.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000173FC2FE2A0 doesn't match image C:\Users\Tairo Kageyama\Documents\GitHub\BVW-Unity-VR\VR Room Project\Library\ScriptAssemblies\UnityEditor.XR.LegacyInputHelpers.dll
+Symbol file data-0000018DF8524030 doesn't match image D:\Project\BVW-Unity-VR\VR Room Project\Library\ScriptAssemblies\Unity.XR.OpenXR.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000173FBF9A660 doesn't match image C:\Users\Tairo Kageyama\Documents\GitHub\BVW-Unity-VR\VR Room Project\Library\ScriptAssemblies\Unity.XR.OpenXR.dll
+Symbol file data-0000018DFDB26DE0 doesn't match image D:\Project\BVW-Unity-VR\VR Room Project\Library\ScriptAssemblies\Unity.XR.Interaction.Toolkit.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000173FBF9A660 doesn't match image C:\Users\Tairo Kageyama\Documents\GitHub\BVW-Unity-VR\VR Room Project\Library\ScriptAssemblies\Unity.XR.Interaction.Toolkit.Editor.dll
+Symbol file data-0000018DFEDEE220 doesn't match image D:\Project\BVW-Unity-VR\VR Room Project\Library\ScriptAssemblies\Unity.XR.Oculus.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000017403017AB0 doesn't match image C:\Users\Tairo Kageyama\Documents\GitHub\BVW-Unity-VR\VR Room Project\Library\ScriptAssemblies\Unity.XR.Oculus.dll
+Symbol file data-0000018C68A16AE0 doesn't match image D:\Project\BVW-Unity-VR\VR Room Project\Library\ScriptAssemblies\UnityEditor.SpatialTracking.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000017401E4CC60 doesn't match image C:\Users\Tairo Kageyama\Documents\GitHub\BVW-Unity-VR\VR Room Project\Library\ScriptAssemblies\UnityEditor.SpatialTracking.dll
+Symbol file data-0000018C6905E080 doesn't match image D:\Project\BVW-Unity-VR\VR Room Project\Library\ScriptAssemblies\Unity.XR.OpenXR.Features.ConformanceAutomation.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000017401CA1CB0 doesn't match image C:\Users\Tairo Kageyama\Documents\GitHub\BVW-Unity-VR\VR Room Project\Library\ScriptAssemblies\Unity.XR.OpenXR.Features.ConformanceAutomation.dll
+Symbol file data-0000018E20273030 doesn't match image D:\Project\BVW-Unity-VR\VR Room Project\Library\ScriptAssemblies\Unity.RenderPipelines.Core.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000017240FCD010 doesn't match image C:\Users\Tairo Kageyama\Documents\GitHub\BVW-Unity-VR\VR Room Project\Library\ScriptAssemblies\Unity.RenderPipelines.Core.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001742366FAA0 doesn't match image C:\Users\Tairo Kageyama\Documents\GitHub\BVW-Unity-VR\VR Room Project\Library\ScriptAssemblies\Unity.XR.OpenXR.Features.RuntimeDebugger.Editor.dll
+Symbol file data-0000018C68BE89B0 doesn't match image D:\Project\BVW-Unity-VR\VR Room Project\Library\ScriptAssemblies\Unity.XR.OpenXR.Features.RuntimeDebugger.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
 Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
 Refreshing native plugins compatible for Editor in 1.02 ms, found 10 plugins.
-Preloading 1 native plugins for Editor in 0.11 ms.
+Preloading 1 native plugins for Editor in 0.06 ms.
 System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation. ---> System.NullReferenceException: Object reference not set to an instance of an object
   at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x0004e] in <8a071fb1f4e44da789de830ea0d8d7ac>:0 
   at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0007b] in <8a071fb1f4e44da789de830ea0d8d7ac>:0 
@@ -629,42 +507,42 @@ UnityEngine.Debug:LogError (object)
 UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
 
 Mono: successfully reloaded assembly
-- Completed reload, in  0.937 seconds
+- Completed reload, in  1.273 seconds
 Domain Reload Profiling:
-	ReloadAssembly (937ms)
-		BeginReloadAssembly (110ms)
+	ReloadAssembly (1273ms)
+		BeginReloadAssembly (141ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (4ms)
+			DisableScriptedObjects (6ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (30ms)
-		EndReloadAssembly (778ms)
-			LoadAssemblies (89ms)
+			CreateAndSetChildDomain (39ms)
+		EndReloadAssembly (1079ms)
+			LoadAssemblies (88ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (199ms)
+			SetupTypeCache (325ms)
 			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (29ms)
-			SetupLoadedEditorAssemblies (333ms)
+			RebuildScriptCaches (49ms)
+			SetupLoadedEditorAssemblies (431ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (3ms)
+				InitializePlatformSupportModulesInManaged (4ms)
 				SetLoadedEditorAssemblies (0ms)
 				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (65ms)
-				ProcessInitializeOnLoadAttributes (245ms)
-				ProcessInitializeOnLoadMethodAttributes (9ms)
-				AfterProcessingInitializeOnLoad (8ms)
+				BeforeProcessingInitializeOnLoad (74ms)
+				ProcessInitializeOnLoadAttributes (336ms)
+				ProcessInitializeOnLoadMethodAttributes (12ms)
+				AfterProcessingInitializeOnLoad (2ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (11ms)
+			AwakeInstancesAfterBackupRestoration (15ms)
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.99 ms, found 10 plugins.
-Preloading 1 native plugins for Editor in 0.12 ms.
-Unloading 3754 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 172.2 MB.
-System memory in use after: 172.4 MB.
+Refreshing native plugins compatible for Editor in 1.11 ms, found 10 plugins.
+Preloading 1 native plugins for Editor in 0.06 ms.
+Unloading 3753 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 172.3 MB.
+System memory in use after: 172.5 MB.
 
-Unloading 91 unused Assets to reduce memory usage. Loaded Objects now: 4450.
-Total: 3.397500 ms (FindLiveObjects: 0.286600 ms CreateObjectMapping: 0.082400 ms MarkObjects: 2.879600 ms  DeleteObjects: 0.147700 ms)
+Unloading 35 unused Assets to reduce memory usage. Loaded Objects now: 4450.
+Total: 3.869100 ms (FindLiveObjects: 0.314600 ms CreateObjectMapping: 0.182900 ms MarkObjects: 3.297900 ms  DeleteObjects: 0.072900 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
@@ -673,7 +551,6 @@ AssetImportParameters requested are different than current active one (requested
   custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
   custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
   custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
@@ -684,135 +561,134 @@ Assets/GymAssests/uploads-files-669576-aeq3vjprnoqo-Bleachers-1/bleachers.c4d: U
 Please note that FBX files exported from Cinema4D are still supported.
 
 Registering precompiled user dll's ...
-Registered in 0.012776 seconds.
+Registered in 0.006508 seconds.
 Begin MonoManager ReloadAssembly
-Symbol file data-00000173FC4711C0 doesn't match image C:\Users\Tairo Kageyama\Documents\GitHub\BVW-Unity-VR\VR Room Project\Library\ScriptAssemblies\Assembly-CSharp.dll
+Symbol file data-0000018DFEBD1E40 doesn't match image D:\Project\BVW-Unity-VR\VR Room Project\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000017402EFD020 doesn't match image C:\Users\Tairo Kageyama\Documents\GitHub\BVW-Unity-VR\VR Room Project\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file data-0000018E2297FD60 doesn't match image D:\Project\BVW-Unity-VR\VR Room Project\Library\ScriptAssemblies\Unity.RenderPipelines.Universal.Shaders.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000172455101E0 doesn't match image C:\Users\Tairo Kageyama\Documents\GitHub\BVW-Unity-VR\VR Room Project\Library\ScriptAssemblies\Unity.RenderPipelines.Universal.Shaders.dll
+Symbol file data-0000018C6256E010 doesn't match image D:\Project\BVW-Unity-VR\VR Room Project\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000172410C3010 doesn't match image C:\Users\Tairo Kageyama\Documents\GitHub\BVW-Unity-VR\VR Room Project\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+Symbol file data-0000018DF86E5F60 doesn't match image D:\Project\BVW-Unity-VR\VR Room Project\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000017240DE9020 doesn't match image C:\Users\Tairo Kageyama\Documents\GitHub\BVW-Unity-VR\VR Room Project\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file data-0000018DFD26F220 doesn't match image D:\Project\BVW-Unity-VR\VR Room Project\Library\ScriptAssemblies\Unity.Searcher.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000173FBC5C030 doesn't match image C:\Users\Tairo Kageyama\Documents\GitHub\BVW-Unity-VR\VR Room Project\Library\ScriptAssemblies\Unity.Searcher.Editor.dll
+Symbol file data-0000018E237808B0 doesn't match image D:\Project\BVW-Unity-VR\VR Room Project\Library\ScriptAssemblies\Unity.ShaderGraph.Utilities.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000017423635910 doesn't match image C:\Users\Tairo Kageyama\Documents\GitHub\BVW-Unity-VR\VR Room Project\Library\ScriptAssemblies\Unity.ShaderGraph.Utilities.dll
+Symbol file data-0000018C6128C020 doesn't match image D:\Project\BVW-Unity-VR\VR Room Project\Library\ScriptAssemblies\Unity.ProBuilder.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000017245FA6D80 doesn't match image C:\Users\Tairo Kageyama\Documents\GitHub\BVW-Unity-VR\VR Room Project\Library\ScriptAssemblies\Unity.ProBuilder.dll
+Symbol file data-0000018DFD8B9010 doesn't match image D:\Project\BVW-Unity-VR\VR Room Project\Library\ScriptAssemblies\UnityEditor.UI.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000173FC1D9220 doesn't match image C:\Users\Tairo Kageyama\Documents\GitHub\BVW-Unity-VR\VR Room Project\Library\ScriptAssemblies\UnityEditor.UI.dll
+Symbol file data-0000018DFD9BD020 doesn't match image D:\Project\BVW-Unity-VR\VR Room Project\Library\ScriptAssemblies\Unity.InputSystem.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000172411A4010 doesn't match image C:\Users\Tairo Kageyama\Documents\GitHub\BVW-Unity-VR\VR Room Project\Library\ScriptAssemblies\Unity.InputSystem.dll
+Symbol file data-0000018DFCF36010 doesn't match image D:\Project\BVW-Unity-VR\VR Room Project\Library\ScriptAssemblies\Unity.Rider.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000173FC4A59C0 doesn't match image C:\Users\Tairo Kageyama\Documents\GitHub\BVW-Unity-VR\VR Room Project\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file data-0000018E22E97E90 doesn't match image D:\Project\BVW-Unity-VR\VR Room Project\Library\ScriptAssemblies\Unity.RenderPipelines.Core.ShaderLibrary.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000017402009450 doesn't match image C:\Users\Tairo Kageyama\Documents\GitHub\BVW-Unity-VR\VR Room Project\Library\ScriptAssemblies\Unity.RenderPipelines.Core.ShaderLibrary.dll
+Symbol file data-0000018C61BF4040 doesn't match image D:\Project\BVW-Unity-VR\VR Room Project\Library\ScriptAssemblies\UnityEngine.UI.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000017241239020 doesn't match image C:\Users\Tairo Kageyama\Documents\GitHub\BVW-Unity-VR\VR Room Project\Library\ScriptAssemblies\UnityEngine.UI.dll
+Symbol file data-0000018DF83E9DF0 doesn't match image D:\Project\BVW-Unity-VR\VR Room Project\Library\ScriptAssemblies\UnityEngine.SpatialTracking.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000017428DBD000 doesn't match image C:\Users\Tairo Kageyama\Documents\GitHub\BVW-Unity-VR\VR Room Project\Library\ScriptAssemblies\UnityEngine.SpatialTracking.dll
+Symbol file data-0000018DFD26F220 doesn't match image D:\Project\BVW-Unity-VR\VR Room Project\Library\ScriptAssemblies\Unity.ProBuilder.Poly2Tri.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000017241267510 doesn't match image C:\Users\Tairo Kageyama\Documents\GitHub\BVW-Unity-VR\VR Room Project\Library\ScriptAssemblies\Unity.ProBuilder.Poly2Tri.dll
+Symbol file data-0000018DFD9BD020 doesn't match image D:\Project\BVW-Unity-VR\VR Room Project\Library\ScriptAssemblies\Unity.ShaderGraph.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000172411A4010 doesn't match image C:\Users\Tairo Kageyama\Documents\GitHub\BVW-Unity-VR\VR Room Project\Library\ScriptAssemblies\Unity.ShaderGraph.Editor.dll
+Symbol file data-0000018C6071A010 doesn't match image D:\Project\BVW-Unity-VR\VR Room Project\Library\ScriptAssemblies\Cinemachine.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000017241F57020 doesn't match image C:\Users\Tairo Kageyama\Documents\GitHub\BVW-Unity-VR\VR Room Project\Library\ScriptAssemblies\Cinemachine.dll
+Symbol file data-0000018C624B8360 doesn't match image D:\Project\BVW-Unity-VR\VR Room Project\Library\ScriptAssemblies\com.unity.cinemachine.editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000017241943060 doesn't match image C:\Users\Tairo Kageyama\Documents\GitHub\BVW-Unity-VR\VR Room Project\Library\ScriptAssemblies\com.unity.cinemachine.editor.dll
+Symbol file data-0000018DF8E11620 doesn't match image D:\Project\BVW-Unity-VR\VR Room Project\Library\ScriptAssemblies\Unity.Settings.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000173FBC5C030 doesn't match image C:\Users\Tairo Kageyama\Documents\GitHub\BVW-Unity-VR\VR Room Project\Library\ScriptAssemblies\Unity.Settings.Editor.dll
+Symbol file data-0000018E22E9B6D0 doesn't match image D:\Project\BVW-Unity-VR\VR Room Project\Library\ScriptAssemblies\Unity.RenderPipeline.Universal.ShaderLibrary.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000017402007E50 doesn't match image C:\Users\Tairo Kageyama\Documents\GitHub\BVW-Unity-VR\VR Room Project\Library\ScriptAssemblies\Unity.RenderPipeline.Universal.ShaderLibrary.dll
+Symbol file data-0000018C61EDE8A0 doesn't match image D:\Project\BVW-Unity-VR\VR Room Project\Library\ScriptAssemblies\Unity.XR.Management.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000172462ABD50 doesn't match image C:\Users\Tairo Kageyama\Documents\GitHub\BVW-Unity-VR\VR Room Project\Library\ScriptAssemblies\Unity.XR.Management.dll
+Symbol file data-0000018DFEAED010 doesn't match image D:\Project\BVW-Unity-VR\VR Room Project\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000017240FF7510 doesn't match image C:\Users\Tairo Kageyama\Documents\GitHub\BVW-Unity-VR\VR Room Project\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+Symbol file data-0000018DF34C9910 doesn't match image D:\Project\BVW-Unity-VR\VR Room Project\Library\ScriptAssemblies\Unity.Mathematics.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000172423AA040 doesn't match image C:\Users\Tairo Kageyama\Documents\GitHub\BVW-Unity-VR\VR Room Project\Library\ScriptAssemblies\Unity.Mathematics.Editor.dll
+Symbol file data-0000018C61CDCBA0 doesn't match image D:\Project\BVW-Unity-VR\VR Room Project\Library\ScriptAssemblies\Unity.XR.OpenXR.Features.RuntimeDebugger.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000017428DBF130 doesn't match image C:\Users\Tairo Kageyama\Documents\GitHub\BVW-Unity-VR\VR Room Project\Library\ScriptAssemblies\Unity.XR.OpenXR.Features.RuntimeDebugger.dll
+Symbol file data-0000018DF83E9DF0 doesn't match image D:\Project\BVW-Unity-VR\VR Room Project\Library\ScriptAssemblies\Unity.XR.Oculus.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001724067BF00 doesn't match image C:\Users\Tairo Kageyama\Documents\GitHub\BVW-Unity-VR\VR Room Project\Library\ScriptAssemblies\Unity.XR.Oculus.Editor.dll
+Symbol file data-0000018DF8A634E0 doesn't match image D:\Project\BVW-Unity-VR\VR Room Project\Library\ScriptAssemblies\Unity.ProGrids.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000017402D130D0 doesn't match image C:\Users\Tairo Kageyama\Documents\GitHub\BVW-Unity-VR\VR Room Project\Library\ScriptAssemblies\Unity.ProGrids.dll
+Symbol file data-0000018E2351A4D0 doesn't match image D:\Project\BVW-Unity-VR\VR Room Project\Library\ScriptAssemblies\Unity.XR.OpenXR.Features.MockDriver.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000017402EFBE60 doesn't match image C:\Users\Tairo Kageyama\Documents\GitHub\BVW-Unity-VR\VR Room Project\Library\ScriptAssemblies\Unity.XR.OpenXR.Features.MockDriver.dll
+Symbol file data-0000018C612BBF60 doesn't match image D:\Project\BVW-Unity-VR\VR Room Project\Library\ScriptAssemblies\Unity.RenderPipelines.Universal.Runtime.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000172404D5550 doesn't match image C:\Users\Tairo Kageyama\Documents\GitHub\BVW-Unity-VR\VR Room Project\Library\ScriptAssemblies\Unity.RenderPipelines.Universal.Runtime.dll
+Symbol file data-0000018DF8588E90 doesn't match image D:\Project\BVW-Unity-VR\VR Room Project\Library\ScriptAssemblies\Unity.ProBuilder.AddOns.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000017241825A40 doesn't match image C:\Users\Tairo Kageyama\Documents\GitHub\BVW-Unity-VR\VR Room Project\Library\ScriptAssemblies\Unity.ProBuilder.AddOns.Editor.dll
+Symbol file data-0000018DFD8B9010 doesn't match image D:\Project\BVW-Unity-VR\VR Room Project\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000173FC1D9220 doesn't match image C:\Users\Tairo Kageyama\Documents\GitHub\BVW-Unity-VR\VR Room Project\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file data-0000018E2312F810 doesn't match image D:\Project\BVW-Unity-VR\VR Room Project\Library\ScriptAssemblies\Unity.XR.OpenXR.Features.OculusQuestSupport.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000017428A33E10 doesn't match image C:\Users\Tairo Kageyama\Documents\GitHub\BVW-Unity-VR\VR Room Project\Library\ScriptAssemblies\Unity.XR.OpenXR.Features.OculusQuestSupport.Editor.dll
+Symbol file data-0000018DFEAED010 doesn't match image D:\Project\BVW-Unity-VR\VR Room Project\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000017240FF7510 doesn't match image C:\Users\Tairo Kageyama\Documents\GitHub\BVW-Unity-VR\VR Room Project\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file data-0000018DF8DA3640 doesn't match image D:\Project\BVW-Unity-VR\VR Room Project\Library\ScriptAssemblies\Unity.XR.Management.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000173FC1D9220 doesn't match image C:\Users\Tairo Kageyama\Documents\GitHub\BVW-Unity-VR\VR Room Project\Library\ScriptAssemblies\Unity.XR.Management.Editor.dll
+Symbol file data-0000018E20144030 doesn't match image D:\Project\BVW-Unity-VR\VR Room Project\Library\ScriptAssemblies\Unity.Timeline.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000172416FC020 doesn't match image C:\Users\Tairo Kageyama\Documents\GitHub\BVW-Unity-VR\VR Room Project\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file data-0000018C6110E010 doesn't match image D:\Project\BVW-Unity-VR\VR Room Project\Library\ScriptAssemblies\Unity.TextMeshPro.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000173FBEE0020 doesn't match image C:\Users\Tairo Kageyama\Documents\GitHub\BVW-Unity-VR\VR Room Project\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file data-0000018C61FB6010 doesn't match image D:\Project\BVW-Unity-VR\VR Room Project\Library\ScriptAssemblies\Unity.XR.Interaction.Toolkit.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000017244F6E040 doesn't match image C:\Users\Tairo Kageyama\Documents\GitHub\BVW-Unity-VR\VR Room Project\Library\ScriptAssemblies\Unity.XR.Interaction.Toolkit.dll
+Symbol file data-0000018DFEBD1E40 doesn't match image D:\Project\BVW-Unity-VR\VR Room Project\Library\ScriptAssemblies\Unity.ProBuilder.Csg.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000017244A2C220 doesn't match image C:\Users\Tairo Kageyama\Documents\GitHub\BVW-Unity-VR\VR Room Project\Library\ScriptAssemblies\Unity.ProBuilder.Csg.dll
+Symbol file data-0000018E203AC7A0 doesn't match image D:\Project\BVW-Unity-VR\VR Room Project\Library\ScriptAssemblies\Unity.XR.OpenXR.Features.MockRuntime.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000017428E62EC0 doesn't match image C:\Users\Tairo Kageyama\Documents\GitHub\BVW-Unity-VR\VR Room Project\Library\ScriptAssemblies\Unity.XR.OpenXR.Features.MockRuntime.dll
+Symbol file data-0000018C61FB6010 doesn't match image D:\Project\BVW-Unity-VR\VR Room Project\Library\ScriptAssemblies\Unity.RenderPipelines.Core.Runtime.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000172418E5020 doesn't match image C:\Users\Tairo Kageyama\Documents\GitHub\BVW-Unity-VR\VR Room Project\Library\ScriptAssemblies\Unity.RenderPipelines.Core.Runtime.dll
+Symbol file data-0000018DF7E75D50 doesn't match image D:\Project\BVW-Unity-VR\VR Room Project\Library\ScriptAssemblies\Unity.Subsystem.Registration.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000172405DA060 doesn't match image C:\Users\Tairo Kageyama\Documents\GitHub\BVW-Unity-VR\VR Room Project\Library\ScriptAssemblies\Unity.Subsystem.Registration.dll
+Symbol file data-0000018DF84FD020 doesn't match image D:\Project\BVW-Unity-VR\VR Room Project\Library\ScriptAssemblies\Unity.ProBuilder.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000017244C64020 doesn't match image C:\Users\Tairo Kageyama\Documents\GitHub\BVW-Unity-VR\VR Room Project\Library\ScriptAssemblies\Unity.ProBuilder.Editor.dll
+Symbol file data-0000018DF84FD020 doesn't match image D:\Project\BVW-Unity-VR\VR Room Project\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000017244C64020 doesn't match image C:\Users\Tairo Kageyama\Documents\GitHub\BVW-Unity-VR\VR Room Project\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll
+Symbol file data-0000018DFDB26DE0 doesn't match image D:\Project\BVW-Unity-VR\VR Room Project\Library\ScriptAssemblies\Unity.ProGrids.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000172409D9230 doesn't match image C:\Users\Tairo Kageyama\Documents\GitHub\BVW-Unity-VR\VR Room Project\Library\ScriptAssemblies\Unity.ProGrids.Editor.dll
+Symbol file data-0000018E2327D8A0 doesn't match image D:\Project\BVW-Unity-VR\VR Room Project\Library\ScriptAssemblies\Unity.XR.OpenXR.Features.OculusQuestSupport.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000017244B76580 doesn't match image C:\Users\Tairo Kageyama\Documents\GitHub\BVW-Unity-VR\VR Room Project\Library\ScriptAssemblies\Unity.XR.OpenXR.Features.OculusQuestSupport.dll
+Symbol file data-0000018DF885F230 doesn't match image D:\Project\BVW-Unity-VR\VR Room Project\Library\ScriptAssemblies\Unity.Mathematics.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000173FC296ED0 doesn't match image C:\Users\Tairo Kageyama\Documents\GitHub\BVW-Unity-VR\VR Room Project\Library\ScriptAssemblies\Unity.Mathematics.dll
+Symbol file data-0000018C61675C30 doesn't match image D:\Project\BVW-Unity-VR\VR Room Project\Library\ScriptAssemblies\Unity.ProBuilder.KdTree.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000172423A14D0 doesn't match image C:\Users\Tairo Kageyama\Documents\GitHub\BVW-Unity-VR\VR Room Project\Library\ScriptAssemblies\Unity.ProBuilder.KdTree.dll
+Symbol file data-0000018E23780D00 doesn't match image D:\Project\BVW-Unity-VR\VR Room Project\Library\ScriptAssemblies\Unity.XR.OpenXR.TestHelpers.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000174288F44A0 doesn't match image C:\Users\Tairo Kageyama\Documents\GitHub\BVW-Unity-VR\VR Room Project\Library\ScriptAssemblies\Unity.XR.OpenXR.TestHelpers.dll
+Symbol file data-0000018DF86FA3C0 doesn't match image D:\Project\BVW-Unity-VR\VR Room Project\Library\ScriptAssemblies\Unity.RenderPipelines.Universal.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000017240B56EF0 doesn't match image C:\Users\Tairo Kageyama\Documents\GitHub\BVW-Unity-VR\VR Room Project\Library\ScriptAssemblies\Unity.RenderPipelines.Universal.Editor.dll
+Symbol file data-0000018C61675C30 doesn't match image D:\Project\BVW-Unity-VR\VR Room Project\Library\ScriptAssemblies\Unity.ProBuilder.AssetIdRemapUtility.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000017402EFD020 doesn't match image C:\Users\Tairo Kageyama\Documents\GitHub\BVW-Unity-VR\VR Room Project\Library\ScriptAssemblies\Unity.ProBuilder.AssetIdRemapUtility.dll
+Symbol file data-0000018DFEF1A880 doesn't match image D:\Project\BVW-Unity-VR\VR Room Project\Library\ScriptAssemblies\UnityEngine.XR.LegacyInputHelpers.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000017244A2C220 doesn't match image C:\Users\Tairo Kageyama\Documents\GitHub\BVW-Unity-VR\VR Room Project\Library\ScriptAssemblies\UnityEngine.XR.LegacyInputHelpers.dll
+Symbol file data-0000018C692116E0 doesn't match image D:\Project\BVW-Unity-VR\VR Room Project\Library\ScriptAssemblies\Unity.ProBuilder.Stl.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000172462ABD50 doesn't match image C:\Users\Tairo Kageyama\Documents\GitHub\BVW-Unity-VR\VR Room Project\Library\ScriptAssemblies\Unity.ProBuilder.Stl.dll
+Symbol file data-0000018DFDB26DE0 doesn't match image D:\Project\BVW-Unity-VR\VR Room Project\Library\ScriptAssemblies\Unity.XR.OpenXR.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000172409D9230 doesn't match image C:\Users\Tairo Kageyama\Documents\GitHub\BVW-Unity-VR\VR Room Project\Library\ScriptAssemblies\Unity.XR.OpenXR.Editor.dll
+Symbol file data-0000018E22E98D90 doesn't match image D:\Project\BVW-Unity-VR\VR Room Project\Library\ScriptAssemblies\Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000017402009450 doesn't match image C:\Users\Tairo Kageyama\Documents\GitHub\BVW-Unity-VR\VR Room Project\Library\ScriptAssemblies\Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary.dll
+Symbol file data-0000018C612E0080 doesn't match image D:\Project\BVW-Unity-VR\VR Room Project\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000017428F0AD60 doesn't match image C:\Users\Tairo Kageyama\Documents\GitHub\BVW-Unity-VR\VR Room Project\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+Symbol file data-0000018C68E7B150 doesn't match image D:\Project\BVW-Unity-VR\VR Room Project\Library\ScriptAssemblies\UnityEditor.XR.LegacyInputHelpers.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000174287428E0 doesn't match image C:\Users\Tairo Kageyama\Documents\GitHub\BVW-Unity-VR\VR Room Project\Library\ScriptAssemblies\UnityEditor.XR.LegacyInputHelpers.dll
+Symbol file data-0000018DFD8B9010 doesn't match image D:\Project\BVW-Unity-VR\VR Room Project\Library\ScriptAssemblies\Unity.XR.OpenXR.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000017427A97D60 doesn't match image C:\Users\Tairo Kageyama\Documents\GitHub\BVW-Unity-VR\VR Room Project\Library\ScriptAssemblies\Unity.XR.OpenXR.dll
+Symbol file data-0000018DFDB26DE0 doesn't match image D:\Project\BVW-Unity-VR\VR Room Project\Library\ScriptAssemblies\Unity.XR.Interaction.Toolkit.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000017427A97D60 doesn't match image C:\Users\Tairo Kageyama\Documents\GitHub\BVW-Unity-VR\VR Room Project\Library\ScriptAssemblies\Unity.XR.Interaction.Toolkit.Editor.dll
+Symbol file data-0000018DFD26F220 doesn't match image D:\Project\BVW-Unity-VR\VR Room Project\Library\ScriptAssemblies\Unity.XR.Oculus.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000173FBC5C030 doesn't match image C:\Users\Tairo Kageyama\Documents\GitHub\BVW-Unity-VR\VR Room Project\Library\ScriptAssemblies\Unity.XR.Oculus.dll
+Symbol file data-0000018E23131B80 doesn't match image D:\Project\BVW-Unity-VR\VR Room Project\Library\ScriptAssemblies\UnityEditor.SpatialTracking.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000017428A2DDE0 doesn't match image C:\Users\Tairo Kageyama\Documents\GitHub\BVW-Unity-VR\VR Room Project\Library\ScriptAssemblies\UnityEditor.SpatialTracking.dll
+Symbol file data-0000018C69063030 doesn't match image D:\Project\BVW-Unity-VR\VR Room Project\Library\ScriptAssemblies\Unity.XR.OpenXR.Features.ConformanceAutomation.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000174276C0240 doesn't match image C:\Users\Tairo Kageyama\Documents\GitHub\BVW-Unity-VR\VR Room Project\Library\ScriptAssemblies\Unity.XR.OpenXR.Features.ConformanceAutomation.dll
+Symbol file data-0000018E20273030 doesn't match image D:\Project\BVW-Unity-VR\VR Room Project\Library\ScriptAssemblies\Unity.RenderPipelines.Core.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000017240FCD010 doesn't match image C:\Users\Tairo Kageyama\Documents\GitHub\BVW-Unity-VR\VR Room Project\Library\ScriptAssemblies\Unity.RenderPipelines.Core.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000017428CABD90 doesn't match image C:\Users\Tairo Kageyama\Documents\GitHub\BVW-Unity-VR\VR Room Project\Library\ScriptAssemblies\Unity.XR.OpenXR.Features.RuntimeDebugger.Editor.dll
+Symbol file data-0000018E2385E420 doesn't match image D:\Project\BVW-Unity-VR\VR Room Project\Library\ScriptAssemblies\Unity.XR.OpenXR.Features.RuntimeDebugger.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
 Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
 Refreshing native plugins compatible for Editor in 1.01 ms, found 10 plugins.
-Preloading 1 native plugins for Editor in 0.10 ms.
+Preloading 1 native plugins for Editor in 0.06 ms.
 System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation. ---> System.NullReferenceException: Object reference not set to an instance of an object
   at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x0004e] in <8a071fb1f4e44da789de830ea0d8d7ac>:0 
   at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0007b] in <8a071fb1f4e44da789de830ea0d8d7ac>:0 
@@ -829,42 +705,42 @@ UnityEngine.Debug:LogError (object)
 UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
 
 Mono: successfully reloaded assembly
-- Completed reload, in  0.919 seconds
+- Completed reload, in  1.242 seconds
 Domain Reload Profiling:
-	ReloadAssembly (919ms)
-		BeginReloadAssembly (106ms)
+	ReloadAssembly (1242ms)
+		BeginReloadAssembly (119ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (3ms)
+			DisableScriptedObjects (5ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (27ms)
-		EndReloadAssembly (765ms)
-			LoadAssemblies (84ms)
+			CreateAndSetChildDomain (35ms)
+		EndReloadAssembly (1070ms)
+			LoadAssemblies (88ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (196ms)
+			SetupTypeCache (317ms)
 			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (30ms)
-			SetupLoadedEditorAssemblies (328ms)
+			RebuildScriptCaches (48ms)
+			SetupLoadedEditorAssemblies (434ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (3ms)
+				InitializePlatformSupportModulesInManaged (4ms)
 				SetLoadedEditorAssemblies (1ms)
 				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (65ms)
-				ProcessInitializeOnLoadAttributes (241ms)
-				ProcessInitializeOnLoadMethodAttributes (9ms)
-				AfterProcessingInitializeOnLoad (8ms)
+				BeforeProcessingInitializeOnLoad (75ms)
+				ProcessInitializeOnLoadAttributes (339ms)
+				ProcessInitializeOnLoadMethodAttributes (12ms)
+				AfterProcessingInitializeOnLoad (2ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (11ms)
+			AwakeInstancesAfterBackupRestoration (15ms)
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 1.00 ms, found 10 plugins.
-Preloading 1 native plugins for Editor in 0.10 ms.
+Refreshing native plugins compatible for Editor in 1.09 ms, found 10 plugins.
+Preloading 1 native plugins for Editor in 0.06 ms.
 Unloading 3753 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 172.2 MB.
-System memory in use after: 172.4 MB.
+System memory in use before: 172.3 MB.
+System memory in use after: 172.6 MB.
 
 Unloading 35 unused Assets to reduce memory usage. Loaded Objects now: 4453.
-Total: 3.056100 ms (FindLiveObjects: 0.243000 ms CreateObjectMapping: 0.093000 ms MarkObjects: 2.658300 ms  DeleteObjects: 0.061300 ms)
+Total: 3.923500 ms (FindLiveObjects: 0.326600 ms CreateObjectMapping: 0.193400 ms MarkObjects: 3.327900 ms  DeleteObjects: 0.074700 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
@@ -873,7 +749,6 @@ AssetImportParameters requested are different than current active one (requested
   custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
   custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
   custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
