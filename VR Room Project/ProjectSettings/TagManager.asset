@@ -9,6 +9,10 @@ TagManager:
   - Trail
   - Stick
   - Present
+  - TargetStar
+  - TargetSock
+  - TargetSanta
+  - TargetAlvo
   layers:
   - Default
   - TransparentFX

@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class HitGame : MonoBehaviour
+public class HitGame: MonoBehaviour
 {
     [SerializeField] bool play = false;
     [SerializeField] float duration = 15f;
