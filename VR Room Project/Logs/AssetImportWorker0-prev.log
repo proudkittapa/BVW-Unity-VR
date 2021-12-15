@@ -1,6 +1,6 @@
 Using pre-set license
 Built from '2020.3/staging' branch; Version is '2020.3.17f1 (a4537701e4ab) revision 10769271'; Using compiler version '192528614'; Build Type 'Release'
-OS: 'Windows 10 Home Single Language; OS build 19043.1348; Version 2009; 64bit' Language: 'en' Physical Memory: 16169 MB
+OS: 'Windows 10 Home Single Language; OS build 19043.1348; Version 2009; 64bit' Language: 'en' Physical Memory: 16233 MB
 BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
 
 COMMAND LINE ARGUMENTS:
@@ -11,220 +11,95 @@ C:\Program Files\Unity\Hub\Editor\2020.3.17f1\Editor\Unity.exe
 -name
 AssetImportWorker0
 -projectPath
-C:/Users/fluke/Documents/GitHub/BVW-Unity-VR/VR Room Project
+C:/Users/Pink/Documents/GitHub/BVW-Unity-VR/VR Room Project
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-59537
-Successfully changed project path to: C:/Users/fluke/Documents/GitHub/BVW-Unity-VR/VR Room Project
-C:/Users/fluke/Documents/GitHub/BVW-Unity-VR/VR Room Project
+65022
+Successfully changed project path to: C:/Users/Pink/Documents/GitHub/BVW-Unity-VR/VR Room Project
+C:/Users/Pink/Documents/GitHub/BVW-Unity-VR/VR Room Project
 Using Asset Import Pipeline V2.
 Assets/GymAssests/uploads-files-669576-aeq3vjprnoqo-Bleachers-1/bleachers.c4d: Unity no longer supports importing Cinema 4D files directly, but we're working with Maxon to make the experience better. To import Cinema 4D files, install Maxon's external importer. You can find more information on the Unity Forum: https://on.unity.com/c4d.
 
 Please note that FBX files exported from Cinema4D are still supported.
 
-Refreshing native plugins compatible for Editor in 96.07 ms, found 10 plugins.
-Preloading 1 native plugins for Editor in 0.94 ms.
+Refreshing native plugins compatible for Editor in 96.52 ms, found 10 plugins.
+Preloading 1 native plugins for Editor in 0.93 ms.
 Initialize engine version: 2020.3.17f1 (a4537701e4ab)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.17f1/Editor/Data/Resources/UnitySubsystems
-[Subsystems] Discovering subsystems at path C:/Users/fluke/Documents/GitHub/BVW-Unity-VR/VR Room Project/Assets
+[Subsystems] Discovering subsystems at path C:/Users/Pink/Documents/GitHub/BVW-Unity-VR/VR Room Project/Assets
 GfxDevice: creating device client; threaded=0
 Direct3D:
     Version:  Direct3D 11.0 [level 11.1]
-    Renderer: NVIDIA GeForce GTX 1660 Ti (ID=0x2191)
+    Renderer: NVIDIA GeForce RTX 2070 (ID=0x1f10)
     Vendor:   
-    VRAM:     5991 MB
-    Driver:   30.0.14.9709
+    VRAM:     8031 MB
+    Driver:   27.21.14.6627
 Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.17f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.17f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.17f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56544
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56960
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.17f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
-Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.17f1/Editor/Data/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.17f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.003229 seconds.
+Registered in 0.002339 seconds.
 Native extension for WindowsStandalone target not found
-Native extension for OSXStandalone target not found
 Native extension for WebGL target not found
 Assets/GymAssests/uploads-files-669576-aeq3vjprnoqo-Bleachers-1/bleachers.c4d: Unity no longer supports importing Cinema 4D files directly, but we're working with Maxon to make the experience better. To import Cinema 4D files, install Maxon's external importer. You can find more information on the Unity Forum: https://on.unity.com/c4d.
 
 Please note that FBX files exported from Cinema4D are still supported.
 
-Refreshing native plugins compatible for Editor in 107.77 ms, found 10 plugins.
-Preloading 1 native plugins for Editor in 0.13 ms.
+Refreshing native plugins compatible for Editor in 78.23 ms, found 10 plugins.
+Preloading 1 native plugins for Editor in 0.08 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.402 seconds
+- Completed reload, in  2.024 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1402ms)
-		BeginReloadAssembly (53ms)
+	ReloadAssembly (2024ms)
+		BeginReloadAssembly (51ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (546ms)
-			LoadAssemblies (51ms)
+		EndReloadAssembly (435ms)
+			LoadAssemblies (49ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (178ms)
+			SetupTypeCache (143ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (34ms)
-			SetupLoadedEditorAssemblies (246ms)
+			RebuildScriptCaches (30ms)
+			SetupLoadedEditorAssemblies (193ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (7ms)
+				InitializePlatformSupportModulesInManaged (4ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (108ms)
-				BeforeProcessingInitializeOnLoad (19ms)
-				ProcessInitializeOnLoadAttributes (81ms)
-				ProcessInitializeOnLoadMethodAttributes (31ms)
+				RefreshPlugins (78ms)
+				BeforeProcessingInitializeOnLoad (9ms)
+				ProcessInitializeOnLoadAttributes (75ms)
+				ProcessInitializeOnLoadMethodAttributes (26ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.012726 seconds.
+Registered in 0.009309 seconds.
 Begin MonoManager ReloadAssembly
-Symbol file data-000002327D1F8820 doesn't match image C:\Users\fluke\Documents\GitHub\BVW-Unity-VR\VR Room Project\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002327D3434D0 doesn't match image C:\Users\fluke\Documents\GitHub\BVW-Unity-VR\VR Room Project\Library\ScriptAssemblies\Unity.RenderPipelines.Universal.Shaders.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000023082DF2020 doesn't match image C:\Users\fluke\Documents\GitHub\BVW-Unity-VR\VR Room Project\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000023082DF2020 doesn't match image C:\Users\fluke\Documents\GitHub\BVW-Unity-VR\VR Room Project\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002327D2A6430 doesn't match image C:\Users\fluke\Documents\GitHub\BVW-Unity-VR\VR Room Project\Library\ScriptAssemblies\Unity.Searcher.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000023083030FF0 doesn't match image C:\Users\fluke\Documents\GitHub\BVW-Unity-VR\VR Room Project\Library\ScriptAssemblies\Unity.ShaderGraph.Utilities.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002327D4E1030 doesn't match image C:\Users\fluke\Documents\GitHub\BVW-Unity-VR\VR Room Project\Library\ScriptAssemblies\Unity.ProBuilder.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000023081B2E9C0 doesn't match image C:\Users\fluke\Documents\GitHub\BVW-Unity-VR\VR Room Project\Library\ScriptAssemblies\UnityEditor.UI.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000230814A2010 doesn't match image C:\Users\fluke\Documents\GitHub\BVW-Unity-VR\VR Room Project\Library\ScriptAssemblies\Unity.InputSystem.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002327D2D5FA0 doesn't match image C:\Users\fluke\Documents\GitHub\BVW-Unity-VR\VR Room Project\Library\ScriptAssemblies\Unity.Rider.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002327D384330 doesn't match image C:\Users\fluke\Documents\GitHub\BVW-Unity-VR\VR Room Project\Library\ScriptAssemblies\Unity.RenderPipelines.Core.ShaderLibrary.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000023082A8E020 doesn't match image C:\Users\fluke\Documents\GitHub\BVW-Unity-VR\VR Room Project\Library\ScriptAssemblies\UnityEngine.UI.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002327D29C5D0 doesn't match image C:\Users\fluke\Documents\GitHub\BVW-Unity-VR\VR Room Project\Library\ScriptAssemblies\UnityEngine.SpatialTracking.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002327D3544B0 doesn't match image C:\Users\fluke\Documents\GitHub\BVW-Unity-VR\VR Room Project\Library\ScriptAssemblies\Unity.ProBuilder.Poly2Tri.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000230814A2010 doesn't match image C:\Users\fluke\Documents\GitHub\BVW-Unity-VR\VR Room Project\Library\ScriptAssemblies\Unity.ShaderGraph.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002327D012020 doesn't match image C:\Users\fluke\Documents\GitHub\BVW-Unity-VR\VR Room Project\Library\ScriptAssemblies\Cinemachine.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000023081D46230 doesn't match image C:\Users\fluke\Documents\GitHub\BVW-Unity-VR\VR Room Project\Library\ScriptAssemblies\com.unity.cinemachine.editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002327D2A6430 doesn't match image C:\Users\fluke\Documents\GitHub\BVW-Unity-VR\VR Room Project\Library\ScriptAssemblies\Unity.Settings.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002327D3436C0 doesn't match image C:\Users\fluke\Documents\GitHub\BVW-Unity-VR\VR Room Project\Library\ScriptAssemblies\Unity.RenderPipeline.Universal.ShaderLibrary.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002327D0C5850 doesn't match image C:\Users\fluke\Documents\GitHub\BVW-Unity-VR\VR Room Project\Library\ScriptAssemblies\Unity.XR.Management.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000023082A9E030 doesn't match image C:\Users\fluke\Documents\GitHub\BVW-Unity-VR\VR Room Project\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002327D35A8C0 doesn't match image C:\Users\fluke\Documents\GitHub\BVW-Unity-VR\VR Room Project\Library\ScriptAssemblies\Unity.Mathematics.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002327D29C5D0 doesn't match image C:\Users\fluke\Documents\GitHub\BVW-Unity-VR\VR Room Project\Library\ScriptAssemblies\Unity.XR.OpenXR.Features.RuntimeDebugger.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002327D29ECE0 doesn't match image C:\Users\fluke\Documents\GitHub\BVW-Unity-VR\VR Room Project\Library\ScriptAssemblies\Unity.XR.Oculus.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002327D715C40 doesn't match image C:\Users\fluke\Documents\GitHub\BVW-Unity-VR\VR Room Project\Library\ScriptAssemblies\Unity.ProGrids.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000023252282700 doesn't match image C:\Users\fluke\Documents\GitHub\BVW-Unity-VR\VR Room Project\Library\ScriptAssemblies\Unity.XR.OpenXR.Features.MockDriver.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002327D012020 doesn't match image C:\Users\fluke\Documents\GitHub\BVW-Unity-VR\VR Room Project\Library\ScriptAssemblies\Unity.RenderPipelines.Universal.Runtime.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000023082B1F010 doesn't match image C:\Users\fluke\Documents\GitHub\BVW-Unity-VR\VR Room Project\Library\ScriptAssemblies\Unity.ProBuilder.AddOns.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000023081B2E9C0 doesn't match image C:\Users\fluke\Documents\GitHub\BVW-Unity-VR\VR Room Project\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002327CEA43F0 doesn't match image C:\Users\fluke\Documents\GitHub\BVW-Unity-VR\VR Room Project\Library\ScriptAssemblies\Unity.XR.OpenXR.Features.OculusQuestSupport.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002327D022030 doesn't match image C:\Users\fluke\Documents\GitHub\BVW-Unity-VR\VR Room Project\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002327CF9C630 doesn't match image C:\Users\fluke\Documents\GitHub\BVW-Unity-VR\VR Room Project\Library\ScriptAssemblies\Unity.XR.Management.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002327D022030 doesn't match image C:\Users\fluke\Documents\GitHub\BVW-Unity-VR\VR Room Project\Library\ScriptAssemblies\Unity.Timeline.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000023081921020 doesn't match image C:\Users\fluke\Documents\GitHub\BVW-Unity-VR\VR Room Project\Library\ScriptAssemblies\Unity.TextMeshPro.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000023081B47020 doesn't match image C:\Users\fluke\Documents\GitHub\BVW-Unity-VR\VR Room Project\Library\ScriptAssemblies\Unity.XR.Interaction.Toolkit.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002327CFBEA60 doesn't match image C:\Users\fluke\Documents\GitHub\BVW-Unity-VR\VR Room Project\Library\ScriptAssemblies\Unity.ProBuilder.Csg.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002327D29D8C0 doesn't match image C:\Users\fluke\Documents\GitHub\BVW-Unity-VR\VR Room Project\Library\ScriptAssemblies\Unity.XR.OpenXR.Features.MockRuntime.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000023081B6E030 doesn't match image C:\Users\fluke\Documents\GitHub\BVW-Unity-VR\VR Room Project\Library\ScriptAssemblies\Unity.RenderPipelines.Core.Runtime.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002327D719A30 doesn't match image C:\Users\fluke\Documents\GitHub\BVW-Unity-VR\VR Room Project\Library\ScriptAssemblies\Unity.Subsystem.Registration.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002327D259010 doesn't match image C:\Users\fluke\Documents\GitHub\BVW-Unity-VR\VR Room Project\Library\ScriptAssemblies\Unity.ProBuilder.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002327D259010 doesn't match image C:\Users\fluke\Documents\GitHub\BVW-Unity-VR\VR Room Project\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000230816A6770 doesn't match image C:\Users\fluke\Documents\GitHub\BVW-Unity-VR\VR Room Project\Library\ScriptAssemblies\Unity.ProGrids.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000230815B4C20 doesn't match image C:\Users\fluke\Documents\GitHub\BVW-Unity-VR\VR Room Project\Library\ScriptAssemblies\Unity.XR.OpenXR.Features.OculusQuestSupport.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000023082866030 doesn't match image C:\Users\fluke\Documents\GitHub\BVW-Unity-VR\VR Room Project\Library\ScriptAssemblies\Unity.Mathematics.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000023082CAF110 doesn't match image C:\Users\fluke\Documents\GitHub\BVW-Unity-VR\VR Room Project\Library\ScriptAssemblies\Unity.ProBuilder.KdTree.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002308302F610 doesn't match image C:\Users\fluke\Documents\GitHub\BVW-Unity-VR\VR Room Project\Library\ScriptAssemblies\Unity.XR.OpenXR.TestHelpers.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000023081B6E030 doesn't match image C:\Users\fluke\Documents\GitHub\BVW-Unity-VR\VR Room Project\Library\ScriptAssemblies\Unity.RenderPipelines.Universal.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000023083347C50 doesn't match image C:\Users\fluke\Documents\GitHub\BVW-Unity-VR\VR Room Project\Library\ScriptAssemblies\Unity.ProBuilder.AssetIdRemapUtility.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000023081D56250 doesn't match image C:\Users\fluke\Documents\GitHub\BVW-Unity-VR\VR Room Project\Library\ScriptAssemblies\UnityEngine.XR.LegacyInputHelpers.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002308210AA50 doesn't match image C:\Users\fluke\Documents\GitHub\BVW-Unity-VR\VR Room Project\Library\ScriptAssemblies\Unity.ProBuilder.Stl.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002308152BA30 doesn't match image C:\Users\fluke\Documents\GitHub\BVW-Unity-VR\VR Room Project\Library\ScriptAssemblies\Unity.XR.OpenXR.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002327D385F30 doesn't match image C:\Users\fluke\Documents\GitHub\BVW-Unity-VR\VR Room Project\Library\ScriptAssemblies\Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002308231A010 doesn't match image C:\Users\fluke\Documents\GitHub\BVW-Unity-VR\VR Room Project\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002327D29ECE0 doesn't match image C:\Users\fluke\Documents\GitHub\BVW-Unity-VR\VR Room Project\Library\ScriptAssemblies\UnityEditor.XR.LegacyInputHelpers.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000023081BD6840 doesn't match image C:\Users\fluke\Documents\GitHub\BVW-Unity-VR\VR Room Project\Library\ScriptAssemblies\Unity.XR.OpenXR.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002327D33DA20 doesn't match image C:\Users\fluke\Documents\GitHub\BVW-Unity-VR\VR Room Project\Library\ScriptAssemblies\Unity.XR.Interaction.Toolkit.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000230822F4A60 doesn't match image C:\Users\fluke\Documents\GitHub\BVW-Unity-VR\VR Room Project\Library\ScriptAssemblies\Unity.XR.Oculus.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002327CEA43F0 doesn't match image C:\Users\fluke\Documents\GitHub\BVW-Unity-VR\VR Room Project\Library\ScriptAssemblies\UnityEditor.SpatialTracking.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002308201A760 doesn't match image C:\Users\fluke\Documents\GitHub\BVW-Unity-VR\VR Room Project\Library\ScriptAssemblies\Unity.XR.OpenXR.Features.ConformanceAutomation.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002327D281630 doesn't match image C:\Users\fluke\Documents\GitHub\BVW-Unity-VR\VR Room Project\Library\ScriptAssemblies\Unity.RenderPipelines.Core.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002327D16BB10 doesn't match image C:\Users\fluke\Documents\GitHub\BVW-Unity-VR\VR Room Project\Library\ScriptAssemblies\Unity.XR.OpenXR.Features.RuntimeDebugger.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
 Native extension for WindowsStandalone target not found
-Native extension for OSXStandalone target not found
 Native extension for WebGL target not found
 Assets/GymAssests/uploads-files-669576-aeq3vjprnoqo-Bleachers-1/bleachers.c4d: Unity no longer supports importing Cinema 4D files directly, but we're working with Maxon to make the experience better. To import Cinema 4D files, install Maxon's external importer. You can find more information on the Unity Forum: https://on.unity.com/c4d.
 
 Please note that FBX files exported from Cinema4D are still supported.
 
-Refreshing native plugins compatible for Editor in 86.15 ms, found 10 plugins.
-Preloading 1 native plugins for Editor in 0.11 ms.
+Refreshing native plugins compatible for Editor in 83.64 ms, found 10 plugins.
+Preloading 1 native plugins for Editor in 0.08 ms.
 [XR] OculusXRPlugin: registering subsystems
 [XR] Unable to register display lifecyle provider: [1]
 [XR] Oculus Input lifecycle provider registered.
 [XR] Unable to register input lifecyle provider: [1]
 System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation. ---> System.NullReferenceException: Object reference not set to an instance of an object
-  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x0004e] in <8a071fb1f4e44da789de830ea0d8d7ac>:0 
-  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0007b] in <8a071fb1f4e44da789de830ea0d8d7ac>:0 
+  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x00048] in C:\Users\Pink\Documents\GitHub\BVW-Unity-VR\VR Room Project\Library\PackageCache\com.unity.xr.oculus@1.10.0\Runtime\OculusLoader.cs:250 
+  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0007b] in C:\Users\Pink\Documents\GitHub\BVW-Unity-VR\VR Room Project\Library\PackageCache\com.unity.xr.oculus@1.10.0\Runtime\OculusLoader.cs:235 
   at (wrapper managed-to-native) System.Reflection.MonoMethod.InternalInvoke(System.Reflection.MonoMethod,object,object[],System.Exception&)
   at System.Reflection.MonoMethod.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00032] in <695d1cc93cca45069c528c15c9fdd749>:0 
    --- End of inner exception stack trace ---
@@ -238,33 +113,33 @@ UnityEngine.Debug:LogError (object)
 UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
 
 Mono: successfully reloaded assembly
-- Completed reload, in  1.724 seconds
+- Completed reload, in  1.432 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1726ms)
-		BeginReloadAssembly (174ms)
+	ReloadAssembly (1433ms)
+		BeginReloadAssembly (136ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (5ms)
+			DisableScriptedObjects (4ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (21ms)
-		EndReloadAssembly (1485ms)
-			LoadAssemblies (101ms)
+			CreateAndSetChildDomain (18ms)
+		EndReloadAssembly (1233ms)
+			LoadAssemblies (97ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (370ms)
+			SetupTypeCache (339ms)
 			ReleaseScriptCaches (1ms)
 			RebuildScriptCaches (62ms)
-			SetupLoadedEditorAssemblies (735ms)
+			SetupLoadedEditorAssemblies (560ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (5ms)
+				InitializePlatformSupportModulesInManaged (4ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (86ms)
-				BeforeProcessingInitializeOnLoad (120ms)
-				ProcessInitializeOnLoadAttributes (499ms)
+				RefreshPlugins (84ms)
+				BeforeProcessingInitializeOnLoad (105ms)
+				ProcessInitializeOnLoadAttributes (346ms)
 				ProcessInitializeOnLoadMethodAttributes (14ms)
-				AfterProcessingInitializeOnLoad (10ms)
+				AfterProcessingInitializeOnLoad (8ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (13ms)
+			AwakeInstancesAfterBackupRestoration (5ms)
 Platform modules already initialized, skipping
 Assets/GymAssests/uploads-files-669576-aeq3vjprnoqo-Bleachers-1/bleachers.c4d: Unity no longer supports importing Cinema 4D files directly, but we're working with Maxon to make the experience better. To import Cinema 4D files, install Maxon's external importer. You can find more information on the Unity Forum: https://on.unity.com/c4d.
 
@@ -276,15 +151,15 @@ Assets/GymAssests/uploads-files-669576-aeq3vjprnoqo-Bleachers-1/bleachers.c4d: U
 
 Please note that FBX files exported from Cinema4D are still supported.
 
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.07 seconds
-Refreshing native plugins compatible for Editor in 1.92 ms, found 10 plugins.
-Preloading 1 native plugins for Editor in 0.12 ms.
-Unloading 3913 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 183.0 MB.
-System memory in use after: 183.0 MB.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.08 seconds
+Refreshing native plugins compatible for Editor in 1.02 ms, found 10 plugins.
+Preloading 1 native plugins for Editor in 0.08 ms.
+Unloading 3909 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 183.7 MB.
+System memory in use after: 183.7 MB.
 
-Unloading 42 unused Assets to reduce memory usage. Loaded Objects now: 4406.
-Total: 4.921500 ms (FindLiveObjects: 0.421300 ms CreateObjectMapping: 0.327800 ms MarkObjects: 4.043500 ms  DeleteObjects: 0.127500 ms)
+Unloading 42 unused Assets to reduce memory usage. Loaded Objects now: 4412.
+Total: 3.945600 ms (FindLiveObjects: 0.345700 ms CreateObjectMapping: 0.198200 ms MarkObjects: 3.289900 ms  DeleteObjects: 0.110400 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
@@ -299,9 +174,393 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  path: Assets/Scripts/HitGame.cs
-  artifactKey: Guid(61fe350f4531da0458a41478558359b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/HitGame.cs using Guid(61fe350f4531da0458a41478558359b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e7503f6ee6d7ed77ac4878b038138916') in 0.027806 seconds 
-  Import took 0.036190 seconds .
+  path: Assets/UniversalRenderPipelineAsset.asset
+  artifactKey: Guid(354398a4ec99999439aa8fec9af680cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UniversalRenderPipelineAsset.asset using Guid(354398a4ec99999439aa8fec9af680cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '12f3add19ddc4f64f7a947ef8b654adf') in 0.048758 seconds 
+  Import took 0.054010 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000303 seconds.
+  path: Assets/New Terrain.asset
+  artifactKey: Guid(cf2b1c6cb1021204d98017b4431db1e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/New Terrain.asset using Guid(cf2b1c6cb1021204d98017b4431db1e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b053d905459078fae53909e764464bc3') in 0.050747 seconds 
+  Import took 0.056598 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000288 seconds.
+  path: Assets/UniversalRenderPipelineAsset_Renderer.asset
+  artifactKey: Guid(02e94b3bd0c7d0845afe0496e4b3e970) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UniversalRenderPipelineAsset_Renderer.asset using Guid(02e94b3bd0c7d0845afe0496e4b3e970) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9e82b45819d2dd0c4ab38315f1038099') in 0.007214 seconds 
+  Import took 0.012346 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000255 seconds.
+  path: Assets/WorkingWallHanger.prefab
+  artifactKey: Guid(74071b28bebaf5a4f9ffce20a8851dec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/WorkingWallHanger.prefab using Guid(74071b28bebaf5a4f9ffce20a8851dec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cd876474d2fe1527a8550abd210fa660') in 0.026884 seconds 
+  Import took 0.033480 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 14.863335 seconds.
+  path: Assets/GymAssests/BodyBuilder Asset Pack/Meshes/5Plate.fbx
+  artifactKey: Guid(9232111d0b2294ae39b979050f164d7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GymAssests/BodyBuilder Asset Pack/Meshes/5Plate.fbx using Guid(9232111d0b2294ae39b979050f164d7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5c008a56df0b40b1de494b4927900548') in 0.301480 seconds 
+  Import took 0.308253 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000331 seconds.
+  path: Assets/GymAssests/BodyBuilder Asset Pack/Meshes/35CrossPlate.fbx
+  artifactKey: Guid(465eb9f2af1ed4b94b2243866f9b3a01) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GymAssests/BodyBuilder Asset Pack/Meshes/35CrossPlate.fbx using Guid(465eb9f2af1ed4b94b2243866f9b3a01) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a433b39cba32fa392a706d903b1f3789') in 0.091180 seconds 
+  Import took 0.098304 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000325 seconds.
+  path: Assets/GymAssests/LowPolyChristmasAddOn/Meshes/Baulble_1.fbx
+  artifactKey: Guid(760f9a5cdeda14bceb1b27b3559721af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GymAssests/LowPolyChristmasAddOn/Meshes/Baulble_1.fbx using Guid(760f9a5cdeda14bceb1b27b3559721af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8ac1d010265d30eba06f339eef9870a4') in 0.031329 seconds 
+  Import took 0.037198 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000261 seconds.
+  path: Assets/_Course Library/Models/Backgrounds/BuldingBlock_1.fbx
+  artifactKey: Guid(6740ac64e8805ed4991de696e52555ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Course Library/Models/Backgrounds/BuldingBlock_1.fbx using Guid(6740ac64e8805ed4991de696e52555ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '95e3599647901ec76314be9dc5f17169') in 0.032947 seconds 
+  Import took 0.039762 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000306 seconds.
+  path: Assets/AlignedGames/Polygonal Foliage Asset Package/Art/Models/Bushes/Bush10/bush_10.fbx
+  artifactKey: Guid(56423057ff283874e9a1025c8de6179a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AlignedGames/Polygonal Foliage Asset Package/Art/Models/Bushes/Bush10/bush_10.fbx using Guid(56423057ff283874e9a1025c8de6179a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00c88d90799bda13bd2d90f042f2ede7') in 0.007028 seconds 
+  Import took 0.013385 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000330 seconds.
+  path: Assets/GymAssests/dodgeball_v1_L3.123c8c280b2b-fcd4-4a87-a19a-2ce7b74dddb1/10498_dodgeball_v1_L3.obj
+  artifactKey: Guid(7eef42cc2edfd478f8fd94d1be3c4da4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GymAssests/dodgeball_v1_L3.123c8c280b2b-fcd4-4a87-a19a-2ce7b74dddb1/10498_dodgeball_v1_L3.obj using Guid(7eef42cc2edfd478f8fd94d1be3c4da4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '681cc3040c6129207de7aa90c273d5fc') in 0.033493 seconds 
+  Import took 0.039820 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000321 seconds.
+  path: Assets/_Course Library/Models/Bin_A_2.fbx
+  artifactKey: Guid(cc232384fdabfcd4495a8fc87e275cfd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Course Library/Models/Bin_A_2.fbx using Guid(cc232384fdabfcd4495a8fc87e275cfd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fec24040e4f77d8503378f54f5d3975c') in 0.026093 seconds 
+  Import took 0.032276 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000271 seconds.
+  path: Assets/AlignedGames/Polygonal Foliage Asset Package/Art/Models/Bushes/Bush3/bush_3.fbx
+  artifactKey: Guid(836b2fd6f6646fc47b105938f7f91f19) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AlignedGames/Polygonal Foliage Asset Package/Art/Models/Bushes/Bush3/bush_3.fbx using Guid(836b2fd6f6646fc47b105938f7f91f19) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd0a635f61ea5c41f0b6b8fec5e5406ca') in 0.006141 seconds 
+  Import took 0.012550 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000233 seconds.
+  path: Assets/GymAssests/uploads-files-669576-aeq3vjprnoqo-Bleachers-1/bleachers.obj
+  artifactKey: Guid(0f88ef3558cba4dd895e092ed60bfceb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GymAssests/uploads-files-669576-aeq3vjprnoqo-Bleachers-1/bleachers.obj using Guid(0f88ef3558cba4dd895e092ed60bfceb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '44ebfb30059b4e761e90bd42b0a88d9b') in 0.007242 seconds 
+  Import took 0.013759 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000322 seconds.
+  path: Assets/AlignedGames/Polygonal Foliage Asset Package/Art/Models/Bushes/Bush7/bush_7.fbx
+  artifactKey: Guid(ed9c125e67105a74e814dd5fa19b75e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AlignedGames/Polygonal Foliage Asset Package/Art/Models/Bushes/Bush7/bush_7.fbx using Guid(ed9c125e67105a74e814dd5fa19b75e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '51931634ec6f93ba2f5b033207f28336') in 0.008386 seconds 
+  Import took 0.015964 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000355 seconds.
+  path: Assets/GymAssests/ball/source/ball.fbx
+  artifactKey: Guid(ab181e1cf4a8f45bfb7170ef77a2ff2d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GymAssests/ball/source/ball.fbx using Guid(ab181e1cf4a8f45bfb7170ef77a2ff2d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '454a7cfe7bc07d202da221b00d02e674') in 0.027360 seconds 
+  Import took 0.034404 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000234 seconds.
+  path: Assets/_Course Library/Models/Art_Painting_1.fbx
+  artifactKey: Guid(532e7074e2e914c4190b79a6fd2a2669) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Course Library/Models/Art_Painting_1.fbx using Guid(532e7074e2e914c4190b79a6fd2a2669) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '91c55fb86a37fd34e3c8c7343db57330') in 0.023245 seconds 
+  Import took 0.030045 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000357 seconds.
+  path: Assets/AlignedGames/Polygonal Foliage Asset Package/Art/Models/Bushes/Bush5/bush_5.fbx
+  artifactKey: Guid(a049d842effa0f54196f5cb776e4cc75) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AlignedGames/Polygonal Foliage Asset Package/Art/Models/Bushes/Bush5/bush_5.fbx using Guid(a049d842effa0f54196f5cb776e4cc75) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1216abe36a2fc8d0b4927166757a1a52') in 0.007286 seconds 
+  Import took 0.015330 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000284 seconds.
+  path: Assets/GymAssests/BodyBuilder Asset Pack/Meshes/BenchID.fbx
+  artifactKey: Guid(13547fa8926174669b22c47473c9b943) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GymAssests/BodyBuilder Asset Pack/Meshes/BenchID.fbx using Guid(13547fa8926174669b22c47473c9b943) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f30a3bd30cac81ca97b01248069d737c') in 0.057750 seconds 
+  Import took 0.064073 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000279 seconds.
+  path: Assets/GymAssests/BodyBuilder Asset Pack/Meshes/25CrossPlate.fbx
+  artifactKey: Guid(0856854f94bfd4aea98373b454e388c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GymAssests/BodyBuilder Asset Pack/Meshes/25CrossPlate.fbx using Guid(0856854f94bfd4aea98373b454e388c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ad74d266165afe9cf12eddec54d7cfcf') in 0.006418 seconds 
+  Import took 0.011911 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000376 seconds.
+  path: Assets/GymAssests/BodyBuilder Asset Pack/Meshes/45CrossPlate.fbx
+  artifactKey: Guid(e826e829e858143fc9e9eb4855fa8e8b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GymAssests/BodyBuilder Asset Pack/Meshes/45CrossPlate.fbx using Guid(e826e829e858143fc9e9eb4855fa8e8b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd7be4cb9fe6f636f6054b41b90575890') in 0.006326 seconds 
+  Import took 0.012020 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000310 seconds.
+  path: Assets/_Course Library/Models/Ball_Baseball.fbx
+  artifactKey: Guid(40e4cec1d817dec42843bf5cff0ef4d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Course Library/Models/Ball_Baseball.fbx using Guid(40e4cec1d817dec42843bf5cff0ef4d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '13357513b574a51a3b30b3d2eb16aa43') in 0.025639 seconds 
+  Import took 0.033263 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000294 seconds.
+  path: Assets/GymAssests/Locker_room_props/3dobjectsFBX/bench.fbx
+  artifactKey: Guid(e782660b7904ede4abc4231cd8771448) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GymAssests/Locker_room_props/3dobjectsFBX/bench.fbx using Guid(e782660b7904ede4abc4231cd8771448) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b644ba1c6272d6b7880cec1c651e7cdc') in 0.024338 seconds 
+  Import took 0.030350 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000237 seconds.
+  path: Assets/GymAssests/LowPolyChristmasAddOn/Meshes/Baulble_3.fbx
+  artifactKey: Guid(9d5f764915a5e4e43887b198e3274fdc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GymAssests/LowPolyChristmasAddOn/Meshes/Baulble_3.fbx using Guid(9d5f764915a5e4e43887b198e3274fdc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7921967817038e22b013e146ef17f95e') in 0.030022 seconds 
+  Import took 0.035739 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000310 seconds.
+  path: Assets/_Course Library/Models/Ball_Tennis.fbx
+  artifactKey: Guid(d6b5780a9f86954498a6a8eb9db39df5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Course Library/Models/Ball_Tennis.fbx using Guid(d6b5780a9f86954498a6a8eb9db39df5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a96e4394f3c59b455b57ef4ed366435a') in 0.024223 seconds 
+  Import took 0.030484 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000285 seconds.
+  path: Assets/GymAssests/LowPolyChristmasAddOn/Meshes/Baulble_2.fbx
+  artifactKey: Guid(ebd01c72b8bfc414e9687ef86c7f56bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GymAssests/LowPolyChristmasAddOn/Meshes/Baulble_2.fbx using Guid(ebd01c72b8bfc414e9687ef86c7f56bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bde0f78300f32ef317153c096a31a416') in 0.028352 seconds 
+  Import took 0.035005 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000281 seconds.
+  path: Assets/_Course Library/Models/Backgrounds/BuldingBlock_3.fbx
+  artifactKey: Guid(eeadb852347da4b4386bf85763d80980) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Course Library/Models/Backgrounds/BuldingBlock_3.fbx using Guid(eeadb852347da4b4386bf85763d80980) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5d0536130b280b0ed92e6fa847311298') in 0.025543 seconds 
+  Import took 0.031703 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000340 seconds.
+  path: Assets/AlignedGames/Polygonal Foliage Asset Package/Art/Models/Bushes/Bush9/bush_9.fbx
+  artifactKey: Guid(52718464a9aead341a730988b0780b03) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AlignedGames/Polygonal Foliage Asset Package/Art/Models/Bushes/Bush9/bush_9.fbx using Guid(52718464a9aead341a730988b0780b03) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '36688a6f721c9c26a251cbbae8ee4bf8') in 0.006239 seconds 
+  Import took 0.012930 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000303 seconds.
+  path: Assets/_Course Library/Models/Art_Painting_5.fbx
+  artifactKey: Guid(d6abe7a25983f9c4ea3bb6f1a0ae0d9a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Course Library/Models/Art_Painting_5.fbx using Guid(d6abe7a25983f9c4ea3bb6f1a0ae0d9a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fa33e7e343cd56920da94ea64348bd24') in 0.029641 seconds 
+  Import took 0.035430 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000327 seconds.
+  path: Assets/AlignedGames/Polygonal Foliage Asset Package/Art/Models/Bushes/Bush2/bush_2.fbx
+  artifactKey: Guid(b6a12a94b078221458a7a86e0509a863) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AlignedGames/Polygonal Foliage Asset Package/Art/Models/Bushes/Bush2/bush_2.fbx using Guid(b6a12a94b078221458a7a86e0509a863) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '11a84eeb127bcb0ef866c8d3ac046aed') in 0.006180 seconds 
+  Import took 0.012152 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000249 seconds.
+  path: Assets/_Course Library/Models/Backgrounds/BuldingBlock_2.fbx
+  artifactKey: Guid(fafbe2be630728948b3232d286fcfec1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Course Library/Models/Backgrounds/BuldingBlock_2.fbx using Guid(fafbe2be630728948b3232d286fcfec1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '825f2ff79dcef0c84d52201751d4b1e2') in 0.022538 seconds 
+  Import took 0.029788 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000304 seconds.
+  path: Assets/AlignedGames/Polygonal Foliage Asset Package/Art/Models/Bushes/Bush6/bush_6.fbx
+  artifactKey: Guid(9f99fffde8da15f488229ffa13e667a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AlignedGames/Polygonal Foliage Asset Package/Art/Models/Bushes/Bush6/bush_6.fbx using Guid(9f99fffde8da15f488229ffa13e667a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ea1a5fe30b81e8854176c6fcca8b17a7') in 0.006402 seconds 
+  Import took 0.012208 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000244 seconds.
+  path: Assets/_Course Library/Models/Art_Painting_4.fbx
+  artifactKey: Guid(1dff19bba321fd541a14ab1bee60a697) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Course Library/Models/Art_Painting_4.fbx using Guid(1dff19bba321fd541a14ab1bee60a697) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3bcf4b3ea3077892c20b292a2a0eeeb1') in 0.024900 seconds 
+  Import took 0.031174 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000327 seconds.
+  path: Assets/_Course Library/Models/Art_Painting_2.fbx
+  artifactKey: Guid(9477c868375f7134ab79b2306d22dc6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Course Library/Models/Art_Painting_2.fbx using Guid(9477c868375f7134ab79b2306d22dc6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f62ee3f87a0ea93284e9e494849752e5') in 0.021535 seconds 
+  Import took 0.028041 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000297 seconds.
+  path: Assets/AlignedGames/Polygonal Foliage Asset Package/Art/Models/Bushes/Bush4/bush_4.fbx
+  artifactKey: Guid(b80e7a855f4247c4fa4e1f15509a76b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AlignedGames/Polygonal Foliage Asset Package/Art/Models/Bushes/Bush4/bush_4.fbx using Guid(b80e7a855f4247c4fa4e1f15509a76b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e0caa16193e2853e4a2c7f83e2b10519') in 0.007870 seconds 
+  Import took 0.014656 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000309 seconds.
+  path: Assets/_Course Library/Models/Ball_Cricket.fbx
+  artifactKey: Guid(dda8659e0174c6048852838fad15ddfa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Course Library/Models/Ball_Cricket.fbx using Guid(dda8659e0174c6048852838fad15ddfa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fcec4b51a4d9b4f42f581a8eae3d27d8') in 0.023750 seconds 
+  Import took 0.030023 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000331 seconds.
+  path: Assets/_Course Library/Models/Bin_A_1.fbx
+  artifactKey: Guid(f2110f23f107b174186bdcb3d376b30c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Course Library/Models/Bin_A_1.fbx using Guid(f2110f23f107b174186bdcb3d376b30c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e2bdf1fdf209aa0e09e6e85f2d138796') in 0.022316 seconds 
+  Import took 0.028784 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000420 seconds.
+  path: Assets/GymAssests/Basketball/basketball.fbx
+  artifactKey: Guid(ad9f0e20576034720aca3c905f0d0b3f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GymAssests/Basketball/basketball.fbx using Guid(ad9f0e20576034720aca3c905f0d0b3f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4e641b7d2cd3f422081a76cc63b23da1') in 0.006089 seconds 
+  Import took 0.011797 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000293 seconds.
+  path: Assets/_Course Library/Models/Bin_B_2.fbx
+  artifactKey: Guid(518df1129d5b1fe4d9f4bce622b1011b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Course Library/Models/Bin_B_2.fbx using Guid(518df1129d5b1fe4d9f4bce622b1011b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6df278b32eefde25aac3d790e6187d0f') in 0.024836 seconds 
+  Import took 0.031039 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000334 seconds.
+  path: Assets/StarterAssets/Environment/Art/Models/Box_350x250x200_Mesh.fbx
+  artifactKey: Guid(c6a55ba99e9e99d41b7eef123e311a43) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StarterAssets/Environment/Art/Models/Box_350x250x200_Mesh.fbx using Guid(c6a55ba99e9e99d41b7eef123e311a43) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b77374b3e6772774dc8a7e1928058ab6') in 0.022027 seconds 
+  Import took 0.027761 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000301 seconds.
+  path: Assets/_Course Library/Models/Ball_Pingpong.fbx
+  artifactKey: Guid(3237f124fd401c146981f5411d5e48cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Course Library/Models/Ball_Pingpong.fbx using Guid(3237f124fd401c146981f5411d5e48cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ce67b560781f975c2fc5139ef1f4fad6') in 0.025522 seconds 
+  Import took 0.031560 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000302 seconds.
+  path: Assets/_Course Library/Models/Ball_Tennis_B.fbx
+  artifactKey: Guid(479d30e27e09d5d40ad7bc3e3c719170) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Course Library/Models/Ball_Tennis_B.fbx using Guid(479d30e27e09d5d40ad7bc3e3c719170) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b8d61b6ae06d522ee26360497fec1d98') in 0.024449 seconds 
+  Import took 0.031274 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000437 seconds.
+  path: Assets/AlignedGames/Polygonal Foliage Asset Package/Art/Models/Bushes/Bush1/bush_1.fbx
+  artifactKey: Guid(c79853d1a22a5cb49b15a3715056104d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AlignedGames/Polygonal Foliage Asset Package/Art/Models/Bushes/Bush1/bush_1.fbx using Guid(c79853d1a22a5cb49b15a3715056104d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'abaa938fced47486c558728a0e677bdd') in 0.005996 seconds 
+  Import took 0.011645 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000335 seconds.
+  path: Assets/AlignedGames/Polygonal Foliage Asset Package/Art/Models/Bushes/Bush8/bush_8.fbx
+  artifactKey: Guid(c023717c218ada148b43bd218b69a339) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AlignedGames/Polygonal Foliage Asset Package/Art/Models/Bushes/Bush8/bush_8.fbx using Guid(c023717c218ada148b43bd218b69a339) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '490c35e396b6efffd4a72783266c257a') in 0.006123 seconds 
+  Import took 0.012854 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000313 seconds.
+  path: Assets/StarterAssets/Environment/Art/Models/Box_350x250x300_Mesh.fbx
+  artifactKey: Guid(d2f0da3998423f44594868ffed55c3e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StarterAssets/Environment/Art/Models/Box_350x250x300_Mesh.fbx using Guid(d2f0da3998423f44594868ffed55c3e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f7d20474e9d1f9cc8e370a98efbf1be9') in 0.024110 seconds 
+  Import took 0.030911 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000292 seconds.
+  path: Assets/GymAssests/BodyBuilder Asset Pack/Meshes/10Plate.fbx
+  artifactKey: Guid(7d2b81e42287f4db2a6f1647eda2bbe5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GymAssests/BodyBuilder Asset Pack/Meshes/10Plate.fbx using Guid(7d2b81e42287f4db2a6f1647eda2bbe5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6f9158020974a649cd2a414de1f302db') in 0.068618 seconds 
+  Import took 0.074268 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000258 seconds.
+  path: Assets/_Course Library/Models/Bin_B_3.fbx
+  artifactKey: Guid(9f64811e76fa71149b69f8a24ef0d061) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Course Library/Models/Bin_B_3.fbx using Guid(9f64811e76fa71149b69f8a24ef0d061) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '97faf10e8baab1e02b02cd3cd3ad305a') in 0.023336 seconds 
+  Import took 0.030285 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000387 seconds.
+  path: Assets/_Course Library/Models/Bin_B_1.fbx
+  artifactKey: Guid(b906d7d1081bedc43ab2158c09239d19) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Course Library/Models/Bin_B_1.fbx using Guid(b906d7d1081bedc43ab2158c09239d19) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '710c92a11478c9407591c66adf96c0e8') in 0.023893 seconds 
+  Import took 0.031409 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000282 seconds.
+  path: Assets/_Course Library/Models/Art_Painting_3.fbx
+  artifactKey: Guid(2b2238b54f5ddf94f80c61ab243c13c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Course Library/Models/Art_Painting_3.fbx using Guid(2b2238b54f5ddf94f80c61ab243c13c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6a86b663645399e1d2d56d94ad014006') in 0.021974 seconds 
+  Import took 0.028461 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000250 seconds.
+  path: Assets/GymAssests/LowPolyChristmasAddOn/Meshes/Bell_1.fbx
+  artifactKey: Guid(294f87339807a475b861e3e5a197f267) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GymAssests/LowPolyChristmasAddOn/Meshes/Bell_1.fbx using Guid(294f87339807a475b861e3e5a197f267) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '58cca0302f79aedf893fb9354dca14f6') in 0.026713 seconds 
+  Import took 0.033702 seconds .
 
 AssetImportWorkerClient::OnTransportError - code=2 error=End of file

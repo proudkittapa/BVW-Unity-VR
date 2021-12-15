@@ -34,6 +34,7 @@ public class HitGame : MonoBehaviour
             if (currentTimer <= 0f)
             {
                 play = false;
+                currentTimer = duration;
                 startButton.text = "Start";
                 timerText.text = "";
                 scoreText.text = "";
@@ -54,6 +55,8 @@ public class HitGame : MonoBehaviour
             play = true;
             startButton.text = "Restart";
         }
-
     }
+
+    // Tag for Box = "Present" not Box
+    // Tag for stick = "Stick"
 }
