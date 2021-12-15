@@ -15,7 +15,7 @@ C:/Users/fluke/Documents/GitHub/BVW-Unity-VR/VR Room Project
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-59537
+53480
 Successfully changed project path to: C:/Users/fluke/Documents/GitHub/BVW-Unity-VR/VR Room Project
 C:/Users/fluke/Documents/GitHub/BVW-Unity-VR/VR Room Project
 Using Asset Import Pipeline V2.
@@ -23,8 +23,8 @@ Assets/GymAssests/uploads-files-669576-aeq3vjprnoqo-Bleachers-1/bleachers.c4d: U
 
 Please note that FBX files exported from Cinema4D are still supported.
 
-Refreshing native plugins compatible for Editor in 96.07 ms, found 10 plugins.
-Preloading 1 native plugins for Editor in 0.94 ms.
+Refreshing native plugins compatible for Editor in 92.86 ms, found 10 plugins.
+Preloading 1 native plugins for Editor in 1.02 ms.
 Initialize engine version: 2020.3.17f1 (a4537701e4ab)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.17f1/Editor/Data/Resources/UnitySubsystems
 [Subsystems] Discovering subsystems at path C:/Users/fluke/Documents/GitHub/BVW-Unity-VR/VR Room Project/Assets
@@ -39,13 +39,13 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.17f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.17f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.17f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56544
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56460
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.17f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.17f1/Editor/Data/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.17f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.003229 seconds.
+Registered in 0.003038 seconds.
 Native extension for WindowsStandalone target not found
 Native extension for OSXStandalone target not found
 Native extension for WebGL target not found
@@ -53,162 +53,40 @@ Assets/GymAssests/uploads-files-669576-aeq3vjprnoqo-Bleachers-1/bleachers.c4d: U
 
 Please note that FBX files exported from Cinema4D are still supported.
 
-Refreshing native plugins compatible for Editor in 107.77 ms, found 10 plugins.
-Preloading 1 native plugins for Editor in 0.13 ms.
+Refreshing native plugins compatible for Editor in 72.36 ms, found 10 plugins.
+Preloading 1 native plugins for Editor in 0.08 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.402 seconds
+- Completed reload, in  1.126 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1402ms)
-		BeginReloadAssembly (53ms)
+	ReloadAssembly (1126ms)
+		BeginReloadAssembly (54ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (546ms)
-			LoadAssemblies (51ms)
+		EndReloadAssembly (420ms)
+			LoadAssemblies (52ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (178ms)
+			SetupTypeCache (145ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (34ms)
-			SetupLoadedEditorAssemblies (246ms)
+			RebuildScriptCaches (28ms)
+			SetupLoadedEditorAssemblies (179ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (7ms)
+				InitializePlatformSupportModulesInManaged (6ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (108ms)
-				BeforeProcessingInitializeOnLoad (19ms)
-				ProcessInitializeOnLoadAttributes (81ms)
-				ProcessInitializeOnLoadMethodAttributes (31ms)
+				RefreshPlugins (72ms)
+				BeforeProcessingInitializeOnLoad (13ms)
+				ProcessInitializeOnLoadAttributes (63ms)
+				ProcessInitializeOnLoadMethodAttributes (24ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.012726 seconds.
+Registered in 0.010081 seconds.
 Begin MonoManager ReloadAssembly
-Symbol file data-000002327D1F8820 doesn't match image C:\Users\fluke\Documents\GitHub\BVW-Unity-VR\VR Room Project\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002327D3434D0 doesn't match image C:\Users\fluke\Documents\GitHub\BVW-Unity-VR\VR Room Project\Library\ScriptAssemblies\Unity.RenderPipelines.Universal.Shaders.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000023082DF2020 doesn't match image C:\Users\fluke\Documents\GitHub\BVW-Unity-VR\VR Room Project\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000023082DF2020 doesn't match image C:\Users\fluke\Documents\GitHub\BVW-Unity-VR\VR Room Project\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002327D2A6430 doesn't match image C:\Users\fluke\Documents\GitHub\BVW-Unity-VR\VR Room Project\Library\ScriptAssemblies\Unity.Searcher.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000023083030FF0 doesn't match image C:\Users\fluke\Documents\GitHub\BVW-Unity-VR\VR Room Project\Library\ScriptAssemblies\Unity.ShaderGraph.Utilities.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002327D4E1030 doesn't match image C:\Users\fluke\Documents\GitHub\BVW-Unity-VR\VR Room Project\Library\ScriptAssemblies\Unity.ProBuilder.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000023081B2E9C0 doesn't match image C:\Users\fluke\Documents\GitHub\BVW-Unity-VR\VR Room Project\Library\ScriptAssemblies\UnityEditor.UI.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000230814A2010 doesn't match image C:\Users\fluke\Documents\GitHub\BVW-Unity-VR\VR Room Project\Library\ScriptAssemblies\Unity.InputSystem.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002327D2D5FA0 doesn't match image C:\Users\fluke\Documents\GitHub\BVW-Unity-VR\VR Room Project\Library\ScriptAssemblies\Unity.Rider.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002327D384330 doesn't match image C:\Users\fluke\Documents\GitHub\BVW-Unity-VR\VR Room Project\Library\ScriptAssemblies\Unity.RenderPipelines.Core.ShaderLibrary.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000023082A8E020 doesn't match image C:\Users\fluke\Documents\GitHub\BVW-Unity-VR\VR Room Project\Library\ScriptAssemblies\UnityEngine.UI.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002327D29C5D0 doesn't match image C:\Users\fluke\Documents\GitHub\BVW-Unity-VR\VR Room Project\Library\ScriptAssemblies\UnityEngine.SpatialTracking.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002327D3544B0 doesn't match image C:\Users\fluke\Documents\GitHub\BVW-Unity-VR\VR Room Project\Library\ScriptAssemblies\Unity.ProBuilder.Poly2Tri.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000230814A2010 doesn't match image C:\Users\fluke\Documents\GitHub\BVW-Unity-VR\VR Room Project\Library\ScriptAssemblies\Unity.ShaderGraph.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002327D012020 doesn't match image C:\Users\fluke\Documents\GitHub\BVW-Unity-VR\VR Room Project\Library\ScriptAssemblies\Cinemachine.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000023081D46230 doesn't match image C:\Users\fluke\Documents\GitHub\BVW-Unity-VR\VR Room Project\Library\ScriptAssemblies\com.unity.cinemachine.editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002327D2A6430 doesn't match image C:\Users\fluke\Documents\GitHub\BVW-Unity-VR\VR Room Project\Library\ScriptAssemblies\Unity.Settings.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002327D3436C0 doesn't match image C:\Users\fluke\Documents\GitHub\BVW-Unity-VR\VR Room Project\Library\ScriptAssemblies\Unity.RenderPipeline.Universal.ShaderLibrary.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002327D0C5850 doesn't match image C:\Users\fluke\Documents\GitHub\BVW-Unity-VR\VR Room Project\Library\ScriptAssemblies\Unity.XR.Management.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000023082A9E030 doesn't match image C:\Users\fluke\Documents\GitHub\BVW-Unity-VR\VR Room Project\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002327D35A8C0 doesn't match image C:\Users\fluke\Documents\GitHub\BVW-Unity-VR\VR Room Project\Library\ScriptAssemblies\Unity.Mathematics.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002327D29C5D0 doesn't match image C:\Users\fluke\Documents\GitHub\BVW-Unity-VR\VR Room Project\Library\ScriptAssemblies\Unity.XR.OpenXR.Features.RuntimeDebugger.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002327D29ECE0 doesn't match image C:\Users\fluke\Documents\GitHub\BVW-Unity-VR\VR Room Project\Library\ScriptAssemblies\Unity.XR.Oculus.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002327D715C40 doesn't match image C:\Users\fluke\Documents\GitHub\BVW-Unity-VR\VR Room Project\Library\ScriptAssemblies\Unity.ProGrids.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000023252282700 doesn't match image C:\Users\fluke\Documents\GitHub\BVW-Unity-VR\VR Room Project\Library\ScriptAssemblies\Unity.XR.OpenXR.Features.MockDriver.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002327D012020 doesn't match image C:\Users\fluke\Documents\GitHub\BVW-Unity-VR\VR Room Project\Library\ScriptAssemblies\Unity.RenderPipelines.Universal.Runtime.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000023082B1F010 doesn't match image C:\Users\fluke\Documents\GitHub\BVW-Unity-VR\VR Room Project\Library\ScriptAssemblies\Unity.ProBuilder.AddOns.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000023081B2E9C0 doesn't match image C:\Users\fluke\Documents\GitHub\BVW-Unity-VR\VR Room Project\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002327CEA43F0 doesn't match image C:\Users\fluke\Documents\GitHub\BVW-Unity-VR\VR Room Project\Library\ScriptAssemblies\Unity.XR.OpenXR.Features.OculusQuestSupport.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002327D022030 doesn't match image C:\Users\fluke\Documents\GitHub\BVW-Unity-VR\VR Room Project\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002327CF9C630 doesn't match image C:\Users\fluke\Documents\GitHub\BVW-Unity-VR\VR Room Project\Library\ScriptAssemblies\Unity.XR.Management.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002327D022030 doesn't match image C:\Users\fluke\Documents\GitHub\BVW-Unity-VR\VR Room Project\Library\ScriptAssemblies\Unity.Timeline.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000023081921020 doesn't match image C:\Users\fluke\Documents\GitHub\BVW-Unity-VR\VR Room Project\Library\ScriptAssemblies\Unity.TextMeshPro.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000023081B47020 doesn't match image C:\Users\fluke\Documents\GitHub\BVW-Unity-VR\VR Room Project\Library\ScriptAssemblies\Unity.XR.Interaction.Toolkit.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002327CFBEA60 doesn't match image C:\Users\fluke\Documents\GitHub\BVW-Unity-VR\VR Room Project\Library\ScriptAssemblies\Unity.ProBuilder.Csg.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002327D29D8C0 doesn't match image C:\Users\fluke\Documents\GitHub\BVW-Unity-VR\VR Room Project\Library\ScriptAssemblies\Unity.XR.OpenXR.Features.MockRuntime.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000023081B6E030 doesn't match image C:\Users\fluke\Documents\GitHub\BVW-Unity-VR\VR Room Project\Library\ScriptAssemblies\Unity.RenderPipelines.Core.Runtime.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002327D719A30 doesn't match image C:\Users\fluke\Documents\GitHub\BVW-Unity-VR\VR Room Project\Library\ScriptAssemblies\Unity.Subsystem.Registration.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002327D259010 doesn't match image C:\Users\fluke\Documents\GitHub\BVW-Unity-VR\VR Room Project\Library\ScriptAssemblies\Unity.ProBuilder.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002327D259010 doesn't match image C:\Users\fluke\Documents\GitHub\BVW-Unity-VR\VR Room Project\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000230816A6770 doesn't match image C:\Users\fluke\Documents\GitHub\BVW-Unity-VR\VR Room Project\Library\ScriptAssemblies\Unity.ProGrids.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000230815B4C20 doesn't match image C:\Users\fluke\Documents\GitHub\BVW-Unity-VR\VR Room Project\Library\ScriptAssemblies\Unity.XR.OpenXR.Features.OculusQuestSupport.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000023082866030 doesn't match image C:\Users\fluke\Documents\GitHub\BVW-Unity-VR\VR Room Project\Library\ScriptAssemblies\Unity.Mathematics.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000023082CAF110 doesn't match image C:\Users\fluke\Documents\GitHub\BVW-Unity-VR\VR Room Project\Library\ScriptAssemblies\Unity.ProBuilder.KdTree.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002308302F610 doesn't match image C:\Users\fluke\Documents\GitHub\BVW-Unity-VR\VR Room Project\Library\ScriptAssemblies\Unity.XR.OpenXR.TestHelpers.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000023081B6E030 doesn't match image C:\Users\fluke\Documents\GitHub\BVW-Unity-VR\VR Room Project\Library\ScriptAssemblies\Unity.RenderPipelines.Universal.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000023083347C50 doesn't match image C:\Users\fluke\Documents\GitHub\BVW-Unity-VR\VR Room Project\Library\ScriptAssemblies\Unity.ProBuilder.AssetIdRemapUtility.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000023081D56250 doesn't match image C:\Users\fluke\Documents\GitHub\BVW-Unity-VR\VR Room Project\Library\ScriptAssemblies\UnityEngine.XR.LegacyInputHelpers.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002308210AA50 doesn't match image C:\Users\fluke\Documents\GitHub\BVW-Unity-VR\VR Room Project\Library\ScriptAssemblies\Unity.ProBuilder.Stl.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002308152BA30 doesn't match image C:\Users\fluke\Documents\GitHub\BVW-Unity-VR\VR Room Project\Library\ScriptAssemblies\Unity.XR.OpenXR.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002327D385F30 doesn't match image C:\Users\fluke\Documents\GitHub\BVW-Unity-VR\VR Room Project\Library\ScriptAssemblies\Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002308231A010 doesn't match image C:\Users\fluke\Documents\GitHub\BVW-Unity-VR\VR Room Project\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002327D29ECE0 doesn't match image C:\Users\fluke\Documents\GitHub\BVW-Unity-VR\VR Room Project\Library\ScriptAssemblies\UnityEditor.XR.LegacyInputHelpers.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000023081BD6840 doesn't match image C:\Users\fluke\Documents\GitHub\BVW-Unity-VR\VR Room Project\Library\ScriptAssemblies\Unity.XR.OpenXR.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002327D33DA20 doesn't match image C:\Users\fluke\Documents\GitHub\BVW-Unity-VR\VR Room Project\Library\ScriptAssemblies\Unity.XR.Interaction.Toolkit.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000230822F4A60 doesn't match image C:\Users\fluke\Documents\GitHub\BVW-Unity-VR\VR Room Project\Library\ScriptAssemblies\Unity.XR.Oculus.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002327CEA43F0 doesn't match image C:\Users\fluke\Documents\GitHub\BVW-Unity-VR\VR Room Project\Library\ScriptAssemblies\UnityEditor.SpatialTracking.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002308201A760 doesn't match image C:\Users\fluke\Documents\GitHub\BVW-Unity-VR\VR Room Project\Library\ScriptAssemblies\Unity.XR.OpenXR.Features.ConformanceAutomation.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002327D281630 doesn't match image C:\Users\fluke\Documents\GitHub\BVW-Unity-VR\VR Room Project\Library\ScriptAssemblies\Unity.RenderPipelines.Core.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002327D16BB10 doesn't match image C:\Users\fluke\Documents\GitHub\BVW-Unity-VR\VR Room Project\Library\ScriptAssemblies\Unity.XR.OpenXR.Features.RuntimeDebugger.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
 Native extension for WindowsStandalone target not found
 Native extension for OSXStandalone target not found
 Native extension for WebGL target not found
@@ -216,15 +94,15 @@ Assets/GymAssests/uploads-files-669576-aeq3vjprnoqo-Bleachers-1/bleachers.c4d: U
 
 Please note that FBX files exported from Cinema4D are still supported.
 
-Refreshing native plugins compatible for Editor in 86.15 ms, found 10 plugins.
-Preloading 1 native plugins for Editor in 0.11 ms.
+Refreshing native plugins compatible for Editor in 78.56 ms, found 10 plugins.
+Preloading 1 native plugins for Editor in 0.08 ms.
 [XR] OculusXRPlugin: registering subsystems
 [XR] Unable to register display lifecyle provider: [1]
 [XR] Oculus Input lifecycle provider registered.
 [XR] Unable to register input lifecyle provider: [1]
 System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation. ---> System.NullReferenceException: Object reference not set to an instance of an object
-  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x0004e] in <8a071fb1f4e44da789de830ea0d8d7ac>:0 
-  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0007b] in <8a071fb1f4e44da789de830ea0d8d7ac>:0 
+  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x00048] in C:\Users\fluke\Documents\GitHub\BVW-Unity-VR\VR Room Project\Library\PackageCache\com.unity.xr.oculus@1.10.0\Runtime\OculusLoader.cs:250 
+  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0007b] in C:\Users\fluke\Documents\GitHub\BVW-Unity-VR\VR Room Project\Library\PackageCache\com.unity.xr.oculus@1.10.0\Runtime\OculusLoader.cs:235 
   at (wrapper managed-to-native) System.Reflection.MonoMethod.InternalInvoke(System.Reflection.MonoMethod,object,object[],System.Exception&)
   at System.Reflection.MonoMethod.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00032] in <695d1cc93cca45069c528c15c9fdd749>:0 
    --- End of inner exception stack trace ---
@@ -238,33 +116,33 @@ UnityEngine.Debug:LogError (object)
 UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
 
 Mono: successfully reloaded assembly
-- Completed reload, in  1.724 seconds
+- Completed reload, in  1.318 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1726ms)
-		BeginReloadAssembly (174ms)
+	ReloadAssembly (1319ms)
+		BeginReloadAssembly (124ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (5ms)
+			DisableScriptedObjects (4ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (21ms)
-		EndReloadAssembly (1485ms)
-			LoadAssemblies (101ms)
+			CreateAndSetChildDomain (15ms)
+		EndReloadAssembly (1136ms)
+			LoadAssemblies (95ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (370ms)
+			SetupTypeCache (296ms)
 			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (62ms)
-			SetupLoadedEditorAssemblies (735ms)
+			RebuildScriptCaches (56ms)
+			SetupLoadedEditorAssemblies (528ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (5ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (86ms)
-				BeforeProcessingInitializeOnLoad (120ms)
-				ProcessInitializeOnLoadAttributes (499ms)
-				ProcessInitializeOnLoadMethodAttributes (14ms)
-				AfterProcessingInitializeOnLoad (10ms)
+				RefreshPlugins (79ms)
+				BeforeProcessingInitializeOnLoad (108ms)
+				ProcessInitializeOnLoadAttributes (317ms)
+				ProcessInitializeOnLoadMethodAttributes (12ms)
+				AfterProcessingInitializeOnLoad (7ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (13ms)
+			AwakeInstancesAfterBackupRestoration (5ms)
 Platform modules already initialized, skipping
 Assets/GymAssests/uploads-files-669576-aeq3vjprnoqo-Bleachers-1/bleachers.c4d: Unity no longer supports importing Cinema 4D files directly, but we're working with Maxon to make the experience better. To import Cinema 4D files, install Maxon's external importer. You can find more information on the Unity Forum: https://on.unity.com/c4d.
 
@@ -276,15 +154,15 @@ Assets/GymAssests/uploads-files-669576-aeq3vjprnoqo-Bleachers-1/bleachers.c4d: U
 
 Please note that FBX files exported from Cinema4D are still supported.
 
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.07 seconds
-Refreshing native plugins compatible for Editor in 1.92 ms, found 10 plugins.
-Preloading 1 native plugins for Editor in 0.12 ms.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.06 seconds
+Refreshing native plugins compatible for Editor in 0.95 ms, found 10 plugins.
+Preloading 1 native plugins for Editor in 0.08 ms.
 Unloading 3913 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 183.0 MB.
-System memory in use after: 183.0 MB.
+System memory in use before: 182.7 MB.
+System memory in use after: 182.7 MB.
 
 Unloading 42 unused Assets to reduce memory usage. Loaded Objects now: 4406.
-Total: 4.921500 ms (FindLiveObjects: 0.421300 ms CreateObjectMapping: 0.327800 ms MarkObjects: 4.043500 ms  DeleteObjects: 0.127500 ms)
+Total: 3.578800 ms (FindLiveObjects: 0.315300 ms CreateObjectMapping: 0.186100 ms MarkObjects: 2.968700 ms  DeleteObjects: 0.107700 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
@@ -299,9 +177,1631 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  path: Assets/Scripts/HitGame.cs
-  artifactKey: Guid(61fe350f4531da0458a41478558359b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/HitGame.cs using Guid(61fe350f4531da0458a41478558359b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e7503f6ee6d7ed77ac4878b038138916') in 0.027806 seconds 
-  Import took 0.036190 seconds .
+  path: Assets/_Course Library/Fonts/Inter-Regular-slnt=0 SDF.asset
+  artifactKey: Guid(c8ac1ed6123904112adeaf50e63c4731) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Course Library/Fonts/Inter-Regular-slnt=0 SDF.asset using Guid(c8ac1ed6123904112adeaf50e63c4731) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aacd548eb28331fc0680fd858a460f9a') in 0.198993 seconds 
+  Import took 0.204798 seconds .
 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000354 seconds.
+  path: Assets/TextMesh Pro/Fonts/Christmas Bell - Personal Use SDF.asset
+  artifactKey: Guid(fbde5644e48bdd64abd95f618db94ed8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Fonts/Christmas Bell - Personal Use SDF.asset using Guid(fbde5644e48bdd64abd95f618db94ed8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8ec41bf337cb524282c8e447ee42e44f') in 0.035822 seconds 
+  Import took 0.041113 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000161 seconds.
+  path: Assets/_Course Library/Fonts/SourceCodePro-Regular SDF.asset
+  artifactKey: Guid(500c8b014e8c041b8982d40b1db00225) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Course Library/Fonts/SourceCodePro-Regular SDF.asset using Guid(500c8b014e8c041b8982d40b1db00225) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8ef53750e878a8d043f9c6581d047ee9') in 0.023426 seconds 
+  Import took 0.028247 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000173 seconds.
+  path: Assets/_Course Library/Fonts/Lora-Regular SDF.asset
+  artifactKey: Guid(46d4660eedeaf406995fa1afed253fe0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Course Library/Fonts/Lora-Regular SDF.asset using Guid(46d4660eedeaf406995fa1afed253fe0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5b575fdcf2d0d14c2c58de2db8070ab8') in 0.022640 seconds 
+  Import took 0.028368 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000152 seconds.
+  path: Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Fallback.asset
+  artifactKey: Guid(2e498d1c8094910479dc3e1b768306a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Fallback.asset using Guid(2e498d1c8094910479dc3e1b768306a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f10254c6944f41f6b594ce51395a6920') in 0.018047 seconds 
+  Import took 0.022910 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000154 seconds.
+  path: Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF.asset
+  artifactKey: Guid(8f586378b4e144a9851e7b34d9b748ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF.asset using Guid(8f586378b4e144a9851e7b34d9b748ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c721ab215cbbe9ade6d295a4a27497eb') in 0.034868 seconds 
+  Import took 0.040499 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000184 seconds.
+  path: Assets/_Course Library/Fonts/Caveat-Regular SDF.asset
+  artifactKey: Guid(18eb93125c4dc48309f35bea3f9afe65) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Course Library/Fonts/Caveat-Regular SDF.asset using Guid(18eb93125c4dc48309f35bea3f9afe65) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6d0d5503ecae7c435483cc364b6857da') in 0.020840 seconds 
+  Import took 0.026828 seconds .
+
+========================================================================
+Received Prepare
+Assets/GymAssests/uploads-files-669576-aeq3vjprnoqo-Bleachers-1/bleachers.c4d: Unity no longer supports importing Cinema 4D files directly, but we're working with Maxon to make the experience better. To import Cinema 4D files, install Maxon's external importer. You can find more information on the Unity Forum: https://on.unity.com/c4d.
+
+Please note that FBX files exported from Cinema4D are still supported.
+
+Registering precompiled user dll's ...
+Registered in 0.013051 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 1.26 ms, found 10 plugins.
+Preloading 1 native plugins for Editor in 0.15 ms.
+System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation. ---> System.NullReferenceException: Object reference not set to an instance of an object
+  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x00048] in C:\Users\fluke\Documents\GitHub\BVW-Unity-VR\VR Room Project\Library\PackageCache\com.unity.xr.oculus@1.10.0\Runtime\OculusLoader.cs:250 
+  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0007b] in C:\Users\fluke\Documents\GitHub\BVW-Unity-VR\VR Room Project\Library\PackageCache\com.unity.xr.oculus@1.10.0\Runtime\OculusLoader.cs:235 
+  at (wrapper managed-to-native) System.Reflection.MonoMethod.InternalInvoke(System.Reflection.MonoMethod,object,object[],System.Exception&)
+  at System.Reflection.MonoMethod.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00032] in <695d1cc93cca45069c528c15c9fdd749>:0 
+   --- End of inner exception stack trace ---
+  at System.Reflection.MonoMethod.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00048] in <695d1cc93cca45069c528c15c9fdd749>:0 
+  at System.Reflection.MethodBase.Invoke (System.Object obj, System.Object[] parameters) [0x00000] in <695d1cc93cca45069c528c15c9fdd749>:0 
+  at UnityEditor.EditorAssemblies.ProcessInitializeOnLoadMethodAttributes () [0x00047] in <d0e4b8c1204147f3935b6e9c8b8565ad>:0 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
+
+Mono: successfully reloaded assembly
+- Completed reload, in  1.386 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1387ms)
+		BeginReloadAssembly (142ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (7ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (43ms)
+		EndReloadAssembly (1181ms)
+			LoadAssemblies (100ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (356ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (47ms)
+			SetupLoadedEditorAssemblies (466ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (6ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (106ms)
+				ProcessInitializeOnLoadAttributes (334ms)
+				ProcessInitializeOnLoadMethodAttributes (11ms)
+				AfterProcessingInitializeOnLoad (7ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (18ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.16 ms, found 10 plugins.
+Preloading 1 native plugins for Editor in 0.09 ms.
+Unloading 3755 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 174.4 MB.
+System memory in use after: 174.6 MB.
+
+Unloading 35 unused Assets to reduce memory usage. Loaded Objects now: 4492.
+Total: 3.857400 ms (FindLiveObjects: 0.374700 ms CreateObjectMapping: 0.240900 ms MarkObjects: 3.162800 ms  DeleteObjects: 0.077800 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 736.558294 seconds.
+  path: Assets/GymAssests/Locker_room_props/3dobjectsFBX/bench.fbx
+  artifactKey: Guid(e782660b7904ede4abc4231cd8771448) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GymAssests/Locker_room_props/3dobjectsFBX/bench.fbx using Guid(e782660b7904ede4abc4231cd8771448) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '22b677ade9481f9747dcced9a9bcfaaf') in 0.207898 seconds 
+  Import took 0.214877 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000228 seconds.
+  path: Assets/_Course Library/_Prefabs/Storage/Chest_Modern_Dark.prefab
+  artifactKey: Guid(0f35b98739529f9448c26470b6f4187b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Course Library/_Prefabs/Storage/Chest_Modern_Dark.prefab using Guid(0f35b98739529f9448c26470b6f4187b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'db5ce8ac894358f8b13f84826ee47e96') in 0.044041 seconds 
+  Import took 0.049573 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000187 seconds.
+  path: Assets/GymAssests/Locker_room_props/Textures/bench.bmp
+  artifactKey: Guid(e7521e68f0589644bbb7cc904783c7fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GymAssests/Locker_room_props/Textures/bench.bmp using Guid(e7521e68f0589644bbb7cc904783c7fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '475d66efc7826a1a96c9f09c165e18d4') in 0.033964 seconds 
+  Import took 0.040108 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000310 seconds.
+  path: Assets/_Course Library/_Prefabs/Seating/Chair_Modern_Black.prefab
+  artifactKey: Guid(7b3726eaddf29ab41b207a350a3905cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Course Library/_Prefabs/Seating/Chair_Modern_Black.prefab using Guid(7b3726eaddf29ab41b207a350a3905cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bdeff73ea2900b5845e2308b6c151f18') in 0.020007 seconds 
+  Import took 0.025795 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000206 seconds.
+  path: Assets/_Course Library/Models/Chair_Rustic_B.fbx
+  artifactKey: Guid(524a1d56c9e4b094ab81b571f753ce16) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Course Library/Models/Chair_Rustic_B.fbx using Guid(524a1d56c9e4b094ab81b571f753ce16) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ec07c9b3e09b4d677bc90a788731a184') in 0.035159 seconds 
+  Import took 0.041589 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000196 seconds.
+  path: Assets/GymAssests/uploads-files-669576-aeq3vjprnoqo-Bleachers-1/Bleachers.png
+  artifactKey: Guid(03808f91becd14ffc83db7e60f9b7326) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GymAssests/uploads-files-669576-aeq3vjprnoqo-Bleachers-1/Bleachers.png using Guid(03808f91becd14ffc83db7e60f9b7326) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ecf3729d0054982a1bf0abd122785915') in 0.018595 seconds 
+  Import took 0.024531 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000153 seconds.
+  path: Assets/_Course Library/_Prefabs/Seating/Chair_Traditional_Dark.prefab
+  artifactKey: Guid(2a5416c2645dd1b469ac4b962af63a77) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Course Library/_Prefabs/Seating/Chair_Traditional_Dark.prefab using Guid(2a5416c2645dd1b469ac4b962af63a77) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '02a8e5eb5bb5be207a70d333d308df57') in 0.024318 seconds 
+  Import took 0.030169 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000195 seconds.
+  path: Assets/_Course Library/_Prefabs/Seating/Chair_Traditional_Light.prefab
+  artifactKey: Guid(b4d538715c7469342811939a08b911d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Course Library/_Prefabs/Seating/Chair_Traditional_Light.prefab using Guid(b4d538715c7469342811939a08b911d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd4d1bd2c3db3d936f1a35f1f90692889') in 0.020067 seconds 
+  Import took 0.026229 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000306 seconds.
+  path: Assets/_Course Library/Models/Chair_Modern_B.fbx
+  artifactKey: Guid(a99bfce40f8f44647a68dc0babb8e395) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Course Library/Models/Chair_Modern_B.fbx using Guid(a99bfce40f8f44647a68dc0babb8e395) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b7ff5a3d2cf4c12d8de1874cc7c66649') in 0.028511 seconds 
+  Import took 0.034086 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000174 seconds.
+  path: Assets/_Course Library/Models/Chair_Modern.fbx
+  artifactKey: Guid(54de80ef7ba578842b2dbc6098b94a74) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Course Library/Models/Chair_Modern.fbx using Guid(54de80ef7ba578842b2dbc6098b94a74) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '05ff92f6c2ec38ee4f83d47ac595418f') in 0.021783 seconds 
+  Import took 0.027901 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000199 seconds.
+  path: Assets/_Course Library/Models/Chest_Modern_B.fbx
+  artifactKey: Guid(42324ce4420b0544ab69afb9e3185de8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Course Library/Models/Chest_Modern_B.fbx using Guid(42324ce4420b0544ab69afb9e3185de8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f795c5ce2dd0d88edc9686a2100796c4') in 0.039724 seconds 
+  Import took 0.045816 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000165 seconds.
+  path: Assets/GymAssests/Locker_room_props/3dobjectsFBX/Materials/bench.mat
+  artifactKey: Guid(edc89992efbc8f34fb7b4768e6ae517f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GymAssests/Locker_room_props/3dobjectsFBX/Materials/bench.mat using Guid(edc89992efbc8f34fb7b4768e6ae517f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4bbbf2f954968255d828a4be0d44c0a6') in 0.017300 seconds 
+  Import took 0.023764 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000184 seconds.
+  path: Assets/_Course Library/Models/Chest_Modern.fbx
+  artifactKey: Guid(59f9d2be05e0a774899ba14b1f7a1203) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Course Library/Models/Chest_Modern.fbx using Guid(59f9d2be05e0a774899ba14b1f7a1203) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0e6ea35a1c1b3e7083c5cb89043e935c') in 0.033570 seconds 
+  Import took 0.040187 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000209 seconds.
+  path: Assets/GymAssests/uploads-files-669576-aeq3vjprnoqo-Bleachers-1/bleachers.obj
+  artifactKey: Guid(0f88ef3558cba4dd895e092ed60bfceb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GymAssests/uploads-files-669576-aeq3vjprnoqo-Bleachers-1/bleachers.obj using Guid(0f88ef3558cba4dd895e092ed60bfceb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7ed9aca842280553e16ff7e9ffcf1957') in 0.007357 seconds 
+  Import took 0.012456 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000233 seconds.
+  path: Assets/_Course Library/Models/Chandalier_Modern.fbx
+  artifactKey: Guid(8c6a7cdc75fd7ed46baea0f967191dc7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Course Library/Models/Chandalier_Modern.fbx using Guid(8c6a7cdc75fd7ed46baea0f967191dc7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3f019ecc999e60b3758d0ec440bdea5f') in 0.027089 seconds 
+  Import took 0.033834 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000262 seconds.
+  path: Assets/_Course Library/Models/Chandelier_Rustic.fbx
+  artifactKey: Guid(18c0edda600483b4789dbdccc43b1e13) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Course Library/Models/Chandelier_Rustic.fbx using Guid(18c0edda600483b4789dbdccc43b1e13) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2c7e7374d339d70bfa5e6041263d6a4e') in 0.046684 seconds 
+  Import took 0.053199 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000235 seconds.
+  path: Assets/_Course Library/Models/Chandelier_Traditional.fbx
+  artifactKey: Guid(30cbc3cd9a16fcc4d8c54a9aa698c080) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Course Library/Models/Chandelier_Traditional.fbx using Guid(30cbc3cd9a16fcc4d8c54a9aa698c080) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4101fc5f913967efebbf023c57047773') in 0.028098 seconds 
+  Import took 0.033917 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000166 seconds.
+  path: Assets/_Course Library/_Prefabs/Seating/Chair_Rustic_LightBrown.prefab
+  artifactKey: Guid(3e5ff502dd0484b43809e79d17ebc3ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Course Library/_Prefabs/Seating/Chair_Rustic_LightBrown.prefab using Guid(3e5ff502dd0484b43809e79d17ebc3ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6435eee1eb5756c148f3336bed3d0a2d') in 0.025947 seconds 
+  Import took 0.032407 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000150 seconds.
+  path: Assets/GymAssests/Locker_room_props/Prefabs/bench.prefab
+  artifactKey: Guid(ee345d24eb6143044804017bf331aa8a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GymAssests/Locker_room_props/Prefabs/bench.prefab using Guid(ee345d24eb6143044804017bf331aa8a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ed0bf5f0a0d7e3d6085f04922f4214a8') in 0.012627 seconds 
+  Import took 0.019258 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000208 seconds.
+  path: Assets/GymAssests/LowPolyChristmasAddOn/Meshes/Santa_1.fbx
+  artifactKey: Guid(23458a56a47b144179823b5e188eb3e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GymAssests/LowPolyChristmasAddOn/Meshes/Santa_1.fbx using Guid(23458a56a47b144179823b5e188eb3e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'caa583df8c3ece28bc10c0ff09cc4e7f') in 0.092372 seconds 
+  Import took 0.098395 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000362 seconds.
+  path: Assets/GymAssests/BodyBuilder Asset Pack/Prefabs/BenchID.prefab
+  artifactKey: Guid(80a5ea9764443443395b466a9a9acfd7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GymAssests/BodyBuilder Asset Pack/Prefabs/BenchID.prefab using Guid(80a5ea9764443443395b466a9a9acfd7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bde0951acdefe3c759b754c4e6480683') in 0.060876 seconds 
+  Import took 0.066395 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000180 seconds.
+  path: Assets/GymAssests/BodyBuilder Asset Pack/Meshes/BenchID.fbx
+  artifactKey: Guid(13547fa8926174669b22c47473c9b943) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GymAssests/BodyBuilder Asset Pack/Meshes/BenchID.fbx using Guid(13547fa8926174669b22c47473c9b943) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f8805ee8060517fe3f1c90b637bc3b10') in 0.050389 seconds 
+  Import took 0.055778 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000155 seconds.
+  path: Assets/_Course Library/_Prefabs/Seating/Chair_Rustic_DarkBrown.prefab
+  artifactKey: Guid(ddb8bcacf9b699b428806e528be6780f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Course Library/_Prefabs/Seating/Chair_Rustic_DarkBrown.prefab using Guid(ddb8bcacf9b699b428806e528be6780f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0d3500ca94e1d17314bcfedb7066b2b5') in 0.016246 seconds 
+  Import took 0.022399 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000152 seconds.
+  path: Assets/_Course Library/_Prefabs/Lighting/Chandelier_Traditional.prefab
+  artifactKey: Guid(24059ac741805e844a334555559f8f53) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Course Library/_Prefabs/Lighting/Chandelier_Traditional.prefab using Guid(24059ac741805e844a334555559f8f53) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1317483592c7afcaf5468a3837388139') in 0.013404 seconds 
+  Import took 0.019844 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000208 seconds.
+  path: Assets/_Course Library/Models/Chair_Traditional_B.fbx
+  artifactKey: Guid(c85425214953d3e458c75798dc76fde9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Course Library/Models/Chair_Traditional_B.fbx using Guid(c85425214953d3e458c75798dc76fde9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '21a11e47c5d44cd3f6e44e3f519b2ef2') in 0.022352 seconds 
+  Import took 0.028512 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000180 seconds.
+  path: Assets/GymAssests/Locker_room_props/3dobjectsFBX/bench.fbx
+  artifactKey: Guid(e782660b7904ede4abc4231cd8771448) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GymAssests/Locker_room_props/3dobjectsFBX/bench.fbx using Guid(e782660b7904ede4abc4231cd8771448) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '22b677ade9481f9747dcced9a9bcfaaf') in 0.019493 seconds 
+  Import took 0.025464 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000152 seconds.
+  path: Assets/_Course Library/Models/Chair_Traditional.fbx
+  artifactKey: Guid(1c9f4d68760b3784b9ff57afcf8c2da3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Course Library/Models/Chair_Traditional.fbx using Guid(1c9f4d68760b3784b9ff57afcf8c2da3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '038c33074385633cdf9471b84566bca7') in 0.021540 seconds 
+  Import took 0.027372 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000218 seconds.
+  path: Assets/_Course Library/_Prefabs/Lighting/Chandelier_Rustic.prefab
+  artifactKey: Guid(eb39e0724dfebcf41b75eeb6574fffef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Course Library/_Prefabs/Lighting/Chandelier_Rustic.prefab using Guid(eb39e0724dfebcf41b75eeb6574fffef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '213e60041129efdacbceb1c35f3337fb') in 0.019583 seconds 
+  Import took 0.026086 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000152 seconds.
+  path: Assets/_Course Library/Models/Chair_Rustic.fbx
+  artifactKey: Guid(8c1fb203490f1664ba9890dee69d5a12) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Course Library/Models/Chair_Rustic.fbx using Guid(8c1fb203490f1664ba9890dee69d5a12) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f9d7df558055e52219430f37a6aa72a3') in 0.020856 seconds 
+  Import took 0.026893 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000192 seconds.
+  path: Assets/_Course Library/_Prefabs/Seating/Chair_Modern_Brown.prefab
+  artifactKey: Guid(5e80c6b19a85a0d46b1ebd9f0eb64b5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Course Library/_Prefabs/Seating/Chair_Modern_Brown.prefab using Guid(5e80c6b19a85a0d46b1ebd9f0eb64b5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8465eb0f1922fbbf7e902a78d1031a5e') in 0.015812 seconds 
+  Import took 0.022395 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000184 seconds.
+  path: Assets/GymAssests/Locker_room_props/3dobjectsFBX/Materials/bench-sitzbank.mat
+  artifactKey: Guid(8e4164d0b9efb6044a248ca4c414e2fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GymAssests/Locker_room_props/3dobjectsFBX/Materials/bench-sitzbank.mat using Guid(8e4164d0b9efb6044a248ca4c414e2fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e652c4d28a6efa4edccf2be17881b432') in 0.012707 seconds 
+  Import took 0.018349 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000169 seconds.
+  path: Assets/_Course Library/_Prefabs/Lighting/Chandelier_Modern.prefab
+  artifactKey: Guid(d5bb5377bb2f0bd45a41101a27ddecee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Course Library/_Prefabs/Lighting/Chandelier_Modern.prefab using Guid(d5bb5377bb2f0bd45a41101a27ddecee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0933e83436122344ac64bab5f6fdcfcc') in 0.015526 seconds 
+  Import took 0.022346 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.409148 seconds.
+  path: Assets/TextMesh Pro/Fonts/Christmas Bell - Personal Use.otf
+  artifactKey: Guid(484659c8a495544488db44355c93072e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Fonts/Christmas Bell - Personal Use.otf using Guid(484659c8a495544488db44355c93072e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1c8a5332bc884cd57a434ccd661edb3e') in 0.028615 seconds 
+  Import took 0.034484 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000276 seconds.
+  path: Assets/GymAssests/Christmas Tree - POLYCRAFT Series/Prefab/Christmas_Ball_02.prefab
+  artifactKey: Guid(2f08d5b8aacce504d887fa1fbbe63524) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GymAssests/Christmas Tree - POLYCRAFT Series/Prefab/Christmas_Ball_02.prefab using Guid(2f08d5b8aacce504d887fa1fbbe63524) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0f2682c0733b69105a65a54387842e67') in 0.019462 seconds 
+  Import took 0.025281 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000144 seconds.
+  path: Assets/GymAssests/Christmas Tree - POLYCRAFT Series/Mesh/Christmas_Ball_03.fbx
+  artifactKey: Guid(d5cbc7af5a82e05488c965873ac19500) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GymAssests/Christmas Tree - POLYCRAFT Series/Mesh/Christmas_Ball_03.fbx using Guid(d5cbc7af5a82e05488c965873ac19500) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'db5f967b8d804a90547f62ae2ca81e29') in 0.019795 seconds 
+  Import took 0.025241 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000196 seconds.
+  path: Assets/GymAssests/Christmas Tree - POLYCRAFT Series/Mesh/Christmas_Ball_02.fbx
+  artifactKey: Guid(b0025d90eb8707146ae6c42fe98b8bfa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GymAssests/Christmas Tree - POLYCRAFT Series/Mesh/Christmas_Ball_02.fbx using Guid(b0025d90eb8707146ae6c42fe98b8bfa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b13996bc290659045c3a28fda1a933c2') in 0.017398 seconds 
+  Import took 0.024022 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000162 seconds.
+  path: Assets/GymAssests/Christmas Tree - POLYCRAFT Series/Mesh/Christmas_Ball_00.fbx
+  artifactKey: Guid(507c77af3be2f374c9c419d57b871454) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GymAssests/Christmas Tree - POLYCRAFT Series/Mesh/Christmas_Ball_00.fbx using Guid(507c77af3be2f374c9c419d57b871454) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a658dbaf3cdb38f1d3024156c9ec4c64') in 0.024322 seconds 
+  Import took 0.030686 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000182 seconds.
+  path: Assets/GymAssests/Christmas Tree - POLYCRAFT Series/Prefab/Christmas_Candy_03.prefab
+  artifactKey: Guid(a6803f38f5492a846a254a30a359f917) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GymAssests/Christmas Tree - POLYCRAFT Series/Prefab/Christmas_Candy_03.prefab using Guid(a6803f38f5492a846a254a30a359f917) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '07a088bdba1fd69339f9364cc0324cca') in 0.015245 seconds 
+  Import took 0.021884 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000229 seconds.
+  path: Assets/GymAssests/Christmas Tree - POLYCRAFT Series/Mesh/Christmas_Ball_01.fbx
+  artifactKey: Guid(71ad53543b15c3745afc1107fe28b9d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GymAssests/Christmas Tree - POLYCRAFT Series/Mesh/Christmas_Ball_01.fbx using Guid(71ad53543b15c3745afc1107fe28b9d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '05cd7b17b517ba159412befb45ece7a5') in 0.022923 seconds 
+  Import took 0.028729 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000184 seconds.
+  path: Assets/GymAssests/Christmas Tree - POLYCRAFT Series/Prefab/Christmas_Ball_01.prefab
+  artifactKey: Guid(2b77c0dac663d2f41b92953df12127da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GymAssests/Christmas Tree - POLYCRAFT Series/Prefab/Christmas_Ball_01.prefab using Guid(2b77c0dac663d2f41b92953df12127da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fc9adfa79799edfc0b93be869c11ba74') in 0.012587 seconds 
+  Import took 0.018711 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000157 seconds.
+  path: Assets/GymAssests/Christmas Tree - POLYCRAFT Series/Prefab/Christmas_Ball_05.prefab
+  artifactKey: Guid(7ad324a9f0845a248a5ee8baff2855a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GymAssests/Christmas Tree - POLYCRAFT Series/Prefab/Christmas_Ball_05.prefab using Guid(7ad324a9f0845a248a5ee8baff2855a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'defc244dedaf2fd700b8d01639a2cb1b') in 0.019788 seconds 
+  Import took 0.026505 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000170 seconds.
+  path: Assets/GymAssests/Christmas Tree - POLYCRAFT Series/Prefab/Christmas_Ball_08.prefab
+  artifactKey: Guid(9524b77da7900e2448a2bbf6302deb30) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GymAssests/Christmas Tree - POLYCRAFT Series/Prefab/Christmas_Ball_08.prefab using Guid(9524b77da7900e2448a2bbf6302deb30) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd5930c5750ba7d97ecd01ad463794046') in 0.014923 seconds 
+  Import took 0.020472 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000218 seconds.
+  path: Assets/GymAssests/Christmas Tree - POLYCRAFT Series/Mesh/Christmas_Candy_01.fbx
+  artifactKey: Guid(4a74d0562c133ef418bc5b6e060a12cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GymAssests/Christmas Tree - POLYCRAFT Series/Mesh/Christmas_Candy_01.fbx using Guid(4a74d0562c133ef418bc5b6e060a12cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '70f3b9df6618b35c1f229682d41b0a06') in 0.017657 seconds 
+  Import took 0.023948 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000160 seconds.
+  path: Assets/GymAssests/Christmas Tree - POLYCRAFT Series/Prefab/Christmas_Candy_01.prefab
+  artifactKey: Guid(e7b730946c7cdbb41bc1d7911633430b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GymAssests/Christmas Tree - POLYCRAFT Series/Prefab/Christmas_Candy_01.prefab using Guid(e7b730946c7cdbb41bc1d7911633430b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ae468bd5d95611d0693eb9dcc0580f1f') in 0.014374 seconds 
+  Import took 0.019964 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000171 seconds.
+  path: Assets/GymAssests/Christmas Tree - POLYCRAFT Series/Prefab/Christmas_Ball_00.prefab
+  artifactKey: Guid(346f449c586a86f4e8f51c9bfc6f8ac0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GymAssests/Christmas Tree - POLYCRAFT Series/Prefab/Christmas_Ball_00.prefab using Guid(346f449c586a86f4e8f51c9bfc6f8ac0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6385fa12ceff652f6ce6541eb4255cf4') in 0.013357 seconds 
+  Import took 0.019846 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000179 seconds.
+  path: Assets/GymAssests/Christmas Tree - POLYCRAFT Series/Mesh/Christmas_Ball_10.fbx
+  artifactKey: Guid(b7cbcbb2e87001d4dbe438244b1180d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GymAssests/Christmas Tree - POLYCRAFT Series/Mesh/Christmas_Ball_10.fbx using Guid(b7cbcbb2e87001d4dbe438244b1180d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bef89f0d6ed4381722a499bbb5fc4b8e') in 0.018436 seconds 
+  Import took 0.024137 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000204 seconds.
+  path: Assets/GymAssests/Christmas Tree - POLYCRAFT Series/Prefab/Christmas_Ball_03.prefab
+  artifactKey: Guid(d24a2ef07343af2459b251fc9b9e1db8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GymAssests/Christmas Tree - POLYCRAFT Series/Prefab/Christmas_Ball_03.prefab using Guid(d24a2ef07343af2459b251fc9b9e1db8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a88e7692a24b6839840e3f85fd59a5c8') in 0.012993 seconds 
+  Import took 0.019093 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000224 seconds.
+  path: Assets/GymAssests/Christmas Tree - POLYCRAFT Series/Mesh/Christmas_Ball_07.fbx
+  artifactKey: Guid(7bb27473c0a68724e8efc00f87527888) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GymAssests/Christmas Tree - POLYCRAFT Series/Mesh/Christmas_Ball_07.fbx using Guid(7bb27473c0a68724e8efc00f87527888) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0ea7a8b97a73f1791943ee9bf6924dac') in 0.022743 seconds 
+  Import took 0.028622 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000258 seconds.
+  path: Assets/GymAssests/Christmas Tree - POLYCRAFT Series/Prefab/Christmas_Ball_09.prefab
+  artifactKey: Guid(998fb6df537612b4b93fd1efbbb9c4a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GymAssests/Christmas Tree - POLYCRAFT Series/Prefab/Christmas_Ball_09.prefab using Guid(998fb6df537612b4b93fd1efbbb9c4a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '379bf2c88a7b47bd0a8668d0475fa474') in 0.017741 seconds 
+  Import took 0.023615 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000178 seconds.
+  path: Assets/GymAssests/Christmas Tree - POLYCRAFT Series/Mesh/Christmas_Candy_00.fbx
+  artifactKey: Guid(b8c9a25a29cbdf249909205742954ccd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GymAssests/Christmas Tree - POLYCRAFT Series/Mesh/Christmas_Candy_00.fbx using Guid(b8c9a25a29cbdf249909205742954ccd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fecfb2417da09b27922211152b5006c8') in 0.019775 seconds 
+  Import took 0.025751 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000208 seconds.
+  path: Assets/GymAssests/Christmas Tree - POLYCRAFT Series/Prefab/Christmas_Ball_10.prefab
+  artifactKey: Guid(5424cda683fac0e4ea61e5245094a7e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GymAssests/Christmas Tree - POLYCRAFT Series/Prefab/Christmas_Ball_10.prefab using Guid(5424cda683fac0e4ea61e5245094a7e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ae0b9f579b9d63d4c165ef26a90bb8ae') in 0.014413 seconds 
+  Import took 0.020939 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000184 seconds.
+  path: Assets/GymAssests/Christmas Tree - POLYCRAFT Series/Prefab/Christmas_Ball_11.prefab
+  artifactKey: Guid(f11f4656aaf62da41838106c00951a0c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GymAssests/Christmas Tree - POLYCRAFT Series/Prefab/Christmas_Ball_11.prefab using Guid(f11f4656aaf62da41838106c00951a0c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bbf9aaf0bfc2e054d2b852eb9ac66686') in 0.013846 seconds 
+  Import took 0.020188 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000290 seconds.
+  path: Assets/GymAssests/Christmas Tree - POLYCRAFT Series/Prefab/Christmas_Candy_02.prefab
+  artifactKey: Guid(5cfbdf185452a6c46bb39eec1b9f4a2e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GymAssests/Christmas Tree - POLYCRAFT Series/Prefab/Christmas_Candy_02.prefab using Guid(5cfbdf185452a6c46bb39eec1b9f4a2e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ecfb54c4286716f8a1ceef5cb5d4ed98') in 0.013406 seconds 
+  Import took 0.019311 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000258 seconds.
+  path: Assets/GymAssests/Christmas Tree - POLYCRAFT Series/Prefab/Christmas_Candy_04.prefab
+  artifactKey: Guid(1ed533a8c248eac4299454be839f4bd2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GymAssests/Christmas Tree - POLYCRAFT Series/Prefab/Christmas_Candy_04.prefab using Guid(1ed533a8c248eac4299454be839f4bd2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9399fbe314f0483782f92709b54c317f') in 0.015882 seconds 
+  Import took 0.021829 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000253 seconds.
+  path: Assets/GymAssests/Christmas Tree - POLYCRAFT Series/Mesh/Christmas_Ball_04.fbx
+  artifactKey: Guid(1a7b91a553070164aa8606129665e89b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GymAssests/Christmas Tree - POLYCRAFT Series/Mesh/Christmas_Ball_04.fbx using Guid(1a7b91a553070164aa8606129665e89b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2177dc73e55b69447f6aa628c5cfe0f8') in 0.018113 seconds 
+  Import took 0.024645 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000184 seconds.
+  path: Assets/GymAssests/Christmas Tree - POLYCRAFT Series/Mesh/Christmas_Candy_02.fbx
+  artifactKey: Guid(8aa7253de8ecd9341b6750285d9ec189) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GymAssests/Christmas Tree - POLYCRAFT Series/Mesh/Christmas_Candy_02.fbx using Guid(8aa7253de8ecd9341b6750285d9ec189) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '45594d15ca5828de4919a4ee1da62d59') in 0.016571 seconds 
+  Import took 0.023281 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000171 seconds.
+  path: Assets/GymAssests/Christmas Tree - POLYCRAFT Series/Mesh/Christmas_Ball_04.fbx
+  artifactKey: Guid(1a7b91a553070164aa8606129665e89b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GymAssests/Christmas Tree - POLYCRAFT Series/Mesh/Christmas_Ball_04.fbx using Guid(1a7b91a553070164aa8606129665e89b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2177dc73e55b69447f6aa628c5cfe0f8') in 0.016724 seconds 
+  Import took 0.022341 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000252 seconds.
+  path: Assets/GymAssests/Christmas Tree - POLYCRAFT Series/Prefab/Christmas_Ball_06.prefab
+  artifactKey: Guid(842467ccc4ad3264d8b43bcea1454771) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GymAssests/Christmas Tree - POLYCRAFT Series/Prefab/Christmas_Ball_06.prefab using Guid(842467ccc4ad3264d8b43bcea1454771) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7025b6dc1afe626889da34435043ffb0') in 0.018329 seconds 
+  Import took 0.024457 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000294 seconds.
+  path: Assets/GymAssests/Christmas Tree - POLYCRAFT Series/Mesh/Christmas_Ball_08.fbx
+  artifactKey: Guid(f7306a1eae017cb4d9443a8b06d9f063) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GymAssests/Christmas Tree - POLYCRAFT Series/Mesh/Christmas_Ball_08.fbx using Guid(f7306a1eae017cb4d9443a8b06d9f063) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c01929695f4837090f2d6db4d1bd74f4') in 0.014786 seconds 
+  Import took 0.021988 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000147 seconds.
+  path: Assets/GymAssests/Christmas Tree - POLYCRAFT Series/Mesh/Christmas_Ball_05.fbx
+  artifactKey: Guid(e4856232d90779c478c30b5aae007ab9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GymAssests/Christmas Tree - POLYCRAFT Series/Mesh/Christmas_Ball_05.fbx using Guid(e4856232d90779c478c30b5aae007ab9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b4784c2851f5c6d0e9c62931ecd0a3fa') in 0.021017 seconds 
+  Import took 0.027124 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000173 seconds.
+  path: Assets/GymAssests/Christmas Tree - POLYCRAFT Series/Mesh/Christmas_Candy_03.fbx
+  artifactKey: Guid(1debad300e48af340936c92382f036d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GymAssests/Christmas Tree - POLYCRAFT Series/Mesh/Christmas_Candy_03.fbx using Guid(1debad300e48af340936c92382f036d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd6304b592555a5f9919de2776b744345') in 0.016462 seconds 
+  Import took 0.022285 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000332 seconds.
+  path: Assets/GymAssests/Christmas Tree - POLYCRAFT Series/Mesh/Christmas_Ball_06.fbx
+  artifactKey: Guid(55e3bbfbdac865f47a6efaa8d14c3208) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GymAssests/Christmas Tree - POLYCRAFT Series/Mesh/Christmas_Ball_06.fbx using Guid(55e3bbfbdac865f47a6efaa8d14c3208) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '88007b11a388b9be7f13649166d417a4') in 0.015042 seconds 
+  Import took 0.021279 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000165 seconds.
+  path: Assets/GymAssests/Christmas Tree - POLYCRAFT Series/Prefab/Christmas_Ball_04.prefab
+  artifactKey: Guid(86cca0d98031dba4883c01dbd59f8e2f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GymAssests/Christmas Tree - POLYCRAFT Series/Prefab/Christmas_Ball_04.prefab using Guid(86cca0d98031dba4883c01dbd59f8e2f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0985898e784c511bb5e7685f7142163a') in 0.014344 seconds 
+  Import took 0.020613 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000214 seconds.
+  path: Assets/GymAssests/Christmas Tree - POLYCRAFT Series/Prefab/Christmas_Candy_00.prefab
+  artifactKey: Guid(9d21682eb45dd044a9a0d26d5352f4e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GymAssests/Christmas Tree - POLYCRAFT Series/Prefab/Christmas_Candy_00.prefab using Guid(9d21682eb45dd044a9a0d26d5352f4e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5ac256199fe61c22c526abdb422dbe83') in 0.013946 seconds 
+  Import took 0.019803 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000210 seconds.
+  path: Assets/GymAssests/Christmas Tree - POLYCRAFT Series/Mesh/Christmas_Ball_11.fbx
+  artifactKey: Guid(738946a177cdbe04d8b9025c97b829b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GymAssests/Christmas Tree - POLYCRAFT Series/Mesh/Christmas_Ball_11.fbx using Guid(738946a177cdbe04d8b9025c97b829b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ed7e65aa0bfaeac2d8c9fb24cf4b909a') in 0.018280 seconds 
+  Import took 0.024418 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000157 seconds.
+  path: Assets/GymAssests/Christmas Tree - POLYCRAFT Series/Prefab/Christmas_Ball_07.prefab
+  artifactKey: Guid(7abb5fa6bbe4acd47bdcd63e0ad8fa4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GymAssests/Christmas Tree - POLYCRAFT Series/Prefab/Christmas_Ball_07.prefab using Guid(7abb5fa6bbe4acd47bdcd63e0ad8fa4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7c2af647785dd3bbba1ca2936df6fb29') in 0.015186 seconds 
+  Import took 0.022431 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000204 seconds.
+  path: Assets/GymAssests/Christmas Tree - POLYCRAFT Series/Mesh/Christmas_Ball_09.fbx
+  artifactKey: Guid(110ce2a770d72754795c03c21ca6a642) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GymAssests/Christmas Tree - POLYCRAFT Series/Mesh/Christmas_Ball_09.fbx using Guid(110ce2a770d72754795c03c21ca6a642) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5e65a262797a789c23b3efd3d195d79c') in 0.017002 seconds 
+  Import took 0.023050 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.011000 seconds.
+  path: Assets/GymAssests/Christmas Tree - POLYCRAFT Series/Mesh/Christmas_Ball_09.fbx
+  artifactKey: Guid(110ce2a770d72754795c03c21ca6a642) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GymAssests/Christmas Tree - POLYCRAFT Series/Mesh/Christmas_Ball_09.fbx using Guid(110ce2a770d72754795c03c21ca6a642) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5e65a262797a789c23b3efd3d195d79c') in 0.016025 seconds 
+  Import took 0.022624 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 154.148833 seconds.
+  path: Assets/GymAssests/Christmas Tree - POLYCRAFT Series/Mesh/Christmas_Candy_04.fbx
+  artifactKey: Guid(fcd353dc7296d4e48b3460a602ea0257) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GymAssests/Christmas Tree - POLYCRAFT Series/Mesh/Christmas_Candy_04.fbx using Guid(fcd353dc7296d4e48b3460a602ea0257) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b47a48b51c5c9ab953ff64cd356cab5b') in 0.018913 seconds 
+  Import took 0.025031 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000197 seconds.
+  path: Assets/GymAssests/Christmas Tree - POLYCRAFT Series/Mesh/Christmas_Tree_V1_02.fbx
+  artifactKey: Guid(61aaf9518c13f154cba3c4d67740540c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GymAssests/Christmas Tree - POLYCRAFT Series/Mesh/Christmas_Tree_V1_02.fbx using Guid(61aaf9518c13f154cba3c4d67740540c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5ab00f2994aa91224d363134b346ecad') in 0.020471 seconds 
+  Import took 0.025923 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000217 seconds.
+  path: Assets/GymAssests/Christmas Tree - POLYCRAFT Series/Texture/Materials/Christmas_Tree_Set_Diffuse.mat
+  artifactKey: Guid(f6ee737ea370ed4438123a45a02118bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GymAssests/Christmas Tree - POLYCRAFT Series/Texture/Materials/Christmas_Tree_Set_Diffuse.mat using Guid(f6ee737ea370ed4438123a45a02118bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1d14b81c6889d627d73dbd6068a055f8') in 0.014323 seconds 
+  Import took 0.019813 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000204 seconds.
+  path: Assets/GymAssests/Christmas Tree - POLYCRAFT Series/Mesh/Materials/Christmas_Tree_Set_Diffuse.mat
+  artifactKey: Guid(4f3ea2db833264749b039fbc1beaf81e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GymAssests/Christmas Tree - POLYCRAFT Series/Mesh/Materials/Christmas_Tree_Set_Diffuse.mat using Guid(4f3ea2db833264749b039fbc1beaf81e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a12f162541ccd81cb2a237c56324bac4') in 0.013476 seconds 
+  Import took 0.019895 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000157 seconds.
+  path: Assets/GymAssests/Christmas Tree - POLYCRAFT Series/Prefab/Christmas_Tree_V1_02.prefab
+  artifactKey: Guid(efa4e11be813d88499e5168a198b52ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GymAssests/Christmas Tree - POLYCRAFT Series/Prefab/Christmas_Tree_V1_02.prefab using Guid(efa4e11be813d88499e5168a198b52ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd2c3a68208149628cea498c42b2ac393') in 0.012898 seconds 
+  Import took 0.018988 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000252 seconds.
+  path: Assets/GymAssests/Christmas Tree - POLYCRAFT Series/Prefab/Christmas_Tree_V1_01.prefab
+  artifactKey: Guid(a149a3c00d359414489dc7172643c85c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GymAssests/Christmas Tree - POLYCRAFT Series/Prefab/Christmas_Tree_V1_01.prefab using Guid(a149a3c00d359414489dc7172643c85c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '88c277b98504827327d27e32b4ea65b9') in 0.018718 seconds 
+  Import took 0.025706 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000263 seconds.
+  path: Assets/GymAssests/Christmas Tree - POLYCRAFT Series/Prefab/Christmas_Tree_V1_00.prefab
+  artifactKey: Guid(8044f7fc9e0fa3247bf5b7e686882aab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GymAssests/Christmas Tree - POLYCRAFT Series/Prefab/Christmas_Tree_V1_00.prefab using Guid(8044f7fc9e0fa3247bf5b7e686882aab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9912a1b474147d02d0cdb387e6347f80') in 0.019395 seconds 
+  Import took 0.025642 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000186 seconds.
+  path: Assets/GymAssests/Christmas Tree - POLYCRAFT Series/Mesh/Christmas_Tree_V1_01.fbx
+  artifactKey: Guid(8d7d2e7c1ff912e40aaa04125a4aecb8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GymAssests/Christmas Tree - POLYCRAFT Series/Mesh/Christmas_Tree_V1_01.fbx using Guid(8d7d2e7c1ff912e40aaa04125a4aecb8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9eedbb40145f493b88064af3cb36c808') in 0.019827 seconds 
+  Import took 0.025542 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000185 seconds.
+  path: Assets/GymAssests/Christmas Tree - POLYCRAFT Series/Texture/Christmas_Tree_Set_Diffuse.psd
+  artifactKey: Guid(b80edd7519a1f8c4685028395ead94fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GymAssests/Christmas Tree - POLYCRAFT Series/Texture/Christmas_Tree_Set_Diffuse.psd using Guid(b80edd7519a1f8c4685028395ead94fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f20830e05e48fcd4becc3f3570ba0452') in 0.011244 seconds 
+  Import took 0.016907 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000209 seconds.
+  path: Assets/GymAssests/Christmas Tree - POLYCRAFT Series/Mesh/Christmas_Tree_V1_00.fbx
+  artifactKey: Guid(d610123bf820bda4892639ab406a04af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GymAssests/Christmas Tree - POLYCRAFT Series/Mesh/Christmas_Tree_V1_00.fbx using Guid(d610123bf820bda4892639ab406a04af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '773e818f0f39c35fbe1cc573508ad685') in 0.017734 seconds 
+  Import took 0.024012 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.026257 seconds.
+  path: Assets/GymAssests/Christmas Tree - POLYCRAFT Series/Mesh/Christmas_Tree_V1_00.fbx
+  artifactKey: Guid(d610123bf820bda4892639ab406a04af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GymAssests/Christmas Tree - POLYCRAFT Series/Mesh/Christmas_Tree_V1_00.fbx using Guid(d610123bf820bda4892639ab406a04af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '773e818f0f39c35fbe1cc573508ad685') in 0.017888 seconds 
+  Import took 0.024268 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 235.699541 seconds.
+  path: Assets/GymAssests/BodyBuilder Asset Pack/Textures/10.jpg
+  artifactKey: Guid(69de6d6b0309842f4bf6ad6be3edc001) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GymAssests/BodyBuilder Asset Pack/Textures/10.jpg using Guid(69de6d6b0309842f4bf6ad6be3edc001) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '94ee3c4d89e215814eb58e944f03e8c7') in 0.024833 seconds 
+  Import took 0.032225 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000315 seconds.
+  path: Assets/GymAssests/streetlightmodel/textures/lamps_lamp_04_Metalness.png
+  artifactKey: Guid(fcce8aab8fc649f47aa67da32c1d2c2c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GymAssests/streetlightmodel/textures/lamps_lamp_04_Metalness.png using Guid(fcce8aab8fc649f47aa67da32c1d2c2c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '95c41347129a4968afdbb12510881e64') in 0.023552 seconds 
+  Import took 0.030941 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000235 seconds.
+  path: Assets/GymAssests/streetlightmodel/textures/lamps_pole_2side_1_BaseColor.png
+  artifactKey: Guid(f4d862911069c2f43bc57987f61b95ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GymAssests/streetlightmodel/textures/lamps_pole_2side_1_BaseColor.png using Guid(f4d862911069c2f43bc57987f61b95ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '30cda0326ffed80ed4466c9be440f7a6') in 0.021251 seconds 
+  Import took 0.028463 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000162 seconds.
+  path: Assets/StarterAssets/Environment/Art/Textures/Grid_01_Emissive.png
+  artifactKey: Guid(d4d6919451fe3e24388816386a6d15a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StarterAssets/Environment/Art/Textures/Grid_01_Emissive.png using Guid(d4d6919451fe3e24388816386a6d15a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8e6163f2b2dbf825d52bb2ad978db75d') in 0.017941 seconds 
+  Import took 0.025956 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000207 seconds.
+  path: Assets/GymAssests/streetlightmodel/textures/lamps_lamp_04_BaseColor.png
+  artifactKey: Guid(29aa076499fc1fc40a8d3cb6bccd35db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GymAssests/streetlightmodel/textures/lamps_lamp_04_BaseColor.png using Guid(29aa076499fc1fc40a8d3cb6bccd35db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a0bc733047d59fc969a26ae14cf14ff7') in 0.020355 seconds 
+  Import took 0.026121 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000174 seconds.
+  path: Assets/GymAssests/ball/textures/gltf_embedded_1@channels=A.png
+  artifactKey: Guid(032dea06a3d814d6482a1c9695a75c4f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GymAssests/ball/textures/gltf_embedded_1@channels=A.png using Guid(032dea06a3d814d6482a1c9695a75c4f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8748048a6c834274ddc19f344f1d6cb8') in 0.021609 seconds 
+  Import took 0.027172 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000159 seconds.
+  path: Assets/BrokenVector/LowPolyTreePack/Textures/Colorsheet Tree Cold.png
+  artifactKey: Guid(ed297eb21cb5e5e4188600ba2d272554) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BrokenVector/LowPolyTreePack/Textures/Colorsheet Tree Cold.png using Guid(ed297eb21cb5e5e4188600ba2d272554) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f84bbc1e419dfc062980010e16a70cbf') in 0.016635 seconds 
+  Import took 0.023105 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000213 seconds.
+  path: Assets/GymAssests/BodyBuilder Asset Pack/Textures/carpet 1.png
+  artifactKey: Guid(4ee674ac5d0274774bb7d005785a78b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GymAssests/BodyBuilder Asset Pack/Textures/carpet 1.png using Guid(4ee674ac5d0274774bb7d005785a78b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '900559b505ab5a3dff3b8b7b783400b8') in 0.026181 seconds 
+  Import took 0.032483 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000188 seconds.
+  path: Assets/_Course Library/Textures/Icon_Gear.png
+  artifactKey: Guid(5cc05834449b82544bd1a87bc90bd81e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Course Library/Textures/Icon_Gear.png using Guid(5cc05834449b82544bd1a87bc90bd81e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c0548c511400a948e7f7398661c8409f') in 0.026471 seconds 
+  Import took 0.032687 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000199 seconds.
+  path: Assets/GymAssests/streetlightmodel/textures/lamps_lamp02_Opacity.png
+  artifactKey: Guid(c1ffc8a973cefe74ab586a507f7abbed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GymAssests/streetlightmodel/textures/lamps_lamp02_Opacity.png using Guid(c1ffc8a973cefe74ab586a507f7abbed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '15e32a44ac86800f35e7a5bd16cdeefc') in 0.023727 seconds 
+  Import took 0.030136 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000186 seconds.
+  path: Assets/GymAssests/streetlightmodel/textures/lamps_lambert1_BaseColor.png
+  artifactKey: Guid(8c67b0cb9930521449a8890a7c2ee86b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GymAssests/streetlightmodel/textures/lamps_lambert1_BaseColor.png using Guid(8c67b0cb9930521449a8890a7c2ee86b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6df03a43f064a125d8a0fdfeab0f2207') in 0.021058 seconds 
+  Import took 0.027942 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000148 seconds.
+  path: Assets/GardenTools/Hoe/HoeLever.png
+  artifactKey: Guid(09d5fab6744fcd84f966180d77ba216d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GardenTools/Hoe/HoeLever.png using Guid(09d5fab6744fcd84f966180d77ba216d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '18c8967482df99358accd69e43b9b2ac') in 0.016108 seconds 
+  Import took 0.022589 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000202 seconds.
+  path: Assets/GymAssests/streetlightmodel/textures/lamps_pole_4side_1_BaseColor.png
+  artifactKey: Guid(03353c13148047e4aafa5db8dbde4317) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GymAssests/streetlightmodel/textures/lamps_pole_4side_1_BaseColor.png using Guid(03353c13148047e4aafa5db8dbde4317) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e6164c4a620851e36f83e817c501f795') in 0.020293 seconds 
+  Import took 0.026557 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000242 seconds.
+  path: Assets/GymAssests/BodyBuilder Asset Pack/Textures/Chrome.png
+  artifactKey: Guid(0fc6395d6761b4944896e196ff8e1f29) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GymAssests/BodyBuilder Asset Pack/Textures/Chrome.png using Guid(0fc6395d6761b4944896e196ff8e1f29) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '05683a7bcffeaa076ec1b29c2ced2800') in 0.017027 seconds 
+  Import took 0.022551 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000443 seconds.
+  path: Assets/GymAssests/streetlightmodel/textures/lamps_lamp_04_Emissive.png
+  artifactKey: Guid(e647612e2e2aad841a010e53c28931ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GymAssests/streetlightmodel/textures/lamps_lamp_04_Emissive.png using Guid(e647612e2e2aad841a010e53c28931ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e1edc1c0e5350d9cb598fc5487c25479') in 0.023972 seconds 
+  Import took 0.030086 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000224 seconds.
+  path: Assets/GymAssests/streetlightmodel/textures/lamps_lamp_04_Normal.png
+  artifactKey: Guid(a1e0f3117963c594f86189e4bfd2b839) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GymAssests/streetlightmodel/textures/lamps_lamp_04_Normal.png using Guid(a1e0f3117963c594f86189e4bfd2b839) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '56709c685e794b98ac227c95f58bc559') in 0.020046 seconds 
+  Import took 0.026308 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000219 seconds.
+  path: Assets/GymAssests/streetlightmodel/textures/lamps_pole_2side_1_Metalness.png
+  artifactKey: Guid(130bd8b4cf67e3641b229715fb672271) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GymAssests/streetlightmodel/textures/lamps_pole_2side_1_Metalness.png using Guid(130bd8b4cf67e3641b229715fb672271) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a162d3acb4e152249b244917e050a3e4') in 0.020896 seconds 
+  Import took 0.026877 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000173 seconds.
+  path: Assets/GymAssests/streetlightmodel/textures/lamps_lamp03_Metalness.png
+  artifactKey: Guid(5a7727cbd1c415e49a777fc67215bd20) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GymAssests/streetlightmodel/textures/lamps_lamp03_Metalness.png using Guid(5a7727cbd1c415e49a777fc67215bd20) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '40f79b519a19b0e23ac807d15f8b4235') in 0.021282 seconds 
+  Import took 0.026894 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000174 seconds.
+  path: Assets/GymAssests/streetlightmodel/textures/lamps_lamp_04_Height.png
+  artifactKey: Guid(cbe09019f78a02e4ebce4457f13ea0d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GymAssests/streetlightmodel/textures/lamps_lamp_04_Height.png using Guid(cbe09019f78a02e4ebce4457f13ea0d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3afbf22de1980d293f9f3f8f3870c6b7') in 0.022005 seconds 
+  Import took 0.028664 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000188 seconds.
+  path: Assets/GymAssests/streetlightmodel/textures/lamps_lamp03_Normal.png
+  artifactKey: Guid(72542cd0602a3234dacc92462ed61b9e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GymAssests/streetlightmodel/textures/lamps_lamp03_Normal.png using Guid(72542cd0602a3234dacc92462ed61b9e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0fa5ac5f906bd0f385ffc14616361305') in 0.019270 seconds 
+  Import took 0.024999 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000154 seconds.
+  path: Assets/GymAssests/streetlightmodel/textures/lamps_lamp02_BaseColor.png
+  artifactKey: Guid(c3b98667b8f4dd8418e300e9ed744c9f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GymAssests/streetlightmodel/textures/lamps_lamp02_BaseColor.png using Guid(c3b98667b8f4dd8418e300e9ed744c9f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e091a3dc9c436a53d5480ad39d9f3106') in 0.020382 seconds 
+  Import took 0.027303 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000177 seconds.
+  path: Assets/GymAssests/ball/textures/gltf_embedded_0.png
+  artifactKey: Guid(416f2cfecdd234a34b2986b2557626f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GymAssests/ball/textures/gltf_embedded_0.png using Guid(416f2cfecdd234a34b2986b2557626f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b9ba34d51a76a4b6df5e6f3b1c034afc') in 0.020070 seconds 
+  Import took 0.026523 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000296 seconds.
+  path: Assets/GymAssests/streetlightmodel/textures/lamps_lambert1_Metalness.png
+  artifactKey: Guid(55fc9572832459c4dbea01d5610d3871) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GymAssests/streetlightmodel/textures/lamps_lambert1_Metalness.png using Guid(55fc9572832459c4dbea01d5610d3871) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c87df8a90e48b392a074ef5e662a9233') in 0.019557 seconds 
+  Import took 0.026115 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000168 seconds.
+  path: Assets/GymAssests/BodyBuilder Asset Pack/Textures/60.png
+  artifactKey: Guid(00c80c42246154d89a8827fdcdd5d1b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GymAssests/BodyBuilder Asset Pack/Textures/60.png using Guid(00c80c42246154d89a8827fdcdd5d1b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7ffd80e3a4afe3aa29c73c27481ce26d') in 0.015999 seconds 
+  Import took 0.022012 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000175 seconds.
+  path: Assets/StarterAssets/Environment/Art/Textures/Grid_01_BaseMap.png
+  artifactKey: Guid(d1118dda59970a2449ee890fa247c4c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StarterAssets/Environment/Art/Textures/Grid_01_BaseMap.png using Guid(d1118dda59970a2449ee890fa247c4c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '340041a58af7008ea512a7bb31657401') in 0.015689 seconds 
+  Import took 0.021106 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000170 seconds.
+  path: Assets/GymAssests/streetlightmodel/textures/lamps_lamp03_Roughness.png
+  artifactKey: Guid(b9960eee61a05964f89d0f5dbc39fdae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GymAssests/streetlightmodel/textures/lamps_lamp03_Roughness.png using Guid(b9960eee61a05964f89d0f5dbc39fdae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9e33e3222f66925790f84ffe64d42a00') in 0.020436 seconds 
+  Import took 0.026547 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000214 seconds.
+  path: Assets/GymAssests/streetlightmodel/textures/lamps_lamp_04_Roughness.png
+  artifactKey: Guid(6294f3f17e74c53479cdc99e8717f7f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GymAssests/streetlightmodel/textures/lamps_lamp_04_Roughness.png using Guid(6294f3f17e74c53479cdc99e8717f7f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3193ed05e0f8f70ddbf5574a60dfd834') in 0.020547 seconds 
+  Import took 0.026793 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000163 seconds.
+  path: Assets/GymAssests/streetlightmodel/textures/lamps_lamp03_Emissive.png
+  artifactKey: Guid(e95ad4963ba97c24d831eb0d866d03dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GymAssests/streetlightmodel/textures/lamps_lamp03_Emissive.png using Guid(e95ad4963ba97c24d831eb0d866d03dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e9430eea13841352d1b61de1d9ef4197') in 0.024511 seconds 
+  Import took 0.030052 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000376 seconds.
+  path: Assets/GymAssests/streetlightmodel/textures/lamps_lamp02_Emissive.png
+  artifactKey: Guid(a315074339d2f134db9148d1da42368c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GymAssests/streetlightmodel/textures/lamps_lamp02_Emissive.png using Guid(a315074339d2f134db9148d1da42368c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '77cc90b25d66c9e9bfe83d7de5284613') in 0.025128 seconds 
+  Import took 0.031348 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000262 seconds.
+  path: Assets/GymAssests/BodyBuilder Asset Pack/Textures/Grip.png
+  artifactKey: Guid(1372e1bd3576b439bbab76dd18a3d309) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GymAssests/BodyBuilder Asset Pack/Textures/Grip.png using Guid(1372e1bd3576b439bbab76dd18a3d309) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '39257004273230fe2bb45d152de6d171') in 0.019113 seconds 
+  Import took 0.024623 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000172 seconds.
+  path: Assets/GymAssests/streetlightmodel/textures/lamps_lamp03_Opacity.png
+  artifactKey: Guid(7d29d8f69b80b0c49a350af248bb0796) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GymAssests/streetlightmodel/textures/lamps_lamp03_Opacity.png using Guid(7d29d8f69b80b0c49a350af248bb0796) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '05dd07d09aad40ff298a8e53f0766303') in 0.024900 seconds 
+  Import took 0.031299 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000188 seconds.
+  path: Assets/GymAssests/streetlightmodel/textures/lamps_lamp01_Roughness.png
+  artifactKey: Guid(2a039b33f099cf2468d6db8ee525b006) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GymAssests/streetlightmodel/textures/lamps_lamp01_Roughness.png using Guid(2a039b33f099cf2468d6db8ee525b006) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c0f4dc2e3ba0033cbdf530c40a53028e') in 0.021188 seconds 
+  Import took 0.029011 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000180 seconds.
+  path: Assets/_Course Library/Textures/InteriorColourSwatch.png
+  artifactKey: Guid(22560b08cafc5da46b333eef8c0c711c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Course Library/Textures/InteriorColourSwatch.png using Guid(22560b08cafc5da46b333eef8c0c711c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f8b1eacf6a5f6f8f7d7329c77d4ba6a4') in 0.013655 seconds 
+  Import took 0.020287 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000173 seconds.
+  path: Assets/GymAssests/BodyBuilder Asset Pack/Textures/50.png
+  artifactKey: Guid(d76808727d47f4f119d51ff3426ddf35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GymAssests/BodyBuilder Asset Pack/Textures/50.png using Guid(d76808727d47f4f119d51ff3426ddf35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '71671d3fad8be8947108e5571d5ba2e9') in 0.017383 seconds 
+  Import took 0.023784 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000184 seconds.
+  path: Assets/GymAssests/streetlightmodel/textures/lamps_lambert1_Normal.png
+  artifactKey: Guid(172750b95eb69a042a18f71dcae7d5e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GymAssests/streetlightmodel/textures/lamps_lambert1_Normal.png using Guid(172750b95eb69a042a18f71dcae7d5e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f1c194b73851774d52c03f8c4febfeb1') in 0.020362 seconds 
+  Import took 0.025805 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000182 seconds.
+  path: Assets/GymAssests/streetlightmodel/textures/lamps_lamp01_BaseColor.png
+  artifactKey: Guid(a60209cbd93734f4bbba1174392c4f53) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GymAssests/streetlightmodel/textures/lamps_lamp01_BaseColor.png using Guid(a60209cbd93734f4bbba1174392c4f53) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fc47fbb4f25ad95c78ea501e562d8e10') in 0.020251 seconds 
+  Import took 0.025687 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000272 seconds.
+  path: Assets/GardenTools/Hoe/HoeLeverNM.png
+  artifactKey: Guid(53d4cdf144adef649afbaef0e1577c7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GardenTools/Hoe/HoeLeverNM.png using Guid(53d4cdf144adef649afbaef0e1577c7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3ee9a29eb92f6789f05002057bdd0219') in 0.015715 seconds 
+  Import took 0.021802 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000168 seconds.
+  path: Assets/BrokenVector/LowPolyTreePack/Textures/Colorsheet Tree Dry.png
+  artifactKey: Guid(9236635f319ab034fa33215e8eaa903a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BrokenVector/LowPolyTreePack/Textures/Colorsheet Tree Dry.png using Guid(9236635f319ab034fa33215e8eaa903a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7aee5875d33c854f2ac65018195bdf80') in 0.014932 seconds 
+  Import took 0.020808 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000231 seconds.
+  path: Assets/StarterAssets/Environment/Art/Textures/Grid_01_Normal.png
+  artifactKey: Guid(c5c221ed57a3bf6488f8eba0db28a004) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StarterAssets/Environment/Art/Textures/Grid_01_Normal.png using Guid(c5c221ed57a3bf6488f8eba0db28a004) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bc2d19c3e8cb0a2b44f13d54520db3d4') in 0.017773 seconds 
+  Import took 0.024073 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000208 seconds.
+  path: Assets/GymAssests/streetlightmodel/textures/internal_ground_ao_texture.jpeg
+  artifactKey: Guid(8738ff95e07779a4cb8483304047dd65) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GymAssests/streetlightmodel/textures/internal_ground_ao_texture.jpeg using Guid(8738ff95e07779a4cb8483304047dd65) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2e475501dab4ca88e35fc980b3bb2c3b') in 0.018084 seconds 
+  Import took 0.023836 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000175 seconds.
+  path: Assets/GymAssests/streetlightmodel/textures/lamps_lamp01_Metalness.png
+  artifactKey: Guid(b92babb0b6a36154ab481122d4470d01) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GymAssests/streetlightmodel/textures/lamps_lamp01_Metalness.png using Guid(b92babb0b6a36154ab481122d4470d01) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ef268375e1131f8a741aefcb41d50060') in 0.019210 seconds 
+  Import took 0.025190 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000141 seconds.
+  path: Assets/GymAssests/ball/textures/gltf_embedded_1@channels=RGB.png
+  artifactKey: Guid(718bb10ae7c164bfa9120f0d3861e504) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GymAssests/ball/textures/gltf_embedded_1@channels=RGB.png using Guid(718bb10ae7c164bfa9120f0d3861e504) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8bf69ed08dfeebbda66b198b46e927a4') in 0.017942 seconds 
+  Import took 0.023889 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000162 seconds.
+  path: Assets/GymAssests/streetlightmodel/textures/lamps_lamp02_Roughness.png
+  artifactKey: Guid(dcf3e6e2002f0e5469ffe5b40e11936b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GymAssests/streetlightmodel/textures/lamps_lamp02_Roughness.png using Guid(dcf3e6e2002f0e5469ffe5b40e11936b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cf9ed2d391c63cdfc5fbcd4cd04d60e7') in 0.019037 seconds 
+  Import took 0.025995 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000204 seconds.
+  path: Assets/GymAssests/streetlightmodel/textures/lamps_lamp02_Metalness.png
+  artifactKey: Guid(54af2bcba26adcf4c839705ffc45eab0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GymAssests/streetlightmodel/textures/lamps_lamp02_Metalness.png using Guid(54af2bcba26adcf4c839705ffc45eab0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1ff061db04d09507ac04bc6eda634b26') in 0.026804 seconds 
+  Import took 0.032842 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000174 seconds.
+  path: Assets/GymAssests/streetlightmodel/textures/lamps_pole_2side_1_Normal.png
+  artifactKey: Guid(44175b89bd5e4e645b7de1e9b8c868da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GymAssests/streetlightmodel/textures/lamps_pole_2side_1_Normal.png using Guid(44175b89bd5e4e645b7de1e9b8c868da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '63d6104d5af0588fd87bb9ccec182036') in 0.020547 seconds 
+  Import took 0.025901 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000147 seconds.
+  path: Assets/BrokenVector/LowPolyTreePack/Textures/Colorsheet Tree Fall.png
+  artifactKey: Guid(99897f7919c46fc43969a2a130434315) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BrokenVector/LowPolyTreePack/Textures/Colorsheet Tree Fall.png using Guid(99897f7919c46fc43969a2a130434315) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ca75e97d33ac1d4e55de5e4aa43c29f8') in 0.013761 seconds 
+  Import took 0.020454 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000314 seconds.
+  path: Assets/_Course Library/Textures/Icon_Close.png
+  artifactKey: Guid(811cf8ccf45f8c4439f6c52f9c345fcd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Course Library/Textures/Icon_Close.png using Guid(811cf8ccf45f8c4439f6c52f9c345fcd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7d1adb708225d61dcde9a7b7ca7583ca') in 0.018557 seconds 
+  Import took 0.025260 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000184 seconds.
+  path: Assets/GymAssests/streetlightmodel/textures/lamps_lamp01_Emissive.png
+  artifactKey: Guid(0432b7dd4aa630f42a8f102c42c70fe6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GymAssests/streetlightmodel/textures/lamps_lamp01_Emissive.png using Guid(0432b7dd4aa630f42a8f102c42c70fe6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eb6fad46665b090e6c03b8bea2b6f36c') in 0.025021 seconds 
+  Import took 0.030454 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000247 seconds.
+  path: Assets/GymAssests/BodyBuilder Asset Pack/Textures/30.jpg
+  artifactKey: Guid(7c6c4d98063af44c98af125197dd189b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GymAssests/BodyBuilder Asset Pack/Textures/30.jpg using Guid(7c6c4d98063af44c98af125197dd189b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0f8b0cf5af8083bf1ecf60ef6f584d4f') in 0.018076 seconds 
+  Import took 0.023470 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000181 seconds.
+  path: Assets/GymAssests/BodyBuilder Asset Pack/Textures/40.jpg
+  artifactKey: Guid(078a7c27730a54d8391c879ed637b94f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GymAssests/BodyBuilder Asset Pack/Textures/40.jpg using Guid(078a7c27730a54d8391c879ed637b94f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '60d575662eb896651da9b97f27b2eb4f') in 0.017693 seconds 
+  Import took 0.024790 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000208 seconds.
+  path: Assets/GymAssests/streetlightmodel/textures/lamps_lambert1_Roughness.png
+  artifactKey: Guid(7c923a93afceaca41ba7f5db7accfefa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GymAssests/streetlightmodel/textures/lamps_lambert1_Roughness.png using Guid(7c923a93afceaca41ba7f5db7accfefa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '417c7cfc7c52ec459d4eb438a8730fb0') in 0.022696 seconds 
+  Import took 0.029089 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000189 seconds.
+  path: Assets/BrokenVector/LowPolyTreePack/Textures/Colorsheet Tree Normal.png
+  artifactKey: Guid(8ba8b94b5ab0c214fa2810a7df98a1a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BrokenVector/LowPolyTreePack/Textures/Colorsheet Tree Normal.png using Guid(8ba8b94b5ab0c214fa2810a7df98a1a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3aca203f3833e141dfae8a744baae9d2') in 0.009497 seconds 
+  Import took 0.016052 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000164 seconds.
+  path: Assets/GymAssests/streetlightmodel/textures/lamps_lamp_04_Opacity.png
+  artifactKey: Guid(e86056cc174de6e4583fadbd6d227231) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GymAssests/streetlightmodel/textures/lamps_lamp_04_Opacity.png using Guid(e86056cc174de6e4583fadbd6d227231) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a4cb40b3d054f801bab7e0f7811a90ef') in 0.024093 seconds 
+  Import took 0.030022 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000204 seconds.
+  path: Assets/GardenTools/Hoe/HoeNM.png
+  artifactKey: Guid(a8f1a699033141e4eb84a97ba3d10052) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GardenTools/Hoe/HoeNM.png using Guid(a8f1a699033141e4eb84a97ba3d10052) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dab4e36f6a9fc70546cd2c6305e73706') in 0.013281 seconds 
+  Import took 0.019197 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000238 seconds.
+  path: Assets/TextMesh Pro/Sprites/EmojiOne.png
+  artifactKey: Guid(dffef66376be4fa480fb02b19edbe903) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Sprites/EmojiOne.png using Guid(dffef66376be4fa480fb02b19edbe903) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '94b864f04ed6bf4075df7865425459ec') in 0.010943 seconds 
+  Import took 0.016406 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000230 seconds.
+  path: Assets/GymAssests/streetlightmodel/textures/lamps_lamp02_Normal.png
+  artifactKey: Guid(ff7055decf9181946aa69b8349791a78) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GymAssests/streetlightmodel/textures/lamps_lamp02_Normal.png using Guid(ff7055decf9181946aa69b8349791a78) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b09f2f1dba7b8f12ef741feab646b6ce') in 0.019250 seconds 
+  Import took 0.024438 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000147 seconds.
+  path: Assets/GymAssests/BodyBuilder Asset Pack/Textures/20.jpg
+  artifactKey: Guid(7ea160fa7fe2547c08f19e81f05c57e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GymAssests/BodyBuilder Asset Pack/Textures/20.jpg using Guid(7ea160fa7fe2547c08f19e81f05c57e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '53f65d48050acdc6937752be22d8c3ac') in 0.014450 seconds 
+  Import took 0.019894 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000229 seconds.
+  path: Assets/GymAssests/streetlightmodel/textures/lamps_lamp01_Normal.png
+  artifactKey: Guid(8a9156f5aa0dfe64b88e1b4b4be8b3ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GymAssests/streetlightmodel/textures/lamps_lamp01_Normal.png using Guid(8a9156f5aa0dfe64b88e1b4b4be8b3ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '13785beab346d156f52b3dfaf9e07a75') in 0.019200 seconds 
+  Import took 0.025378 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000168 seconds.
+  path: Assets/GymAssests/BodyBuilder Asset Pack/Textures/Chrome 1.png
+  artifactKey: Guid(c2d0eb69b2c014002b6c676d8b1d5a82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GymAssests/BodyBuilder Asset Pack/Textures/Chrome 1.png using Guid(c2d0eb69b2c014002b6c676d8b1d5a82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '27be75fa2956a97c38bce6972b69ca4b') in 0.018464 seconds 
+  Import took 0.024046 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000222 seconds.
+  path: Assets/GymAssests/streetlightmodel/textures/lamps_lamp01_Opacity.png
+  artifactKey: Guid(25eb6c2b70f59a9479275c943c2cf87a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GymAssests/streetlightmodel/textures/lamps_lamp01_Opacity.png using Guid(25eb6c2b70f59a9479275c943c2cf87a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9bc756a8088729b3a9565553adf395b4') in 0.023442 seconds 
+  Import took 0.029307 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000271 seconds.
+  path: Assets/GymAssests/streetlightmodel/textures/lamps_lamp03_Height.png
+  artifactKey: Guid(70c4b894a38e2ff479ec67dcf39873dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GymAssests/streetlightmodel/textures/lamps_lamp03_Height.png using Guid(70c4b894a38e2ff479ec67dcf39873dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bb4e80d498f319456b18996cde8b5ff8') in 0.022027 seconds 
+  Import took 0.028096 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000185 seconds.
+  path: Assets/GymAssests/streetlightmodel/textures/lamps_lamp02_Height.png
+  artifactKey: Guid(f6ed7d741efa595428b23aff7e23f107) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GymAssests/streetlightmodel/textures/lamps_lamp02_Height.png using Guid(f6ed7d741efa595428b23aff7e23f107) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5812977d508cffb0e99c77aa4603bc8c') in 0.019449 seconds 
+  Import took 0.025935 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000239 seconds.
+  path: Assets/GymAssests/streetlightmodel/textures/lamps_lamp03_BaseColor.png
+  artifactKey: Guid(221b5f1488c47914399261d0c81af09a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GymAssests/streetlightmodel/textures/lamps_lamp03_BaseColor.png using Guid(221b5f1488c47914399261d0c81af09a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4bc8dd82d1efbbcc6f05a298fbbc2b1a') in 0.019542 seconds 
+  Import took 0.026071 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000153 seconds.
+  path: Assets/GymAssests/BodyBuilder Asset Pack/Textures/carpet.png
+  artifactKey: Guid(8ef8577e568194e36993aefeafa77468) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GymAssests/BodyBuilder Asset Pack/Textures/carpet.png using Guid(8ef8577e568194e36993aefeafa77468) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fe5e6f06b7b177e295adc58d274ac6d3') in 0.021021 seconds 
+  Import took 0.026578 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000183 seconds.
+  path: Assets/GardenTools/Hoe/Hoe.png
+  artifactKey: Guid(059062350b631284597bebf4788736c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GardenTools/Hoe/Hoe.png using Guid(059062350b631284597bebf4788736c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '90bd2037eea0c4d3b41735f03430ff10') in 0.014867 seconds 
+  Import took 0.020568 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000218 seconds.
+  path: Assets/StarterAssets/Environment/Art/Textures/Grid_02_BaseMap.png
+  artifactKey: Guid(d9c0dd5cdac07b145be73329e489869a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StarterAssets/Environment/Art/Textures/Grid_02_BaseMap.png using Guid(d9c0dd5cdac07b145be73329e489869a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a6ad150dc9411cc5e431e0b4ae501630') in 0.016299 seconds 
+  Import took 0.022556 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000243 seconds.
+  path: Assets/GymAssests/streetlightmodel/textures/lamps_pole_2side_1_Height.png
+  artifactKey: Guid(8ddafd0a2dc76e74995348c30c9046f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GymAssests/streetlightmodel/textures/lamps_pole_2side_1_Height.png using Guid(8ddafd0a2dc76e74995348c30c9046f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '88d4687041a7c35bdb14bd88c63d3fac') in 0.021526 seconds 
+  Import took 0.028512 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000201 seconds.
+  path: Assets/GymAssests/streetlightmodel/textures/lamps_pole_2side_1_Roughness.png
+  artifactKey: Guid(c3b24e5c7a106be46a643b37d4cd8ef8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GymAssests/streetlightmodel/textures/lamps_pole_2side_1_Roughness.png using Guid(c3b24e5c7a106be46a643b37d4cd8ef8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '46710ea03f7956a9d2ddbd77875bae06') in 0.020285 seconds 
+  Import took 0.026470 seconds .
+
+========================================================================
+Received Prepare
+Assets/GymAssests/uploads-files-669576-aeq3vjprnoqo-Bleachers-1/bleachers.c4d: Unity no longer supports importing Cinema 4D files directly, but we're working with Maxon to make the experience better. To import Cinema 4D files, install Maxon's external importer. You can find more information on the Unity Forum: https://on.unity.com/c4d.
+
+Please note that FBX files exported from Cinema4D are still supported.
+
+Registering precompiled user dll's ...
+Registered in 0.011554 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.98 ms, found 10 plugins.
+Preloading 1 native plugins for Editor in 0.09 ms.
+System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation. ---> System.NullReferenceException: Object reference not set to an instance of an object
+  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x00048] in C:\Users\fluke\Documents\GitHub\BVW-Unity-VR\VR Room Project\Library\PackageCache\com.unity.xr.oculus@1.10.0\Runtime\OculusLoader.cs:250 
+  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0007b] in C:\Users\fluke\Documents\GitHub\BVW-Unity-VR\VR Room Project\Library\PackageCache\com.unity.xr.oculus@1.10.0\Runtime\OculusLoader.cs:235 
+  at (wrapper managed-to-native) System.Reflection.MonoMethod.InternalInvoke(System.Reflection.MonoMethod,object,object[],System.Exception&)
+  at System.Reflection.MonoMethod.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00032] in <695d1cc93cca45069c528c15c9fdd749>:0 
+   --- End of inner exception stack trace ---
+  at System.Reflection.MonoMethod.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00048] in <695d1cc93cca45069c528c15c9fdd749>:0 
+  at System.Reflection.MethodBase.Invoke (System.Object obj, System.Object[] parameters) [0x00000] in <695d1cc93cca45069c528c15c9fdd749>:0 
+  at UnityEditor.EditorAssemblies.ProcessInitializeOnLoadMethodAttributes () [0x00047] in <d0e4b8c1204147f3935b6e9c8b8565ad>:0 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
+
+Mono: successfully reloaded assembly
+- Completed reload, in  1.284 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1285ms)
+		BeginReloadAssembly (131ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (7ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (43ms)
+		EndReloadAssembly (1085ms)
+			LoadAssemblies (105ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (329ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (45ms)
+			SetupLoadedEditorAssemblies (431ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (5ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (98ms)
+				ProcessInitializeOnLoadAttributes (309ms)
+				ProcessInitializeOnLoadMethodAttributes (10ms)
+				AfterProcessingInitializeOnLoad (7ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (14ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.08 ms, found 10 plugins.
+Preloading 1 native plugins for Editor in 0.10 ms.
+Unloading 3755 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 189.3 MB.
+System memory in use after: 189.4 MB.
+
+Unloading 35 unused Assets to reduce memory usage. Loaded Objects now: 4542.
+Total: 4.169000 ms (FindLiveObjects: 0.403500 ms CreateObjectMapping: 0.258800 ms MarkObjects: 3.406800 ms  DeleteObjects: 0.098400 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 494.812297 seconds.
+  path: Assets/TextMesh Pro/Fonts/Christmas Bell - Personal Use SDF.asset
+  artifactKey: Guid(fbde5644e48bdd64abd95f618db94ed8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Fonts/Christmas Bell - Personal Use SDF.asset using Guid(fbde5644e48bdd64abd95f618db94ed8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '02ad3c2ca80616e9c9d5c93234a68f72') in 0.196079 seconds 
+  Import took 0.203474 seconds .
+
+========================================================================
+Received Prepare
+Assets/GymAssests/uploads-files-669576-aeq3vjprnoqo-Bleachers-1/bleachers.c4d: Unity no longer supports importing Cinema 4D files directly, but we're working with Maxon to make the experience better. To import Cinema 4D files, install Maxon's external importer. You can find more information on the Unity Forum: https://on.unity.com/c4d.
+
+Please note that FBX files exported from Cinema4D are still supported.
+
+Registering precompiled user dll's ...
+Registered in 0.010904 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 1.36 ms, found 10 plugins.
+Preloading 1 native plugins for Editor in 0.11 ms.
+System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation. ---> System.NullReferenceException: Object reference not set to an instance of an object
+  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x00048] in C:\Users\fluke\Documents\GitHub\BVW-Unity-VR\VR Room Project\Library\PackageCache\com.unity.xr.oculus@1.10.0\Runtime\OculusLoader.cs:250 
+  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0007b] in C:\Users\fluke\Documents\GitHub\BVW-Unity-VR\VR Room Project\Library\PackageCache\com.unity.xr.oculus@1.10.0\Runtime\OculusLoader.cs:235 
+  at (wrapper managed-to-native) System.Reflection.MonoMethod.InternalInvoke(System.Reflection.MonoMethod,object,object[],System.Exception&)
+  at System.Reflection.MonoMethod.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00032] in <695d1cc93cca45069c528c15c9fdd749>:0 
+   --- End of inner exception stack trace ---
+  at System.Reflection.MonoMethod.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00048] in <695d1cc93cca45069c528c15c9fdd749>:0 
+  at System.Reflection.MethodBase.Invoke (System.Object obj, System.Object[] parameters) [0x00000] in <695d1cc93cca45069c528c15c9fdd749>:0 
+  at UnityEditor.EditorAssemblies.ProcessInitializeOnLoadMethodAttributes () [0x00047] in <d0e4b8c1204147f3935b6e9c8b8565ad>:0 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
+
+Mono: successfully reloaded assembly
+- Completed reload, in  1.274 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1275ms)
+		BeginReloadAssembly (123ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (6ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (40ms)
+		EndReloadAssembly (1094ms)
+			LoadAssemblies (108ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (333ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (43ms)
+			SetupLoadedEditorAssemblies (434ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (6ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (2ms)
+				BeforeProcessingInitializeOnLoad (104ms)
+				ProcessInitializeOnLoadAttributes (304ms)
+				ProcessInitializeOnLoadMethodAttributes (10ms)
+				AfterProcessingInitializeOnLoad (7ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (15ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.00 ms, found 10 plugins.
+Preloading 1 native plugins for Editor in 0.09 ms.
+Unloading 3755 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 189.4 MB.
+System memory in use after: 189.6 MB.
+
+Unloading 35 unused Assets to reduce memory usage. Loaded Objects now: 4582.
+Total: 4.962800 ms (FindLiveObjects: 0.596800 ms CreateObjectMapping: 0.213600 ms MarkObjects: 4.016800 ms  DeleteObjects: 0.134300 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Assets/GymAssests/uploads-files-669576-aeq3vjprnoqo-Bleachers-1/bleachers.c4d: Unity no longer supports importing Cinema 4D files directly, but we're working with Maxon to make the experience better. To import Cinema 4D files, install Maxon's external importer. You can find more information on the Unity Forum: https://on.unity.com/c4d.
+
+Please note that FBX files exported from Cinema4D are still supported.
+
+Registering precompiled user dll's ...
+Registered in 0.011012 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.97 ms, found 10 plugins.
+Preloading 1 native plugins for Editor in 0.09 ms.
+System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation. ---> System.NullReferenceException: Object reference not set to an instance of an object
+  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x00048] in C:\Users\fluke\Documents\GitHub\BVW-Unity-VR\VR Room Project\Library\PackageCache\com.unity.xr.oculus@1.10.0\Runtime\OculusLoader.cs:250 
+  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0007b] in C:\Users\fluke\Documents\GitHub\BVW-Unity-VR\VR Room Project\Library\PackageCache\com.unity.xr.oculus@1.10.0\Runtime\OculusLoader.cs:235 
+  at (wrapper managed-to-native) System.Reflection.MonoMethod.InternalInvoke(System.Reflection.MonoMethod,object,object[],System.Exception&)
+  at System.Reflection.MonoMethod.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00032] in <695d1cc93cca45069c528c15c9fdd749>:0 
+   --- End of inner exception stack trace ---
+  at System.Reflection.MonoMethod.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00048] in <695d1cc93cca45069c528c15c9fdd749>:0 
+  at System.Reflection.MethodBase.Invoke (System.Object obj, System.Object[] parameters) [0x00000] in <695d1cc93cca45069c528c15c9fdd749>:0 
+  at UnityEditor.EditorAssemblies.ProcessInitializeOnLoadMethodAttributes () [0x00047] in <d0e4b8c1204147f3935b6e9c8b8565ad>:0 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
+
+Mono: successfully reloaded assembly
+- Completed reload, in  1.286 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1287ms)
+		BeginReloadAssembly (128ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (34ms)
+		EndReloadAssembly (1095ms)
+			LoadAssemblies (110ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (333ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (45ms)
+			SetupLoadedEditorAssemblies (434ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (6ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (100ms)
+				ProcessInitializeOnLoadAttributes (306ms)
+				ProcessInitializeOnLoadMethodAttributes (12ms)
+				AfterProcessingInitializeOnLoad (7ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (15ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.03 ms, found 10 plugins.
+Preloading 1 native plugins for Editor in 0.09 ms.
+Unloading 3755 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 189.4 MB.
+System memory in use after: 189.6 MB.
+
+Unloading 35 unused Assets to reduce memory usage. Loaded Objects now: 4585.
+Total: 3.826300 ms (FindLiveObjects: 0.367400 ms CreateObjectMapping: 0.194200 ms MarkObjects: 3.169900 ms  DeleteObjects: 0.093900 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Assets/GymAssests/uploads-files-669576-aeq3vjprnoqo-Bleachers-1/bleachers.c4d: Unity no longer supports importing Cinema 4D files directly, but we're working with Maxon to make the experience better. To import Cinema 4D files, install Maxon's external importer. You can find more information on the Unity Forum: https://on.unity.com/c4d.
+
+Please note that FBX files exported from Cinema4D are still supported.
+
+Registering precompiled user dll's ...
+Registered in 0.012102 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.99 ms, found 10 plugins.
+Preloading 1 native plugins for Editor in 0.09 ms.
+System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation. ---> System.NullReferenceException: Object reference not set to an instance of an object
+  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x00048] in C:\Users\fluke\Documents\GitHub\BVW-Unity-VR\VR Room Project\Library\PackageCache\com.unity.xr.oculus@1.10.0\Runtime\OculusLoader.cs:250 
+  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0007b] in C:\Users\fluke\Documents\GitHub\BVW-Unity-VR\VR Room Project\Library\PackageCache\com.unity.xr.oculus@1.10.0\Runtime\OculusLoader.cs:235 
+  at (wrapper managed-to-native) System.Reflection.MonoMethod.InternalInvoke(System.Reflection.MonoMethod,object,object[],System.Exception&)
+  at System.Reflection.MonoMethod.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00032] in <695d1cc93cca45069c528c15c9fdd749>:0 
+   --- End of inner exception stack trace ---
+  at System.Reflection.MonoMethod.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00048] in <695d1cc93cca45069c528c15c9fdd749>:0 
+  at System.Reflection.MethodBase.Invoke (System.Object obj, System.Object[] parameters) [0x00000] in <695d1cc93cca45069c528c15c9fdd749>:0 
+  at UnityEditor.EditorAssemblies.ProcessInitializeOnLoadMethodAttributes () [0x00047] in <d0e4b8c1204147f3935b6e9c8b8565ad>:0 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
+
+Mono: successfully reloaded assembly
+- Completed reload, in  1.311 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1312ms)
+		BeginReloadAssembly (122ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (31ms)
+		EndReloadAssembly (1119ms)
+			LoadAssemblies (103ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (357ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (45ms)
+			SetupLoadedEditorAssemblies (430ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (7ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (103ms)
+				ProcessInitializeOnLoadAttributes (301ms)
+				ProcessInitializeOnLoadMethodAttributes (11ms)
+				AfterProcessingInitializeOnLoad (7ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (16ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.02 ms, found 10 plugins.
+Preloading 1 native plugins for Editor in 0.09 ms.
+Unloading 3755 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 189.4 MB.
+System memory in use after: 189.7 MB.
+
+Unloading 35 unused Assets to reduce memory usage. Loaded Objects now: 4588.
+Total: 3.851500 ms (FindLiveObjects: 0.347200 ms CreateObjectMapping: 0.172700 ms MarkObjects: 3.212600 ms  DeleteObjects: 0.117900 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 AssetImportWorkerClient::OnTransportError - code=2 error=End of file

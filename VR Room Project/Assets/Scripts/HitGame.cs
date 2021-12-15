@@ -4,7 +4,17 @@ using UnityEngine;
 
 public class HitGame : MonoBehaviour
 {
-    public TMPro.TextMeshProUGUI timer;
+    [SerializeField] bool play = false;
+    [SerializeField] float duration = 15f;
+    [SerializeField] float currentTimer = 15f;
+
+    public int score = 0;
+
+    public TMPro.TextMeshProUGUI startButton;
+    public TMPro.TextMeshProUGUI timerText;
+    public TMPro.TextMeshProUGUI scoreText;
+
+
 
     // Start is called before the first frame update
     void Start()
@@ -15,11 +25,35 @@ public class HitGame : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if play
-        currentTimer -= Time.deltaTime;
+        if (play)
+        {
+            currentTimer -= Time.deltaTime;
+            timerText.text = "Timer: " + Mathf.Round(currentTimer);
+            scoreText.text = "Score: " + score;
 
-        textScore.text = currentScore + " - Score";
-        textTimer.text = "Timer: " + Mathf.Round(currentTimer);
+            if (currentTimer <= 0f)
+            {
+                play = false;
+                startButton.text = "Start";
+                timerText.text = "";
+                scoreText.text = "";
+            }
+        }
+    }
+
+    public void StartGame()
+    {
+        if (play == true)
+        {
+            currentTimer = duration;
+            startButton.text = "Restart";
+
+        }
+        else 
+        {
+            play = true;
+            startButton.text = "Restart";
+        }
 
     }
 }
