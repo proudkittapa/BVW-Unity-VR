@@ -15,7 +15,7 @@ C:/Users/Adminstrator/Documents/GitHub/BVW-Unity-VR/VR Room Project
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-57842
+65244
 Successfully changed project path to: C:/Users/Adminstrator/Documents/GitHub/BVW-Unity-VR/VR Room Project
 C:/Users/Adminstrator/Documents/GitHub/BVW-Unity-VR/VR Room Project
 Using Asset Import Pipeline V2.
@@ -23,8 +23,8 @@ Assets/GymAssests/uploads-files-669576-aeq3vjprnoqo-Bleachers-1/bleachers.c4d: U
 
 Please note that FBX files exported from Cinema4D are still supported.
 
-Refreshing native plugins compatible for Editor in 175.77 ms, found 10 plugins.
-Preloading 1 native plugins for Editor in 1.09 ms.
+Refreshing native plugins compatible for Editor in 180.74 ms, found 10 plugins.
+Preloading 1 native plugins for Editor in 3.83 ms.
 Initialize engine version: 2020.3.17f1 (a4537701e4ab)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.17f1/Editor/Data/Resources/UnitySubsystems
 [Subsystems] Discovering subsystems at path C:/Users/Adminstrator/Documents/GitHub/BVW-Unity-VR/VR Room Project/Assets
@@ -39,7 +39,7 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.17f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.17f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.17f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56024
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56208
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.17f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
@@ -47,7 +47,7 @@ Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.17f1/
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.17f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.17f1/Editor/Data/PlaybackEngines/LinuxStandaloneSupport/UnityEditor.LinuxStandalone.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.17f1/Editor/Data/PlaybackEngines/LuminSupport/UnityEditor.Lumin.Extensions.dll
-Registered in 0.004204 seconds.
+Registered in 0.006686 seconds.
 Native extension for Lumin target not found
 Native extension for LinuxStandalone target not found
 Native extension for WindowsStandalone target not found
@@ -57,39 +57,39 @@ Assets/GymAssests/uploads-files-669576-aeq3vjprnoqo-Bleachers-1/bleachers.c4d: U
 
 Please note that FBX files exported from Cinema4D are still supported.
 
-Refreshing native plugins compatible for Editor in 109.45 ms, found 10 plugins.
-Preloading 1 native plugins for Editor in 0.09 ms.
+Refreshing native plugins compatible for Editor in 123.00 ms, found 10 plugins.
+Preloading 1 native plugins for Editor in 0.10 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  2.849 seconds
+- Completed reload, in  3.585 seconds
 Domain Reload Profiling:
-	ReloadAssembly (2850ms)
-		BeginReloadAssembly (79ms)
+	ReloadAssembly (3586ms)
+		BeginReloadAssembly (211ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (606ms)
-			LoadAssemblies (78ms)
+		EndReloadAssembly (680ms)
+			LoadAssemblies (207ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (199ms)
+			SetupTypeCache (232ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (42ms)
-			SetupLoadedEditorAssemblies (271ms)
+			RebuildScriptCaches (45ms)
+			SetupLoadedEditorAssemblies (303ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (9ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (110ms)
-				BeforeProcessingInitializeOnLoad (22ms)
-				ProcessInitializeOnLoadAttributes (96ms)
-				ProcessInitializeOnLoadMethodAttributes (35ms)
+				InitializePlatformSupportModulesInManaged (12ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (123ms)
+				BeforeProcessingInitializeOnLoad (24ms)
+				ProcessInitializeOnLoadAttributes (105ms)
+				ProcessInitializeOnLoadMethodAttributes (37ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.011956 seconds.
+Registered in 0.014416 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for Lumin target not found
 Native extension for LinuxStandalone target not found
@@ -100,7 +100,7 @@ Assets/GymAssests/uploads-files-669576-aeq3vjprnoqo-Bleachers-1/bleachers.c4d: U
 
 Please note that FBX files exported from Cinema4D are still supported.
 
-Refreshing native plugins compatible for Editor in 122.43 ms, found 10 plugins.
+Refreshing native plugins compatible for Editor in 161.27 ms, found 10 plugins.
 Preloading 1 native plugins for Editor in 0.13 ms.
 [XR] OculusXRPlugin: registering subsystems
 [XR] Unable to register display lifecyle provider: [1]
@@ -122,33 +122,33 @@ UnityEngine.Debug:LogError (object)
 UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
 
 Mono: successfully reloaded assembly
-- Completed reload, in  2.078 seconds
+- Completed reload, in  2.970 seconds
 Domain Reload Profiling:
-	ReloadAssembly (2080ms)
-		BeginReloadAssembly (184ms)
+	ReloadAssembly (2973ms)
+		BeginReloadAssembly (197ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (5ms)
+			DisableScriptedObjects (7ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (24ms)
-		EndReloadAssembly (1811ms)
-			LoadAssemblies (132ms)
+		EndReloadAssembly (2685ms)
+			LoadAssemblies (141ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (480ms)
+			SetupTypeCache (786ms)
 			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (88ms)
-			SetupLoadedEditorAssemblies (837ms)
+			RebuildScriptCaches (119ms)
+			SetupLoadedEditorAssemblies (1276ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (9ms)
+				InitializePlatformSupportModulesInManaged (12ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (123ms)
-				BeforeProcessingInitializeOnLoad (168ms)
-				ProcessInitializeOnLoadAttributes (506ms)
-				ProcessInitializeOnLoadMethodAttributes (23ms)
-				AfterProcessingInitializeOnLoad (8ms)
+				RefreshPlugins (162ms)
+				BeforeProcessingInitializeOnLoad (234ms)
+				ProcessInitializeOnLoadAttributes (821ms)
+				ProcessInitializeOnLoadMethodAttributes (34ms)
+				AfterProcessingInitializeOnLoad (12ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (7ms)
+			AwakeInstancesAfterBackupRestoration (14ms)
 Platform modules already initialized, skipping
 Assets/GymAssests/uploads-files-669576-aeq3vjprnoqo-Bleachers-1/bleachers.c4d: Unity no longer supports importing Cinema 4D files directly, but we're working with Maxon to make the experience better. To import Cinema 4D files, install Maxon's external importer. You can find more information on the Unity Forum: https://on.unity.com/c4d.
 
@@ -160,15 +160,15 @@ Assets/GymAssests/uploads-files-669576-aeq3vjprnoqo-Bleachers-1/bleachers.c4d: U
 
 Please note that FBX files exported from Cinema4D are still supported.
 
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.10 seconds
-Refreshing native plugins compatible for Editor in 1.24 ms, found 10 plugins.
-Preloading 1 native plugins for Editor in 0.10 ms.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.12 seconds
+Refreshing native plugins compatible for Editor in 1.36 ms, found 10 plugins.
+Preloading 1 native plugins for Editor in 0.12 ms.
 Unloading 4007 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 266.4 MB.
-System memory in use after: 266.4 MB.
+System memory in use before: 267.1 MB.
+System memory in use after: 267.1 MB.
 
 Unloading 42 unused Assets to reduce memory usage. Loaded Objects now: 4522.
-Total: 6.038200 ms (FindLiveObjects: 0.424100 ms CreateObjectMapping: 0.311400 ms MarkObjects: 5.087900 ms  DeleteObjects: 0.213300 ms)
+Total: 8.376000 ms (FindLiveObjects: 0.958200 ms CreateObjectMapping: 1.164800 ms MarkObjects: 5.923800 ms  DeleteObjects: 0.325200 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
@@ -182,50 +182,66 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  path: Assets/UniversalRenderPipelineAsset.asset
-  artifactKey: Guid(354398a4ec99999439aa8fec9af680cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/UniversalRenderPipelineAsset.asset using Guid(354398a4ec99999439aa8fec9af680cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9c0b135a991f7067a48129a49bba9a6f') in 0.079920 seconds 
-  Import took 0.088319 seconds .
+  path: Assets/Scripts/GymScoreManager.cs
+  artifactKey: Guid(f2315218cf91bd443b23227e8a8d1b33) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/GymScoreManager.cs using Guid(f2315218cf91bd443b23227e8a8d1b33) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6e24b240cd3ade5627d9c8e3907a00b7') in 0.065611 seconds 
+  Import took 0.074843 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000451 seconds.
-  path: Assets/New Terrain.asset
-  artifactKey: Guid(cf2b1c6cb1021204d98017b4431db1e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/New Terrain.asset using Guid(cf2b1c6cb1021204d98017b4431db1e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2d8b8573dc649d42146d46ab2c8f3d58') in 0.077936 seconds 
-  Import took 0.087134 seconds .
+  Time since last request: 0.000334 seconds.
+  path: Assets/Scripts/GymScoreDisplay.cs
+  artifactKey: Guid(179303f49551b7e499595f7e9f116ae1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/GymScoreDisplay.cs using Guid(179303f49551b7e499595f7e9f116ae1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '14ed41ec5cf5a11547c3937b12895f53') in 0.008981 seconds 
+  Import took 0.018685 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000367 seconds.
-  path: Assets/UniversalRenderPipelineAsset_Renderer.asset
-  artifactKey: Guid(02e94b3bd0c7d0845afe0496e4b3e970) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/UniversalRenderPipelineAsset_Renderer.asset using Guid(02e94b3bd0c7d0845afe0496e4b3e970) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0692a5d45e664cd65750a877479d85ea') in 0.010976 seconds 
-  Import took 0.021618 seconds .
+  Time since last request: 0.680403 seconds.
+  path: Assets/Scripts/HitGame.cs
+  artifactKey: Guid(61fe350f4531da0458a41478558359b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/HitGame.cs using Guid(61fe350f4531da0458a41478558359b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ba691f8042800799ba0425873730dc21') in 0.016815 seconds 
+  Import took 0.026829 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000329 seconds.
-  path: Assets/WorkingWallHanger.prefab
-  artifactKey: Guid(74071b28bebaf5a4f9ffce20a8851dec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/WorkingWallHanger.prefab using Guid(74071b28bebaf5a4f9ffce20a8851dec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4ac6ac2a68d06da0cd04fa1b226dadd7') in 0.053915 seconds 
-  Import took 0.060996 seconds .
+  Time since last request: 7.266693 seconds.
+  path: Assets/Scripts/targetCollision.cs
+  artifactKey: Guid(41ba8720070138a46b45a5bf6d61304e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/targetCollision.cs using Guid(41ba8720070138a46b45a5bf6d61304e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e4f7e1f8a0389ff9e140b15f73fad8b3') in 0.008530 seconds 
+  Import took 0.017732 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 42.821815 seconds.
-  path: Assets/Scenes/ProudPamNew.unity
-  artifactKey: Guid(aab7b23c6805a3045a85c755f29b0f11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/ProudPamNew.unity using Guid(aab7b23c6805a3045a85c755f29b0f11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd4efcb0e9d4838adbffbc27ff5d38430') in 0.009933 seconds 
-  Import took 0.021923 seconds .
+  Time since last request: 50.515294 seconds.
+  path: Assets/Scripts/targetCollision.cs
+  artifactKey: Guid(41ba8720070138a46b45a5bf6d61304e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/targetCollision.cs using Guid(41ba8720070138a46b45a5bf6d61304e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2f533e2ba1f11e65852c49b3863608e3') in 0.003594 seconds 
+  Import took 0.016028 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.012513 seconds.
-  path: Assets/Scenes/ProudPamNew.unity
-  artifactKey: Guid(aab7b23c6805a3045a85c755f29b0f11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/ProudPamNew.unity using Guid(aab7b23c6805a3045a85c755f29b0f11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd4efcb0e9d4838adbffbc27ff5d38430') in 0.004078 seconds 
-  Import took 0.014649 seconds .
+  Time since last request: 24.888299 seconds.
+  path: Assets/Scripts/targetCollision.cs
+  artifactKey: Guid(41ba8720070138a46b45a5bf6d61304e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/targetCollision.cs using Guid(41ba8720070138a46b45a5bf6d61304e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '41530f06dbfaa0286a0046ef9b9c38ed') in 0.003522 seconds 
+  Import took 0.016183 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 23.885976 seconds.
+  path: Assets/Scripts/targetCollision.cs
+  artifactKey: Guid(41ba8720070138a46b45a5bf6d61304e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/targetCollision.cs using Guid(41ba8720070138a46b45a5bf6d61304e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7748d7871eaec8f695673dbdae790e8d') in 0.003605 seconds 
+  Import took 0.016303 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 13.372646 seconds.
+  path: Assets/Scripts/targetCollision.cs
+  artifactKey: Guid(41ba8720070138a46b45a5bf6d61304e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/targetCollision.cs using Guid(41ba8720070138a46b45a5bf6d61304e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4dd7ecc4f52a5c497c1c556dad454729') in 0.003223 seconds 
+  Import took 0.014315 seconds .
 
 ========================================================================
 Received Prepare
@@ -234,15 +250,15 @@ Assets/GymAssests/uploads-files-669576-aeq3vjprnoqo-Bleachers-1/bleachers.c4d: U
 Please note that FBX files exported from Cinema4D are still supported.
 
 Registering precompiled user dll's ...
-Registered in 0.020028 seconds.
+Registered in 0.014985 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for Lumin target not found
 Native extension for LinuxStandalone target not found
 Native extension for WindowsStandalone target not found
 Native extension for OSXStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 2.81 ms, found 10 plugins.
-Preloading 1 native plugins for Editor in 0.20 ms.
+Refreshing native plugins compatible for Editor in 1.42 ms, found 10 plugins.
+Preloading 1 native plugins for Editor in 0.12 ms.
 System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation. ---> System.NullReferenceException: Object reference not set to an instance of an object
   at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x00048] in C:\Users\Adminstrator\Documents\GitHub\BVW-Unity-VR\VR Room Project\Library\PackageCache\com.unity.xr.oculus@1.10.0\Runtime\OculusLoader.cs:250 
   at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0007b] in C:\Users\Adminstrator\Documents\GitHub\BVW-Unity-VR\VR Room Project\Library\PackageCache\com.unity.xr.oculus@1.10.0\Runtime\OculusLoader.cs:235 
@@ -259,42 +275,42 @@ UnityEngine.Debug:LogError (object)
 UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
 
 Mono: successfully reloaded assembly
-- Completed reload, in 11.906 seconds
+- Completed reload, in  1.916 seconds
 Domain Reload Profiling:
-	ReloadAssembly (11906ms)
-		BeginReloadAssembly (1447ms)
+	ReloadAssembly (1917ms)
+		BeginReloadAssembly (183ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (8ms)
+			DisableScriptedObjects (6ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (134ms)
-		EndReloadAssembly (8139ms)
-			LoadAssemblies (1818ms)
+			CreateAndSetChildDomain (54ms)
+		EndReloadAssembly (1638ms)
+			LoadAssemblies (146ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (1328ms)
-			ReleaseScriptCaches (20ms)
-			RebuildScriptCaches (1684ms)
-			SetupLoadedEditorAssemblies (3606ms)
+			SetupTypeCache (542ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (71ms)
+			SetupLoadedEditorAssemblies (660ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (24ms)
+				InitializePlatformSupportModulesInManaged (11ms)
 				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (3ms)
-				BeforeProcessingInitializeOnLoad (2287ms)
-				ProcessInitializeOnLoadAttributes (1248ms)
-				ProcessInitializeOnLoadMethodAttributes (27ms)
-				AfterProcessingInitializeOnLoad (16ms)
+				RefreshPlugins (2ms)
+				BeforeProcessingInitializeOnLoad (139ms)
+				ProcessInitializeOnLoadAttributes (478ms)
+				ProcessInitializeOnLoadMethodAttributes (21ms)
+				AfterProcessingInitializeOnLoad (8ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (32ms)
+			AwakeInstancesAfterBackupRestoration (14ms)
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 1.62 ms, found 10 plugins.
-Preloading 1 native plugins for Editor in 0.11 ms.
-Unloading 3836 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 254.9 MB.
-System memory in use after: 255.1 MB.
+Refreshing native plugins compatible for Editor in 1.45 ms, found 10 plugins.
+Preloading 1 native plugins for Editor in 0.13 ms.
+Unloading 3831 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 254.4 MB.
+System memory in use after: 254.6 MB.
 
-Unloading 35 unused Assets to reduce memory usage. Loaded Objects now: 4533.
-Total: 6.403600 ms (FindLiveObjects: 0.431700 ms CreateObjectMapping: 0.239200 ms MarkObjects: 5.526600 ms  DeleteObjects: 0.204500 ms)
+Unloading 35 unused Assets to reduce memory usage. Loaded Objects now: 4525.
+Total: 7.443400 ms (FindLiveObjects: 0.721500 ms CreateObjectMapping: 0.379300 ms MarkObjects: 6.219100 ms  DeleteObjects: 0.122000 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
@@ -307,61 +323,21 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
-Received Import Request.
-  Time since last request: 436.115295 seconds.
-  path: Assets/TextMesh Pro/Fonts/Christmas Bell - Personal Use SDF.asset
-  artifactKey: Guid(fbde5644e48bdd64abd95f618db94ed8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TextMesh Pro/Fonts/Christmas Bell - Personal Use SDF.asset using Guid(fbde5644e48bdd64abd95f618db94ed8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6f5248c21b4eefaee0ff278c3c85c2a1') in 0.410867 seconds 
-  Import took 0.424426 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.009480 seconds.
-  path: Assets/TextMesh Pro/Fonts/Christmas Bell - Personal Use SDF.asset
-  artifactKey: Guid(fbde5644e48bdd64abd95f618db94ed8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TextMesh Pro/Fonts/Christmas Bell - Personal Use SDF.asset using Guid(fbde5644e48bdd64abd95f618db94ed8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6f5248c21b4eefaee0ff278c3c85c2a1') in 0.094459 seconds 
-  Import took 0.106908 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 7.568249 seconds.
-  path: Assets/Scripts/GymStartGame.cs
-  artifactKey: Guid(7cf34a66497e4ee4ea3c45c2633d759e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/GymStartGame.cs using Guid(7cf34a66497e4ee4ea3c45c2633d759e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '78a51342e5bd24af18137ffdc772cf2e') in 0.022700 seconds 
-  Import took 0.032981 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 61.685330 seconds.
-  path: Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF.asset
-  artifactKey: Guid(8f586378b4e144a9851e7b34d9b748ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF.asset using Guid(8f586378b4e144a9851e7b34d9b748ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9bd463ebe9023c91ab671dd1c14437b0') in 0.077858 seconds 
-  Import took 0.087941 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.009081 seconds.
-  path: Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF.asset
-  artifactKey: Guid(8f586378b4e144a9851e7b34d9b748ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF.asset using Guid(8f586378b4e144a9851e7b34d9b748ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9bd463ebe9023c91ab671dd1c14437b0') in 0.068980 seconds 
-  Import took 0.078651 seconds .
-
-========================================================================
 Received Prepare
 Assets/GymAssests/uploads-files-669576-aeq3vjprnoqo-Bleachers-1/bleachers.c4d: Unity no longer supports importing Cinema 4D files directly, but we're working with Maxon to make the experience better. To import Cinema 4D files, install Maxon's external importer. You can find more information on the Unity Forum: https://on.unity.com/c4d.
 
 Please note that FBX files exported from Cinema4D are still supported.
 
 Registering precompiled user dll's ...
-Registered in 0.013853 seconds.
+Registered in 0.012424 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for Lumin target not found
 Native extension for LinuxStandalone target not found
 Native extension for WindowsStandalone target not found
 Native extension for OSXStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 1.26 ms, found 10 plugins.
-Preloading 1 native plugins for Editor in 0.13 ms.
+Refreshing native plugins compatible for Editor in 1.27 ms, found 10 plugins.
+Preloading 1 native plugins for Editor in 0.17 ms.
 System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation. ---> System.NullReferenceException: Object reference not set to an instance of an object
   at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x00048] in C:\Users\Adminstrator\Documents\GitHub\BVW-Unity-VR\VR Room Project\Library\PackageCache\com.unity.xr.oculus@1.10.0\Runtime\OculusLoader.cs:250 
   at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0007b] in C:\Users\Adminstrator\Documents\GitHub\BVW-Unity-VR\VR Room Project\Library\PackageCache\com.unity.xr.oculus@1.10.0\Runtime\OculusLoader.cs:235 
@@ -378,42 +354,42 @@ UnityEngine.Debug:LogError (object)
 UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
 
 Mono: successfully reloaded assembly
-- Completed reload, in  1.844 seconds
+- Completed reload, in  1.942 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1845ms)
-		BeginReloadAssembly (185ms)
+	ReloadAssembly (1942ms)
+		BeginReloadAssembly (189ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (8ms)
+			DisableScriptedObjects (9ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (58ms)
-		EndReloadAssembly (1576ms)
-			LoadAssemblies (151ms)
+			CreateAndSetChildDomain (66ms)
+		EndReloadAssembly (1651ms)
+			LoadAssemblies (169ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (491ms)
+			SetupTypeCache (535ms)
 			ReleaseScriptCaches (2ms)
-			RebuildScriptCaches (66ms)
-			SetupLoadedEditorAssemblies (609ms)
+			RebuildScriptCaches (69ms)
+			SetupLoadedEditorAssemblies (652ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (10ms)
 				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (133ms)
-				ProcessInitializeOnLoadAttributes (437ms)
-				ProcessInitializeOnLoadMethodAttributes (19ms)
-				AfterProcessingInitializeOnLoad (8ms)
-				EditorAssembliesLoaded (1ms)
+				RefreshPlugins (2ms)
+				BeforeProcessingInitializeOnLoad (147ms)
+				ProcessInitializeOnLoadAttributes (465ms)
+				ProcessInitializeOnLoadMethodAttributes (20ms)
+				AfterProcessingInitializeOnLoad (7ms)
+				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (23ms)
+			AwakeInstancesAfterBackupRestoration (16ms)
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 1.38 ms, found 10 plugins.
-Preloading 1 native plugins for Editor in 0.11 ms.
+Refreshing native plugins compatible for Editor in 2.34 ms, found 10 plugins.
+Preloading 1 native plugins for Editor in 0.28 ms.
 Unloading 3831 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 257.3 MB.
-System memory in use after: 257.5 MB.
+System memory in use before: 254.5 MB.
+System memory in use after: 254.7 MB.
 
-Unloading 35 unused Assets to reduce memory usage. Loaded Objects now: 4616.
-Total: 5.391500 ms (FindLiveObjects: 0.402600 ms CreateObjectMapping: 0.226500 ms MarkObjects: 4.578500 ms  DeleteObjects: 0.182700 ms)
+Unloading 35 unused Assets to reduce memory usage. Loaded Objects now: 4528.
+Total: 8.845800 ms (FindLiveObjects: 0.672100 ms CreateObjectMapping: 1.149900 ms MarkObjects: 6.849400 ms  DeleteObjects: 0.172000 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
