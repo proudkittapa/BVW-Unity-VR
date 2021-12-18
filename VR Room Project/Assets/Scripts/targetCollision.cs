@@ -6,8 +6,8 @@ public class targetCollision : MonoBehaviour
 {
     public GameObject starPrefab;
 
-    public AudioSource soundRespawn;
-    public AudioSource soundHit;
+    //public AudioSource soundRespawn;
+    //public AudioSource soundHit;
 
     public int starArraySize = 2;
     public GameObject[] starArray;
@@ -32,41 +32,31 @@ public class targetCollision : MonoBehaviour
     
     private void OnCollisionEnter(Collision collision)
     {
-        /*if (collision.gameObject.tag == "floor")
-            {
-                // isOnGround = true;
-                playJumpsound = false;
-            }*/
-
         // when the collision happens, 
         Debug.Log("coin collected");
         if (collision.gameObject.tag == "TargetStar")
         {
 
             Debug.Log("coin collected");
-            soundHit.Play();
+            //soundHit.Play();
             // if the collided object is a coin, then we're gonnna make the coin disappear and increase the score
             // Destroy(collision.gameObject);
             // currentScore++;
             GymScoreManager.Instance.Add2Score();
 
-            StartCoroutine(RespawnCoin(collision.gameObject)); // Respawn Coins
+            StartCoroutine(RespawnStar(collision.gameObject)); // Respawn Stars
 
         }
         if (collision.gameObject.tag == "TargetAlvo" || collision.gameObject.tag == "TargetSanta" || collision.gameObject.tag == "TargetSock")
         {
             Debug.Log("coin collected");
-            soundHit.Play();
-            // if the collided object is a coin, then we're gonnna make the coin disappear and increase the score
-            // Destroy(collision.gameObject);
-            // currentScore++;
             GymScoreManager.Instance.Add1Score();
 
         }
 
     }
 
-    IEnumerator RespawnCoin(GameObject star)
+    IEnumerator RespawnStar(GameObject star)
     {
 
         star.SetActive(false);
@@ -75,7 +65,7 @@ public class targetCollision : MonoBehaviour
         // transform coin
         star.transform.position = new Vector3(Random.Range(34f, 12f), Random.Range(1f, 10f), Random.Range(-9f, -36f));
         star.SetActive(true);
-        soundRespawn.Play();
+        //soundRespawn.Play();
 
         // respawn coin
         // Instantiate(starPrefab, new Vector3(Random.Range(-5f, 5f), Random.Range(1f, 6f), -5f), this.transform.rotation);

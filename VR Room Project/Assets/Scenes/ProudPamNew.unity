@@ -1055,6 +1055,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Noel_Sock_2020 (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 4676757407362755481, guid: c1a21f2a1a23152469f3b07e3108d16f, type: 3}
+      propertyPath: m_Convex
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c1a21f2a1a23152469f3b07e3108d16f, type: 3}
 --- !u!4 &64860714 stripped
@@ -10176,7 +10180,8 @@ RectTransform:
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 0, y: 0, z: 0}
   m_Children:
-  - {fileID: 859155460}
+  - {fileID: 2074233916}
+  - {fileID: 563947660}
   m_Father: {fileID: 335524287}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -13141,8 +13146,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   starPrefab: {fileID: 5991390203949350472, guid: ee249aad55841de4c9b06f6072358e39, type: 3}
-  soundRespawn: {fileID: 0}
-  soundHit: {fileID: 0}
   starArraySize: 2
   starArray: []
 --- !u!135 &537789042
@@ -13534,16 +13537,16 @@ RectTransform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 563947659}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
-  m_Father: {fileID: 859155460}
+  m_Father: {fileID: 304138995}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 1}
   m_AnchorMax: {x: 0.5, y: 1}
-  m_AnchoredPosition: {x: 0, y: -60}
+  m_AnchoredPosition: {x: 0, y: -50}
   m_SizeDelta: {x: 100, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &563947661
@@ -17433,6 +17436,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Noel_Sock_2020 (4)
       objectReference: {fileID: 0}
+    - target: {fileID: 4676757407362755481, guid: c1a21f2a1a23152469f3b07e3108d16f, type: 3}
+      propertyPath: m_Convex
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c1a21f2a1a23152469f3b07e3108d16f, type: 3}
 --- !u!4 &747951379 stripped
@@ -18429,43 +18436,6 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 8573249317117373092, guid: e7ff701baaebe4928b99c0f48f5346a9, type: 3}
   m_PrefabInstance: {fileID: 855552897}
   m_PrefabAsset: {fileID: 0}
---- !u!1 &859155459
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 859155460}
-  m_Layer: 5
-  m_Name: textcanvas
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!224 &859155460
-RectTransform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 859155459}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children:
-  - {fileID: 2074233916}
-  - {fileID: 563947660}
-  m_Father: {fileID: 304138995}
-  m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 1}
-  m_AnchorMax: {x: 0.5, y: 1}
-  m_AnchoredPosition: {x: 0, y: -40}
-  m_SizeDelta: {x: 100, y: 100}
-  m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &865012317 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 7eef42cc2edfd478f8fd94d1be3c4da4, type: 3}
@@ -18605,8 +18575,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   starPrefab: {fileID: 5991390203949350472, guid: ee249aad55841de4c9b06f6072358e39, type: 3}
-  soundRespawn: {fileID: 0}
-  soundHit: {fileID: 0}
   starArraySize: 2
   starArray: []
 --- !u!135 &865012321
@@ -21050,8 +21018,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   starPrefab: {fileID: 5991390203949350472, guid: ee249aad55841de4c9b06f6072358e39, type: 3}
-  soundRespawn: {fileID: 0}
-  soundHit: {fileID: 0}
   starArraySize: 2
   starArray: []
 --- !u!135 &953785353
@@ -21091,16 +21057,16 @@ RectTransform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 957965878}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
-  m_Father: {fileID: 1446885228}
-  m_RootOrder: 1
+  m_Father: {fileID: 1538073146}
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 0, y: -23.599997}
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &957965880
@@ -22337,6 +22303,10 @@ PrefabInstance:
     - target: {fileID: 4251140750497208023, guid: c1a21f2a1a23152469f3b07e3108d16f, type: 3}
       propertyPath: m_Name
       value: Noel_Sock_2020 (7)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4676757407362755481, guid: c1a21f2a1a23152469f3b07e3108d16f, type: 3}
+      propertyPath: m_Convex
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c1a21f2a1a23152469f3b07e3108d16f, type: 3}
@@ -25872,8 +25842,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   starPrefab: {fileID: 5991390203949350472, guid: ee249aad55841de4c9b06f6072358e39, type: 3}
-  soundRespawn: {fileID: 0}
-  soundHit: {fileID: 0}
   starArraySize: 2
   starArray: []
 --- !u!135 &1141036435
@@ -28556,8 +28524,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   starPrefab: {fileID: 5991390203949350472, guid: ee249aad55841de4c9b06f6072358e39, type: 3}
-  soundRespawn: {fileID: 0}
-  soundHit: {fileID: 0}
   starArraySize: 2
   starArray: []
 --- !u!135 &1314448957
@@ -28926,8 +28892,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   starPrefab: {fileID: 5991390203949350472, guid: ee249aad55841de4c9b06f6072358e39, type: 3}
-  soundRespawn: {fileID: 0}
-  soundHit: {fileID: 0}
   starArraySize: 2
   starArray: []
 --- !u!135 &1335903346
@@ -29419,6 +29383,10 @@ PrefabInstance:
     - target: {fileID: 4251140750497208023, guid: c1a21f2a1a23152469f3b07e3108d16f, type: 3}
       propertyPath: m_Name
       value: Noel_Sock_2020 (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4676757407362755481, guid: c1a21f2a1a23152469f3b07e3108d16f, type: 3}
+      propertyPath: m_Convex
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c1a21f2a1a23152469f3b07e3108d16f, type: 3}
@@ -30240,9 +30208,8 @@ RectTransform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 1252569940}
-  - {fileID: 957965879}
   m_Father: {fileID: 1538073146}
-  m_RootOrder: 2
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
@@ -30686,6 +30653,10 @@ PrefabInstance:
     - target: {fileID: 4251140750497208023, guid: c1a21f2a1a23152469f3b07e3108d16f, type: 3}
       propertyPath: m_Name
       value: Noel_Sock_2020 (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4676757407362755481, guid: c1a21f2a1a23152469f3b07e3108d16f, type: 3}
+      propertyPath: m_Convex
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c1a21f2a1a23152469f3b07e3108d16f, type: 3}
@@ -31257,6 +31228,7 @@ RectTransform:
   m_Children:
   - {fileID: 1582577895}
   - {fileID: 1704985063}
+  - {fileID: 957965879}
   - {fileID: 1446885228}
   m_Father: {fileID: 1022180819}
   m_RootOrder: 0
@@ -31741,6 +31713,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Noel_Sock_2020 (5)
       objectReference: {fileID: 0}
+    - target: {fileID: 4676757407362755481, guid: c1a21f2a1a23152469f3b07e3108d16f, type: 3}
+      propertyPath: m_Convex
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c1a21f2a1a23152469f3b07e3108d16f, type: 3}
 --- !u!4 &1617526832 stripped
@@ -31887,8 +31863,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   starPrefab: {fileID: 5991390203949350472, guid: ee249aad55841de4c9b06f6072358e39, type: 3}
-  soundRespawn: {fileID: 0}
-  soundHit: {fileID: 0}
   starArraySize: 2
   starArray: []
 --- !u!135 &1627778040
@@ -32815,6 +32789,10 @@ PrefabInstance:
     - target: {fileID: 4251140750497208023, guid: c1a21f2a1a23152469f3b07e3108d16f, type: 3}
       propertyPath: m_Name
       value: Noel_Sock_2020 (6)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4676757407362755481, guid: c1a21f2a1a23152469f3b07e3108d16f, type: 3}
+      propertyPath: m_Convex
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c1a21f2a1a23152469f3b07e3108d16f, type: 3}
@@ -34182,6 +34160,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1454886082}
     m_Modifications:
+    - target: {fileID: 2139535444635619666, guid: 29853be3b5071904d89edfef03497a00, type: 3}
+      propertyPath: m_Convex
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 2810349996546710771, guid: 29853be3b5071904d89edfef03497a00, type: 3}
       propertyPath: m_Name
       value: alvo (1)
@@ -36210,8 +36192,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   starPrefab: {fileID: 5991390203949350472, guid: ee249aad55841de4c9b06f6072358e39, type: 3}
-  soundRespawn: {fileID: 0}
-  soundHit: {fileID: 0}
   starArraySize: 2
   starArray: []
 --- !u!135 &1857226868
@@ -39642,16 +39622,16 @@ RectTransform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2074233915}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
-  m_Father: {fileID: 859155460}
+  m_Father: {fileID: 304138995}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 1}
   m_AnchorMax: {x: 0.5, y: 1}
-  m_AnchoredPosition: {x: 0, y: -40}
+  m_AnchoredPosition: {x: 0, y: -30}
   m_SizeDelta: {x: 100, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &2074233917
@@ -41150,6 +41130,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1454886082}
     m_Modifications:
+    - target: {fileID: 2139535444635619666, guid: 29853be3b5071904d89edfef03497a00, type: 3}
+      propertyPath: m_Convex
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 2810349996546710771, guid: 29853be3b5071904d89edfef03497a00, type: 3}
       propertyPath: m_Name
       value: alvo
@@ -41311,6 +41295,10 @@ PrefabInstance:
     - target: {fileID: 4251140750497208023, guid: c1a21f2a1a23152469f3b07e3108d16f, type: 3}
       propertyPath: m_Name
       value: Noel_Sock_2020
+      objectReference: {fileID: 0}
+    - target: {fileID: 4676757407362755481, guid: c1a21f2a1a23152469f3b07e3108d16f, type: 3}
+      propertyPath: m_Convex
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c1a21f2a1a23152469f3b07e3108d16f, type: 3}
@@ -42232,6 +42220,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1454886082}
     m_Modifications:
+    - target: {fileID: 3651299529207688101, guid: 65ea68aa2a9fbc44e88506d7a04adc23, type: 3}
+      propertyPath: m_Convex
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 8322857531633833564, guid: 65ea68aa2a9fbc44e88506d7a04adc23, type: 3}
       propertyPath: m_Name
       value: Santa Claus toy

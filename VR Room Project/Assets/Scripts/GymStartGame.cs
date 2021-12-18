@@ -5,8 +5,8 @@ using UnityEngine;
 public class GymStartGame : MonoBehaviour
 {
     [SerializeField] bool play = false;
-    [SerializeField] float duration = 15f;
-    [SerializeField] float currentTimer = 15f;
+    [SerializeField] float duration = 30f;
+    [SerializeField] float currentTimer = 30f;
 
     public int score = 0;
 
