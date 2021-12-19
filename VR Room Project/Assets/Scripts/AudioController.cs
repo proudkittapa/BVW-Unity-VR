@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class AudioController : MonoBehaviour
 {
@@ -18,15 +19,23 @@ public class AudioController : MonoBehaviour
     private bool AllDied = false;
     private bool AllNotFound = true;
 
+    public TMPro.TextMeshProUGUI textEnemyNum;
+    public TMPro.TextMeshProUGUI textCaution;
+    private int EnemyNum = 10;
+    public Image image;
+
     void Start()
     {
-
+        textEnemyNum.text = "Enemy : " + EnemyNum;
+        textCaution.text = "";
     }
 
     // Update is called once per frame
     void Update()
     {
         findConditions = GameObject.FindGameObjectsWithTag("Enemy");
+        EnemyNum = findConditions.Length;
+        textEnemyNum.text = "Enemy : " + EnemyNum;
         if (findConditions.Length == 1)
         {
             if (LastPassed == false)
@@ -34,6 +43,7 @@ public class AudioController : MonoBehaviour
                 LastPassed = true;
                 Sound.Stop();
                 Sound.clip = LastOne;
+                Sound.loop = true;
                 Sound.Play();
             }
         }
@@ -44,7 +54,10 @@ public class AudioController : MonoBehaviour
                 AllDied = true;
                 Sound.Stop();
                 Sound.clip = Win;
+                Sound.loop = false;
                 Sound.Play();
+                textCaution.text = "You killed all enemies!";
+                StartCoroutine(KilledAll());
             }
         }
         else
@@ -70,9 +83,11 @@ public class AudioController : MonoBehaviour
                     {
                         Sound.Stop();
                         Sound.clip = Found;
+                        Sound.loop = true;
                         Sound.Play();
                         prev = NotFoundNo;
-                        Debug.Log("find");
+                        textCaution.text = "RUN!!!!\nOR\n THROW SNOWBALL!!!!!";
+                        //Debug.Log("find");
                     }
                     
                 }
@@ -82,12 +97,26 @@ public class AudioController : MonoBehaviour
                     {
                         Sound.Stop();
                         Sound.clip = NotFound;
+                        Sound.loop = true;
                         Sound.Play();
+                        
                         prev = FoundNo;
-                        Debug.Log("no");
+                        textCaution.text = "";
+                        //Debug.Log("no");
                     }
                 }
             }
         }
     }
+
+    IEnumerator KilledAll()
+    {
+        yield return new WaitForSeconds(10);
+        textCaution.text = "";
+        image.gameObject.SetActive(true);
+        yield return new WaitForSeconds(3);
+        image.gameObject.SetActive(false);
+    }
+
 }
+

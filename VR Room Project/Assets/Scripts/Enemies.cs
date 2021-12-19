@@ -7,6 +7,7 @@ public class Enemies : MonoBehaviour
     // Start is called before the first frame update
     public Animator animator;
     public bool Found = false;
+    public GameObject booom;
 
     void Start()
     {
@@ -37,6 +38,7 @@ public class Enemies : MonoBehaviour
         {
             Destroy(collision.gameObject);
             Destroy(gameObject);
+            Instantiate(booom, transform.position, transform.rotation);
         }
     }
 }
