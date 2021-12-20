@@ -8,11 +8,13 @@ TagManager:
   - Box
   - Trail
   - Stick
-  - Present
   - TargetStar
   - TargetSock
   - TargetSanta
   - TargetAlvo
+  - Blue_Box
+  - Red_Box
+  - Fake_Box
   layers:
   - Default
   - TransparentFX

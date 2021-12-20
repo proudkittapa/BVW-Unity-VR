@@ -13,6 +13,9 @@ public class HitGame: MonoBehaviour
 
     public int score = 0;
 
+    [SerializeField] AudioSource correct;
+    [SerializeField] AudioSource wrong;
+
     public TMPro.TextMeshProUGUI startButton;
     public TMPro.TextMeshProUGUI timerText;
     public TMPro.TextMeshProUGUI scoreText;
@@ -20,6 +23,11 @@ public class HitGame: MonoBehaviour
 
     private XRSocketInteractor xRSocketInteractor;
     private RestartObject restartObject;
+
+    [SerializeField] string objTagR;
+    private string sockTagR = "Red_Box";
+    [SerializeField] string objTagB;
+    private string sockTagB = "Blue_Box";
 
 
     // Start is called before the first frame update
@@ -65,20 +73,76 @@ public class HitGame: MonoBehaviour
         }
     }
 
-    public void AddScore()
-    {
-        score++;
+    public void AddScoreR()
+    {   
+        xRSocketInteractor = sockets[0].GetComponentInChildren<XRSocketInteractor>();
+        var currentBoxR = xRSocketInteractor.selectTarget.gameObject;
+        objTagR = currentBoxR.tag;
+
+        if (objTagR == sockTagR)
+        {
+            score++;
+            correct.Play();
+        }
+        else{
+            score--;
+            if (score <= 0){
+                score = 0;
+            }
+            wrong.Play();
+        }
+        
+        StartCoroutine(Move(currentBoxR));
     }
 
-    public void MinusScore()
-    {
-        score--;
+    public void AddScoreB()
+    {   
+        xRSocketInteractor = sockets[1].GetComponentInChildren<XRSocketInteractor>();
+        var currentBoxB = xRSocketInteractor.selectTarget.gameObject;
+        objTagB = currentBoxB.tag;
+
+        if (objTagB == sockTagB)
+        {
+            score++;
+            correct.Play();
+        }
+        else{
+            score--;
+            if (score <= 0){
+                score = 0;
+            }
+            wrong.Play();
+        }
+        
+        StartCoroutine(Move(currentBoxB));
     }
 
-    // Tag for Box = "Present" not Box
-    // Tag for stick = "Stick"
+    IEnumerator Move(GameObject currentBox)
+    {
+
+        yield return new WaitForSeconds(2f);
+        for (int i = 0; i < sockets.Length; i++)
+        {
+            xRSocketInteractor = sockets[i].GetComponentInChildren<XRSocketInteractor>();
+            xRSocketInteractor.socketActive = false;
+        }
+        
+        currentBox.GetComponent<Rigidbody>().velocity = Vector3.zero;
+        currentBox.SetActive(false);
+        currentBox.transform.position = new Vector3(Random.Range(-25f, -20f), 2.5f, Random.Range(-50f, -55f));
+        currentBox.SetActive(true);
+        
+        yield return new WaitForSeconds(2f);
+        for (int i = 0; i < sockets.Length; i++)
+        {
+            xRSocketInteractor = sockets[i].GetComponentInChildren<XRSocketInteractor>();
+            xRSocketInteractor.socketActive = true;
+        }
+    }
+
     IEnumerator Restart()
     {
+        score = 0;
 
         for (int i = 0; i < sockets.Length; i++)
         {
@@ -90,6 +154,7 @@ public class HitGame: MonoBehaviour
             restartObject = boxes[i].GetComponent<RestartObject>();
             restartObject.toStart();
         }
+        
         yield return new WaitForSeconds(1f);
         for (int i = 0; i < sockets.Length; i++)
         {
