@@ -5,6 +5,7 @@ using UnityEngine;
 public class targetCollision : MonoBehaviour
 {
     public GameObject starPrefab;
+    
 
     //public AudioSource soundRespawn;
     //public AudioSource soundHit;
@@ -32,26 +33,28 @@ public class targetCollision : MonoBehaviour
     
     private void OnCollisionEnter(Collision collision)
     {
-        // when the collision happens, 
-        Debug.Log("coin collected");
-        if (collision.gameObject.tag == "TargetStar")
-        {
-
+        if (GymStartGame.play) { 
+            // when the collision happens, 
             Debug.Log("coin collected");
-            //soundHit.Play();
-            // if the collided object is a coin, then we're gonnna make the coin disappear and increase the score
-            // Destroy(collision.gameObject);
-            // currentScore++;
-            GymScoreManager.Instance.Add2Score();
+            if (collision.gameObject.tag == "TargetStar")
+            {
 
-            StartCoroutine(RespawnStar(collision.gameObject)); // Respawn Stars
+                Debug.Log("coin collected");
+                //soundHit.Play();
+                // if the collided object is a coin, then we're gonnna make the coin disappear and increase the score
+                // Destroy(collision.gameObject);
+                // currentScore++;
+                GymScoreManager.Instance.Add2Score();
 
-        }
-        if (collision.gameObject.tag == "TargetAlvo" || collision.gameObject.tag == "TargetSanta" || collision.gameObject.tag == "TargetSock")
-        {
-            Debug.Log("coin collected");
-            GymScoreManager.Instance.Add1Score();
+                StartCoroutine(RespawnStar(collision.gameObject)); // Respawn Stars
 
+            }
+            if (collision.gameObject.tag == "TargetAlvo" || collision.gameObject.tag == "TargetSanta" || collision.gameObject.tag == "TargetSock")
+            {
+                Debug.Log("coin collected");
+                GymScoreManager.Instance.Add1Score();
+
+            }
         }
 
     }

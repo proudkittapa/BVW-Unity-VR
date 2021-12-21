@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class GymStartGame : MonoBehaviour
 {
-    [SerializeField] bool play = false;
+    public static bool play = false;
     [SerializeField] float duration = 30f;
     [SerializeField] float currentTimer = 30f;
     [SerializeField] GameObject canvas;
@@ -54,12 +54,14 @@ public class GymStartGame : MonoBehaviour
             GymScoreManager.Instance.score = 0;
 
         }
+        
         else 
         {
             play = true;
             startButton.text = "Restart";
             GymScoreManager.Instance.score = 0;
         }
+
     }
 
     // Tag for Box = "Present" not Box
