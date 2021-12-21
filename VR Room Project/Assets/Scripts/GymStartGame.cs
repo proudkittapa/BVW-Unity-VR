@@ -7,6 +7,7 @@ public class GymStartGame : MonoBehaviour
     [SerializeField] bool play = false;
     [SerializeField] float duration = 30f;
     [SerializeField] float currentTimer = 30f;
+    [SerializeField] GameObject canvas;
 
     public int score = 0;
 
@@ -27,12 +28,14 @@ public class GymStartGame : MonoBehaviour
     {
         if (play)
         {
+            canvas.SetActive(true);
             currentTimer -= Time.deltaTime;
             timerText.text = "Timer: " + Mathf.Round(currentTimer);
             scoreText.text = "Score: " + GymScoreManager.Instance.score;
 
             if (currentTimer <= 0f)
             {
+                canvas.SetActive(false);
                 play = false;
                 currentTimer = duration;
                 startButton.text = "Start";
