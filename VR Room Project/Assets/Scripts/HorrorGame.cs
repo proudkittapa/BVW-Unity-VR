@@ -7,6 +7,8 @@ public class HorrorGame : MonoBehaviour
     [SerializeField] bool play = false;
     [SerializeField] GameObject[] gameSetting;
     [SerializeField] GameObject[] enemiesObject;
+    [SerializeField] GameObject[] snowballsObject;
+
 
     public GameObject[] findConditions;
 
@@ -61,11 +63,17 @@ public class HorrorGame : MonoBehaviour
         {
             init = false;
             enemiesObject = GameObject.FindGameObjectsWithTag("Enemy");
+            snowballsObject = GameObject.FindGameObjectsWithTag("SnowBall");
         }
 
         for (int i = 0; i < enemiesObject.Length; i++)
         {
             enemiesObject[i].SetActive(true);
+        }
+
+        for (int i = 0; i < snowballsObject.Length; i++)
+        {
+            snowballsObject[i].SetActive(true);
         }
     }
 

@@ -15,6 +15,8 @@ TagManager:
   - Blue_Box
   - Red_Box
   - Fake_Box
+  - SnowBall
+  - Enemy
   layers:
   - Default
   - TransparentFX
@@ -22,8 +24,8 @@ TagManager:
   - 
   - Water
   - UI
-  - 
-  - 
+  - Raycasts
+  - Grabbable Objects
   - 
   - 
   - 
