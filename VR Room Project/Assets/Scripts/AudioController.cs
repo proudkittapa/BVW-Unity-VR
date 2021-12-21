@@ -62,6 +62,7 @@ public class AudioController : MonoBehaviour
         }
         else
         {
+            textEnemyNum.gameObject.SetActive(true);
             //Debug.Log(findConditions.Length);
             foreach (GameObject findCondition in findConditions)
             {
@@ -86,7 +87,7 @@ public class AudioController : MonoBehaviour
                         Sound.loop = true;
                         Sound.Play();
                         prev = NotFoundNo;
-                        textCaution.text = "RUN!!!!\nOR\n THROW SNOWBALL!!!!!";
+                        textCaution.text = "RUN!!!!\nOR\nTHROW SNOWBALL!!!!!";
                         //Debug.Log("find");
                     }
                     
@@ -113,6 +114,7 @@ public class AudioController : MonoBehaviour
     {
         yield return new WaitForSeconds(10);
         textCaution.text = "";
+        textEnemyNum.gameObject.SetActive(false);
         image.gameObject.SetActive(true);
         yield return new WaitForSeconds(3);
         image.gameObject.SetActive(false);

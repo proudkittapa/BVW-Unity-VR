@@ -36,8 +36,11 @@ public class Enemies : MonoBehaviour
     {
         if (collision.gameObject.tag == "SnowBall")
         {
-            Destroy(collision.gameObject);
-            Destroy(gameObject);
+            //Destroy(collision.gameObject);
+            //Destroy(gameObject);
+            collision.gameObject.SetActive(false);
+            gameObject.SetActive(false);
+
             Instantiate(booom, transform.position, transform.rotation);
         }
     }
